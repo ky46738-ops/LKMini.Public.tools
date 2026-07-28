@@ -1,0 +1,2 @@
+{"step":1,"event":"create_public_spec","note":"建立公開規格，不含私密本體。"}
+{"step":2,"event":"attach_locator_manifest_sha","note":"加入 Locator / Manifest / SHA256 / ReverseChain 範本。"}

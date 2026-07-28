@@ -1,0 +1,38 @@
+name: "🧪公開工具驗證｜PublicToolsValidation"
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: "🧪公開工具驗證｜Public Tools Validation"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "📥取得程式"
+        uses: actions/checkout@v4
+
+      - name: "🐍設定 Python"
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: "📦安裝 YAML 驗證器"
+        run: python -m pip install --disable-pip-version-check PyYAML==6.0.2
+
+      - name: "🔐掃描現行秘密"
+        run: python "tools/security/secret_scan.py"
+
+      - name: "🔑測試 LKMINI 根協議解析器"
+        run: python -m unittest -v tests/test_lkmini_root_protocol_parser.py
+
+      - name: "🔬驗證現行內容與公開入口"
+        run: python -m unittest -v tests/test_current_records.py

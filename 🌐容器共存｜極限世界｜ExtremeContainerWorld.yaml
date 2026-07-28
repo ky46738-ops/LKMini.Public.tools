@@ -1,6 +1,8 @@
-狀態: "完成"
+狀態: "錯誤"
 正式名稱: "🌐容器共存｜極限世界"
 檔案身分: "🌐容器共存｜極限世界｜ExtremeContainerWorld"
+📄核心卡建立狀態｜ArtifactStatus: "完成"
+♾️可逆閉環驗證狀態｜ReversibleClosureStatus: "錯誤"
 時間: "2026-07-28"
 唯一系統: "🥃老K系統"
 唯一根: "🧩LKMINI"
@@ -51,15 +53,18 @@ CONTENT_SHA256: "13d5392d542a11c0232b3d8abca09e7f786e9b76d31cdcb0c0f9cd08efcc9e4
   "9♾️可逆循環": "ReversibleLoop"
 
 🖱️互動能力｜InteractionCapabilities:
-  - "點擊核心推進狀態"
-  - "⚡十動全開"
-  - "↩反向回推"
-  - "💾匯出 AICORE"
+  定義狀態: "完成"
+  實作驗證狀態: "錯誤"
+  規格:
+    - "點擊核心推進狀態"
+    - "⚡十動全開"
+    - "↩反向回推"
+    - "💾匯出 AICORE"
 
 🧾原始世界證據｜OriginalWorldEvidence:
-  狀態: "待掛載證據"
+  狀態: "錯誤"
   已知內容: "本次聊天泡泡內看見『原始世界證據』佔位符，但未取得可讀附件、檔案或穩定座標。"
-  判定: "待掛載，不是錯誤。取得真實檔案或座標後再綁入 Locator、Snapshot 與 Package。"
+  判定: "證據尚未掛載；核心卡可保留，但不得宣告 WebArchive、WACZ、PDF 與 Package 已完成閉環。"
 
 🌐Sites邊界｜SitesBoundary:
   人類入口: "https://lkmini-wiring-hub.ky46738.chatgpt.site"
@@ -83,7 +88,7 @@ CONTENT_SHA256: "13d5392d542a11c0232b3d8abca09e7f786e9b76d31cdcb0c0f9cd08efcc9e4
     - "Sites 不升格成本體。"
 
 🧾Manifest｜Manifest:
-  Root: "LKMINI://🌐容器共存｜極限世界"
+  Root: "LKMINI://🌐容器｜Containers/🌐容器共存｜ExtremeContainerWorld.world"
   ContentHash: "13d5392d542a11c0232b3d8abca09e7f786e9b76d31cdcb0c0f9cd08efcc9e4a"
   Required:
     - "SHA256"
@@ -118,5 +123,6 @@ CONTENT_SHA256: "13d5392d542a11c0232b3d8abca09e7f786e9b76d31cdcb0c0f9cd08efcc9e4
   - "🧩LKMINI"
 
 📦Package｜Package:
+  狀態: "錯誤"
   原則: "封裝原件、Manifest、Locator、Snapshot、ReverseChain、SHA256。"
-  AICORE匯出: "可作為下一步輸出目標；本次先建立可回讀核心卡。"
+  AICORE匯出: "目前只有可回讀核心卡；尚無三種容器原件、完整 Package 或 AICORE 匯出證據。"

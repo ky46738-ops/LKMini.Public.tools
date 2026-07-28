@@ -1,2 +1,4 @@
-{"step":1,"event":"create_public_spec","note":"建立公開規格，不含私密本體。"}
-{"step":2,"event":"attach_locator_manifest_sha","note":"加入 Locator / Manifest / SHA256 / ReverseChain 範本。"}
+{"🔢步驟｜Step":1,"📍節點｜Node":"🧩LKMINI","📝事件｜Event":"取得唯一根與 LKMINI://"}
+{"🔢步驟｜Step":2,"📍節點｜Node":"🪞幻影膠囊範例｜ExamplePhantomCapsule","📝事件｜Event":"讀取 Identity、Manifest、Locator 與 Snapshot"}
+{"🔢步驟｜Step":3,"📍節點｜Node":"🪞幻影膠囊","📝事件｜Event":"經唯一正式出口交付"}
+{"🔢步驟｜Step":4,"📍節點｜Node":"🧩LKMINI","📝事件｜Event":"完成反向回推"}

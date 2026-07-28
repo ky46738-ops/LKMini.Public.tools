@@ -1,5 +1,7 @@
 狀態: "完成"
 檔案身分: "🌐Sites公開只讀出口｜SitesPublicReadOnlyOutlet"
+📄卡片建立狀態｜ArtifactStatus: "完成"
+🔍Sites設定回讀狀態｜SitesConfigurationReadbackStatus: "完成"
 時間: "2026-07-28"
 唯一系統: "🥃老K系統"
 唯一根: "🧩LKMINI"
@@ -14,30 +16,37 @@
 🌐入口座標｜EntryCoordinates:
   human_entry: "https://lkmini-wiring-hub.ky46738.chatgpt.site"
   ai_tool_entry: "https://lkmini-wiring-hub.ky46738.chatgpt.site/api/system-wires"
-  protocol_entry: "LKMINI://Sites/PublicReadOnlyOutlet.card"
+  protocol_entry: "LKMINI://🌐出入口｜Entrances/🌐Sites｜Sites/🔐既定存取出口｜ConfiguredAccessOutlet.card"
   return_to: "🧩LKMINI"
 
 🧾工具回讀｜ToolReadback:
-  anonymous_api_result: "Sign in required"
-  interpretation: "存取邊界，不是本體錯誤"
+  project_id: "appgprj_6a68801042bc8191ab7eba5718be83a0"
+  project_status: "active"
+  access_mode: "custom"
+  allowed_users: 1
+  latest_saved_version: 6
+  latest_version_id: "appgprj_6a68801042bc8191ab7eba5718be83a0~appgver_2f287460ebd8819197aaa1c2215ea383"
+  latest_version_commit: "dcb8c08cb8af1d2ce8aa675514a1bc44e294efb6"
+  latest_version_archive_sha256: "47a7838578896a112994af30a660cefa36798356942d5a502b456dfdff7c03a0"
+  human_entry_anonymous_result: "HTTP 401／Sign in required"
+  ai_tool_entry_anonymous_result: "HTTP 401／Sign in required"
+  interpretation: "與 custom 且只允許 Kevin 帳號的既定設定一致；屬存取邊界，不是本體錯誤、接線失敗或部署錯誤。"
   status: "完成"
 
-📤公開只讀出口規格｜PublicReadOnlySpec:
-  suggested_json_path: "/api/public-system-wires"
-  content_type: "application/json"
-  minimum_fields:
-    - "唯一根: 🧩LKMINI"
-    - "正式根協議: LKMINI://"
-    - "GitHub 程式座標"
-    - "Google Drive 資料座標"
-    - "Sites 出入口座標"
-    - "ReverseChain"
-  requirement: "需 Sites 原始碼或 Sites 管理工具可寫入後才能真實發布。"
+🔐既定存取出口｜ConfiguredAccessOutlet:
+  access_mode: "custom"
+  audience: "Kevin 帳號"
+  human_content_type: "text/html"
+  ai_tool_route: "/api/system-wires"
+  rule:
+    - "目前設計要求先登入；不將 custom 存取冒充匿名公開。"
+    - "人類入口與 AI 工具入口都回指 🧩LKMINI。"
+    - "Sites 只作出入口 Projection，不升格成本體。"
 
 🚧存取邊界｜AccessBoundary:
-  - "目前匿名 API 回讀為登入頁。"
-  - "本輪未取得 Sites 原始碼或部署管理可寫工具，因此不宣稱已發布匿名公開 JSON。"
-  - "已建立正式出口卡，等待 Sites 可寫邊界解除。"
+  - "現行 custom 設定要求匿名請求先登入。"
+  - "本輪已取得 Sites 管理唯讀回讀；未改來源、audience 或部署。"
+  - "Connector 未提供 current deployment ID，因此不猜造部署識別；最新保存版本不得冒充已驗證的 current deployment。"
 
 ♻️反向鏈｜ReverseChain:
   - "🧩LKMINI"

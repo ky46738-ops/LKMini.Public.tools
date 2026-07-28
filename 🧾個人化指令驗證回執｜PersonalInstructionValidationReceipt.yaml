@@ -1,5 +1,7 @@
-狀態: "完成"
+狀態: "錯誤"
 檔案身分: "🧾個人化指令驗證回執｜PersonalInstructionValidationReceipt"
+📄回執建立狀態｜ArtifactStatus: "完成"
+🔍平台行為驗證狀態｜PlatformVerificationStatus: "錯誤"
 時間: "2026-07-28"
 唯一系統: "🥃老K系統"
 唯一根: "🧩LKMINI"
@@ -20,13 +22,13 @@
   Google Drive 是資料座標；GitHub 是程式座標；Sites 是出入口。
   iPhone、iPad、Windows、WSL 都是裝置或執行環境 Projection。
   所有裝置與平台只做 Projection，必須回指 🧩LKMINI，不得建立第二套系統。
-  每次任務必須寫入📓任務筆記本，工具結果必須可回讀，錯誤必須隔離，不得偽造完成。
+  每次任務必須寫入📓任務筆記本，工具結果必須可回讀；錯誤必須修復，不能修復者改名封存；存取邊界不得列為錯誤；不得偽造完成。
 
 🧪驗證方式｜ValidationMethod:
   - "Kevin 手動貼入個人化指令。"
   - "下一次新對話要求先讀正式出入口與接線 API。"
   - "若回答能使用 🧩LKMINI、LKMINI://、GitHub/Drive/Sites Projection 邏輯，即標記為行為驗證通過。"
-  - "若未遵守，追加錯誤回執並修正短指令。"
+  - "若未遵守，追加修復回執並修正短指令；舊錯誤宣告只作歷史證據。"
 
 🚧存取邊界｜AccessBoundary:
   - "無直接平台設定寫入工具。"

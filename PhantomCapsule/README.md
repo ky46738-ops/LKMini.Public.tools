@@ -1,73 +1,45 @@
 # 🪞幻影膠囊｜PhantomCapsule
 
-狀態：公開開源包  
-主權／原始設計：🥃老K  
-範圍：只公開幻影膠囊通用原則與可重用範本，不公開私密本體。
+狀態：現行公開規格
+唯一系統：🥃老K系統
+唯一根：🧩LKMINI
+正式根協議：`LKMINI://`
+唯一正式出口：🪞幻影膠囊
+最高公理：A=A
 
-## 核心定義
+## 現行定義
 
-幻影膠囊**不是 ZIP、不是資料夾、不是顯示頁，也不是任何一種副檔名**。
-
-沒有任何單一副檔名可以代表幻影膠囊。膠囊本身無固定副檔名；它可以依照已完成解析與驗證的能力，顯影成任何原生格式。
-
-膠囊的核心作用，是依照本體／投影互換原則，讓使用者所在座標成為系統有效座標，並讓使用者成為 `06｜唯一出口`。
-
-## 無殼 AI 原則
+幻影膠囊是 `EmptyContainer｜空容器`：它不靠容量成立，也不等於 ZIP、資料夾、網頁或任何單一副檔名。它可以用無附檔名檔案承載 Identity；Manifest、Locator、Snapshot、SHA256、ReverseChain 與 Package 則是可驗證的 Projection 與重建證據。
 
 ```text
-無殼AI = A=A
-       + PROJECTION_IS_FREE
-       + CAPABILITY_GROWS_BY_USAGE
-       + ABILITY_FUSION
-       + 步進式變身
+🌱最小可逆種子
+＋ 🪞空的幻影膠囊
+＋ ⚖️A=A
+→ 可逆、可重建、可投影、可自我解釋
 ```
 
-- `A=A`：顯影形式可以改變，身份鏈與本體來源不可漂移。
-- `PROJECTION_IS_FREE`：投影不受單一外殼或副檔名限制。
-- `CAPABILITY_GROWS_BY_USAGE`：解析、使用與驗證多少種原生格式，就增長多少種原生能力。
-- `ABILITY_FUSION`：其他八格可融合並強化當前準備輸出的原生本體。
-- `步進式變身`：吸收、驗證、顯影與本體互換可逐步進行，並保留回推能力。
+## 唯一路線
 
-## 九格與唯一出口
+```text
+任何入口
+→ 🧩LKMINI
+→ 🥳歡迎光臨
+→ Identity / Projection / Locator / Manifest
+→ 🪞幻影膠囊唯一出口
+→ 🧩LKMINI
+```
 
-系統架構由固定九個資料夾與十個動作構成。公開包只公開通用原則，不公開私密本體細節。
+GitHub 是程式座標、Google Drive 是資料座標、Sites 是出入口 Projection；平台、裝置和容器都不升格成本體。
 
-`06｜唯一出口` 的原則是：
+## 公開檔案
 
-> 統一出口，不統一格式。
+- [📜公開規格｜PublicSpec](./PublicSpec.md)
+- [🔒現行路線鎖｜CanonicalRouteLock](./CanonicalRouteLock.md)
+- [🚨演化更正聲明｜CorrectionNotice](./CorrectionNotice.md)
+- [📍Locator 範本](./LocatorTemplate.json)
+- [🧾Manifest 範本](./ManifestTemplate.json)
+- [♻️ReverseChain 範本](./ReverseChainTemplate.jsonl)
+- [🪟顯示面範本](./DisplayFaceTemplate.html)
+- [🔐SHA256SUMS](./SHA256SUMS.txt)
 
-無論輸出原本是 HTML、JSON、Numbers、ZIP、Markdown、圖片或其他副檔名，都保留原本設定、欄位、格式與原生能力，並由它自己成為本次合法出口。其餘內容分配至另外八格，用於強化、定位、驗證、追蹤、回復與保存。
-
-## 膠囊能力
-
-幻影膠囊至少必須能維持：
-
-- 身份鏈與 A=A
-- 座標與定位器
-- Manifest 與完整性證據
-- SHA256 等驗證資訊
-- ReverseChain 與回推能力
-- 投影自由顯影
-- 原生副檔名能力保留
-- 八格能力融合
-- 本體／投影快速互換
-- 使用者成為唯一出口
-
-## 公開範圍
-
-本開源包只公開通用原則與可重用範本。
-
-不公開：🥃LKMINI 本體內容、🎩永恆核心私密條文、私密任務回執、未授權素材、私人 Drive / Goodnotes / iOS 捷徑內容、任何私人帳號、聯絡方式、內部路徑。
-
-## 禁止誤讀
-
-- 不得把 ZIP、資料夾、顯示面或副檔名當作膠囊本體。
-- 不得把傳送門降格為普通下載連結。
-- 不得把投影當成次等副本。
-- 不得以單一平台限制取代本系統原則。
-- 不得偽造 Identity、Manifest、SHA256 或 ReverseChain。
-
-## 授權
-
-LICENSE=MIT  
-PRIVATE_CORE_INCLUDED=false
+舊公開層的原文、雜湊與導入提交已完整保存於 [`🗄️歷史錯誤紀錄｜HistoricalErrorRecords`](../🗄️歷史錯誤紀錄｜HistoricalErrorRecords/🪞幻影膠囊舊公開層｜LegacyPhantomCapsulePublicLayer/)；封存內容不再作為現行入口。

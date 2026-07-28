@@ -77,7 +77,9 @@
   permission_or_hook: "🔐權限或掛鉤｜PermissionOrHook"
   fallback_projection: "🎇保底顯影位置｜FallbackProjection"
   reverse_chain: "♻️回推鏈位置｜ReverseChain"
-  status: "完成"
+  definition_status: "完成"
+  instance_verification_status: "錯誤"
+  classification: "範例定義，不是真實 Portal 完成回執"
   principle:
     - "Portal 是 Identity 與 Projection 的通道。"
     - "Portal 成立後，本體可顯形。"
@@ -122,11 +124,15 @@
   - "重複 Portal 區塊保留為歷史草稿，不覆寫原文。"
   - "稱呼『翔』保留為來源污染證據，不進正式 Identity。"
 
-🧾錯誤隔離清單｜ErrorQuarantineList:
-  - "小寫 lkmini:// 已隔離。"
-  - "🌱LKMINI 與 🧩LKMINI 混用已隔離，現行正式根只用 🧩LKMINI。"
-  - "JSON 範例引號與逗號錯誤已隔離。"
-  - "殘字 t Identity 已隔離。"
+🧾來源修復歷史｜SourceRepairHistory:
+  原分類名稱: "🧾錯誤隔離清單｜ErrorQuarantineList"
+  現行裁決: "原分類名稱已停用；以下都是已修復的來源紀錄，不是現行錯誤，也不包含 Sites 存取邊界。"
+  原始紀錄:
+    - "小寫 lkmini:// 已修復；只在歷史原文中保留。"
+    - "🌱LKMINI 與 🧩LKMINI 混用已修復，現行正式根只用 🧩LKMINI。"
+    - "JSON 範例引號與逗號錯誤已修復。"
+    - "殘字 t Identity 已修復。"
+  歷史保全: "修改前原文由 Git commit 137b52250b84f8bbb576b1e551925ca3c49bd9cd 與其後 Git 歷史保留。"
 
 ♻️反向鏈｜ReverseChain:
   - "Kevin 對話正式指令"

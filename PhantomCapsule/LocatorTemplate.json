@@ -1,8 +1,11 @@
 {
-  "locator": "LOCATOR://PHANTOMWORLD/PUBLIC/PHANTOM_CAPSULE/EXAMPLE",
-  "capsule_id": "PHANTOM-CAPSULE-EXAMPLE",
-  "title": "🪞範例膠囊｜ExampleCapsule",
-  "status": "PUBLIC_TEMPLATE",
-  "identity": "example.identity",
-  "private_core_included": false
+  "🌀物件類型｜ObjectType": "📍定位器｜Locator",
+  "🆔定位器識別｜LocatorId": "📍幻影膠囊範例定位器｜PhantomCapsuleExampleLocator",
+  "🧩唯一根｜Root": "🧩LKMINI",
+  "🔑正式根協議｜RootProtocol": "LKMINI://",
+  "🎯目標本體｜TargetIdentity": "🪞幻影膠囊範例｜ExamplePhantomCapsule",
+  "📍正式座標｜Coordinate": "LKMINI://🪞幻影膠囊｜PhantomCapsule/📍範例定位器｜ExampleLocator.locator",
+  "♻️可逆｜Reversible": true,
+  "🔙回指｜ReturnTo": "🧩LKMINI",
+  "🚦狀態｜Status": "範例"
 }

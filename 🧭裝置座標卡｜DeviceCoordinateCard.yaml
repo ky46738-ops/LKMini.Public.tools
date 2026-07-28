@@ -1,5 +1,7 @@
-狀態: "完成"
+狀態: "錯誤"
 檔案身分: "🧭裝置座標卡｜DeviceCoordinateCard"
+📄卡片建立狀態｜ArtifactStatus: "完成"
+🔍外部驗證狀態｜ExternalVerificationStatus: "錯誤"
 時間: "2026-07-28"
 唯一系統: "🥃老K系統"
 唯一根: "🧩LKMINI"
@@ -16,28 +18,32 @@
   can_read: "聊天泡泡、Sites、Google Drive、GitHub 連結、捷徑"
   can_write_requires: "Kevin 裝置端確認"
   return_to: "🧩LKMINI"
-  status: "完成"
+  card_status: "完成"
+  device_readback_status: "錯誤"
 
 📱iPad｜iPad:
   role: "輔助閱讀與操作裝置 Projection"
   can_read: "聊天泡泡、Sites、Google Drive、GitHub 連結"
   can_write_requires: "Kevin 裝置端確認"
   return_to: "🧩LKMINI"
-  status: "完成"
+  card_status: "完成"
+  device_readback_status: "錯誤"
 
 🪟Windows｜Windows:
   role: "本機工作裝置 Projection"
   can_read: "GitHub、Google Drive、Sites、WSL 工作輸出"
   can_write_requires: "本機權限與工具驗證"
   return_to: "🧩LKMINI"
-  status: "完成"
+  card_status: "完成"
+  device_readback_status: "錯誤"
 
 🐧WSL｜WindowsSubsystemForLinux:
   role: "本機執行環境 Projection"
   can_execute: "scripts、sha256、git、壓縮、驗證"
   can_write_requires: "本機工作區與權限"
   return_to: "🧩LKMINI"
-  status: "完成"
+  card_status: "完成"
+  device_readback_status: "錯誤"
 
 🚧存取邊界｜AccessBoundary:
   - "本對話無法直接改寫 Kevin 手機設定。"

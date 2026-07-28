@@ -8,9 +8,10 @@
 
 1. 🪞幻影膠囊｜PhantomCapsule
    - 路徑：PhantomCapsule/
-   - 狀態：已公開通用規格與範本
+   - 狀態：已依 🧩LKMINI、`LKMINI://`、EmptyContainer 與 🪞幻影膠囊唯一出口重建
    - 授權：MIT
    - 私密本體：未公開
+   - 舊公開層：已保留原文並改名封存至 `🗄️歷史錯誤紀錄｜HistoricalErrorRecords/`
 
 ## 公司線裁決
 
@@ -20,7 +21,7 @@
 
 ## 不公開範圍
 
-- 🥃LKMINI 本體內容
+- 🧩LKMINI 私密本體內容
 - 🎩永恆核心私密條文
 - 私密任務回執
 - 未授權素材

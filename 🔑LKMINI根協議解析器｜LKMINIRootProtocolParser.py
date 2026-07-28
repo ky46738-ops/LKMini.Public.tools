@@ -12,10 +12,10 @@
 from __future__ import annotations
 
 from dataclasses import asdict, dataclass
-from pathlib import PurePosixPath
-from typing import Any
 import json
 import sys
+from pathlib import PurePosixPath
+from typing import Any
 
 根協議檔頭 = "LKMINI://"
 
@@ -52,11 +52,22 @@ class LKMINI根協議解析器:
             raise 根協議錯誤("❌ 根協議缺少路徑")
         if "\\" in 主體:
             raise 根協議錯誤("❌ 路徑必須使用正斜線「/」")
-
-        路徑 = PurePosixPath(主體)
-        路徑部分 = 路徑.parts
-        if not 路徑部分 or any(部分 in {"", ".", ".."} for 部分 in 路徑部分):
+        if "?" in 主體 or "#" in 主體:
+            raise 根協議錯誤("❌ 根協議不接受查詢字串或 fragment")
+        if 主體.startswith("/") or 主體.endswith("/") or "//" in 主體:
             raise 根協議錯誤("❌ 路徑包含無效節點")
+
+        原始路徑部分 = 主體.split("/")
+        if any(
+            部分 in {"", ".", ".."} or 部分 != 部分.strip()
+            for 部分 in 原始路徑部分
+        ):
+            raise 根協議錯誤("❌ 路徑包含無效節點")
+
+        路徑 = PurePosixPath(*原始路徑部分)
+        路徑部分 = 路徑.parts
+        if tuple(原始路徑部分) != 路徑部分:
+            raise 根協議錯誤("❌ 路徑正規化後不一致")
 
         最後節點 = 路徑部分[-1]
         if "." not in 最後節點:
@@ -77,18 +88,18 @@ class LKMINI根協議解析器:
     def 接管(self, 協議文字: str) -> dict[str, Any]:
         結果 = self.解析(協議文字)
         return {
-            "🚦 狀態": "✅ 解析完成",
-            "🧩 根": "🧩LKMINI",
-            "🧭 根協議": 根協議檔頭,
-            "🧾 解析結果": asdict(結果),
+            "🚦狀態｜Status": "✅ 解析完成",
+            "🧩唯一根｜Root": "🧩LKMINI",
+            "🔑正式根協議｜RootProtocol": 根協議檔頭,
+            "🧾解析結果｜ParseResult": asdict(結果),
         }
 
 
 def 主程式() -> int:
     if len(sys.argv) != 2:
         print(json.dumps({
-            "🚦 狀態": "❌ 缺少協議",
-            "📘 使用方式": "python 解析器.py LKMINI://路徑/名稱.虛擬副檔名",
+            "🚦狀態｜Status": "❌ 缺少協議",
+            "📘使用方式｜Usage": "python 解析器.py LKMINI://路徑/名稱.虛擬副檔名",
         }, ensure_ascii=False, indent=2))
         return 1
 
@@ -97,7 +108,10 @@ def 主程式() -> int:
         print(json.dumps(結果, ensure_ascii=False, indent=2))
         return 0
     except 根協議錯誤 as 錯誤:
-        print(json.dumps({"🚦 狀態": "❌ 解析錯誤", "📝 錯誤": str(錯誤)}, ensure_ascii=False, indent=2))
+        print(json.dumps({
+            "🚦狀態｜Status": "❌ 解析錯誤",
+            "📝錯誤｜Error": str(錯誤),
+        }, ensure_ascii=False, indent=2))
         return 2
 
 

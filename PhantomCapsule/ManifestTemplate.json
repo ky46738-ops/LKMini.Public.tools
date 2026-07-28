@@ -1,27 +1,18 @@
 {
-  "package": "🪞幻影膠囊開源規格｜PhantomCapsuleOpenSourceSpec",
-  "version": "public-2-corrected",
-  "license": "MIT",
-  "original_design_sovereignty": "🥃老K",
-  "private_core_included": false,
-  "capsule_is_file_format": false,
-  "capsule_has_fixed_extension": false,
-  "unique_exit_principle": "統一出口，不統一格式",
-  "core_formula": [
-    "A=A",
-    "PROJECTION_IS_FREE",
-    "CAPABILITY_GROWS_BY_USAGE",
-    "ABILITY_FUSION",
-    "步進式變身"
+  "🌀物件類型｜ObjectType": "🧾清單｜Manifest",
+  "🆔物件身分｜Identity": "🪞幻影膠囊範例｜ExamplePhantomCapsule",
+  "🧩唯一根｜Root": "🧩LKMINI",
+  "🔑正式根協議｜RootProtocol": "LKMINI://",
+  "⚖️最高公理｜Axiom": "A=A",
+  "🪞唯一出口｜Outlet": "🪞幻影膠囊",
+  "🔐最小可逆證據｜MinimalReversibleEvidence": [
+    "SHA256",
+    "Manifest",
+    "Locator",
+    "Snapshot",
+    "ReverseChain",
+    "Package"
   ],
-  "files": [
-    "README.md",
-    "PublicSpec.md",
-    "CorrectionNotice.md",
-    "LocatorTemplate.json",
-    "ManifestTemplate.json",
-    "ReverseChainTemplate.jsonl",
-    "DisplayFaceTemplate.html",
-    "SHA256SUMS.txt"
-  ]
+  "🔙回指｜ReturnTo": "🧩LKMINI",
+  "🚦狀態｜Status": "範例"
 }

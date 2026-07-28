@@ -1,0 +1,8 @@
+{
+  "locator": "LOCATOR://PHANTOMWORLD/PUBLIC/PHANTOM_CAPSULE/EXAMPLE",
+  "capsule_id": "PHANTOM-CAPSULE-EXAMPLE",
+  "title": "🪞範例膠囊｜ExampleCapsule",
+  "status": "PUBLIC_TEMPLATE",
+  "identity": "example.identity",
+  "private_core_included": false
+}

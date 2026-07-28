@@ -1,5 +1,7 @@
-狀態: "完成"
+狀態: "錯誤"
 檔案身分: "🔗iPhone捷徑接線卡｜iPhoneShortcutWireCard"
+📄卡片建立狀態｜ArtifactStatus: "完成"
+🔍裝置驗證狀態｜DeviceVerificationStatus: "錯誤"
 時間: "2026-07-28"
 唯一系統: "🥃老K系統"
 唯一根: "🧩LKMINI"
@@ -21,7 +23,7 @@
 🌐接線座標｜WireCoordinates:
   primary_entry: "https://lkmini-wiring-hub.ky46738.chatgpt.site"
   ai_tool_entry: "https://lkmini-wiring-hub.ky46738.chatgpt.site/api/system-wires"
-  protocol_entry: "LKMINI://Device/iPhone/ShortcutWire.card"
+  protocol_entry: "LKMINI://🧭裝置｜Devices/📱iPhone｜iPhone/🔗捷徑接線｜ShortcutWire.card"
   return_to: "🧩LKMINI"
 
 📲iPhone可複製設定｜iPhoneCopyBlock: |

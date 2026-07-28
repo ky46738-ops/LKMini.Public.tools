@@ -1,5 +1,7 @@
-狀態: "完成"
+狀態: "錯誤"
 檔案身分: "🪟WindowsWSL接線卡｜WindowsWSLWireCard"
+📄卡片建立狀態｜ArtifactStatus: "完成"
+🔍裝置驗證狀態｜DeviceVerificationStatus: "錯誤"
 時間: "2026-07-28"
 唯一系統: "🥃老K系統"
 唯一根: "🧩LKMINI"
@@ -16,13 +18,15 @@
 🪟Windows｜Windows:
   role: "本機操作、瀏覽、檔案管理與裝置端驗證"
   return_to: "🧩LKMINI"
-  status: "完成"
+  card_status: "完成"
+  device_readback_status: "錯誤"
 
 🐧WSL｜WSL:
   role: "Linux 執行、腳本測試、SHA256、壓縮與 Git 操作"
-  protocol_entry: "LKMINI://Device/Windows/WSLWire.card"
+  protocol_entry: "LKMINI://🧭裝置｜Devices/🪟Windows｜Windows/🐧WSL接線｜WSLWire.card"
   return_to: "🧩LKMINI"
-  status: "完成"
+  card_status: "完成"
+  device_readback_status: "錯誤"
 
 🔗接線路徑｜WiringRoute:
   - "Windows / WSL"
