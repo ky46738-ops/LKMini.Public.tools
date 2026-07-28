@@ -165,8 +165,44 @@ class CurrentRecordTests(unittest.TestCase):
             current_error_names,
             {"公開工具 repo workflow 執行", "公開作文頁歷史憑證"},
         )
-        self.assertIn("Devices", data["🚧存取邊界｜AccessBoundaries"])
-        self.assertIn("ChatGPTPersonalization", data["🚧存取邊界｜AccessBoundaries"])
+        self.assertIn(
+            "📱裝置存取邊界｜Devices",
+            data["🚧存取邊界｜AccessBoundaries"],
+        )
+        self.assertIn(
+            "🧾ChatGPT個人化設定｜ChatGPTPersonalization",
+            data["🚧存取邊界｜AccessBoundaries"],
+        )
+
+    def test_current_ledgers_have_no_pure_english_yaml_keys(self) -> None:
+        paths = [
+            ROOT / "🧾既有錯誤修復帳｜ExistingErrorRepairLedger.yaml",
+            ROOT / "🧾GitHub工作流程驗證｜GitHubWorkflowVerification.yaml",
+            ROOT / "🧭接線總控清單｜SystemWiringLedger.yaml",
+        ]
+
+        def walk_keys(value):
+            if isinstance(value, dict):
+                for key, child in value.items():
+                    yield key
+                    yield from walk_keys(child)
+            elif isinstance(value, list):
+                for child in value:
+                    yield from walk_keys(child)
+
+        pure_english = re.compile(r"^[A-Za-z][A-Za-z0-9_]*$")
+        for path in paths:
+            with self.subTest(path=path.name):
+                data = yaml.load(
+                    path.read_text(encoding="utf-8"),
+                    Loader=UniqueKeyLoader,
+                )
+                violations = [
+                    key
+                    for key in walk_keys(data)
+                    if isinstance(key, str) and pure_english.fullmatch(key)
+                ]
+                self.assertEqual(violations, [])
 
     def test_repair_ledger_statistics_match_item_statuses(self) -> None:
         path = ROOT / "🧾既有錯誤修復帳｜ExistingErrorRepairLedger.yaml"
