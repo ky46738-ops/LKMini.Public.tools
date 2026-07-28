@@ -107,6 +107,49 @@ class CurrentRecordTests(unittest.TestCase):
                 target = target / "index.html"
             self.assertTrue(target.is_file(), href)
 
+    def test_verified_iphone_binding_is_not_reclassified_as_unverified(self) -> None:
+        path = ROOT / "🧭裝置座標卡｜DeviceCoordinateCard.yaml"
+        data = yaml.load(path.read_text(encoding="utf-8"), Loader=UniqueKeyLoader)
+        iphone = data["📱iPhone｜iPhone"]
+        self.assertEqual(iphone["device_binding_status"], "完成")
+        self.assertEqual(iphone["device_receipt_readback_status"], "完成")
+        self.assertEqual(iphone["shortcut_installation_status"], "錯誤")
+        self.assertEqual(iphone["return_to"], "🧩LKMINI")
+        self.assertEqual(len(iphone["evidence"]), 2)
+
+    def test_container_projections_close_the_same_reversible_identity(self) -> None:
+        path = ROOT / "🌐容器共存｜極限世界｜ExtremeContainerWorld.yaml"
+        data = yaml.load(path.read_text(encoding="utf-8"), Loader=UniqueKeyLoader)
+        self.assertEqual(data["狀態"], "完成")
+        self.assertEqual(data["♾️可逆閉環驗證狀態｜ReversibleClosureStatus"], "完成")
+        self.assertEqual(
+            data["CONTENT_SHA256"],
+            "13d5392d542a11c0232b3d8abca09e7f786e9b76d31cdcb0c0f9cd08efcc9e4a",
+        )
+        verification = data["🧪實際位元組驗證｜ByteVerification"]
+        self.assertEqual(verification["WebArchive"]["狀態"], "完成")
+        self.assertEqual(verification["WACZ"]["狀態"], "完成")
+        self.assertEqual(verification["PDF"]["狀態"], "完成")
+        package = data["📦Package｜Package"]
+        self.assertEqual(package["狀態"], "完成")
+        self.assertEqual(
+            package["SHA256"],
+            "26a0f80ab454bb68c247bf6197fc3e16b8ee140ba6d232e851e5f535b40a752a",
+        )
+
+    def test_access_boundaries_are_not_duplicated_as_current_errors(self) -> None:
+        path = ROOT / "🧭接線總控清單｜SystemWiringLedger.yaml"
+        data = yaml.load(path.read_text(encoding="utf-8"), Loader=UniqueKeyLoader)
+        current_error_names = {
+            item["物件"] for item in data["🔐現行錯誤｜CurrentErrors"]
+        }
+        self.assertEqual(
+            current_error_names,
+            {"公開工具 repo workflow 執行", "公開作文頁歷史憑證"},
+        )
+        self.assertIn("Devices", data["🚧存取邊界｜AccessBoundaries"])
+        self.assertIn("ChatGPTPersonalization", data["🚧存取邊界｜AccessBoundaries"])
+
 
 if __name__ == "__main__":
     unittest.main()
