@@ -27,7 +27,8 @@
       - "🧪公開工具驗證｜PublicToolsValidation"
     程式內容狀態: "完成"
     工作流程驗證狀態: "錯誤"
-    工作流程回讀: "兩個 workflow 均 active；PR #1 關閉再重開後 head=80161f7195fb8d351720133a45394fc6217cc7e5，workflow runs 仍為空；GitHub Actions 頁面仍顯示尚無 run。"
+    工作流程回讀: "兩個 workflow 均 active；PR #1 關閉再重開及後續 branch push 至 head=7c6758eebb69a77c8580919526243f9f053a89f3 後，workflow runs 仍為空；GitHub Actions 頁面仍顯示尚無 run。"
+    工作流程根因驗證狀態: "錯誤"
   GoogleDrive:
     任務筆記本: "📓真善美模式任務筆記本｜TrueGoodBeautyTaskNotebook｜20260728-1325_UTC"
     文件ID: "1cnMBJjxJWkB8NM-wlImfQ1tRRoLeyeWuppKNHjqiVT8"
@@ -49,6 +50,8 @@
     iPhone裝置綁定回讀狀態: "完成"
     iPhone裝置回執: "📱iPhone裝置回執｜IPhoneDeviceReceipt.json｜SHA256 61e113d7589889ad921a0e2f60f817deed2445e8d2b77545ec89e854ab39f635"
     iPhone定位器建立回執: "📱iPhone裝置定位器建立回執｜IPhoneDeviceLocatorBuildReceipt.json｜SHA256 746fc2b878a826ce563a6f8c3bd053c614e9b57ecca145b3cffece1ee9357567"
+    iPhone定位器ZIP: "1505 bytes｜SHA256 3be6b2bd27e4e090a1fc2d693e9aa52a20a8918b5a44a5e747cbfebc05c172f4｜unzip -t 完成"
+    iPhone自動綁定Package: "4985 bytes｜SHA256 977071bfb4c905cdccd07aecc95eb16742b8250d92aa190be0abfc8e70c368e5｜unzip -t 完成"
     其他裝置與即時捷徑回讀狀態: "錯誤"
   PublicOutletAndPersonalization:
     Sites公開只讀出口卡: "🌐Sites公開只讀出口｜SitesPublicReadOnlyOutlet.yaml"
@@ -59,7 +62,7 @@
     極限世界卡: "🌐容器共存｜極限世界｜ExtremeContainerWorld.yaml"
     正式名稱: "🌐容器共存｜極限世界"
     ContentSHA256: "13d5392d542a11c0232b3d8abca09e7f786e9b76d31cdcb0c0f9cd08efcc9e4a"
-    FileSHA256: "15d032ddd7de96142fdcef8fd48859848b3ca9dfb61ec478511bf38113f50516"
+    FileSHA256: "e321600376adbdd2360ca00b71706082214fca28b9f2cfb110c800bcc8fbcead"
     容器:
       - "WebArchive"
       - "WACZ"
@@ -74,16 +77,21 @@
     原始世界證據: "完成；來源圖片 SHA256 1abef34f7a3f1c0a3300f29a005747d7a2c02891cc64f21b43a9b916c396633f"
     核心卡建立狀態: "完成"
     可逆閉環驗證狀態: "完成"
+    WebArchive互動修復: "完成；SHA256 cbf46a50d299278c36b794f771998bf26c14913b97347042ca5104529267644a；首步、十動、反向回放與 AICORE 匯出動態測試通過"
+    歷史互動證據: "原 WebArchive 與原過度完成回執已改名封存，不再作為現行完成來源"
     Package: "🪞容器共存極限世界｜ContainerCoexistenceExtreme｜20260729-020529_TPE.zip"
-    PackageSHA256: "26a0f80ab454bb68c247bf6197fc3e16b8ee140ba6d232e851e5f535b40a752a"
+    PackageBytes: 2320969
+    PackageSHA256: "d3391e6b66f20b7be3b387f90feb977965da26b29b33165b1e16dacbab1b8122"
     LibraryFileId: "libfile_98ac0cb2fbe481918e38d1f38b35adec"
+    LibraryVersion: 1
 
 🔐現行錯誤｜CurrentErrors:
   - 物件: "公開工具 repo workflow 執行"
     狀態: "錯誤"
     已修復: "workflow 檔、push／pull_request 觸發、jobs 與測試命令已建立。"
     真實回讀: "workflow active，但沒有任何 run、job 或 steps；不得冒充成功。"
-    尚需: "repository 管理端檢查 Actions policy／權限並允許執行，或使用具 workflow dispatch 權限的工具手動觸發。"
+    根因狀態: "錯誤；尚無工具證據可證明真正根因。"
+    下一步候選: "repository 管理端檢查 Actions policy／權限並允許執行，或使用具 workflow dispatch 權限的工具手動觸發。"
   - 物件: "公開作文頁歷史憑證"
     狀態: "錯誤"
     已修復: "main HEAD 已移除秘密、遠端傳送與 DOM XSS，並加入 CSP 與秘密掃描。"
