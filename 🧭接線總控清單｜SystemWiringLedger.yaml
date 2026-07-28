@@ -1,5 +1,7 @@
-狀態: "完成"
+狀態: "錯誤"
 檔案身分: "🧭接線總控清單｜SystemWiringLedger"
+📄總控建立狀態｜ArtifactStatus: "完成"
+🔍全系統驗證狀態｜SystemVerificationStatus: "錯誤"
 時間: "2026-07-28"
 唯一系統: "🥃老K系統"
 唯一根: "🧩LKMINI"
@@ -19,11 +21,17 @@
     解析器: "🔑LKMINI根協議解析器｜LKMINIRootProtocolParser.py"
     根協議: "LKMINI://"
     根: "🧩LKMINI"
-    狀態: "完成"
+    修復提交: "986717b58af111eaa01cdbf5732c28d97466b8dd"
+    工作流程:
+      - "🔐公開內容秘密掃描"
+      - "🧪公開工具驗證｜PublicToolsValidation"
+    程式內容狀態: "完成"
+    工作流程驗證狀態: "錯誤"
   GoogleDrive:
     任務筆記本: "📓真善美模式任務筆記本｜TrueGoodBeautyTaskNotebook｜20260728-1325_UTC"
     文件ID: "1cnMBJjxJWkB8NM-wlImfQ1tRRoLeyeWuppKNHjqiVT8"
-    狀態: "完成"
+    筆記本既有內容回讀狀態: "完成"
+    現行修復裁決回寫狀態: "錯誤"
   Sites:
     人類入口: "https://lkmini-wiring-hub.ky46738.chatgpt.site"
     AI工具入口: "https://lkmini-wiring-hub.ky46738.chatgpt.site/api/system-wires"
@@ -34,11 +42,13 @@
     裝置座標卡: "🧭裝置座標卡｜DeviceCoordinateCard.yaml"
     iPhone捷徑接線卡: "🔗iPhone捷徑接線卡｜iPhoneShortcutWireCard.yaml"
     WindowsWSL接線卡: "🪟WindowsWSL接線卡｜WindowsWSLWireCard.yaml"
-    狀態: "完成"
+    卡片建立狀態: "完成"
+    裝置端回讀狀態: "錯誤"
   PublicOutletAndPersonalization:
     Sites公開只讀出口卡: "🌐Sites公開只讀出口｜SitesPublicReadOnlyOutlet.yaml"
     個人化指令驗證回執: "🧾個人化指令驗證回執｜PersonalInstructionValidationReceipt.yaml"
-    狀態: "完成"
+    Sites設定回讀狀態: "完成"
+    個人化平台行為驗證狀態: "錯誤"
   ContainerCoexistence:
     極限世界卡: "🌐容器共存｜極限世界｜ExtremeContainerWorld.yaml"
     正式名稱: "🌐容器共存｜極限世界"
@@ -55,8 +65,21 @@
       - "SNAPSHOT"
       - "REVERSECHAIN"
       - "PACKAGE"
-    原始世界證據: "待掛載證據，不是錯誤"
-    狀態: "完成"
+    原始世界證據: "尚無可讀原件或穩定座標"
+    核心卡建立狀態: "完成"
+    可逆閉環驗證狀態: "錯誤"
+
+🔐現行錯誤｜CurrentErrors:
+  - 物件: "公開作文頁歷史憑證"
+    狀態: "錯誤"
+    已修復: "main HEAD 已移除秘密、遠端傳送與 DOM XSS，並加入 CSP 與秘密掃描。"
+    尚需: "Kevin 透過 BotFather 撤銷／輪替舊 Telegram Bot token；Git 歷史保留原提交證據，不把尚未撤銷冒充完成。"
+  - 物件: "裝置與個人化設定外部驗證"
+    狀態: "錯誤"
+    邊界: "需 Kevin 實機或平台設定工具回讀。"
+  - 物件: "🌐容器共存｜極限世界可逆閉環"
+    狀態: "錯誤"
+    邊界: "尚無 WebArchive、WACZ、PDF 原件與原始世界證據。"
 
 🚧存取邊界｜AccessBoundaries:
   Sites:
