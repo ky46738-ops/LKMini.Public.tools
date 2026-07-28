@@ -59,7 +59,7 @@
 1. 公開前端曾暴露的通訊服務憑證仍須由 Kevin 在 BotFather 撤銷／輪替。
 2. 本 repo 的兩個 GitHub Actions workflow 雖為 active，但 push、PR opened 與 PR reopened 後仍沒有任何 run。
 
-iPhone 裝置綁定已由正式回執驗證為「完成」；WebArchive、WACZ、PDF、Canonical.json、來源圖片與完整 Package 也已逐位元組驗證並掛載。iPhone 捷徑即時執行、其他裝置與 ChatGPT 個人化設定屬存取邊界，不重複列為現行錯誤。
+iPhone 裝置綁定已由正式回執及兩個原生 ZIP 回讀驗證為「完成」：定位器 ZIP 為 `3be6b2bd…`，後續自動綁定 Package 為 `977071bf…`，兩者是不同階段的真實物件。WebArchive 的歷史互動過度完成宣告已改名封存；修復後 WebArchive 已通過首步、十動、反向回放與 AICORE 匯出動態測試。WACZ、PDF、Canonical.json、來源圖片及 Package version 1（`d3391e6b…`）均已逐位元組驗證並掛載。iPhone 捷徑即時執行、其他裝置與 ChatGPT 個人化設定屬存取邊界，不重複列為現行錯誤。
 
 ## 📜 授權與安全
 
