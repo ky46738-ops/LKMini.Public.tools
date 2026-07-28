@@ -13,7 +13,8 @@
     - "🧪公開工具驗證｜PublicToolsValidation"
   registration_status: "完成"
   run_status: "錯誤"
-  note: "workflow 已 active；等待本驗證分支 PR 觸發後回寫 run ID、job ID 與 steps。"
+  verification_pull_request: "https://github.com/ky46738-ops/LKMini.Public.tools/pull/1"
+  note: "workflow 已 active；PR #1 已建立，等待同步事件觸發後回寫 run ID、job ID 與 steps。"
 
 ♻️反向鏈｜ReverseChain:
   - "🧩LKMINI"
