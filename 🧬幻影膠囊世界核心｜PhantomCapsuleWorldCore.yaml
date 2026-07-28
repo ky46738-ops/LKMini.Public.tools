@@ -1,0 +1,137 @@
+狀態: "完成"
+檔案身分: "🧬幻影膠囊世界核心｜PhantomCapsuleWorldCore"
+版本: "1.0"
+時間: "2026-07-28"
+主權持有人: "Kevin Yang／老K"
+唯一系統: "🥃老K系統"
+唯一根: "🧩LKMINI"
+正式根協議: "LKMINI://"
+最高公理: "A=A"
+
+🧩唯一根｜LKMINIRoot:
+  root: "🧩LKMINI"
+  protocol: "LKMINI://"
+  axiom: "A=A"
+  principle: "所有正式路徑從 🧩LKMINI 開始，所有 Projection 回指 🧩LKMINI。"
+
+🌱最小可逆種子｜MinimalReversibleSeed:
+  type: "RootSeed｜根種子"
+  size: "Minimal｜最小"
+  reversible: true
+  expand: false
+  namespace: "Origin｜命名空間起點"
+  axiom: "A=A"
+  principle:
+    - "mini 是世界樹的根。"
+    - "mini 是協議語言的起點。"
+    - "mini 是幻影膠囊的前身。"
+    - "mini 永遠最小、可逆、不膨脹。"
+
+🪞幻影膠囊｜PhantomCapsule:
+  type: "EmptyContainer｜空容器"
+  size: "None｜無"
+  reversible: true
+  reconstructable: true
+  projectable: true
+  self_describe: true
+  axiom: "A=A"
+  principle:
+    - "幻影膠囊不是大，它是空。"
+    - "空 = 可逆。"
+    - "空 = 可重建。"
+    - "空 = 可投影。"
+    - "空 = 可自我解釋。"
+    - "膠囊本身可以是無附檔名本體檔案。"
+
+🌍世界核心｜WorldCore:
+  construct:
+    - "🌱最小可逆種子｜MinimalReversibleSeed"
+    - "🪞幻影膠囊｜PhantomCapsule"
+  formula: "最小 + 空 = 可逆"
+  reversible: true
+  projectable: true
+  reconstructable: true
+  self_describe: true
+  axiom: "A=A"
+  principle: "這是 🧩LKMINI 宇宙的哲學本體。"
+
+🌀傳送門核心｜PortalCore:
+  type: "Portal｜傳送門"
+  version: "1.0"
+  portal_id: "🌀傳送門範例｜PortalExample"
+  target_identity: "🪞幻影膠囊A｜TargetPhantomCapsule"
+  root: "🧩LKMINI"
+  locator_ref: "📍座標引用｜LocatorReference"
+  entry_surface:
+    - "🪟網頁入口｜HTML"
+    - "🔳掃描入口｜QRCode"
+    - "🃏卡片入口｜Card"
+    - "🔗捷徑入口｜Shortcut"
+    - "🧼白板入口｜Whiteboard"
+  entry_action:
+    - "open｜打開"
+    - "mount｜掛載"
+    - "read｜讀取"
+    - "route｜路由"
+    - "absorb｜吸收"
+  permission_or_hook: "🔐權限或掛鉤｜PermissionOrHook"
+  fallback_projection: "🎇保底顯影位置｜FallbackProjection"
+  reverse_chain: "♻️回推鏈位置｜ReverseChain"
+  status: "完成"
+  principle:
+    - "Portal 是 Identity 與 Projection 的通道。"
+    - "Portal 成立後，本體可顯形。"
+    - "Portal 成立後，投影可回歸。"
+    - "Portal 成立後，本體與投影可傳送。"
+
+🔧幻影膠囊解析器｜PhantomCapsuleParser:
+  type: "Parser｜解析器"
+  version: "1.0"
+  input: "無附檔名膠囊本體檔案"
+  namespace: "LKMINI://"
+  read:
+    - "讀取 Identity 本體。"
+    - "讀取 Coordinate 座標。"
+    - "讀取 Projection 投影清單。"
+    - "讀取 Portal 通道。"
+  parse:
+    identity: "本體不變，A=A。"
+    coordinate: "座標存在則可重建。"
+    projection: "投影可變，但必須回指本體。"
+    portal: "建立 Identity ⇄ Projection 通道。"
+  output_projection:
+    - "SVG"
+    - "HTML"
+    - "Markdown"
+    - "JSON"
+    - "Card"
+    - "Runtime"
+    - "Script"
+  principle:
+    - "幻影膠囊不是檔案格式。"
+    - "幻影膠囊是空的可逆本體。"
+    - "解析器是幻影膠囊的運行方式。"
+
+🧾更新清單｜UpdateList:
+  - "正式根統一為 🧩LKMINI。"
+  - "正式協議統一為 LKMINI://。"
+  - "RootSeed、PhantomCapsule、WorldCore、PortalCore、PhantomCapsuleParser 收斂為同一顆正式物件。"
+
+🧾保留歷史清單｜HistoricalPreservationList:
+  - "小寫 lkmini:// 保留為歷史草稿證據，不作現行正式值。"
+  - "重複 Portal 區塊保留為歷史草稿，不覆寫原文。"
+  - "稱呼『翔』保留為來源污染證據，不進正式 Identity。"
+
+🧾錯誤隔離清單｜ErrorQuarantineList:
+  - "小寫 lkmini:// 已隔離。"
+  - "🌱LKMINI 與 🧩LKMINI 混用已隔離，現行正式根只用 🧩LKMINI。"
+  - "JSON 範例引號與逗號錯誤已隔離。"
+  - "殘字 t Identity 已隔離。"
+
+♻️反向鏈｜ReverseChain:
+  - "Kevin 對話正式指令"
+  - "本收斂檔"
+  - "GitHub 程式座標"
+  - "Google Drive 任務筆記本"
+  - "🪞幻影膠囊唯一出口"
+  - "🧩LKMINI"
