@@ -1,0 +1,24 @@
+狀態: "錯誤"
+檔案身分: "🧾GitHub工作流程驗證｜GitHubWorkflowVerification"
+唯一系統: "🥃老K系統"
+唯一根: "🧩LKMINI"
+正式根協議: "LKMINI://"
+最高公理: "A=A"
+
+🐙公開工具Repo｜PublicToolsRepository:
+  repository: "ky46738-ops/LKMini.Public.tools"
+  repair_commit: "986717b58af111eaa01cdbf5732c28d97466b8dd"
+  workflows:
+    - "🔐公開內容秘密掃描"
+    - "🧪公開工具驗證｜PublicToolsValidation"
+  registration_status: "完成"
+  run_status: "錯誤"
+  note: "workflow 已 active；等待本驗證分支 PR 觸發後回寫 run ID、job ID 與 steps。"
+
+♻️反向鏈｜ReverseChain:
+  - "🧩LKMINI"
+  - "GitHub workflow files"
+  - "本驗證回執"
+  - "GitHub run / job / steps"
+  - "🧾既有錯誤修復帳｜ExistingErrorRepairLedger"
+  - "🧩LKMINI"
