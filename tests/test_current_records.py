@@ -116,6 +116,16 @@ class CurrentRecordTests(unittest.TestCase):
         self.assertEqual(iphone["shortcut_installation_status"], "錯誤")
         self.assertEqual(iphone["return_to"], "🧩LKMINI")
         self.assertEqual(len(iphone["evidence"]), 2)
+        self.assertEqual(iphone["locator_zip"]["位元組"], 1505)
+        self.assertEqual(
+            iphone["locator_zip"]["SHA256"],
+            "3be6b2bd27e4e090a1fc2d693e9aa52a20a8918b5a44a5e747cbfebc05c172f4",
+        )
+        self.assertEqual(iphone["auto_binding_package"]["位元組"], 4985)
+        self.assertEqual(
+            iphone["auto_binding_package"]["SHA256"],
+            "977071bfb4c905cdccd07aecc95eb16742b8250d92aa190be0abfc8e70c368e5",
+        )
 
     def test_container_projections_close_the_same_reversible_identity(self) -> None:
         path = ROOT / "🌐容器共存｜極限世界｜ExtremeContainerWorld.yaml"
@@ -128,13 +138,21 @@ class CurrentRecordTests(unittest.TestCase):
         )
         verification = data["🧪實際位元組驗證｜ByteVerification"]
         self.assertEqual(verification["WebArchive"]["狀態"], "完成")
+        self.assertEqual(
+            verification["WebArchive"]["SHA256"],
+            "cbf46a50d299278c36b794f771998bf26c14913b97347042ca5104529267644a",
+        )
         self.assertEqual(verification["WACZ"]["狀態"], "完成")
         self.assertEqual(verification["PDF"]["狀態"], "完成")
+        interaction = data["🖱️互動能力｜InteractionCapabilities"]
+        self.assertEqual(interaction["實作驗證狀態"], "完成")
+        self.assertEqual(interaction["測試程式"]["結果"], "完成")
         package = data["📦Package｜Package"]
         self.assertEqual(package["狀態"], "完成")
+        self.assertEqual(package["位元組"], 2320969)
         self.assertEqual(
             package["SHA256"],
-            "26a0f80ab454bb68c247bf6197fc3e16b8ee140ba6d232e851e5f535b40a752a",
+            "d3391e6b66f20b7be3b387f90feb977965da26b29b33165b1e16dacbab1b8122",
         )
 
     def test_access_boundaries_are_not_duplicated_as_current_errors(self) -> None:
@@ -149,6 +167,20 @@ class CurrentRecordTests(unittest.TestCase):
         )
         self.assertIn("Devices", data["🚧存取邊界｜AccessBoundaries"])
         self.assertIn("ChatGPTPersonalization", data["🚧存取邊界｜AccessBoundaries"])
+
+    def test_repair_ledger_statistics_match_item_statuses(self) -> None:
+        path = ROOT / "🧾既有錯誤修復帳｜ExistingErrorRepairLedger.yaml"
+        data = yaml.load(path.read_text(encoding="utf-8"), Loader=UniqueKeyLoader)
+        items = data["🧾真正修復清單｜ActualRepairList"]
+        completed = [item["編號"] for item in items if item["最終狀態"] == "完成"]
+        errors = [item["編號"] for item in items if item["最終狀態"] == "錯誤"]
+        stats = data["📊統計｜Statistics"]
+        self.assertEqual(stats["發現既有錯誤類別"], len(items))
+        self.assertEqual(stats["現行內容真正修復"], len(completed))
+        self.assertEqual(stats["完成狀態項目"], len(completed))
+        self.assertEqual(stats["錯誤狀態項目"], len(errors))
+        self.assertEqual(stats["錯誤項目"], errors)
+        self.assertEqual(errors, ["ER-002", "ER-018"])
 
 
 if __name__ == "__main__":
