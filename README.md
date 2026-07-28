@@ -54,7 +54,12 @@
 
 ## 🚦 現行裁決
 
-現行狀態為「錯誤」：已修復的程式與文件會照實保留；公開前端曾暴露的通訊服務憑證仍須由 Kevin 在 BotFather 撤銷／輪替，且裝置、個人化設定與容器原件仍只有存取或證據邊界，不能用卡片已建立冒充外部設定已完成。
+現行狀態為「錯誤」，目前只保留兩項未關閉錯誤：
+
+1. 公開前端曾暴露的通訊服務憑證仍須由 Kevin 在 BotFather 撤銷／輪替。
+2. 本 repo 的兩個 GitHub Actions workflow 雖為 active，但 push、PR opened 與 PR reopened 後仍沒有任何 run。
+
+iPhone 裝置綁定已由正式回執驗證為「完成」；WebArchive、WACZ、PDF、Canonical.json、來源圖片與完整 Package 也已逐位元組驗證並掛載。iPhone 捷徑即時執行、其他裝置與 ChatGPT 個人化設定屬存取邊界，不重複列為現行錯誤。
 
 ## 📜 授權與安全
 
