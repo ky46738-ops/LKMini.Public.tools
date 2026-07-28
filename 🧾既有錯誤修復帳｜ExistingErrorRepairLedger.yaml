@@ -124,11 +124,14 @@
   - 編號: "ER-015"
     物件: "Google Drive 歷史錯誤完成宣告"
     修復: "保留原文；追加唯一現行裁決，停止舊完成宣告作為現行狀態來源。"
+    DriveRevision: "9"
+    DocsRevisionId: "AIroW3566-kCHlEzAqjfodQYFVNR3rwPQ7HchLQzqCv7WFBpUiH1XFx9svosdTqZizIclPWBgZ33S4plh5sov0RLuEfM40xlgQdi33eTEGI"
     最終狀態: "完成"
 
   - 編號: "ER-016"
     物件: "Google Drive 把 Sites 登入邊界放在錯誤隔離清單"
     修復: "保留歷史原文；追加現行裁決，兩處 401 統一分類為🔐存取邊界｜AccessBoundary。"
+    DriveRevision: "9"
     最終狀態: "完成"
 
   - 編號: "ER-017"
