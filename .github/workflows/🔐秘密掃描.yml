@@ -1,0 +1,24 @@
+name: "🔐公開內容秘密掃描"
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  secret_scan:
+    name: "🔐秘密掃描｜Secret Scan"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "📥取得程式"
+        uses: actions/checkout@v4
+
+      - name: "🐍設定 Python"
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: "🔬掃描現行追蹤內容"
+        run: python "tools/security/secret_scan.py"
