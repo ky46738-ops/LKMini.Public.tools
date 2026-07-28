@@ -2,7 +2,7 @@
 檔案身分: "🧭裝置座標卡｜DeviceCoordinateCard"
 📄卡片建立狀態｜ArtifactStatus: "完成"
 🔍外部驗證狀態｜ExternalVerificationStatus: "錯誤"
-時間: "2026-07-28"
+時間: "2026-07-29T02:05:29+08:00"
 唯一系統: "🥃老K系統"
 唯一根: "🧩LKMINI"
 正式根協議: "LKMINI://"
@@ -16,10 +16,27 @@
 📱iPhone｜iPhone:
   role: "主使用裝置 Projection"
   can_read: "聊天泡泡、Sites、Google Drive、GitHub 連結、捷徑"
-  can_write_requires: "Kevin 裝置端確認"
+  can_write_requires: "定位器已完成裝置綁定；即時改寫仍由裝置端執行"
   return_to: "🧩LKMINI"
   card_status: "完成"
-  device_readback_status: "錯誤"
+  device_binding_status: "完成"
+  device_receipt_readback_status: "完成"
+  shortcut_installation_status: "錯誤"
+  device_name: "🥃Kevin IPhone➡️📱15PRO"
+  device_model: "iPhone 15 Pro"
+  platform: "iOS"
+  local_path: "Files App／使用者選定位置"
+  root_sha256: "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34"
+  locator_file_sha256: "977071bfb4c905cdccd07aecc95eb16742b8250d92aa190be0abfc8e70c368e5"
+  evidence:
+    - 名稱: "📱iPhone裝置回執｜IPhoneDeviceReceipt.json"
+      LibraryFileId: "libfile_c226cc0a64a88191ace19d159efdd1b0"
+      ReceiptSHA256: "61e113d7589889ad921a0e2f60f817deed2445e8d2b77545ec89e854ab39f635"
+      回讀結果: "DEVICE_BINDING_STATE=完成"
+    - 名稱: "📱iPhone裝置定位器建立回執｜IPhoneDeviceLocatorBuildReceipt.json"
+      LibraryFileId: "libfile_c36f5e736cd081918063d13d03213ebe"
+      ReceiptSHA256: "746fc2b878a826ce563a6f8c3bd053c614e9b57ecca145b3cffece1ee9357567"
+      回讀結果: "SOURCE_BITS_PRESERVED=true；ROOT_BINDING=🧩LKMINI"
 
 📱iPad｜iPad:
   role: "輔助閱讀與操作裝置 Projection"
@@ -46,12 +63,13 @@
   device_readback_status: "錯誤"
 
 🚧存取邊界｜AccessBoundary:
-  - "本對話無法直接改寫 Kevin 手機設定。"
-  - "本對話無法直接確認 iPhone 捷徑是否已安裝。"
-  - "裝置端設定必須由 Kevin 在裝置上確認或透過未來可用裝置工具回讀。"
+  - "iPhone 裝置與定位器綁定已由兩份正式回執回讀完成，不再列為未驗證。"
+  - "本對話仍無法直接確認 iPhone 捷徑是否已安裝或即時執行。"
+  - "iPad、Windows、WSL 的即時裝置狀態仍需實機或可用裝置工具回讀。"
 
 ♻️反向鏈｜ReverseChain:
   - "🧩LKMINI"
   - "🧭裝置座標卡｜DeviceCoordinateCard"
+  - "📱iPhone裝置回執＋📱iPhone裝置定位器建立回執"
   - "iPhone / iPad / Windows / WSL Projection"
   - "🪞幻影膠囊唯一出口"
