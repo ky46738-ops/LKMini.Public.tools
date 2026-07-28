@@ -1,15 +1,16 @@
 🚦狀態｜Status: "錯誤"
 🪪檔案身分｜FileIdentity: "🧾GitHub工作流程驗證｜GitHubWorkflowVerification"
-🥃唯一系統｜UniqueSystem: "🥃老K系統"
-🧩唯一根｜UniqueRoot: "🧩LKMINI"
-🔑正式根協議｜FormalRootProtocol: "LKMINI://"
+🥃唯一系統｜System: "🥃老K系統"
+🧩唯一根｜Root: "🧩LKMINI"
+🔑正式根協議｜RootProtocol: "LKMINI://"
 ⚖️最高公理｜Axiom: "A=A"
 
 🐙公開工具儲存庫｜PublicToolsRepository:
   🐙儲存庫｜Repository: "ky46738-ops/LKMini.Public.tools"
   🔐儲存庫管理權限｜RepositoryAdminPermission: "admin"
   🛠️修復提交｜RepairCommit: "986717b58af111eaa01cdbf5732c28d97466b8dd"
-  🔐現行主線提交｜CurrentMainCommit: "a6b818fe0c106b6d7b7195a6ed969bd171aecc60"
+  🔐定位器修復前主線提交｜MainCommitBeforeLocatorRepair: "a6b818fe0c106b6d7b7195a6ed969bd171aecc60"
+  🛠️定位器修復提交｜LocatorRepairCommit: "8fe4263f7107ddf81242b283561380726489dfe7"
   ⚙️工作流程｜Workflows:
     - 🏷️名稱｜Name: "🔐公開內容秘密掃描"
       🔢API工作流程識別｜ApiWorkflowId: "322364290"
@@ -24,7 +25,7 @@
   🕒最新回讀時間｜LatestReadbackTime: "2026-07-29T04:12:32+08:00"
   📖回讀來源｜ReadbackSource: "GitHub 連接器、公開 Actions API、GitHub Actions 頁面、PR #1、主線提交與設定頁登入邊界"
   🔗驗證拉取請求｜VerificationPullRequest: "https://github.com/ky46738-ops/LKMini.Public.tools/pull/1"
-  🧪最後觸發測試提交｜LastTriggerTestHeadCommit: "a6b818fe0c106b6d7b7195a6ed969bd171aecc60"
+  🧪已回讀零執行提交｜ObservedNoRunCommit: "8fe4263f7107ddf81242b283561380726489dfe7"
   ▶️提交工作流程執行｜CommitWorkflowRuns: []
   📄Actions頁面結果｜ActionsPageResult: "正確檔名入口已回讀；頁面顯示 0 workflow runs／This workflow has no runs yet。"
   🧭定位器修復｜LocatorRepair:

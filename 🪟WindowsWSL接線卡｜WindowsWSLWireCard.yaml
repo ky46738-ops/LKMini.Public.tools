@@ -1,12 +1,12 @@
-狀態: "錯誤"
-檔案身分: "🪟WindowsWSL接線卡｜WindowsWSLWireCard"
+🚦狀態｜Status: "完成"
+🆔檔案身分｜FileIdentity: "🪟WindowsWSL接線卡｜WindowsWSLWireCard"
 📄卡片建立狀態｜ArtifactStatus: "完成"
-🔍裝置驗證狀態｜DeviceVerificationStatus: "錯誤"
-時間: "2026-07-28"
-唯一系統: "🥃老K系統"
-唯一根: "🧩LKMINI"
-正式根協議: "LKMINI://"
-最高公理: "A=A"
+🔐存取邊界記錄狀態｜AccessBoundaryRecordingStatus: "完成"
+🕒時間｜Timestamp: "2026-07-28"
+🥃唯一系統｜System: "🥃老K系統"
+🧩唯一根｜Root: "🧩LKMINI"
+🔑正式根協議｜RootProtocol: "LKMINI://"
+⚖️最高公理｜Axiom: "A=A"
 
 🎯定位｜Position:
   - "Windows 是裝置 Projection。"
@@ -15,18 +15,18 @@
   - "Google Drive 是資料座標。"
   - "執行結果必須寫回 📓任務筆記本。"
 
-🪟Windows｜Windows:
-  role: "本機操作、瀏覽、檔案管理與裝置端驗證"
-  return_to: "🧩LKMINI"
-  card_status: "完成"
-  device_readback_status: "錯誤"
+🪟Windows裝置｜Windows:
+  🎭角色｜Role: "本機操作、瀏覽、檔案管理與裝置端驗證"
+  🔙回指｜ReturnTo: "🧩LKMINI"
+  📄卡片狀態｜CardStatus: "完成"
+  🔐裝置回讀邊界｜DeviceReadbackBoundary: "本對話沒有 Windows 實機控制或回讀工具。"
 
-🐧WSL｜WSL:
-  role: "Linux 執行、腳本測試、SHA256、壓縮與 Git 操作"
-  protocol_entry: "LKMINI://🧭裝置｜Devices/🪟Windows｜Windows/🐧WSL接線｜WSLWire.card"
-  return_to: "🧩LKMINI"
-  card_status: "完成"
-  device_readback_status: "錯誤"
+🐧WSL執行環境｜WSL:
+  🎭角色｜Role: "Linux 執行、腳本測試、SHA256、壓縮與 Git 操作"
+  🔑協議入口｜ProtocolEntry: "LKMINI://🧭裝置｜Devices/🪟Windows｜Windows/🐧WSL接線｜WSLWire.card"
+  🔙回指｜ReturnTo: "🧩LKMINI"
+  📄卡片狀態｜CardStatus: "完成"
+  🔐裝置回讀邊界｜DeviceReadbackBoundary: "本對話沒有 WSL 實機控制或回讀工具。"
 
 🔗接線路徑｜WiringRoute:
   - "Windows / WSL"

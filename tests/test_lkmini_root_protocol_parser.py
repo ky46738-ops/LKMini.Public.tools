@@ -33,9 +33,28 @@ class LKMINIRootProtocolParserTests(unittest.TestCase):
 
     def test_structured_output_uses_formal_keys(self) -> None:
         result = self.parser.接管("LKMINI://🧪測試｜Tests/✅樣本｜Sample.card")
-        self.assertEqual(result["🚦狀態｜Status"], "✅ 解析完成")
+        self.assertEqual(result["🚦狀態｜Status"], "完成")
         self.assertEqual(result["🧩唯一根｜Root"], "🧩LKMINI")
         self.assertEqual(result["🔑正式根協議｜RootProtocol"], "LKMINI://")
+        parsed = result["🧾解析結果｜ParseResult"]
+        self.assertEqual(
+            set(parsed),
+            {
+                "📝原始協議｜OriginalProtocol",
+                "🧩解析根｜ParsedRoot",
+                "🧭上層路徑｜ParentPath",
+                "🏷️名稱｜Name",
+                "📎虛擬副檔名｜VirtualExtension",
+            },
+        )
+        self.assertEqual(
+            parsed["📝原始協議｜OriginalProtocol"],
+            "LKMINI://🧪測試｜Tests/✅樣本｜Sample.card",
+        )
+        self.assertEqual(parsed["🧩解析根｜ParsedRoot"], "🧩LKMINI")
+        self.assertEqual(parsed["🧭上層路徑｜ParentPath"], "🧪測試｜Tests")
+        self.assertEqual(parsed["🏷️名稱｜Name"], "✅樣本｜Sample")
+        self.assertEqual(parsed["📎虛擬副檔名｜VirtualExtension"], "card")
 
     def test_rejects_invalid_paths_before_normalization(self) -> None:
         invalid = (

@@ -1,12 +1,12 @@
-狀態: "完成"
-檔案身分: "🌐Sites公開只讀出口｜SitesPublicReadOnlyOutlet"
+🚦狀態｜Status: "完成"
+🆔檔案身分｜FileIdentity: "🌐Sites公開只讀出口｜SitesPublicReadOnlyOutlet"
 📄卡片建立狀態｜ArtifactStatus: "完成"
 🔍Sites設定回讀狀態｜SitesConfigurationReadbackStatus: "完成"
-時間: "2026-07-28"
-唯一系統: "🥃老K系統"
-唯一根: "🧩LKMINI"
-正式根協議: "LKMINI://"
-最高公理: "A=A"
+🕒時間｜Timestamp: "2026-07-29T06:30:43+08:00"
+🥃唯一系統｜System: "🥃老K系統"
+🧩唯一根｜Root: "🧩LKMINI"
+🔑正式根協議｜RootProtocol: "LKMINI://"
+⚖️最高公理｜Axiom: "A=A"
 
 🎯定位｜Position:
   - "Sites 是出入口 Projection，不是本體。"
@@ -14,31 +14,34 @@
   - "若匿名讀取要求登入，必須標記為存取邊界。"
 
 🌐入口座標｜EntryCoordinates:
-  human_entry: "https://lkmini-wiring-hub.ky46738.chatgpt.site"
-  ai_tool_entry: "https://lkmini-wiring-hub.ky46738.chatgpt.site/api/system-wires"
-  protocol_entry: "LKMINI://🌐出入口｜Entrances/🌐Sites｜Sites/🔐既定存取出口｜ConfiguredAccessOutlet.card"
-  return_to: "🧩LKMINI"
+  👤人類入口｜HumanEntry: "https://lkmini-wiring-hub.ky46738.chatgpt.site"
+  🤖AI工具入口｜AIToolEntry: "https://lkmini-wiring-hub.ky46738.chatgpt.site/api/system-wires"
+  🔑協議入口｜ProtocolEntry: "LKMINI://🌐出入口｜Entrances/🌐Sites｜Sites/🔐既定存取出口｜ConfiguredAccessOutlet.card"
+  🔙回指｜ReturnTo: "🧩LKMINI"
 
 🧾工具回讀｜ToolReadback:
-  project_id: "appgprj_6a68801042bc8191ab7eba5718be83a0"
-  project_status: "active"
-  access_mode: "custom"
-  allowed_users: 1
-  latest_saved_version: 6
-  latest_version_id: "appgprj_6a68801042bc8191ab7eba5718be83a0~appgver_2f287460ebd8819197aaa1c2215ea383"
-  latest_version_commit: "dcb8c08cb8af1d2ce8aa675514a1bc44e294efb6"
-  latest_version_archive_sha256: "47a7838578896a112994af30a660cefa36798356942d5a502b456dfdff7c03a0"
-  human_entry_anonymous_result: "HTTP 401／Sign in required"
-  ai_tool_entry_anonymous_result: "HTTP 401／Sign in required"
-  interpretation: "與 custom 且只允許 Kevin 帳號的既定設定一致；屬存取邊界，不是本體錯誤、接線失敗或部署錯誤。"
-  status: "完成"
+  🆔專案識別｜ProjectId: "appgprj_6a68801042bc8191ab7eba5718be83a0"
+  🚦專案狀態｜ProjectStatus: "active"
+  🔐存取模式｜AccessMode: "custom"
+  👥允許使用者｜AllowedUsers: 1
+  🌐現行正式網址｜CurrentLiveUrl: "https://lkmini-wiring-hub.ky46738.chatgpt.site"
+  💾最新儲存版本｜LatestSavedVersion: 9
+  🆔最新版本識別｜LatestVersionId: "appgprj_6a68801042bc8191ab7eba5718be83a0~appgver_4d3015d9a41481919da52711b6440630"
+  🔗最新版本提交｜LatestVersionCommit: "94eadb8d128f4c11a6dbb9c39830e14926118d0d"
+  🔐最新版本封存雜湊｜LatestVersionArchiveSHA256: "8009df54d0bf8ccef32a4376c3cfc5c95d513e6f379230bacbb4008e63eab37b"
+  📦最新版本封存位元組｜LatestVersionArchiveBytes: 1771520
+  📋最新版本檔案數｜LatestVersionFileCount: 40
+  🔍人類入口匿名結果｜HumanEntryAnonymousResult: "HTTP 401／Sign in required"
+  🔍AI工具入口匿名結果｜AIToolEntryAnonymousResult: "HTTP 401／Sign in required"
+  📝解讀｜Interpretation: "Sites 管理工具回讀 active、current live URL、custom 且只允許 Kevin 帳號；與既定設定一致。登入要求屬存取邊界，不是本體錯誤、接線失敗或部署錯誤。"
+  🚦執行狀態｜ExecutionStatus: "完成"
 
 🔐既定存取出口｜ConfiguredAccessOutlet:
-  access_mode: "custom"
-  audience: "Kevin 帳號"
-  human_content_type: "text/html"
-  ai_tool_route: "/api/system-wires"
-  rule:
+  🔐存取模式｜AccessMode: "custom"
+  👥適用對象｜Audience: "Kevin 帳號"
+  👤人類內容類型｜HumanContentType: "text/html"
+  🧭AI工具路由｜AIToolRoute: "/api/system-wires"
+  📏規則｜Rule:
     - "目前設計要求先登入；不將 custom 存取冒充匿名公開。"
     - "人類入口與 AI 工具入口都回指 🧩LKMINI。"
     - "Sites 只作出入口 Projection，不升格成本體。"

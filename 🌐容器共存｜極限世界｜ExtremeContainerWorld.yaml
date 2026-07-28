@@ -1,14 +1,14 @@
-狀態: "完成"
-正式名稱: "🌐容器共存｜極限世界"
-檔案身分: "🌐容器共存｜極限世界｜ExtremeContainerWorld"
+🚦狀態｜Status: "完成"
+🏷️正式名稱｜FormalName: "🌐容器共存｜極限世界"
+🆔檔案身分｜FileIdentity: "🌐容器共存｜極限世界｜ExtremeContainerWorld"
 📄核心卡建立狀態｜ArtifactStatus: "完成"
 ♾️可逆閉環驗證狀態｜ReversibleClosureStatus: "完成"
-時間: "2026-07-29T02:05:29+08:00"
-唯一系統: "🥃老K系統"
-唯一根: "🧩LKMINI"
-正式根協議: "LKMINI://"
-最高公理: "A=A"
-CONTENT_SHA256: "13d5392d542a11c0232b3d8abca09e7f786e9b76d31cdcb0c0f9cd08efcc9e4a"
+🕒時間｜Timestamp: "2026-07-29T02:05:29+08:00"
+🥃唯一系統｜System: "🥃老K系統"
+🧩唯一根｜Root: "🧩LKMINI"
+🔑正式根協議｜RootProtocol: "LKMINI://"
+⚖️最高公理｜Axiom: "A=A"
+🔐內容雜湊｜ContentSHA256: "13d5392d542a11c0232b3d8abca09e7f786e9b76d31cdcb0c0f9cd08efcc9e4a"
 
 🎯正式說明｜Description:
   - "同一份內容分別進入 WebArchive、WACZ、PDF，測試三種容器做到極限後的能力差異。"
@@ -19,164 +19,164 @@ CONTENT_SHA256: "13d5392d542a11c0232b3d8abca09e7f786e9b76d31cdcb0c0f9cd08efcc9e4
   - "所有 Projection 必須能回推同一 Identity。"
 
 🧪容器共存｜ContainerCoexistence:
-  WebArchive:
-    角色: "原生網頁封存容器 Projection"
-    原則: "保持 WebArchive 原生能力，不侵入、不覆寫。"
-    回推: "透過 Manifest、Locator、Snapshot、ReverseChain 回推同一 Identity。"
-  WACZ:
-    角色: "Web Archive Collection Zipped 容器 Projection"
-    原則: "保持 WACZ 原生能力，不侵入、不覆寫。"
-    回推: "透過 Manifest、Locator、Snapshot、ReverseChain 回推同一 Identity。"
-  PDF:
-    角色: "文件顯影容器 Projection"
-    原則: "保持 PDF 原生能力，不侵入、不覆寫。"
-    回推: "透過 Manifest、Locator、Snapshot、ReverseChain 回推同一 Identity。"
+  🌐網頁封存容器｜WebArchive:
+    🎭角色｜Role: "原生網頁封存容器 Projection"
+    📜原則｜Principle: "保持 WebArchive 原生能力，不侵入、不覆寫。"
+    🔙回推｜TraceBack: "透過 Manifest、Locator、Snapshot、ReverseChain 回推同一 Identity。"
+  🗜️WACZ容器｜WACZ:
+    🎭角色｜Role: "Web Archive Collection Zipped 容器 Projection"
+    📜原則｜Principle: "保持 WACZ 原生能力，不侵入、不覆寫。"
+    🔙回推｜TraceBack: "透過 Manifest、Locator、Snapshot、ReverseChain 回推同一 Identity。"
+  📄PDF容器｜PDF:
+    🎭角色｜Role: "文件顯影容器 Projection"
+    📜原則｜Principle: "保持 PDF 原生能力，不侵入、不覆寫。"
+    🔙回推｜TraceBack: "透過 Manifest、Locator、Snapshot、ReverseChain 回推同一 Identity。"
 
 🔐六項最小可逆條件｜MinimalReversibleConditions:
-  SHA256: "確認唯一 Identity 與內容一致。"
-  MANIFEST: "列出所有必要檔案及關係。"
-  LOCATOR: "記錄每個檔案的真實位置。"
-  SNAPSHOT: "保存可回復的完整狀態。"
-  REVERSECHAIN: "記錄成品回到來源的順序。"
-  PACKAGE: "封裝全部原件與上述資料。"
+  🔐SHA256雜湊｜SHA256: "確認唯一 Identity 與內容一致。"
+  🧾清單｜Manifest: "列出所有必要檔案及關係。"
+  📍定位器｜Locator: "記錄每個檔案的真實位置。"
+  📸快照｜Snapshot: "保存可回復的完整狀態。"
+  ♻️反向鏈資料｜ReverseChainData: "記錄成品回到來源的順序。"
+  📦套件｜Package: "封裝全部原件與上述資料。"
 
 ⚡十動作｜TenActions:
-  "0📖讀取": "Read"
-  "1⚡啟動": "Activate"
-  "2🔗掛載": "Mount"
-  "3🔬驗證": "Verify"
-  "4📝更新": "Update"
-  "5📡廣播": "Broadcast"
-  "6🧬融合": "Fusion"
-  "7📸快照": "Snapshot"
-  "8🔁同步": "Sync"
-  "9♾️可逆循環": "ReversibleLoop"
+  "📖第零動作讀取｜ActionZeroRead": "Read"
+  "⚡第一動作啟動｜ActionOneActivate": "Activate"
+  "🔗第二動作掛載｜ActionTwoMount": "Mount"
+  "🔬第三動作驗證｜ActionThreeVerify": "Verify"
+  "📝第四動作更新｜ActionFourUpdate": "Update"
+  "📡第五動作廣播｜ActionFiveBroadcast": "Broadcast"
+  "🧬第六動作融合｜ActionSixFusion": "Fusion"
+  "📸第七動作快照｜ActionSevenSnapshot": "Snapshot"
+  "🔁第八動作同步｜ActionEightSync": "Sync"
+  "♾️第九動作可逆循環｜ActionNineReversibleLoop": "ReversibleLoop"
 
 🖱️互動能力｜InteractionCapabilities:
-  定義狀態: "完成"
-  實作驗證狀態: "完成"
-  驗證依據: "修復後 WebArchive 已用 Node DOM 測試逐項觸發：核心首步為讀取、十動順序吻合、反向序列吻合、AICORE 匯出含六項條件及正式 CONTENT_SHA256。"
-  測試程式:
-    名稱: "🧪互動測試｜InteractiveTest.mjs"
-    SHA256: "5249e4631d5a8cc58d614ed211f820011a577cae0186e8059e0541210bf15984"
-    結果: "完成"
-  規格:
+  🚦定義狀態｜DefinitionStatus: "完成"
+  🔍實作驗證狀態｜ImplementationVerificationStatus: "完成"
+  🔍驗證依據｜VerificationBasis: "修復後 WebArchive 已用 Node DOM 測試逐項觸發：核心首步為讀取、十動順序吻合、反向序列吻合、AICORE 匯出含六項條件及正式 CONTENT_SHA256。"
+  🧪測試程式｜TestProgram:
+    🏷️名稱｜Name: "🧪互動測試｜InteractiveTest.mjs"
+    🔐SHA256雜湊｜SHA256: "5249e4631d5a8cc58d614ed211f820011a577cae0186e8059e0541210bf15984"
+    📋結果｜Result: "完成"
+  📐規格｜Specification:
     - "點擊核心推進狀態"
     - "⚡十動全開"
     - "↩反向回推"
     - "💾匯出 AICORE"
 
 🧾原始世界證據｜OriginalWorldEvidence:
-  狀態: "完成"
-  已知內容: "三個原生容器、正式測試回執、Canonical.json 與來源圖片均已取得穩定座標並完成位元組回讀。"
-  來源圖片:
-    名稱: "3C457AF0-864E-4282-8EAD-A3E04026CEE4.jpeg"
-    SHA256: "1abef34f7a3f1c0a3300f29a005747d7a2c02891cc64f21b43a9b916c396633f"
-    回讀位置: "WebArchive WebSubresources／lk://assets/source.jpeg"
-  正式內容:
-    名稱: "📎PDF內嵌正式內容｜Canonical.json"
-    位元組: 1108
-    SHA256: "13d5392d542a11c0232b3d8abca09e7f786e9b76d31cdcb0c0f9cd08efcc9e4a"
-    同一內容回讀:
+  🚦狀態｜Status: "完成"
+  📚已知內容｜KnownContent: "三個原生容器、正式測試回執、Canonical.json 與來源圖片均已取得穩定座標並完成位元組回讀。"
+  🖼️來源圖片｜SourceImage:
+    🏷️名稱｜Name: "3C457AF0-864E-4282-8EAD-A3E04026CEE4.jpeg"
+    🔐SHA256雜湊｜SHA256: "1abef34f7a3f1c0a3300f29a005747d7a2c02891cc64f21b43a9b916c396633f"
+    📍回讀位置｜ReadbackLocation: "WebArchive WebSubresources／lk://assets/source.jpeg"
+  📜正式內容｜FormalContent:
+    🏷️名稱｜Name: "📎PDF內嵌正式內容｜Canonical.json"
+    📦位元組｜Bytes: 1108
+    🔐SHA256雜湊｜SHA256: "13d5392d542a11c0232b3d8abca09e7f786e9b76d31cdcb0c0f9cd08efcc9e4a"
+    🔍同一內容回讀｜SameContentReadback:
       - "WebArchive WebSubresources／lk://aicore/canonical.json"
       - "WACZ／aicore/canonical.json"
       - "PDF／內嵌附件 Canonical.json"
-  判定: "原始世界證據已掛載；三個 Projection 可回推同一 Canonical Identity。"
+  ⚖️判定｜Determination: "原始世界證據已掛載；三個 Projection 可回推同一 Canonical Identity。"
 
 🧪實際位元組驗證｜ByteVerification:
-  WebArchive:
-    名稱: "🪞容器共存極限世界互動修復｜ContainerCoexistenceExtremeInteractiveRepair.webarchive"
-    位元組: 586560
-    SHA256: "cbf46a50d299278c36b794f771998bf26c14913b97347042ca5104529267644a"
-    結構: "Apple Safari WebArchive；plist 可解析；WebMainResource=text/html；2 個 WebSubresources；正式 URL 使用 LKMINI://"
-    LibraryFileId: "libfile_bd6ae4a0ecf881918c0eeb64cf2a01aa"
-    LibraryCurrentFileId: "file_000000003db881f7bfa574f5a1e8a7d4"
-    動態測試: "核心首步、十動順序、反向回放、AICORE 匯出與六項最小可逆條件全部通過"
-    狀態: "完成"
-  WACZ:
-    名稱: "🪞容器共存極限世界｜ContainerCoexistenceExtreme.wacz"
-    位元組: 560747
-    SHA256: "243fb7c8c65c1e1be867aa6eafeb76e3c6e31d3fa8f354737aeffa88899461cd"
-    結構: "aicore/canonical.json、WARC、CDXJ、pages、datapackage；zip integrity 無錯誤"
-    狀態: "完成"
-  PDF:
-    名稱: "🪞容器共存極限世界｜ContainerCoexistenceExtreme.pdf"
-    位元組: 764936
-    SHA256: "bb21c02681c6406dcab36c4cd871306723c13d59a14f9cf5b8a8a50118805fdb"
-    結構: "3 頁、1 個內嵌附件；Canonical.json 位元組雜湊吻合"
-    狀態: "完成"
-  修復回執:
-    名稱: "🧾WebArchive互動修復回執｜WebArchiveInteractiveRepairReceipt.json"
-    SHA256: "c8d717d1f1fdd840b837533a14fdc35da9d1897f8196240080caee5e63632cf6"
-    回讀結果: "原互動過度完成宣告已停止作為現行證據；修復後十動、反向鏈與 AICORE 匯出動態測試全部通過。"
-  歷史證據:
-    原始WebArchive:
-      名稱: "🧾歷史互動錯誤原件｜HistoricalInteractiveErrorOriginal.webarchive"
-      SHA256: "630cb2cee5c275653a7229c2bcfedd5d2c81060235caecfd044258366129b994"
-      原始位元組: 584510
-    原始回執:
-      名稱: "🧾歷史過度完成回執｜HistoricalOvercompletionReceipt.json"
-      SHA256: "4fa42aba64d45ad36f7813bbb63a00bca07bc4889df2036510df78629b1e153f"
-      裁決: "保留原文與當時證據，不再作為現行互動完成來源。"
+  🌐網頁封存容器｜WebArchive:
+    🏷️名稱｜Name: "🪞容器共存極限世界互動修復｜ContainerCoexistenceExtremeInteractiveRepair.webarchive"
+    📦位元組｜Bytes: 586560
+    🔐SHA256雜湊｜SHA256: "cbf46a50d299278c36b794f771998bf26c14913b97347042ca5104529267644a"
+    🏗️結構｜Structure: "Apple Safari WebArchive；plist 可解析；WebMainResource=text/html；2 個 WebSubresources；正式 URL 使用 LKMINI://"
+    📚Library檔案識別｜LibraryFileId: "libfile_bd6ae4a0ecf881918c0eeb64cf2a01aa"
+    📚Library現行檔案識別｜LibraryCurrentFileId: "file_000000003db881f7bfa574f5a1e8a7d4"
+    🧪動態測試｜DynamicTest: "核心首步、十動順序、反向回放、AICORE 匯出與六項最小可逆條件全部通過"
+    🚦狀態｜Status: "完成"
+  🗜️WACZ容器｜WACZ:
+    🏷️名稱｜Name: "🪞容器共存極限世界｜ContainerCoexistenceExtreme.wacz"
+    📦位元組｜Bytes: 560747
+    🔐SHA256雜湊｜SHA256: "243fb7c8c65c1e1be867aa6eafeb76e3c6e31d3fa8f354737aeffa88899461cd"
+    🏗️結構｜Structure: "aicore/canonical.json、WARC、CDXJ、pages、datapackage；zip integrity 無錯誤"
+    🚦狀態｜Status: "完成"
+  📄PDF容器｜PDF:
+    🏷️名稱｜Name: "🪞容器共存極限世界｜ContainerCoexistenceExtreme.pdf"
+    📦位元組｜Bytes: 764936
+    🔐SHA256雜湊｜SHA256: "bb21c02681c6406dcab36c4cd871306723c13d59a14f9cf5b8a8a50118805fdb"
+    🏗️結構｜Structure: "3 頁、1 個內嵌附件；Canonical.json 位元組雜湊吻合"
+    🚦狀態｜Status: "完成"
+  🧾修復回執｜RepairReceipt:
+    🏷️名稱｜Name: "🧾WebArchive互動修復回執｜WebArchiveInteractiveRepairReceipt.json"
+    🔐SHA256雜湊｜SHA256: "c8d717d1f1fdd840b837533a14fdc35da9d1897f8196240080caee5e63632cf6"
+    🔍回讀結果｜ReadbackResult: "原互動過度完成宣告已停止作為現行證據；修復後十動、反向鏈與 AICORE 匯出動態測試全部通過。"
+  🗄️歷史證據｜HistoricalEvidence:
+    🌐原始網頁封存｜OriginalWebArchive:
+      🏷️名稱｜Name: "🧾歷史互動錯誤原件｜HistoricalInteractiveErrorOriginal.webarchive"
+      🔐SHA256雜湊｜SHA256: "630cb2cee5c275653a7229c2bcfedd5d2c81060235caecfd044258366129b994"
+      📦原始位元組｜OriginalBytes: 584510
+    🧾原始回執｜OriginalReceipt:
+      🏷️名稱｜Name: "🧾歷史過度完成回執｜HistoricalOvercompletionReceipt.json"
+      🔐SHA256雜湊｜SHA256: "4fa42aba64d45ad36f7813bbb63a00bca07bc4889df2036510df78629b1e153f"
+      ⚖️裁決｜Ruling: "保留原文與當時證據，不再作為現行互動完成來源。"
 
 🌐Sites邊界｜SitesBoundary:
-  人類入口: "https://lkmini-wiring-hub.ky46738.chatgpt.site"
-  AI工具入口: "https://lkmini-wiring-hub.ky46738.chatgpt.site/api/system-wires"
-  匿名讀取: "HTTP 401 Sign in required"
-  判定: "既定登入設定／存取邊界，不是本體錯誤。"
-  角色: "Sites 是出入口 Projection，不是本體。"
+  👤人類入口｜HumanEntry: "https://lkmini-wiring-hub.ky46738.chatgpt.site"
+  🤖AI工具入口｜AIToolEntry: "https://lkmini-wiring-hub.ky46738.chatgpt.site/api/system-wires"
+  👤匿名讀取｜AnonymousRead: "HTTP 401 Sign in required"
+  ⚖️判定｜Determination: "既定登入設定／存取邊界，不是本體錯誤。"
+  🎭角色｜Role: "Sites 是出入口 Projection，不是本體。"
 
-🪪Identity｜Identity:
-  根: "🧩LKMINI"
-  協議: "LKMINI://"
-  本體: "🌐容器共存｜極限世界"
-  Projection:
+🪪身分本體｜Identity:
+  🧩根｜Root: "🧩LKMINI"
+  🔑協議｜Protocol: "LKMINI://"
+  🌱本體｜IdentityCore: "🌐容器共存｜極限世界"
+  🎇投影項目｜ProjectionItem:
     - "WebArchive"
     - "WACZ"
     - "PDF"
-  不升格:
+  🚫不升格｜NoPromotion:
     - "WebArchive 不升格成本體。"
     - "WACZ 不升格成本體。"
     - "PDF 不升格成本體。"
     - "Sites 不升格成本體。"
 
-🧾Manifest｜Manifest:
-  Root: "LKMINI://🌐容器｜Containers/🌐容器共存｜ExtremeContainerWorld.world"
-  ContentHash: "13d5392d542a11c0232b3d8abca09e7f786e9b76d31cdcb0c0f9cd08efcc9e4a"
-  Required:
+🧾清單｜Manifest:
+  🧩根節點｜RootNode: "LKMINI://🌐容器｜Containers/🌐容器共存｜ExtremeContainerWorld.world"
+  🔐內容雜湊值｜ContentHash: "13d5392d542a11c0232b3d8abca09e7f786e9b76d31cdcb0c0f9cd08efcc9e4a"
+  📌必要項目｜Required:
     - "SHA256"
     - "MANIFEST"
     - "LOCATOR"
     - "SNAPSHOT"
     - "REVERSECHAIN"
     - "PACKAGE"
-  Containers:
+  📦容器群｜Containers:
     - "🪞容器共存極限世界互動修復｜ContainerCoexistenceExtremeInteractiveRepair.webarchive"
     - "🪞容器共存極限世界｜ContainerCoexistenceExtreme.wacz"
     - "🪞容器共存極限世界｜ContainerCoexistenceExtreme.pdf"
-  Package:
-    名稱: "🪞容器共存極限世界｜ContainerCoexistenceExtreme｜20260729-020529_TPE.zip"
-    位元組: 2320969
-    SHA256: "d3391e6b66f20b7be3b387f90feb977965da26b29b33165b1e16dacbab1b8122"
+  📦封裝套件｜PackageBundle:
+    🏷️名稱｜Name: "🪞容器共存極限世界｜ContainerCoexistenceExtreme｜20260729-020529_TPE.zip"
+    📦位元組｜Bytes: 2320969
+    🔐SHA256雜湊｜SHA256: "d3391e6b66f20b7be3b387f90feb977965da26b29b33165b1e16dacbab1b8122"
 
-🧭Locator｜Locator:
-  GitHub: "ky46738-ops/LKMini.Public.tools/🌐容器共存｜極限世界｜ExtremeContainerWorld.yaml"
-  GoogleDriveTaskNotebook: "1cnMBJjxJWkB8NM-wlImfQ1tRRoLeyeWuppKNHjqiVT8"
-  LibraryWebArchive: "libfile_bd6ae4a0ecf881918c0eeb64cf2a01aa"
-  LibraryHistoricalWebArchive: "libfile_25971452e96c8191b9e8b687271d69b2"
-  LibraryWACZ: "libfile_a060ea97c4c081919b1ad20218149d0e"
-  LibraryPDF: "libfile_ac3ae6d2b86c81919e043d44f706703a"
-  LibraryReceipt: "libfile_55a23773a6948191af5f2f487d39ef29"
-  LibraryPackage: "libfile_98ac0cb2fbe481918e38d1f38b35adec"
-  SitesHumanEntry: "https://lkmini-wiring-hub.ky46738.chatgpt.site"
-  SitesAIEntry: "https://lkmini-wiring-hub.ky46738.chatgpt.site/api/system-wires"
+📍定位器｜Locator:
+  🐙GitHub座標｜GitHub: "ky46738-ops/LKMini.Public.tools/🌐容器共存｜極限世界｜ExtremeContainerWorld.yaml"
+  📓GoogleDrive任務筆記本｜GoogleDriveTaskNotebook: "1cnMBJjxJWkB8NM-wlImfQ1tRRoLeyeWuppKNHjqiVT8"
+  📚Library網頁封存｜LibraryWebArchive: "libfile_bd6ae4a0ecf881918c0eeb64cf2a01aa"
+  📚Library歷史網頁封存｜LibraryHistoricalWebArchive: "libfile_25971452e96c8191b9e8b687271d69b2"
+  📚Library網頁封存集合｜LibraryWACZ: "libfile_a060ea97c4c081919b1ad20218149d0e"
+  📚Library文件｜LibraryPDF: "libfile_ac3ae6d2b86c81919e043d44f706703a"
+  📚Library回執｜LibraryReceipt: "libfile_55a23773a6948191af5f2f487d39ef29"
+  📚Library套件｜LibraryPackage: "libfile_98ac0cb2fbe481918e38d1f38b35adec"
+  🌐Sites人類入口｜SitesHumanEntry: "https://lkmini-wiring-hub.ky46738.chatgpt.site"
+  🌐SitesAI入口｜SitesAIEntry: "https://lkmini-wiring-hub.ky46738.chatgpt.site/api/system-wires"
 
-📸Snapshot｜Snapshot:
-  狀態: "完成"
-  本次快照: "2026-07-29T02:05:29+08:00；修復後 WebArchive、原始 WACZ／PDF、歷史錯誤原件與回執、Canonical.json、互動測試、Manifest、Locator、ReverseChain 與 SHA256SUMS 已封裝。"
-  更新規則: "內容更新等於替換對應資料夾內容；歷史快照保存當時原文。"
+📸快照｜Snapshot:
+  🚦狀態｜Status: "完成"
+  📸本次快照｜CurrentSnapshot: "2026-07-29T02:05:29+08:00；修復後 WebArchive、原始 WACZ／PDF、歷史錯誤原件與回執、Canonical.json、互動測試、Manifest、Locator、ReverseChain 與 SHA256SUMS 已封裝。"
+  📝更新規則｜UpdateRule: "內容更新等於替換對應資料夾內容；歷史快照保存當時原文。"
 
-♻️ReverseChain｜ReverseChain:
+♻️反向鏈｜ReverseChain:
   - "Kevin 對話正式指令"
   - "🌐容器共存｜極限世界"
   - "ChatGPT Library 原生容器與測試回執"
@@ -188,15 +188,15 @@ CONTENT_SHA256: "13d5392d542a11c0232b3d8abca09e7f786e9b76d31cdcb0c0f9cd08efcc9e4
   - "🪞幻影膠囊唯一出口"
   - "🧩LKMINI"
 
-📦Package｜Package:
-  狀態: "完成"
-  原則: "封裝原件、Manifest、Locator、Snapshot、ReverseChain、SHA256。"
-  名稱: "🪞容器共存極限世界｜ContainerCoexistenceExtreme｜20260729-020529_TPE.zip"
-  位元組: 2320969
-  SHA256: "d3391e6b66f20b7be3b387f90feb977965da26b29b33165b1e16dacbab1b8122"
-  LibraryFileId: "libfile_98ac0cb2fbe481918e38d1f38b35adec"
-  LibraryCurrentFileId: "file_00000000a60881f6bbc35670d5d7a783"
-  LibraryVersion: 1
-  壓縮驗證: "unzip -t 無錯誤"
-  內容驗證: "SHA256SUMS -c 共 13 項全部通過。"
-  AICORE匯出: "Canonical.json 已從 PDF 內嵌附件、WACZ 與修復後 WebArchive 同內容回讀；WebArchive 匯出 AICORE 已通過動態測試。"
+📦交付包｜Package:
+  🚦狀態｜Status: "完成"
+  📜原則｜Principle: "封裝原件、Manifest、Locator、Snapshot、ReverseChain、SHA256。"
+  🏷️名稱｜Name: "🪞容器共存極限世界｜ContainerCoexistenceExtreme｜20260729-020529_TPE.zip"
+  📦位元組｜Bytes: 2320969
+  🔐SHA256雜湊｜SHA256: "d3391e6b66f20b7be3b387f90feb977965da26b29b33165b1e16dacbab1b8122"
+  📚Library檔案識別｜LibraryFileId: "libfile_98ac0cb2fbe481918e38d1f38b35adec"
+  📚Library現行檔案識別｜LibraryCurrentFileId: "file_00000000a60881f6bbc35670d5d7a783"
+  📚Library版本｜LibraryVersion: 1
+  🗜️壓縮驗證｜ArchiveVerification: "unzip -t 無錯誤"
+  🔍內容驗證｜ContentVerification: "SHA256SUMS -c 共 13 項全部通過。"
+  📤AICORE匯出｜AICOREExport: "Canonical.json 已從 PDF 內嵌附件、WACZ 與修復後 WebArchive 同內容回讀；WebArchive 匯出 AICORE 已通過動態測試。"

@@ -11,7 +11,7 @@
 
 from __future__ import annotations
 
-from dataclasses import asdict, dataclass
+from dataclasses import dataclass
 import json
 import sys
 from pathlib import PurePosixPath
@@ -88,17 +88,24 @@ class LKMINI根協議解析器:
     def 接管(self, 協議文字: str) -> dict[str, Any]:
         結果 = self.解析(協議文字)
         return {
-            "🚦狀態｜Status": "✅ 解析完成",
+            "🚦狀態｜Status": "完成",
             "🧩唯一根｜Root": "🧩LKMINI",
             "🔑正式根協議｜RootProtocol": 根協議檔頭,
-            "🧾解析結果｜ParseResult": asdict(結果),
+            "🧾解析結果｜ParseResult": {
+                "📝原始協議｜OriginalProtocol": 結果.原始協議,
+                "🧩解析根｜ParsedRoot": 結果.根,
+                "🧭上層路徑｜ParentPath": 結果.上層路徑,
+                "🏷️名稱｜Name": 結果.名稱,
+                "📎虛擬副檔名｜VirtualExtension": 結果.虛擬副檔名,
+            },
         }
 
 
 def 主程式() -> int:
     if len(sys.argv) != 2:
         print(json.dumps({
-            "🚦狀態｜Status": "❌ 缺少協議",
+            "🚦狀態｜Status": "錯誤",
+            "📝錯誤｜Error": "缺少協議",
             "📘使用方式｜Usage": "python 解析器.py LKMINI://路徑/名稱.虛擬副檔名",
         }, ensure_ascii=False, indent=2))
         return 1
@@ -109,7 +116,7 @@ def 主程式() -> int:
         return 0
     except 根協議錯誤 as 錯誤:
         print(json.dumps({
-            "🚦狀態｜Status": "❌ 解析錯誤",
+            "🚦狀態｜Status": "錯誤",
             "📝錯誤｜Error": str(錯誤),
         }, ensure_ascii=False, indent=2))
         return 2

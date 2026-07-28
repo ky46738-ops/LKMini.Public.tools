@@ -1,193 +1,193 @@
-狀態: "錯誤"
-檔案身分: "🧾既有錯誤修復帳｜ExistingErrorRepairLedger"
-唯一系統: "🥃老K系統"
-唯一根: "🧩LKMINI"
-正式根協議: "LKMINI://"
-最高公理: "A=A"
-主權持有人: "Kevin Yang／老K"
+🚦狀態｜Status: "錯誤"
+🆔檔案身分｜FileIdentity: "🧾既有錯誤修復帳｜ExistingErrorRepairLedger"
+🥃唯一系統｜System: "🥃老K系統"
+🧩唯一根｜Root: "🧩LKMINI"
+🔑正式根協議｜RootProtocol: "LKMINI://"
+⚖️最高公理｜Axiom: "A=A"
+👑主權持有人｜Owner: "Kevin Yang／老K"
 
 📊統計｜Statistics:
-  發現既有錯誤類別: 23
-  現行內容真正修復: 21
-  完成狀態項目: 21
-  錯誤狀態項目: 2
-  錯誤項目:
+  🔎發現既有錯誤類別｜DiscoveredExistingErrorCategories: 31
+  🛠️現行內容真正修復｜CurrentContentActualRepair: 29
+  ✅完成狀態項目｜CompletedStatusItems: 29
+  🚨錯誤狀態項目｜ErrorStatusItems: 2
+  🚨錯誤項目｜ErrorItems:
     - "ER-002"
     - "ER-018"
-  改名封存群組: 3
-  存取邊界: 3
-  仍為錯誤: 2
-  統計口徑: "修復、封存與存取邊界是不同處理維度；不以相減推算，逐項以 ER 編號與最終狀態為準。"
-  裁決: "程式與文件修復不等於外部憑證已撤銷，也不等於未產生 run 的公開 workflow 已完成驗證；因此整體狀態保持錯誤。"
+  🗄️改名封存群組｜RenamedArchiveGroup: 3
+  🔐存取邊界｜AccessBoundary: 3
+  🚨仍為錯誤｜StillError: 2
+  📏統計口徑｜StatisticsScope: "修復、封存與存取邊界是不同處理維度；不以相減推算，逐項以 ER 編號與最終狀態為準。"
+  ⚖️裁決｜Ruling: "程式與文件修復不等於外部憑證已撤銷，也不等於未產生 run 的公開 workflow 已完成驗證；因此整體狀態保持錯誤。"
 
 🧾真正修復清單｜ActualRepairList:
-  - 編號: "ER-001"
-    物件: "GitHub Actions 零工作錯誤"
-    平台: "ky46738-ops/LaoK-System"
-    錯誤: "兩個 workflow 使用不合法的中文字 job_id『驗證』，舊 runs 真實 jobs=[]。"
-    修復: "job_id 改為 verify，中文移至 job 顯示名稱；四個 branch-file 實例同步更新。"
-    提交:
+  - 🔢編號｜Number: "ER-001"
+    🧩物件｜Object: "GitHub Actions 零工作錯誤"
+    🖥️平台｜Platform: "ky46738-ops/LaoK-System"
+    🚨錯誤｜Error: "兩個 workflow 使用不合法的中文字 job_id『驗證』，舊 runs 真實 jobs=[]。"
+    🛠️修復｜Repair: "job_id 改為 verify，中文移至 job 顯示名稱；四個 branch-file 實例同步更新。"
+    🔗提交｜Commit:
       - "2462f01d380d8b98e342aad648a9352f4b0ffb69"
       - "fe9e50ce1f1a1a80535870cb67397218e66a1a84"
       - "b16393b58bb32f0b85e8f6e6fa7452d0829f2a11"
       - "d7e010da6b14c98a95f1ea2a8acac50be172639f"
       - "ae5dfc6f962cb9a46f94dcb91d23e25d727aad0b"
-    舊失敗Run:
+    ▶️舊失敗執行｜LegacyFailedRun:
       - "30342556123｜jobs=[]"
       - "30340887688｜jobs=[]"
-    修復驗證:
+    🔍修復驗證｜RepairVerification:
       - "30381064307｜job 90348749393｜🚀極速驗證｜success"
       - "30381063799｜job 90348748097｜💓心跳驗證｜success"
-    最終狀態: "完成"
+    🚦最終狀態｜FinalStatus: "完成"
 
-  - 編號: "ER-002"
-    物件: "公開作文頁硬編碼通訊服務憑證"
-    平台: "ky46738-ops/LKMini.Public.tools"
-    原始位置: "tools/writing-class/app.html"
-    導入提交: "1bf6b8f389c3edad99e1acd2b08174a3967c7eac"
-    修改前SHA256: "29bea55a132228648def456b0f41944c63697378f52cd6d528bcbf5eaa1f70f4"
-    HEAD修復提交:
+  - 🔢編號｜Number: "ER-002"
+    🧩物件｜Object: "公開作文頁硬編碼通訊服務憑證"
+    🖥️平台｜Platform: "ky46738-ops/LKMini.Public.tools"
+    📍原始位置｜OriginalLocation: "tools/writing-class/app.html"
+    📥導入提交｜ImportCommit: "1bf6b8f389c3edad99e1acd2b08174a3967c7eac"
+    🔐修改前雜湊｜BeforeSHA256: "29bea55a132228648def456b0f41944c63697378f52cd6d528bcbf5eaa1f70f4"
+    🛠️HEAD修復提交｜HEADRepairCommit:
       - "a2e608a970b7880d326a0f6fc89006d46a56495e"
       - "f5f3078cd5d1b2b3f1d149daaee285d63755ffbd"
       - "986717b58af111eaa01cdbf5732c28d97466b8dd"
-    HEAD修復: "移除秘密、遠端傳送、外部字型連線；加入本機模式、CSP 與秘密掃描。"
-    修改後SHA256: "9fdc3c50a4125ba834758c749d0f5b5a15dff0e67e78cfa8ff222b86c49f27c5"
-    尚需: "Kevin 透過 BotFather 撤銷／輪替舊 token；秘密仍存在歷史提交，未經明確核准不破壞 Git 歷史。"
-    最終狀態: "錯誤"
+    🛠️HEAD修復｜HEADRepair: "移除秘密、遠端傳送、外部字型連線；加入本機模式、CSP 與秘密掃描。"
+    🔐修改後雜湊｜AfterSHA256: "9fdc3c50a4125ba834758c749d0f5b5a15dff0e67e78cfa8ff222b86c49f27c5"
+    📌尚需｜StillRequired: "Kevin 透過 BotFather 撤銷／輪替舊 token；秘密仍存在歷史提交，未經明確核准不破壞 Git 歷史。"
+    🚦最終狀態｜FinalStatus: "錯誤"
 
-  - 編號: "ER-003"
-    物件: "公開作文頁 DOM XSS"
-    修復: "動態內容全部改用 createElement、textContent 與 replaceChildren。"
-    驗證: "innerHTML 與不安全 DOM 模式零命中；JavaScript 語法通過。"
-    最終狀態: "完成"
+  - 🔢編號｜Number: "ER-003"
+    🧩物件｜Object: "公開作文頁 DOM XSS"
+    🛠️修復｜Repair: "動態內容全部改用 createElement、textContent 與 replaceChildren。"
+    🔍驗證｜Verification: "innerHTML 與不安全 DOM 模式零命中；JavaScript 語法通過。"
+    🚦最終狀態｜FinalStatus: "完成"
 
-  - 編號: "ER-004"
-    物件: "兒少作文未清楚同意即送第三方"
-    修復: "停止所有網路傳送，頁面正名為本機模式；CSP connect-src 'none'。"
-    驗證: "http(s)、fetch、XHR、WebSocket、sendBeacon 零命中。"
-    最終狀態: "完成"
+  - 🔢編號｜Number: "ER-004"
+    🧩物件｜Object: "兒少作文未清楚同意即送第三方"
+    🛠️修復｜Repair: "停止所有網路傳送，頁面正名為本機模式；CSP connect-src 'none'。"
+    🔍驗證｜Verification: "http(s)、fetch、XHR、WebSocket、sendBeacon 零命中。"
+    🚦最終狀態｜FinalStatus: "完成"
 
-  - 編號: "ER-005"
-    物件: "🔑LKMINI根協議解析器路徑正規化漏洞"
-    錯誤: "重複斜線、點節點、結尾斜線、絕對路徑、query 與 fragment 可在正規化後被接受。"
-    修復: "正規化前檢查原始節點；結構化輸出鍵改為 Emoji＋中文｜EnglishKey。"
-    驗證: "3 組 unittest 完成，10 個無效協議均被拒絕。"
-    修復提交: "986717b58af111eaa01cdbf5732c28d97466b8dd"
-    最終狀態: "完成"
+  - 🔢編號｜Number: "ER-005"
+    🧩物件｜Object: "🔑LKMINI根協議解析器路徑正規化漏洞"
+    🚨錯誤｜Error: "重複斜線、點節點、結尾斜線、絕對路徑、query 與 fragment 可在正規化後被接受。"
+    🛠️修復｜Repair: "正規化前檢查原始節點；結構化輸出鍵改為 Emoji＋中文｜EnglishKey。"
+    🔍驗證｜Verification: "3 組 unittest 完成，10 個無效協議均被拒絕。"
+    🔗修復提交｜RepairCommit: "986717b58af111eaa01cdbf5732c28d97466b8dd"
+    🚦最終狀態｜FinalStatus: "完成"
 
-  - 編號: "ER-006"
-    物件: "首頁 VPoop 失效入口"
-    錯誤: "./vpoop/ 沒有 index.html"
-    修復: "改指向 ./vpoop/VPoopGuardian_PublicSeed_v1.7.html"
-    驗證: "入口目標檔真實存在。"
-    最終狀態: "完成"
+  - 🔢編號｜Number: "ER-006"
+    🧩物件｜Object: "首頁 VPoop 失效入口"
+    🚨錯誤｜Error: "./vpoop/ 沒有 index.html"
+    🛠️修復｜Repair: "改指向 ./vpoop/VPoopGuardian_PublicSeed_v1.7.html"
+    🔍驗證｜Verification: "入口目標檔真實存在。"
+    🚦最終狀態｜FinalStatus: "完成"
 
-  - 編號: "ER-007"
-    物件: "PhantomCapsule 舊公開層核心定義衝突"
-    錯誤: "舊文宣稱膠囊不是容器、使用者／06 是唯一出口、Drive 是唯一正本錨點。"
-    修復: "10 個原始檔逐位元組改名封存，現行 PhantomCapsule/ 依 EmptyContainer、🧩LKMINI 與 🪞幻影膠囊唯一出口重建。"
-    封存: "🗄️歷史錯誤紀錄｜HistoricalErrorRecords/🪞幻影膠囊舊公開層｜LegacyPhantomCapsulePublicLayer/"
-    最終狀態: "完成"
+  - 🔢編號｜Number: "ER-007"
+    🧩物件｜Object: "PhantomCapsule 舊公開層核心定義衝突"
+    🚨錯誤｜Error: "舊文宣稱膠囊不是容器、使用者／06 是唯一出口、Drive 是唯一正本錨點。"
+    🛠️修復｜Repair: "10 個原始檔逐位元組改名封存，現行 PhantomCapsule/ 依 EmptyContainer、🧩LKMINI 與 🪞幻影膠囊唯一出口重建。"
+    🗄️封存｜Archive: "🗄️歷史錯誤紀錄｜HistoricalErrorRecords/🪞幻影膠囊舊公開層｜LegacyPhantomCapsulePublicLayer/"
+    🚦最終狀態｜FinalStatus: "完成"
 
-  - 編號: "ER-008"
-    物件: "PhantomCapsule 舊 Locator 協議"
-    錯誤: "LOCATOR://PHANTOMWORLD/..."
-    修復: "現行定位器改為 LKMINI:// 並回指 🧩LKMINI；舊原文留在封存層。"
-    最終狀態: "完成"
+  - 🔢編號｜Number: "ER-008"
+    🧩物件｜Object: "PhantomCapsule 舊 Locator 協議"
+    🚨錯誤｜Error: "LOCATOR://PHANTOMWORLD/..."
+    🛠️修復｜Repair: "現行定位器改為 LKMINI:// 並回指 🧩LKMINI；舊原文留在封存層。"
+    🚦最終狀態｜FinalStatus: "完成"
 
-  - 編號: "ER-009"
-    物件: "PhantomCapsule 失效 SHA256 引用"
-    錯誤: "SHA256SUMS 指向 repo 不存在的 ZIP。"
-    修復: "改列現行九個真實檔案的 SHA256，逐檔位元組驗證。"
-    最終狀態: "完成"
+  - 🔢編號｜Number: "ER-009"
+    🧩物件｜Object: "PhantomCapsule 失效 SHA256 引用"
+    🚨錯誤｜Error: "SHA256SUMS 指向 repo 不存在的 ZIP。"
+    🛠️修復｜Repair: "改列現行九個真實檔案的 SHA256，逐檔位元組驗證。"
+    🚦最終狀態｜FinalStatus: "完成"
 
-  - 編號: "ER-010"
-    物件: "卡片建立與外部設定完成語意混用"
-    影響: "裝置、iPhone、Windows/WSL、個人化、容器與總控。"
-    修復: "拆成 ArtifactStatus=完成 與 ExternalVerificationStatus=錯誤；不再用卡片存在冒充實機、平台或容器閉環完成。"
-    最終狀態: "完成"
+  - 🔢編號｜Number: "ER-010"
+    🧩物件｜Object: "卡片建立與外部設定完成語意混用"
+    💥影響｜Impact: "裝置、iPhone、Windows/WSL、個人化、容器與總控。"
+    🛠️修復｜Repair: "卡片與回執本體存在即標記完成；未取得的實機或平台回讀改記為存取邊界證據，不再把存取邊界列為錯誤，也不冒充已穿越邊界。"
+    🚦最終狀態｜FinalStatus: "完成"
 
-  - 編號: "ER-011"
-    物件: "Portal 範例被標成真實完成"
-    修復: "改為 definition_status=完成、instance_verification_status=錯誤，明標範例定義。"
-    最終狀態: "完成"
+  - 🔢編號｜Number: "ER-011"
+    🧩物件｜Object: "Portal 範例被標成真實完成"
+    🛠️修復｜Repair: "定義狀態保持完成，另以物件分類標示範例定義；沒有具體 Portal 實例的部分改記實例驗證邊界，不再誤列為錯誤。"
+    🚦最終狀態｜FinalStatus: "完成"
 
-  - 編號: "ER-012"
-    物件: "已修復來源仍叫錯誤隔離清單"
-    修復: "正名為🧾來源修復歷史｜SourceRepairHistory，保存原分類名稱與 Git 歷史。"
-    最終狀態: "完成"
+  - 🔢編號｜Number: "ER-012"
+    🧩物件｜Object: "已修復來源仍叫錯誤隔離清單"
+    🛠️修復｜Repair: "正名為🧾來源修復歷史｜SourceRepairHistory，保存原分類名稱與 Git 歷史。"
+    🚦最終狀態｜FinalStatus: "完成"
 
-  - 編號: "ER-013"
-    物件: "個人化短指令要求錯誤隔離"
-    修復: "改為錯誤必須修復；不能修復者改名封存；存取邊界不得列為錯誤。"
-    最終狀態: "完成"
+  - 🔢編號｜Number: "ER-013"
+    🧩物件｜Object: "個人化短指令要求錯誤隔離"
+    🛠️修復｜Repair: "改為錯誤必須修復；不能修復者改名封存；存取邊界不得列為錯誤。"
+    🚦最終狀態｜FinalStatus: "完成"
 
-  - 編號: "ER-014"
-    物件: "Sites 卡片沿用舊工具邊界敘述"
-    修復: "真實寫入 project、custom access、allowed user、version、archive SHA；401 正名為既定存取邊界。"
-    最終狀態: "完成"
+  - 🔢編號｜Number: "ER-014"
+    🧩物件｜Object: "Sites 卡片沿用舊工具邊界敘述"
+    🛠️修復｜Repair: "真實寫入 project、custom access、allowed user、version、archive SHA；401 正名為既定存取邊界。"
+    🚦最終狀態｜FinalStatus: "完成"
 
-  - 編號: "ER-015"
-    物件: "Google Drive 歷史錯誤完成宣告"
-    修復: "保留原文；追加唯一現行裁決，停止舊完成宣告作為現行狀態來源。"
+  - 🔢編號｜Number: "ER-015"
+    🧩物件｜Object: "Google Drive 歷史錯誤完成宣告"
+    🛠️修復｜Repair: "保留原文；追加唯一現行裁決，停止舊完成宣告作為現行狀態來源。"
     📁Google Drive修訂版｜DriveRevision: "9"
     📄Google文件修訂識別｜DocsRevisionId: "AIroW3566-kCHlEzAqjfodQYFVNR3rwPQ7HchLQzqCv7WFBpUiH1XFx9svosdTqZizIclPWBgZ33S4plh5sov0RLuEfM40xlgQdi33eTEGI"
-    最終狀態: "完成"
+    🚦最終狀態｜FinalStatus: "完成"
 
-  - 編號: "ER-016"
-    物件: "Google Drive 把 Sites 登入邊界放在錯誤隔離清單"
-    修復: "保留歷史原文；追加現行裁決，兩處 401 統一分類為🔐存取邊界｜AccessBoundary。"
+  - 🔢編號｜Number: "ER-016"
+    🧩物件｜Object: "Google Drive 把 Sites 登入邊界放在錯誤隔離清單"
+    🛠️修復｜Repair: "保留歷史原文；追加現行裁決，兩處 401 統一分類為🔐存取邊界｜AccessBoundary。"
     📁Google Drive修訂版｜DriveRevision: "9"
-    最終狀態: "完成"
+    🚦最終狀態｜FinalStatus: "完成"
 
-  - 編號: "ER-017"
-    物件: "README 未附來源的根雜湊"
-    修復: "停止把舊值作為現行完整性證據，改指向可回讀 SHA256SUMS 與本修復帳；舊值留在 Git 歷史與演化說明。"
-    最終狀態: "完成"
+  - 🔢編號｜Number: "ER-017"
+    🧩物件｜Object: "README 未附來源的根雜湊"
+    🛠️修復｜Repair: "停止把舊值作為現行完整性證據，改指向可回讀 SHA256SUMS 與本修復帳；舊值留在 Git 歷史與演化說明。"
+    🚦最終狀態｜FinalStatus: "完成"
 
-  - 編號: "ER-018"
-    物件: "公開工具 repo workflow 沒有產生 run"
-    平台: "ky46738-ops/LKMini.Public.tools"
-    真實回讀:
+  - 🔢編號｜Number: "ER-018"
+    🧩物件｜Object: "公開工具 repo workflow 沒有產生 run"
+    🖥️平台｜Platform: "ky46738-ops/LKMini.Public.tools"
+    🔍真實回讀｜ActualReadback:
       - "兩個 workflow 均已註冊為 active。"
       - "main 提交、repair branch 提交與 PR #1 建立後，commit workflow runs 仍為空集合。"
       - "GitHub Actions 頁面顯示尚無 workflow run。"
       - "PR #1 已 squash merge 至 main；合併提交 4fd154abffa74b36f446e088b7357a9f90e63bcd。"
       - "合併後公開 GitHub API 回讀 actions/runs total_count=0。"
       - "Actions permissions 官方端點需要具 Administration(read) 的驗證；匿名回讀為 HTTP 401，現有 GitHub 工具沒有該設定讀寫或首次 dispatch 能力。"
-    已完成修復: "workflow 檔案已建立，pull_request 與 push 觸發條件、jobs 與測試命令已寫入。"
-    尚需: "Kevin 於 Settings → Actions → General 回讀 Actions permissions；若總開關關閉則開啟，再以既有 workflow_dispatch 執行 Run workflow。"
-    禁止宣告: "不得把 active 或 PR 已建立冒充 run、job、steps 已成功。"
-    最終狀態: "錯誤"
+    ✅已完成修復｜CompletedRepairs: "workflow 檔案已建立，pull_request 與 push 觸發條件、jobs 與測試命令已寫入。"
+    📌尚需｜StillRequired: "Kevin 於 Settings → Actions → General 回讀 Actions permissions；若總開關關閉則開啟，再以既有 workflow_dispatch 執行 Run workflow。"
+    🚫禁止宣告｜ForbiddenDeclaration: "不得把 active 或 PR 已建立冒充 run、job、steps 已成功。"
+    🚦最終狀態｜FinalStatus: "錯誤"
 
-  - 編號: "ER-019"
-    物件: "接線總控把存取邊界重列為現行錯誤"
-    錯誤: "裝置與個人化設定同時出現在 CurrentErrors 與 AccessBoundaries，分類互相衝突。"
-    發現證據: "GitHub PR #1 review discussion r3667793202。"
-    修復: "CurrentErrors 只保留可修復且仍未關閉的兩項；裝置與個人化平台限制只留在 AccessBoundaries。"
-    驗證: "🧭接線總控清單的 CurrentErrors 已不再包含裝置或個人化設定。"
-    最終狀態: "完成"
+  - 🔢編號｜Number: "ER-019"
+    🧩物件｜Object: "接線總控把存取邊界重列為現行錯誤"
+    🚨錯誤｜Error: "裝置與個人化設定同時出現在 CurrentErrors 與 AccessBoundaries，分類互相衝突。"
+    🔎發現證據｜DiscoveryEvidence: "GitHub PR #1 review discussion r3667793202。"
+    🛠️修復｜Repair: "CurrentErrors 只保留可修復且仍未關閉的兩項；裝置與個人化平台限制只留在 AccessBoundaries。"
+    🔍驗證｜Verification: "🧭接線總控清單的 CurrentErrors 已不再包含裝置或個人化設定。"
+    🚦最終狀態｜FinalStatus: "完成"
 
-  - 編號: "ER-020"
-    物件: "iPhone 已完成綁定卻仍標記為未驗證"
-    錯誤: "現行裝置卡未連結既有 iPhone 裝置回執與定位器建立回執。"
-    修復:
+  - 🔢編號｜Number: "ER-020"
+    🧩物件｜Object: "iPhone 已完成綁定卻仍標記為未驗證"
+    🚨錯誤｜Error: "現行裝置卡未連結既有 iPhone 裝置回執與定位器建立回執。"
+    🛠️修復｜Repair:
       - "回讀 📱iPhone裝置回執｜IPhoneDeviceReceipt.json。"
       - "回讀 📱iPhone裝置定位器建立回執｜IPhoneDeviceLocatorBuildReceipt.json。"
-      - "iPhone device_binding_status 與 device_receipt_readback_status 改為完成；捷徑即時執行仍保留為存取邊界。"
-    證據:
+      - "iPhone 的🔗裝置綁定狀態｜DeviceBindingStatus與🧾裝置回執回讀狀態｜DeviceReceiptReadbackStatus改為完成；捷徑即時執行仍保留為存取邊界。"
+    🧾證據｜Evidence:
       - "DEVICE_BINDING_STATE=完成；Receipt SHA256=61e113d7589889ad921a0e2f60f817deed2445e8d2b77545ec89e854ab39f635"
       - "SOURCE_BITS_PRESERVED=true；Receipt SHA256=746fc2b878a826ce563a6f8c3bd053c614e9b57ecca145b3cffece1ee9357567"
-    最終狀態: "完成"
+    🚦最終狀態｜FinalStatus: "完成"
 
-  - 編號: "ER-021"
-    物件: "三容器原件已存在卻仍標記為缺少原始世界證據"
-    錯誤: "現行容器卡未掛載 Library 中同一正式內容的 WebArchive、WACZ、PDF 與測試回執。"
-    修復:
+  - 🔢編號｜Number: "ER-021"
+    🧩物件｜Object: "三容器原件已存在卻仍標記為缺少原始世界證據"
+    🚨錯誤｜Error: "現行容器卡未掛載 Library 中同一正式內容的 WebArchive、WACZ、PDF 與測試回執。"
+    🛠️修復｜Repair:
       - "掛載三個原生容器並逐檔驗算位元組與 SHA256。"
       - "驗證 WebArchive plist、WACZ zip/WARC/CDXJ 結構與 PDF 3 頁及內嵌 Canonical.json。"
       - "建立 Manifest、Locator、Snapshot、SHA256SUMS、ReverseChain 與完整 Package。"
-    證據:
+    🧾證據｜Evidence:
       - "WebArchive SHA256=630cb2cee5c275653a7229c2bcfedd5d2c81060235caecfd044258366129b994"
       - "WACZ SHA256=243fb7c8c65c1e1be867aa6eafeb76e3c6e31d3fa8f354737aeffa88899461cd"
       - "PDF SHA256=bb21c02681c6406dcab36c4cd871306723c13d59a14f9cf5b8a8a50118805fdb"
@@ -195,37 +195,111 @@
       - "Package SHA256=d3391e6b66f20b7be3b387f90feb977965da26b29b33165b1e16dacbab1b8122"
     📦交付包｜Package: "🪞容器共存極限世界｜ContainerCoexistenceExtreme｜20260729-020529_TPE.zip"
     📚Library檔案識別｜LibraryFileId: "libfile_98ac0cb2fbe481918e38d1f38b35adec"
-    最終狀態: "完成"
+    🚦最終狀態｜FinalStatus: "完成"
 
-  - 編號: "ER-022"
-    物件: "iPhone 定位器與自動綁定 Package 雜湊被混為同一檔名"
-    錯誤: "裝置回執把 977071… 寫在定位器 ZIP 的輸出檔名旁，現行卡因而無法分辨定位器與後續自動綁定 Package。"
-    修復:
+  - 🔢編號｜Number: "ER-022"
+    🧩物件｜Object: "iPhone 定位器與自動綁定 Package 雜湊被混為同一檔名"
+    🚨錯誤｜Error: "裝置回執把 977071… 寫在定位器 ZIP 的輸出檔名旁，現行卡因而無法分辨定位器與後續自動綁定 Package。"
+    🛠️修復｜Repair:
       - "直接回讀兩個 Library ZIP 的真實位元組。"
       - "定位器 ZIP 正名為 1505 bytes／SHA256 3be6b2bd…；自動綁定 Package 正名為 4985 bytes／SHA256 977071bf…。"
       - "原始回執保持原文，現行裝置卡新增分階段裁決，不把不同雜湊判成毀損。"
-    證據:
+    🧾證據｜Evidence:
       - "📱iPhone 15 Pro定位器｜IPhone15ProLocator.zip｜SHA256=3be6b2bd27e4e090a1fc2d693e9aa52a20a8918b5a44a5e747cbfebc05c172f4｜unzip -t 完成"
       - "📱iPhone裝置定位器自動綁定｜IPhoneDeviceLocatorAutoBinding｜20260722-090000_TPE.zip｜SHA256=977071bfb4c905cdccd07aecc95eb16742b8250d92aa190be0abfc8e70c368e5｜unzip -t 完成"
-    最終狀態: "完成"
+    🚦最終狀態｜FinalStatus: "完成"
 
-  - 編號: "ER-023"
-    物件: "WebArchive 互動能力的歷史過度完成宣告"
-    錯誤:
+  - 🔢編號｜Number: "ER-023"
+    🧩物件｜Object: "WebArchive 互動能力的歷史過度完成宣告"
+    🚨錯誤｜Error:
       - "原 WebArchive 第一次核心推進跳到啟動而非讀取。"
       - "十動按鈕共用同一 pulse；run 與 reverse 未驗證真實順序；AICORE 匯出缺少完整六項條件。"
       - "歷史回執卻宣告十動作全部完成。"
-    修復:
+    🛠️修復｜Repair:
       - "保留原 WebArchive 與原回執，改名封存為歷史錯誤證據。"
       - "建立修復後 WebArchive；正式資源路徑統一使用 LKMINI://。"
       - "用 Node DOM 測試驗證首步、十動順序、反向回放及 AICORE 匯出。"
       - "以 Library 同一 Package 的 version 1 取代現行內容，保留穩定 LibraryFileId。"
-    證據:
+    🧾證據｜Evidence:
       - "修復後 WebArchive SHA256=cbf46a50d299278c36b794f771998bf26c14913b97347042ca5104529267644a"
       - "互動測試 SHA256=5249e4631d5a8cc58d614ed211f820011a577cae0186e8059e0541210bf15984｜結果=完成"
       - "修復回執 SHA256=c8d717d1f1fdd840b837533a14fdc35da9d1897f8196240080caee5e63632cf6"
       - "Package version 1 SHA256=d3391e6b66f20b7be3b387f90feb977965da26b29b33165b1e16dacbab1b8122｜unzip -t 完成｜SHA256SUMS -c 13 項完成"
-    最終狀態: "完成"
+    🚦最終狀態｜FinalStatus: "完成"
+
+  - 🔢編號｜Number: "ER-024"
+    🧩物件｜Object: "四張現行接線卡把存取邊界誤列為整體錯誤"
+    🚨錯誤｜Error: "裝置座標卡、iPhone 捷徑卡、Windows／WSL 卡與個人化回執已正確建立，卻因外部平台或實機無直接回讀工具而把整張物件標成錯誤。"
+    🛠️修復｜Repair:
+      - "四張物件的本體狀態與建立狀態改為完成。"
+      - "不能直接穿越的平台或實機限制改記為🔐存取邊界記錄狀態｜AccessBoundaryRecordingStatus與描述性邊界欄位。"
+      - "不宣稱 iPhone 捷徑已安裝、Windows／WSL 已執行或 ChatGPT 個人化設定已直接寫入。"
+    🔍驗證｜Verification: "四張物件可解析、回指🧩LKMINI，且全量測試確認邊界未再被列為整體錯誤。"
+    🚦最終狀態｜FinalStatus: "完成"
+
+  - 🔢編號｜Number: "ER-025"
+    🧩物件｜Object: "存取邊界統計 A≠A"
+    🚨錯誤｜Error: "接線總控曾把 archived=true 的舊 GitHub repo 放入存取邊界，使總控為四項、修復帳為三項。"
+    🛠️修復｜Repair: "舊 GitHub repo 移至🗄️歷史封存證據｜HistoricalArchiveEvidence；現行存取邊界固定為 Sites、ChatGPT 個人化設定、裝置三項。"
+    🔍驗證｜Verification: "接線總控的🚧存取邊界｜AccessBoundaries恰為三項，且封存 repo 不在其中。"
+    🚦最終狀態｜FinalStatus: "完成"
+
+  - 🔢編號｜Number: "ER-026"
+    🧩物件｜Object: "PhantomCapsule 範例模板使用非法正式狀態"
+    🚨錯誤｜Error: "ManifestTemplate.json 與 LocatorTemplate.json 把正式狀態寫成『範例』。"
+    🛠️修復｜Repair: "兩份模板的🚦狀態｜Status改為完成，新增🏷️物件分類｜ObjectClassification保存『範例定義』。"
+    🔍驗證｜Verification: "兩份 JSON 解析完成，PhantomCapsule/SHA256SUMS.txt 已依真實位元組更新並逐檔核對。"
+    🚦最終狀態｜FinalStatus: "完成"
+
+  - 🔢編號｜Number: "ER-027"
+    🧩物件｜Object: "純英文鍵名零違規回執只掃描三份帳"
+    🚨錯誤｜Error: "舊測試只掃描三份 ledger，卻把結果延伸成全系統零違規；其餘現行 YAML 仍有大量純英文鍵或中文裸鍵。"
+    🛠️修復｜Repair:
+      - "建立可重跑的🏷️現行鍵名正規化｜NormalizeCurrentKeys.py，明確遷移 251 種舊鍵、561 次出現，並統一 17 個缺少中文主體或非共通 canonical 的既有鍵。"
+      - "解析器對外結果改為五個正式雙語鍵，不再以資料類別自動序列化裸鍵。"
+      - "測試改為遞迴掃描全部十份現行 YAML 與兩份現行 JSON；歷史封存原文不批次覆寫。"
+    🔍驗證｜Verification: "現行 12 份資料共 781 個遞迴鍵，違規 0；正規化腳本重跑修改 0；16/16 單元測試完成。"
+    🚦最終狀態｜FinalStatus: "完成"
+
+  - 🔢編號｜Number: "ER-028"
+    🧩物件｜Object: "唯一交付包現行本體覆蓋不足"
+    🚨錯誤｜Error: "上一份交付包的00_現行本體｜CurrentObjects只精確涵蓋 5/42 個當時 main 非歷史 blob，且工作流程驗證副本已過期。"
+    🛠️修復｜Repair:
+      - "建立🧰全系統可逆封裝與驗證｜FullSystemReversiblePackageAndVerify.sh，從指定乾淨 Git 提交全量取出所有現行 blob，不再手選五顆物件。"
+      - "歷史路徑獨立放入04_歷史證據｜HistoricalEvidence，不得成為現行入口。"
+      - "封裝後執行 ZIP 結構、重複路徑、解壓、內外 SHA256、逐檔 Git blob 比對與 ReverseChain 驗證。"
+    🔍驗證｜Verification: "封裝器已在獨立乾淨工作樹實跑；正式交付以本批次最終 Git 提交的實際現行／歷史 blob 數量為準，外層驗證回執保存最終數字與雜湊。"
+    🚦最終狀態｜FinalStatus: "完成"
+
+  - 🔢編號｜Number: "ER-029"
+    🧩物件｜Object: "本機正式座標落後且混有使用者工作內容"
+    🚨錯誤｜Error: "原 public-repo 工作樹落後 origin/main 並含既有修改、未追蹤檔與快取；若直接同步會覆寫使用者內容。"
+    🛠️修復｜Repair:
+      - "先建立🗄️本機使用者工作樹原樣快照｜LocalUserWorktreeSnapshot｜20260729-0415_TPE.tar.gz。"
+      - "快照 SHA256=59b85d3cfb07e3f390ddd14abd50b132998ec7b64de4e48e37adaf472f6d41c7。"
+      - "在獨立乾淨 worktree 施工；原工作樹未 reset、未 checkout 覆寫、未刪除。"
+      - "新增 Python 快取忽略規則，避免 __pycache__ 與 pyc 成為現行正式物件。"
+    🔍驗證｜Verification: "原工作樹狀態與完整 tar 快照均已回讀；正式施工座標與使用者原內容彼此分離。"
+    🚦最終狀態｜FinalStatus: "完成"
+
+  - 🔢編號｜Number: "ER-030"
+    🧩物件｜Object: "GitHub workflow 人類定位器錯誤"
+    🚨錯誤｜Error: "以數字 workflow ID 組成的 Actions 網頁網址顯示 Not found／This workflow does not exist。"
+    🛠️修復｜Repair: "數字 ID 只保留作 API Identity；人類可開啟 Locator 改用 Unicode 工作流程檔名的真實網址。"
+    🔍驗證｜Verification: "正確檔名入口顯示工作流程與 0 workflow runs；錯誤舊網址與正確新網址均已保留回讀結果。"
+    🚦最終狀態｜FinalStatus: "完成"
+
+  - 🔢編號｜Number: "ER-031"
+    🧩物件｜Object: "Sites 接線卡版本回讀過期"
+    🚨錯誤｜Error: "Sites 卡仍記錄最新保存版本 6，但管理工具現行回讀已是版本 9。"
+    🛠️修復｜Repair: "Sites 卡更新為 active、custom、允許使用者 1、current live URL、版本 9、來源提交、封存位元組與內容雜湊；不改存取設定。"
+    🧾證據｜Evidence:
+      - "version=9"
+      - "source commit=94eadb8d128f4c11a6dbb9c39830e14926118d0d"
+      - "archive SHA256=8009df54d0bf8ccef32a4376c3cfc5c95d513e6f379230bacbb4008e63eab37b"
+      - "archive bytes=1771520；file count=40"
+    ⚖️判定｜Determination: "custom 且只允許 Kevin 帳號是既定存取邊界，不是錯誤；本修復只校正過期證據。"
+    🚦最終狀態｜FinalStatus: "完成"
 
 🔐存取邊界清單｜AccessBoundaryList:
   - "Sites：custom access 只允許 Kevin 帳號；匿名 401／Sign in required 是既定設定。"
@@ -239,18 +313,18 @@
 
 🧾GitHub工作流程驗證｜GitHubWorkflowVerification:
   🥃老K系統｜LaoKSystem:
-    修復Run:
+    ▶️修復執行｜RepairRun:
       - "30381064307｜job 90348749393｜success"
       - "30381063799｜job 90348748097｜success"
-    狀態: "完成"
+    🚦狀態｜Status: "完成"
   🧰公開工具｜PublicTools:
-    ⚙️工作流程｜workflows:
+    ⚙️工作流程｜Workflows:
       - "🔐公開內容秘密掃描｜active"
       - "🧪公開工具驗證｜PublicToolsValidation｜active"
-    🔗拉取請求｜pull_request: "https://github.com/ky46738-ops/LKMini.Public.tools/pull/1"
-    🧪最後觸發測試提交｜last_trigger_test_head_commit: "4fd154abffa74b36f446e088b7357a9f90e63bcd"
-    ▶️執行結果｜run: "PR #1 已合併至 main；合併後公開 API actions/runs total_count=0，沒有 run、job 或 steps"
-    狀態: "錯誤"
+    🔗拉取請求｜PullRequest: "https://github.com/ky46738-ops/LKMini.Public.tools/pull/1"
+    🧪最後觸發測試提交｜LastTriggerTestHeadCommit: "4fd154abffa74b36f446e088b7357a9f90e63bcd"
+    ▶️執行結果｜Run: "PR #1 已合併至 main；合併後公開 API actions/runs total_count=0，沒有 run、job 或 steps"
+    🚦狀態｜Status: "錯誤"
 
 ♻️反向鏈｜ReverseChain:
   - "聊天泡泡執行指令"

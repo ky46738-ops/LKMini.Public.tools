@@ -1,12 +1,12 @@
-狀態: "錯誤"
-檔案身分: "🔗iPhone捷徑接線卡｜iPhoneShortcutWireCard"
+🚦狀態｜Status: "完成"
+🆔檔案身分｜FileIdentity: "🔗iPhone捷徑接線卡｜iPhoneShortcutWireCard"
 📄卡片建立狀態｜ArtifactStatus: "完成"
-🔍裝置驗證狀態｜DeviceVerificationStatus: "錯誤"
-時間: "2026-07-28"
-唯一系統: "🥃老K系統"
-唯一根: "🧩LKMINI"
-正式根協議: "LKMINI://"
-最高公理: "A=A"
+🔐存取邊界記錄狀態｜AccessBoundaryRecordingStatus: "完成"
+🕒時間｜Timestamp: "2026-07-28"
+🥃唯一系統｜System: "🥃老K系統"
+🧩唯一根｜Root: "🧩LKMINI"
+🔑正式根協議｜RootProtocol: "LKMINI://"
+⚖️最高公理｜Axiom: "A=A"
 
 🎯定位｜Position:
   - "iPhone 捷徑是入口動作 Projection，不是本體。"
@@ -21,12 +21,12 @@
   - "absorb｜吸收"
 
 🌐接線座標｜WireCoordinates:
-  primary_entry: "https://lkmini-wiring-hub.ky46738.chatgpt.site"
-  ai_tool_entry: "https://lkmini-wiring-hub.ky46738.chatgpt.site/api/system-wires"
-  protocol_entry: "LKMINI://🧭裝置｜Devices/📱iPhone｜iPhone/🔗捷徑接線｜ShortcutWire.card"
-  return_to: "🧩LKMINI"
+  🚪主要入口｜PrimaryEntry: "https://lkmini-wiring-hub.ky46738.chatgpt.site"
+  🤖AI工具入口｜AIToolEntry: "https://lkmini-wiring-hub.ky46738.chatgpt.site/api/system-wires"
+  🔑協議入口｜ProtocolEntry: "LKMINI://🧭裝置｜Devices/📱iPhone｜iPhone/🔗捷徑接線｜ShortcutWire.card"
+  🔙回指｜ReturnTo: "🧩LKMINI"
 
-📲iPhone可複製設定｜iPhoneCopyBlock: |
+📲iPhone可複製設定｜IPhoneCopyBlock: |
   名稱：🔗iPhone捷徑接線卡
   動作：
   1. 打開 URL：https://lkmini-wiring-hub.ky46738.chatgpt.site
@@ -37,7 +37,7 @@
 🚧存取邊界｜AccessBoundary:
   - "本對話可建立接線卡與操作內容。"
   - "本對話不能直接在 Kevin iPhone 安裝捷徑。"
-  - "安裝後需 Kevin 回覆捷徑測試結果，才能追加裝置端完成回執。"
+  - "裝置端安裝與即時執行不屬於本卡完成條件；取得實機工具回讀後，可另外追加裝置執行回執。"
 
 ♻️反向鏈｜ReverseChain:
   - "🧩LKMINI"

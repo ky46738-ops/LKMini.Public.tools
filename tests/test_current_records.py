@@ -11,6 +11,10 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 ARCHIVE_ROOT_NAME = "🗄️歷史錯誤紀錄｜HistoricalErrorRecords"
+FORMAL_KEY_PATTERN = re.compile(
+    r"^[^\w\s\u3400-\u9fff](?=[^｜\n]*[\u3400-\u9fff])"
+    r"[^｜\n]+｜[A-Z][A-Za-z0-9]*$"
+)
 
 
 class UniqueKeyLoader(yaml.SafeLoader):
@@ -44,9 +48,9 @@ class CurrentRecordTests(unittest.TestCase):
         for path in current_files:
             with self.subTest(path=path.name):
                 data = yaml.load(path.read_text(encoding="utf-8"), Loader=UniqueKeyLoader)
-                self.assertIn(data.get("狀態"), {"完成", "錯誤"})
-                self.assertEqual(data.get("唯一根"), "🧩LKMINI")
-                self.assertEqual(data.get("正式根協議"), "LKMINI://")
+                self.assertIn(data.get("🚦狀態｜Status"), {"完成", "錯誤"})
+                self.assertEqual(data.get("🧩唯一根｜Root"), "🧩LKMINI")
+                self.assertEqual(data.get("🔑正式根協議｜RootProtocol"), "LKMINI://")
 
     def test_json_templates_are_valid_and_return_to_root(self) -> None:
         for name in ("LocatorTemplate.json", "ManifestTemplate.json"):
@@ -55,6 +59,8 @@ class CurrentRecordTests(unittest.TestCase):
             self.assertEqual(data["🧩唯一根｜Root"], "🧩LKMINI")
             self.assertEqual(data["🔑正式根協議｜RootProtocol"], "LKMINI://")
             self.assertEqual(data["🔙回指｜ReturnTo"], "🧩LKMINI")
+            self.assertEqual(data["🏷️物件分類｜ObjectClassification"], "範例定義")
+            self.assertEqual(data["🚦狀態｜Status"], "完成")
 
     def test_phantom_capsule_hashes_match_current_bytes(self) -> None:
         directory = ROOT / "PhantomCapsule"
@@ -110,48 +116,66 @@ class CurrentRecordTests(unittest.TestCase):
     def test_verified_iphone_binding_is_not_reclassified_as_unverified(self) -> None:
         path = ROOT / "🧭裝置座標卡｜DeviceCoordinateCard.yaml"
         data = yaml.load(path.read_text(encoding="utf-8"), Loader=UniqueKeyLoader)
-        iphone = data["📱iPhone｜iPhone"]
-        self.assertEqual(iphone["device_binding_status"], "完成")
-        self.assertEqual(iphone["device_receipt_readback_status"], "完成")
-        self.assertEqual(iphone["shortcut_installation_status"], "錯誤")
-        self.assertEqual(iphone["return_to"], "🧩LKMINI")
-        self.assertEqual(len(iphone["evidence"]), 2)
-        self.assertEqual(iphone["locator_zip"]["位元組"], 1505)
+        iphone = data["📱iPhone裝置｜IPhone"]
+        self.assertEqual(iphone["🔗裝置綁定狀態｜DeviceBindingStatus"], "完成")
         self.assertEqual(
-            iphone["locator_zip"]["SHA256"],
+            iphone["🧾裝置回執回讀狀態｜DeviceReceiptReadbackStatus"],
+            "完成",
+        )
+        self.assertIn(
+            "沒有捷徑安裝或即時執行回讀工具",
+            iphone["🔐捷徑安裝邊界｜ShortcutInstallationBoundary"],
+        )
+        self.assertEqual(iphone["🔙回指｜ReturnTo"], "🧩LKMINI")
+        self.assertEqual(len(iphone["🧾證據｜Evidence"]), 2)
+        self.assertEqual(iphone["📦定位器壓縮檔｜LocatorZIP"]["📦位元組｜Bytes"], 1505)
+        self.assertEqual(
+            iphone["📦定位器壓縮檔｜LocatorZIP"]["🔐SHA256雜湊｜SHA256"],
             "3be6b2bd27e4e090a1fc2d693e9aa52a20a8918b5a44a5e747cbfebc05c172f4",
         )
-        self.assertEqual(iphone["auto_binding_package"]["位元組"], 4985)
         self.assertEqual(
-            iphone["auto_binding_package"]["SHA256"],
+            iphone["📦自動綁定套件｜AutoBindingPackage"]["📦位元組｜Bytes"],
+            4985,
+        )
+        self.assertEqual(
+            iphone["📦自動綁定套件｜AutoBindingPackage"]["🔐SHA256雜湊｜SHA256"],
             "977071bfb4c905cdccd07aecc95eb16742b8250d92aa190be0abfc8e70c368e5",
         )
 
     def test_container_projections_close_the_same_reversible_identity(self) -> None:
         path = ROOT / "🌐容器共存｜極限世界｜ExtremeContainerWorld.yaml"
         data = yaml.load(path.read_text(encoding="utf-8"), Loader=UniqueKeyLoader)
-        self.assertEqual(data["狀態"], "完成")
+        self.assertEqual(data["🚦狀態｜Status"], "完成")
         self.assertEqual(data["♾️可逆閉環驗證狀態｜ReversibleClosureStatus"], "完成")
         self.assertEqual(
-            data["CONTENT_SHA256"],
+            data["🔐內容雜湊｜ContentSHA256"],
             "13d5392d542a11c0232b3d8abca09e7f786e9b76d31cdcb0c0f9cd08efcc9e4a",
         )
         verification = data["🧪實際位元組驗證｜ByteVerification"]
-        self.assertEqual(verification["WebArchive"]["狀態"], "完成")
         self.assertEqual(
-            verification["WebArchive"]["SHA256"],
+            verification["🌐網頁封存容器｜WebArchive"]["🚦狀態｜Status"],
+            "完成",
+        )
+        self.assertEqual(
+            verification["🌐網頁封存容器｜WebArchive"]["🔐SHA256雜湊｜SHA256"],
             "cbf46a50d299278c36b794f771998bf26c14913b97347042ca5104529267644a",
         )
-        self.assertEqual(verification["WACZ"]["狀態"], "完成")
-        self.assertEqual(verification["PDF"]["狀態"], "完成")
+        self.assertEqual(verification["🗜️WACZ容器｜WACZ"]["🚦狀態｜Status"], "完成")
+        self.assertEqual(verification["📄PDF容器｜PDF"]["🚦狀態｜Status"], "完成")
         interaction = data["🖱️互動能力｜InteractionCapabilities"]
-        self.assertEqual(interaction["實作驗證狀態"], "完成")
-        self.assertEqual(interaction["測試程式"]["結果"], "完成")
-        package = data["📦Package｜Package"]
-        self.assertEqual(package["狀態"], "完成")
-        self.assertEqual(package["位元組"], 2320969)
         self.assertEqual(
-            package["SHA256"],
+            interaction["🔍實作驗證狀態｜ImplementationVerificationStatus"],
+            "完成",
+        )
+        self.assertEqual(
+            interaction["🧪測試程式｜TestProgram"]["📋結果｜Result"],
+            "完成",
+        )
+        package = data["📦交付包｜Package"]
+        self.assertEqual(package["🚦狀態｜Status"], "完成")
+        self.assertEqual(package["📦位元組｜Bytes"], 2320969)
+        self.assertEqual(
+            package["🔐SHA256雜湊｜SHA256"],
             "d3391e6b66f20b7be3b387f90feb977965da26b29b33165b1e16dacbab1b8122",
         )
 
@@ -159,28 +183,60 @@ class CurrentRecordTests(unittest.TestCase):
         path = ROOT / "🧭接線總控清單｜SystemWiringLedger.yaml"
         data = yaml.load(path.read_text(encoding="utf-8"), Loader=UniqueKeyLoader)
         current_error_names = {
-            item["物件"] for item in data["🔐現行錯誤｜CurrentErrors"]
+            item["🧩物件｜Object"] for item in data["🔐現行錯誤｜CurrentErrors"]
         }
         self.assertEqual(
             current_error_names,
             {"公開工具 repo workflow 執行", "公開作文頁歷史憑證"},
         )
-        self.assertIn(
-            "📱裝置存取邊界｜Devices",
-            data["🚧存取邊界｜AccessBoundaries"],
+        boundaries = data["🚧存取邊界｜AccessBoundaries"]
+        self.assertEqual(
+            set(boundaries),
+            {
+                "🌐Sites存取邊界｜Sites",
+                "🧾ChatGPT個人化設定｜ChatGPTPersonalization",
+                "📱裝置存取邊界｜Devices",
+            },
         )
         self.assertIn(
-            "🧾ChatGPT個人化設定｜ChatGPTPersonalization",
-            data["🚧存取邊界｜AccessBoundaries"],
+            "🗄️GitHub封存儲存庫｜GitHubArchivedRepo",
+            data["🗄️歷史封存證據｜HistoricalArchiveEvidence"],
         )
 
-    def test_current_ledgers_have_no_pure_english_yaml_keys(self) -> None:
-        paths = [
-            ROOT / "🧾既有錯誤修復帳｜ExistingErrorRepairLedger.yaml",
-            ROOT / "🧾GitHub工作流程驗證｜GitHubWorkflowVerification.yaml",
-            ROOT / "🧭接線總控清單｜SystemWiringLedger.yaml",
-        ]
+    def test_boundary_cards_are_complete_without_claiming_external_action(self) -> None:
+        cards = (
+            "🧭裝置座標卡｜DeviceCoordinateCard.yaml",
+            "🔗iPhone捷徑接線卡｜iPhoneShortcutWireCard.yaml",
+            "🪟WindowsWSL接線卡｜WindowsWSLWireCard.yaml",
+            "🧾個人化指令驗證回執｜PersonalInstructionValidationReceipt.yaml",
+        )
+        for name in cards:
+            with self.subTest(path=name):
+                data = yaml.load(
+                    (ROOT / name).read_text(encoding="utf-8"),
+                    Loader=UniqueKeyLoader,
+                )
+                self.assertEqual(data["🚦狀態｜Status"], "完成")
+                self.assertEqual(
+                    data["🔐存取邊界記錄狀態｜AccessBoundaryRecordingStatus"],
+                    "完成",
+                )
+                self.assertTrue(data["🚧存取邊界｜AccessBoundary"])
 
+    def test_sites_card_matches_current_management_readback(self) -> None:
+        path = ROOT / "🌐Sites公開只讀出口｜SitesPublicReadOnlyOutlet.yaml"
+        data = yaml.load(path.read_text(encoding="utf-8"), Loader=UniqueKeyLoader)
+        readback = data["🧾工具回讀｜ToolReadback"]
+        self.assertEqual(readback["🚦專案狀態｜ProjectStatus"], "active")
+        self.assertEqual(readback["🔐存取模式｜AccessMode"], "custom")
+        self.assertEqual(readback["👥允許使用者｜AllowedUsers"], 1)
+        self.assertEqual(readback["💾最新儲存版本｜LatestSavedVersion"], 9)
+        self.assertEqual(
+            readback["🔐最新版本封存雜湊｜LatestVersionArchiveSHA256"],
+            "8009df54d0bf8ccef32a4376c3cfc5c95d513e6f379230bacbb4008e63eab37b",
+        )
+
+    def test_all_current_yaml_and_json_keys_use_formal_names(self) -> None:
         def walk_keys(value):
             if isinstance(value, dict):
                 for key, child in value.items():
@@ -190,17 +246,21 @@ class CurrentRecordTests(unittest.TestCase):
                 for child in value:
                     yield from walk_keys(child)
 
-        pure_english = re.compile(r"^[A-Za-z][A-Za-z0-9_]*$")
+        paths = sorted(ROOT.glob("*.yaml"))
+        paths.extend(sorted((ROOT / "PhantomCapsule").glob("*.json")))
         for path in paths:
             with self.subTest(path=path.name):
-                data = yaml.load(
-                    path.read_text(encoding="utf-8"),
-                    Loader=UniqueKeyLoader,
-                )
+                if path.suffix == ".json":
+                    data = json.loads(path.read_text(encoding="utf-8"))
+                else:
+                    data = yaml.load(
+                        path.read_text(encoding="utf-8"),
+                        Loader=UniqueKeyLoader,
+                    )
                 violations = [
                     key
                     for key in walk_keys(data)
-                    if isinstance(key, str) and pure_english.fullmatch(key)
+                    if not isinstance(key, str) or not FORMAL_KEY_PATTERN.fullmatch(key)
                 ]
                 self.assertEqual(violations, [])
 
@@ -208,14 +268,28 @@ class CurrentRecordTests(unittest.TestCase):
         path = ROOT / "🧾既有錯誤修復帳｜ExistingErrorRepairLedger.yaml"
         data = yaml.load(path.read_text(encoding="utf-8"), Loader=UniqueKeyLoader)
         items = data["🧾真正修復清單｜ActualRepairList"]
-        completed = [item["編號"] for item in items if item["最終狀態"] == "完成"]
-        errors = [item["編號"] for item in items if item["最終狀態"] == "錯誤"]
+        completed = [
+            item["🔢編號｜Number"]
+            for item in items
+            if item["🚦最終狀態｜FinalStatus"] == "完成"
+        ]
+        errors = [
+            item["🔢編號｜Number"]
+            for item in items
+            if item["🚦最終狀態｜FinalStatus"] == "錯誤"
+        ]
         stats = data["📊統計｜Statistics"]
-        self.assertEqual(stats["發現既有錯誤類別"], len(items))
-        self.assertEqual(stats["現行內容真正修復"], len(completed))
-        self.assertEqual(stats["完成狀態項目"], len(completed))
-        self.assertEqual(stats["錯誤狀態項目"], len(errors))
-        self.assertEqual(stats["錯誤項目"], errors)
+        self.assertEqual(
+            stats["🔎發現既有錯誤類別｜DiscoveredExistingErrorCategories"],
+            len(items),
+        )
+        self.assertEqual(
+            stats["🛠️現行內容真正修復｜CurrentContentActualRepair"],
+            len(completed),
+        )
+        self.assertEqual(stats["✅完成狀態項目｜CompletedStatusItems"], len(completed))
+        self.assertEqual(stats["🚨錯誤狀態項目｜ErrorStatusItems"], len(errors))
+        self.assertEqual(stats["🚨錯誤項目｜ErrorItems"], errors)
         self.assertEqual(errors, ["ER-002", "ER-018"])
 
 
