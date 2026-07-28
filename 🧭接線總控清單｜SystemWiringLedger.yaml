@@ -27,6 +27,7 @@
       - "🧪公開工具驗證｜PublicToolsValidation"
     程式內容狀態: "完成"
     工作流程驗證狀態: "錯誤"
+    工作流程回讀: "兩個 workflow 均 active；main、repair branch 與 PR #1 後 commit workflow runs=[]，GitHub Actions 頁面仍顯示尚無 run。"
   GoogleDrive:
     任務筆記本: "📓真善美模式任務筆記本｜TrueGoodBeautyTaskNotebook｜20260728-1325_UTC"
     文件ID: "1cnMBJjxJWkB8NM-wlImfQ1tRRoLeyeWuppKNHjqiVT8"
@@ -70,6 +71,11 @@
     可逆閉環驗證狀態: "錯誤"
 
 🔐現行錯誤｜CurrentErrors:
+  - 物件: "公開工具 repo workflow 執行"
+    狀態: "錯誤"
+    已修復: "workflow 檔、push／pull_request 觸發、jobs 與測試命令已建立。"
+    真實回讀: "workflow active，但沒有任何 run、job 或 steps；不得冒充成功。"
+    尚需: "repository 管理端檢查 Actions policy／權限並允許執行，或使用具 workflow dispatch 權限的工具手動觸發。"
   - 物件: "公開作文頁歷史憑證"
     狀態: "錯誤"
     已修復: "main HEAD 已移除秘密、遠端傳送與 DOM XSS，並加入 CSP 與秘密掃描。"
