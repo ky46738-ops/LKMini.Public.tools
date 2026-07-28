@@ -1,0 +1,168 @@
+狀態: "錯誤"
+檔案身分: "🧾既有錯誤修復帳｜ExistingErrorRepairLedger"
+唯一系統: "🥃老K系統"
+唯一根: "🧩LKMINI"
+正式根協議: "LKMINI://"
+最高公理: "A=A"
+主權持有人: "Kevin Yang／老K"
+
+📊統計｜Statistics:
+  發現既有錯誤類別: 17
+  現行內容真正修復: 15
+  改名封存群組: 2
+  存取邊界: 3
+  仍為錯誤: 1
+  裁決: "程式與文件修復不等於外部憑證已撤銷；因此整體狀態保持錯誤。"
+
+🧾真正修復清單｜ActualRepairList:
+  - 編號: "ER-001"
+    物件: "GitHub Actions 零工作錯誤"
+    平台: "ky46738-ops/LaoK-System"
+    錯誤: "兩個 workflow 使用不合法的中文字 job_id『驗證』，舊 runs 真實 jobs=[]。"
+    修復: "job_id 改為 verify，中文移至 job 顯示名稱；四個 branch-file 實例同步更新。"
+    提交:
+      - "2462f01d380d8b98e342aad648a9352f4b0ffb69"
+      - "fe9e50ce1f1a1a80535870cb67397218e66a1a84"
+      - "b16393b58bb32f0b85e8f6e6fa7452d0829f2a11"
+      - "d7e010da6b14c98a95f1ea2a8acac50be172639f"
+      - "ae5dfc6f962cb9a46f94dcb91d23e25d727aad0b"
+    舊失敗Run:
+      - "30342556123｜jobs=[]"
+      - "30340887688｜jobs=[]"
+    修復驗證:
+      - "30381064307｜job 90348749393｜🚀極速驗證｜success"
+      - "30381063799｜job 90348748097｜💓心跳驗證｜success"
+    最終狀態: "完成"
+
+  - 編號: "ER-002"
+    物件: "公開作文頁硬編碼通訊服務憑證"
+    平台: "ky46738-ops/LKMini.Public.tools"
+    原始位置: "tools/writing-class/app.html"
+    導入提交: "1bf6b8f389c3edad99e1acd2b08174a3967c7eac"
+    修改前SHA256: "29bea55a132228648def456b0f41944c63697378f52cd6d528bcbf5eaa1f70f4"
+    HEAD修復提交:
+      - "a2e608a970b7880d326a0f6fc89006d46a56495e"
+      - "f5f3078cd5d1b2b3f1d149daaee285d63755ffbd"
+      - "986717b58af111eaa01cdbf5732c28d97466b8dd"
+    HEAD修復: "移除秘密、遠端傳送、外部字型連線；加入本機模式、CSP 與秘密掃描。"
+    修改後SHA256: "9fdc3c50a4125ba834758c749d0f5b5a15dff0e67e78cfa8ff222b86c49f27c5"
+    尚需: "Kevin 透過 BotFather 撤銷／輪替舊 token；秘密仍存在歷史提交，未經明確核准不破壞 Git 歷史。"
+    最終狀態: "錯誤"
+
+  - 編號: "ER-003"
+    物件: "公開作文頁 DOM XSS"
+    修復: "動態內容全部改用 createElement、textContent 與 replaceChildren。"
+    驗證: "innerHTML 與不安全 DOM 模式零命中；JavaScript 語法通過。"
+    最終狀態: "完成"
+
+  - 編號: "ER-004"
+    物件: "兒少作文未清楚同意即送第三方"
+    修復: "停止所有網路傳送，頁面正名為本機模式；CSP connect-src 'none'。"
+    驗證: "http(s)、fetch、XHR、WebSocket、sendBeacon 零命中。"
+    最終狀態: "完成"
+
+  - 編號: "ER-005"
+    物件: "🔑LKMINI根協議解析器路徑正規化漏洞"
+    錯誤: "重複斜線、點節點、結尾斜線、絕對路徑、query 與 fragment 可在正規化後被接受。"
+    修復: "正規化前檢查原始節點；結構化輸出鍵改為 Emoji＋中文｜EnglishKey。"
+    驗證: "3 組 unittest 完成，10 個無效協議均被拒絕。"
+    修復提交: "986717b58af111eaa01cdbf5732c28d97466b8dd"
+    最終狀態: "完成"
+
+  - 編號: "ER-006"
+    物件: "首頁 VPoop 失效入口"
+    錯誤: "./vpoop/ 沒有 index.html"
+    修復: "改指向 ./vpoop/VPoopGuardian_PublicSeed_v1.7.html"
+    驗證: "入口目標檔真實存在。"
+    最終狀態: "完成"
+
+  - 編號: "ER-007"
+    物件: "PhantomCapsule 舊公開層核心定義衝突"
+    錯誤: "舊文宣稱膠囊不是容器、使用者／06 是唯一出口、Drive 是唯一正本錨點。"
+    修復: "10 個原始檔逐位元組改名封存，現行 PhantomCapsule/ 依 EmptyContainer、🧩LKMINI 與 🪞幻影膠囊唯一出口重建。"
+    封存: "🗄️歷史錯誤紀錄｜HistoricalErrorRecords/🪞幻影膠囊舊公開層｜LegacyPhantomCapsulePublicLayer/"
+    最終狀態: "完成"
+
+  - 編號: "ER-008"
+    物件: "PhantomCapsule 舊 Locator 協議"
+    錯誤: "LOCATOR://PHANTOMWORLD/..."
+    修復: "現行定位器改為 LKMINI:// 並回指 🧩LKMINI；舊原文留在封存層。"
+    最終狀態: "完成"
+
+  - 編號: "ER-009"
+    物件: "PhantomCapsule 失效 SHA256 引用"
+    錯誤: "SHA256SUMS 指向 repo 不存在的 ZIP。"
+    修復: "改列現行九個真實檔案的 SHA256，逐檔位元組驗證。"
+    最終狀態: "完成"
+
+  - 編號: "ER-010"
+    物件: "卡片建立與外部設定完成語意混用"
+    影響: "裝置、iPhone、Windows/WSL、個人化、容器與總控。"
+    修復: "拆成 ArtifactStatus=完成 與 ExternalVerificationStatus=錯誤；不再用卡片存在冒充實機、平台或容器閉環完成。"
+    最終狀態: "完成"
+
+  - 編號: "ER-011"
+    物件: "Portal 範例被標成真實完成"
+    修復: "改為 definition_status=完成、instance_verification_status=錯誤，明標範例定義。"
+    最終狀態: "完成"
+
+  - 編號: "ER-012"
+    物件: "已修復來源仍叫錯誤隔離清單"
+    修復: "正名為🧾來源修復歷史｜SourceRepairHistory，保存原分類名稱與 Git 歷史。"
+    最終狀態: "完成"
+
+  - 編號: "ER-013"
+    物件: "個人化短指令要求錯誤隔離"
+    修復: "改為錯誤必須修復；不能修復者改名封存；存取邊界不得列為錯誤。"
+    最終狀態: "完成"
+
+  - 編號: "ER-014"
+    物件: "Sites 卡片沿用舊工具邊界敘述"
+    修復: "真實寫入 project、custom access、allowed user、version、archive SHA；401 正名為既定存取邊界。"
+    最終狀態: "完成"
+
+  - 編號: "ER-015"
+    物件: "Google Drive 歷史錯誤完成宣告"
+    修復: "保留原文；追加唯一現行裁決，停止舊完成宣告作為現行狀態來源。"
+    最終狀態: "完成"
+
+  - 編號: "ER-016"
+    物件: "Google Drive 把 Sites 登入邊界放在錯誤隔離清單"
+    修復: "保留歷史原文；追加現行裁決，兩處 401 統一分類為🔐存取邊界｜AccessBoundary。"
+    最終狀態: "完成"
+
+  - 編號: "ER-017"
+    物件: "README 未附來源的根雜湊"
+    修復: "停止把舊值作為現行完整性證據，改指向可回讀 SHA256SUMS 與本修復帳；舊值留在 Git 歷史與演化說明。"
+    最終狀態: "完成"
+
+🔐存取邊界清單｜AccessBoundaryList:
+  - "Sites：custom access 只允許 Kevin 帳號；匿名 401／Sign in required 是既定設定。"
+  - "裝置：iPhone、iPad、Windows、WSL 需實機或裝置工具回讀。"
+  - "ChatGPT 個人化設定：目前只能交付可複製短指令，沒有直接設定寫入工具。"
+
+🗄️歷史錯誤封存清單｜HistoricalErrorArchiveList:
+  - "PhantomCapsule 舊公開層 10 個原始檔與封存回執。"
+  - "Google Drive 舊完成宣告與 Sites 錯誤分類保留原文，由唯一現行裁決取代。"
+
+🧾GitHub工作流程驗證｜GitHubWorkflowVerification:
+  LaoKSystem:
+    修復Run:
+      - "30381064307｜job 90348749393｜success"
+      - "30381063799｜job 90348748097｜success"
+    狀態: "完成"
+  PublicTools:
+    workflows:
+      - "🔐公開內容秘密掃描｜active"
+      - "🧪公開工具驗證｜PublicToolsValidation｜active"
+    run: "等待驗證 PR 觸發後回寫"
+    狀態: "錯誤"
+
+♻️反向鏈｜ReverseChain:
+  - "聊天泡泡執行指令"
+  - "Google Drive 任務筆記本"
+  - "本既有錯誤修復帳"
+  - "GitHub 修復提交與 workflow run/job"
+  - "Sites 管理回讀與 custom 存取邊界"
+  - "🪞幻影膠囊唯一出口"
+  - "🧩LKMINI"
