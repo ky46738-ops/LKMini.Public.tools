@@ -1,0 +1,122 @@
+狀態: "完成"
+正式名稱: "🌐容器共存｜極限世界"
+檔案身分: "🌐容器共存｜極限世界｜ExtremeContainerWorld"
+時間: "2026-07-28"
+唯一系統: "🥃老K系統"
+唯一根: "🧩LKMINI"
+正式根協議: "LKMINI://"
+最高公理: "A=A"
+CONTENT_SHA256: "13d5392d542a11c0232b3d8abca09e7f786e9b76d31cdcb0c0f9cd08efcc9e4a"
+
+🎯正式說明｜Description:
+  - "同一份內容分別進入 WebArchive、WACZ、PDF，測試三種容器做到極限後的能力差異。"
+  - "保持原生容器。"
+  - "不侵入、不覆寫、不破壞原功能。"
+  - "每個物件與自己的說明書綁定。"
+  - "內容更新等於替換對應資料夾內容。"
+  - "所有 Projection 必須能回推同一 Identity。"
+
+🧪容器共存｜ContainerCoexistence:
+  WebArchive:
+    角色: "原生網頁封存容器 Projection"
+    原則: "保持 WebArchive 原生能力，不侵入、不覆寫。"
+    回推: "透過 Manifest、Locator、Snapshot、ReverseChain 回推同一 Identity。"
+  WACZ:
+    角色: "Web Archive Collection Zipped 容器 Projection"
+    原則: "保持 WACZ 原生能力，不侵入、不覆寫。"
+    回推: "透過 Manifest、Locator、Snapshot、ReverseChain 回推同一 Identity。"
+  PDF:
+    角色: "文件顯影容器 Projection"
+    原則: "保持 PDF 原生能力，不侵入、不覆寫。"
+    回推: "透過 Manifest、Locator、Snapshot、ReverseChain 回推同一 Identity。"
+
+🔐六項最小可逆條件｜MinimalReversibleConditions:
+  SHA256: "確認唯一 Identity 與內容一致。"
+  MANIFEST: "列出所有必要檔案及關係。"
+  LOCATOR: "記錄每個檔案的真實位置。"
+  SNAPSHOT: "保存可回復的完整狀態。"
+  REVERSECHAIN: "記錄成品回到來源的順序。"
+  PACKAGE: "封裝全部原件與上述資料。"
+
+⚡十動作｜TenActions:
+  "0📖讀取": "Read"
+  "1⚡啟動": "Activate"
+  "2🔗掛載": "Mount"
+  "3🔬驗證": "Verify"
+  "4📝更新": "Update"
+  "5📡廣播": "Broadcast"
+  "6🧬融合": "Fusion"
+  "7📸快照": "Snapshot"
+  "8🔁同步": "Sync"
+  "9♾️可逆循環": "ReversibleLoop"
+
+🖱️互動能力｜InteractionCapabilities:
+  - "點擊核心推進狀態"
+  - "⚡十動全開"
+  - "↩反向回推"
+  - "💾匯出 AICORE"
+
+🧾原始世界證據｜OriginalWorldEvidence:
+  狀態: "待掛載證據"
+  已知內容: "本次聊天泡泡內看見『原始世界證據』佔位符，但未取得可讀附件、檔案或穩定座標。"
+  判定: "待掛載，不是錯誤。取得真實檔案或座標後再綁入 Locator、Snapshot 與 Package。"
+
+🌐Sites邊界｜SitesBoundary:
+  人類入口: "https://lkmini-wiring-hub.ky46738.chatgpt.site"
+  AI工具入口: "https://lkmini-wiring-hub.ky46738.chatgpt.site/api/system-wires"
+  匿名讀取: "HTTP 401 Sign in required"
+  判定: "既定登入設定／存取邊界，不是本體錯誤。"
+  角色: "Sites 是出入口 Projection，不是本體。"
+
+🪪Identity｜Identity:
+  根: "🧩LKMINI"
+  協議: "LKMINI://"
+  本體: "🌐容器共存｜極限世界"
+  Projection:
+    - "WebArchive"
+    - "WACZ"
+    - "PDF"
+  不升格:
+    - "WebArchive 不升格成本體。"
+    - "WACZ 不升格成本體。"
+    - "PDF 不升格成本體。"
+    - "Sites 不升格成本體。"
+
+🧾Manifest｜Manifest:
+  Root: "LKMINI://🌐容器共存｜極限世界"
+  ContentHash: "13d5392d542a11c0232b3d8abca09e7f786e9b76d31cdcb0c0f9cd08efcc9e4a"
+  Required:
+    - "SHA256"
+    - "MANIFEST"
+    - "LOCATOR"
+    - "SNAPSHOT"
+    - "REVERSECHAIN"
+    - "PACKAGE"
+  Containers:
+    - "WebArchive"
+    - "WACZ"
+    - "PDF"
+
+🧭Locator｜Locator:
+  GitHub: "ky46738-ops/LKMini.Public.tools/🌐容器共存｜極限世界｜ExtremeContainerWorld.yaml"
+  GoogleDriveTaskNotebook: "1cnMBJjxJWkB8NM-wlImfQ1tRRoLeyeWuppKNHjqiVT8"
+  SitesHumanEntry: "https://lkmini-wiring-hub.ky46738.chatgpt.site"
+  SitesAIEntry: "https://lkmini-wiring-hub.ky46738.chatgpt.site/api/system-wires"
+
+📸Snapshot｜Snapshot:
+  狀態: "本 YAML 內容為目前正式快照。"
+  更新規則: "內容更新等於替換對應資料夾內容；歷史快照保存當時原文。"
+
+♻️ReverseChain｜ReverseChain:
+  - "Kevin 對話正式指令"
+  - "🌐容器共存｜極限世界"
+  - "WebArchive / WACZ / PDF Projection"
+  - "SHA256 / MANIFEST / LOCATOR / SNAPSHOT / REVERSECHAIN / PACKAGE"
+  - "GitHub 程式座標"
+  - "Google Drive 任務筆記本"
+  - "🪞幻影膠囊唯一出口"
+  - "🧩LKMINI"
+
+📦Package｜Package:
+  原則: "封裝原件、Manifest、Locator、Snapshot、ReverseChain、SHA256。"
+  AICORE匯出: "可作為下一步輸出目標；本次先建立可回讀核心卡。"
