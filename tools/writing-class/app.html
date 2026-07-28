@@ -39,7 +39,7 @@ body{background:var(--bg);color:var(--text);font-family:var(--font);display:flex
 .bubble-wrap{display:flex;gap:10px;align-items:flex-end;}
 .bubble-wrap.me{flex-direction:row-reverse;}
 .bubble-avatar{width:32px;height:32px;border-radius:50%;background:#1a1400;border:1px solid var(--gold);display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0;}
-.bubble{max-width:75%;padding:10px 14px;border-radius:18px;font-size:14px;line-height:1.6;}
+.bubble{max-width:75%;padding:10px 14px;border-radius:18px;font-size:14px;line-height:1.6;white-space:pre-wrap;}
 .bubble.bot{background:var(--surface2);border:1px solid var(--border);border-bottom-left-radius:4px;color:var(--text);}
 .bubble.me{background:#1a3a00;border:1px solid #2a5a00;border-bottom-right-radius:4px;color:#c8ffb0;}
 .bubble .ts{font-size:10px;color:var(--muted);margin-top:4px;}
@@ -87,7 +87,7 @@ body{background:var(--bg);color:var(--text);font-family:var(--font);display:flex
 </head>
 <body>
 
-<div class="status-bar">✅ 🎩 mini 精靈已連線 @LKMINIBOT</div>
+<div class="status-bar">🔒 🎩 mini 作文精靈｜本機模式，不外傳</div>
 
 <div class="header">
   <div class="header-avatar">🎩</div>
@@ -126,8 +126,6 @@ body{background:var(--bg);color:var(--text);font-family:var(--font);display:flex
 </div>
 
 <script>
-const TG_TOKEN = '8607480041:AAGRmDUqy3neID1ndA0EGaZgcMfTRVVH_5Y';
-const TG_CHAT  = '6527077650';
 
 let convo = [];
 let currentTopic = '';
@@ -156,10 +154,24 @@ function now(){
 function addBubble(text, role='bot'){
   const wrap = document.createElement('div');
   wrap.className = `bubble-wrap${role==='me'?' me':''}`;
+
+  const avatar = document.createElement('div');
+  avatar.className = 'bubble-avatar';
+  avatar.textContent = role === 'bot' ? '🎩' : '✏️';
+
+  const bubble = document.createElement('div');
+  bubble.className = `bubble ${role === 'me' ? 'me' : 'bot'}`;
+  bubble.appendChild(document.createTextNode(text));
+
+  const timestamp = document.createElement('div');
+  timestamp.className = 'ts';
+  timestamp.textContent = now();
+  bubble.appendChild(timestamp);
+
   if(role==='bot'){
-    wrap.innerHTML = `<div class="bubble-avatar">🎩</div><div class="bubble bot">${text}<div class="ts">${now()}</div></div>`;
+    wrap.append(avatar, bubble);
   } else {
-    wrap.innerHTML = `<div class="bubble me">${text}<div class="ts">${now()}</div></div><div class="bubble-avatar">✏️</div>`;
+    wrap.append(bubble, avatar);
   }
   document.getElementById('chatArea').appendChild(wrap);
   wrap.scrollIntoView({behavior:'smooth',block:'end'});
@@ -169,7 +181,18 @@ function addBubble(text, role='bot'){
 function showTyping(cb, delay=1200){
   const t = document.createElement('div');
   t.className='bubble-wrap';
-  t.innerHTML='<div class="bubble-avatar">🎩</div><div class="typing"><span></span><span></span><span></span></div>';
+
+  const avatar = document.createElement('div');
+  avatar.className = 'bubble-avatar';
+  avatar.textContent = '🎩';
+
+  const typing = document.createElement('div');
+  typing.className = 'typing';
+  for(let i=0; i<3; i++){
+    typing.appendChild(document.createElement('span'));
+  }
+  t.append(avatar, typing);
+
   document.getElementById('chatArea').appendChild(t);
   t.scrollIntoView({behavior:'smooth',block:'end'});
   setTimeout(()=>{ t.remove(); cb(); }, delay);
@@ -177,12 +200,12 @@ function showTyping(cb, delay=1200){
 
 function showChoices(items, cb){
   const area = document.getElementById('choicesArea');
-  area.innerHTML='';
+  area.replaceChildren();
   items.forEach(item=>{
     const btn = document.createElement('button');
     btn.className='choice-btn';
     btn.textContent = item;
-    btn.onclick = ()=>{ area.innerHTML=''; cb(item); };
+    btn.onclick = ()=>{ area.replaceChildren(); cb(item); };
     area.appendChild(btn);
   });
 }
@@ -228,8 +251,7 @@ function nextStep(){
   }
 }
 
-async function finishWriting(){
-  await sendToMini();
+function finishWriting(){
   showTyping(()=>{
     addBubble('哇！你剛剛聊的這些，就是一篇完整的作文囉！🎉 我幫你整理好了～');
     setTimeout(()=>{
@@ -243,8 +265,18 @@ async function finishWriting(){
 
 function buildEssay(){
   const el = document.getElementById('essayDisplay');
-  el.innerHTML = `<h3>📝 題目：${currentTopic}</h3>` +
-    answers.map((a,i)=>`<div class="essay-line">${['①','②','③'][i]} ${a}</div>`).join('');
+  el.replaceChildren();
+
+  const title = document.createElement('h3');
+  title.textContent = `📝 題目：${currentTopic}`;
+  el.appendChild(title);
+
+  answers.forEach((answer, index)=>{
+    const line = document.createElement('div');
+    line.className = 'essay-line';
+    line.textContent = `${['①','②','③'][index]} ${answer}`;
+    el.appendChild(line);
+  });
 }
 
 function exportEssay(){
@@ -260,7 +292,7 @@ function exportEssay(){
 
 function restart(){
   convo=[];answers=[];step=0;currentTopic='';
-  document.getElementById('chatArea').innerHTML='';
+  document.getElementById('chatArea').replaceChildren();
   document.getElementById('chatArea').style.display='flex';
   document.getElementById('choicesArea').style.display='flex';
   document.getElementById('finishScreen').classList.remove('show');
@@ -268,26 +300,29 @@ function restart(){
   startFlow();
 }
 
-async function sendToMini(){
-  const lines = convo.map(m=>(m.role==='bot'?'🎩精靈：':'✏️小朋友：')+m.text).join('\n');
-  const msg = `📚 作文教室紀錄\n題目：${currentTopic}\n─────────────\n${lines}\n─────────────\n⏰ ${new Date().toLocaleString('zh-TW')}`;
-  try {
-    await fetch(`https://api.telegram.org/bot${TG_TOKEN}/sendMessage`,{
-      method:'POST', headers:{'Content-Type':'application/json'},
-      body: JSON.stringify({chat_id: TG_CHAT, text: msg})
-    });
-  } catch(e){ console.warn('TG 回流失敗',e); }
-}
-
 function toggleGear(){
   const p = document.getElementById('gearPanel');
   p.classList.toggle('show');
   if(p.classList.contains('show')){
     const log = document.getElementById('gearLog');
+    log.replaceChildren();
     if(convo.length===0){
-      log.innerHTML='<p style="color:var(--muted);font-size:13px;">還沒有對話紀錄</p>';
+      const empty = document.createElement('p');
+      empty.style.color = 'var(--muted)';
+      empty.style.fontSize = '13px';
+      empty.textContent = '還沒有對話紀錄';
+      log.appendChild(empty);
     } else {
-      log.innerHTML = convo.map(m=>`<div class="log-item"><strong>${m.role==='bot'?'🎩精靈':'✏️小朋友'}：</strong>${m.text}</div>`).join('');
+      convo.forEach(message=>{
+        const item = document.createElement('div');
+        item.className = 'log-item';
+
+        const label = document.createElement('strong');
+        label.textContent = `${message.role === 'bot' ? '🎩精靈' : '✏️小朋友'}：`;
+
+        item.append(label, document.createTextNode(message.text));
+        log.appendChild(item);
+      });
     }
   }
 }
