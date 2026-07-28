@@ -14,7 +14,12 @@
   registration_status: "完成"
   run_status: "錯誤"
   verification_pull_request: "https://github.com/ky46738-ops/LKMini.Public.tools/pull/1"
-  note: "workflow 已 active；PR #1 已建立，等待同步事件觸發後回寫 run ID、job ID 與 steps。"
+  verification_head_commit: "b4b06f96d291f875e44978767b4d037e8070c975"
+  commit_workflow_runs: []
+  actions_page_result: "There are no workflow runs yet"
+  note: "workflow 已 active；main、repair branch 與 PR #1 事件後仍沒有 run。active 不等於已執行，沒有 run ID、job ID 或 steps 可供成功回讀。"
+  required_action: "由 repository 管理端檢查 Actions policy／權限並允許執行，或用具 workflow dispatch 權限的工具手動觸發。"
+  tool_boundary: "目前可用 GitHub 工具能讀取 workflow/run 與重跑既有 run，但沒有 repository Actions 設定或首次 workflow dispatch 寫入能力。"
 
 ♻️反向鏈｜ReverseChain:
   - "🧩LKMINI"
