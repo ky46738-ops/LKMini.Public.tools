@@ -27,7 +27,22 @@
   platform: "iOS"
   local_path: "Files App／使用者選定位置"
   root_sha256: "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34"
-  locator_file_sha256: "977071bfb4c905cdccd07aecc95eb16742b8250d92aa190be0abfc8e70c368e5"
+  locator_zip:
+    名稱: "📱iPhone 15 Pro定位器｜IPhone15ProLocator.zip"
+    位元組: 1505
+    SHA256: "3be6b2bd27e4e090a1fc2d693e9aa52a20a8918b5a44a5e747cbfebc05c172f4"
+    LibraryFileId: "libfile_d9130ed3cae08191b2b1095b393fb410"
+    LibraryCurrentFileId: "file_000000002bb0820a9dfb5330ba668bbf"
+    壓縮驗證: "unzip -t 無錯誤"
+    狀態: "完成"
+  auto_binding_package:
+    名稱: "📱iPhone裝置定位器自動綁定｜IPhoneDeviceLocatorAutoBinding｜20260722-090000_TPE.zip"
+    位元組: 4985
+    SHA256: "977071bfb4c905cdccd07aecc95eb16742b8250d92aa190be0abfc8e70c368e5"
+    LibraryFileId: "libfile_5ccae1f8ac808191b0ae1db2ed8a5e5a"
+    LibraryCurrentFileId: "file_00000000a1548246a69d66bc695b9655"
+    壓縮驗證: "unzip -t 無錯誤"
+    狀態: "完成"
   evidence:
     - 名稱: "📱iPhone裝置回執｜IPhoneDeviceReceipt.json"
       LibraryFileId: "libfile_c226cc0a64a88191ace19d159efdd1b0"
@@ -37,6 +52,10 @@
       LibraryFileId: "libfile_c36f5e736cd081918063d13d03213ebe"
       ReceiptSHA256: "746fc2b878a826ce563a6f8c3bd053c614e9b57ecca145b3cffece1ee9357567"
       回讀結果: "SOURCE_BITS_PRESERVED=true；ROOT_BINDING=🧩LKMINI"
+  hash_field_ruling:
+    狀態: "完成"
+    原始回執保全: "兩份回執保持原始位元組，不覆寫。"
+    現行裁決: "3be6… 是定位器 ZIP；977071… 是自動綁定 Package。兩者是不同階段的真實物件，不互相取代，也不判定為毀損。"
 
 📱iPad｜iPad:
   role: "輔助閱讀與操作裝置 Projection"
