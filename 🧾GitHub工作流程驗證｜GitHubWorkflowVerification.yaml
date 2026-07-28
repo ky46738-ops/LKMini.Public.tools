@@ -6,32 +6,33 @@
 最高公理: "A=A"
 
 🐙公開工具Repo｜PublicToolsRepository:
-  repository: "ky46738-ops/LKMini.Public.tools"
-  repair_commit: "986717b58af111eaa01cdbf5732c28d97466b8dd"
-  workflows:
+  🐙儲存庫｜repository: "ky46738-ops/LKMini.Public.tools"
+  🛠️修復提交｜repair_commit: "986717b58af111eaa01cdbf5732c28d97466b8dd"
+  ⚙️工作流程｜workflows:
     - "322364290｜🔐公開內容秘密掃描｜active"
     - "322373154｜🧪公開工具驗證｜PublicToolsValidation｜active"
-  registration_status: "完成"
-  run_status: "錯誤"
-  root_cause_status: "錯誤"
-  latest_readback_time: "2026-07-29T02:27:58+08:00"
-  readback_source: "GitHub workflow 清單、commit workflow runs、PR #1 與 Actions 頁面真實回讀"
-  verification_pull_request: "https://github.com/ky46738-ops/LKMini.Public.tools/pull/1"
-  last_trigger_test_head_commit: "7c6758eebb69a77c8580919526243f9f053a89f3"
-  commit_workflow_runs: []
-  actions_page_result: "There are no workflow runs yet"
-  trigger_tests:
+  📝註冊狀態｜registration_status: "完成"
+  ▶️執行狀態｜run_status: "錯誤"
+  🔍根因狀態｜root_cause_status: "錯誤"
+  🕒最新回讀時間｜latest_readback_time: "2026-07-29T03:37:12+08:00"
+  📖回讀來源｜readback_source: "GitHub workflow 清單、公開 Actions API、PR #1、合併提交與 Actions permissions 官方端點真實回讀"
+  🔗驗證拉取請求｜verification_pull_request: "https://github.com/ky46738-ops/LKMini.Public.tools/pull/1"
+  🧪最後觸發測試提交｜last_trigger_test_head_commit: "4fd154abffa74b36f446e088b7357a9f90e63bcd"
+  ▶️提交工作流程執行｜commit_workflow_runs: []
+  📄Actions頁面結果｜actions_page_result: "公開 API actions/runs total_count=0"
+  🧪觸發測試｜trigger_tests:
     - "main push：沒有 run"
     - "repair branch push：沒有 run"
     - "PR #1 opened：沒有 run"
     - "PR #1 closed 後 reopened：沒有 run"
-  pull_request_state: "open"
-  pull_request_mergeable: true
-  codex_review: "PR review 已產生，但這不是 GitHub Actions workflow run；review 指出的 CurrentErrors／AccessBoundaries 分類衝突已在本批次修復。"
-  review_feedback_status: "完成"
-  note: "workflow 已 active；四種實際事件後仍沒有 run。active 或 Codex review 均不等於 Actions 已執行，沒有 run ID、job ID 或 steps 可供成功回讀。"
-  next_action_candidate: "由 repository 管理端檢查 Actions policy／權限並允許執行，或用具 workflow dispatch 權限的工具手動觸發。這是待驗證候選，不冒充已知根因。"
-  tool_boundary: "目前可用 GitHub 工具能讀取 workflow/run 與重跑既有 run，但沒有 repository Actions 設定或首次 workflow dispatch 寫入能力。"
+    - "PR #1 squash merge 至 main（4fd154abffa74b36f446e088b7357a9f90e63bcd）：沒有 run"
+  🔗拉取請求狀態｜pull_request_state: "完成"
+  🔀拉取請求可合併性｜pull_request_mergeable: true
+  🤖Codex審查｜codex_review: "PR review 已產生，但這不是 GitHub Actions workflow run；review 指出的現行錯誤／存取邊界分類衝突已修復。"
+  📝審查回饋狀態｜review_feedback_status: "完成"
+  📝備註｜note: "workflow 已 active 且 PR 已合併；五種實際事件後仍沒有 run。active、PR 合併或 Codex review 均不等於 Actions 已執行，沒有 run ID、job ID 或 steps 可供成功回讀。"
+  🧭下一步候選動作｜next_action_candidate: "Kevin 於 Settings → Actions → General 回讀 Actions permissions；若總開關關閉則開啟，再以既有 workflow_dispatch 執行 Run workflow。總開關關閉是高可信候選，但尚未取得管理設定回讀，不冒充已知根因。"
+  🧰工具邊界｜tool_boundary: "GitHub 連接器可讀取 workflow/run、重跑既有 run、合併 PR，但沒有 repository Actions permissions 讀寫或首次 workflow dispatch；匿名官方端點回讀 HTTP 401。"
 
 ♻️反向鏈｜ReverseChain:
   - "🧩LKMINI"
