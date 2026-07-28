@@ -15,7 +15,7 @@
   GitHub:
     程式座標: "ky46738-ops/LKMini.Public.tools"
     核心檔: "🧬幻影膠囊世界核心｜PhantomCapsuleWorldCore.yaml"
-    README入口: "已掛載 🧬幻影膠囊世界核心"
+    README入口: "已掛載全部現行公開接線卡"
     解析器: "🔑LKMINI根協議解析器｜LKMINIRootProtocolParser.py"
     根協議: "LKMINI://"
     根: "🧩LKMINI"
@@ -28,6 +28,15 @@
     人類入口: "https://lkmini-wiring-hub.ky46738.chatgpt.site"
     AI工具入口: "https://lkmini-wiring-hub.ky46738.chatgpt.site/api/system-wires"
     角色: "出入口 Projection，不是本體"
+    狀態: "完成"
+  Devices:
+    裝置座標卡: "🧭裝置座標卡｜DeviceCoordinateCard.yaml"
+    iPhone捷徑接線卡: "🔗iPhone捷徑接線卡｜iPhoneShortcutWireCard.yaml"
+    WindowsWSL接線卡: "🪟WindowsWSL接線卡｜WindowsWSLWireCard.yaml"
+    狀態: "完成"
+  PublicOutletAndPersonalization:
+    Sites公開只讀出口卡: "🌐Sites公開只讀出口｜SitesPublicReadOnlyOutlet.yaml"
+    個人化指令驗證回執: "🧾個人化指令驗證回執｜PersonalInstructionValidationReceipt.yaml"
     狀態: "完成"
 
 🚧存取邊界｜AccessBoundaries:
@@ -54,23 +63,24 @@
       - "貼入後用下一次對話回讀行為驗證。"
       - "若未來有官方設定工具，再改為工具寫入與回讀。"
   Devices:
-    邊界: "iPhone / iPad / Windows 裝置設定需要裝置端人工確認或可用裝置工具"
+    邊界: "iPhone / iPad / Windows 裝置端需要 Kevin 實機確認或可用裝置工具"
     判定: "裝置是 Projection，不是本體"
     修復方向:
-      - "建立裝置座標卡。"
-      - "建立 iPhone 捷徑接線卡。"
-      - "建立 Windows / WSL 接線卡。"
+      - "Kevin 依接線卡在裝置端測試。"
+      - "測試結果回填任務筆記本。"
+      - "不以對話端推測取代實機回讀。"
 
-📌下一批接線｜NextWiringQueue:
-  - "🧭裝置座標卡｜DeviceCoordinateCard"
-  - "🔗iPhone捷徑接線卡｜iPhoneShortcutWireCard"
-  - "🪟WindowsWSL接線卡｜WindowsWSLWireCard"
-  - "🌐Sites公開只讀出口｜SitesPublicReadOnlyOutlet"
-  - "🧾個人化指令驗證回執｜PersonalInstructionValidationReceipt"
+📌已建立接線卡｜CreatedWireCards:
+  - "🧭裝置座標卡｜DeviceCoordinateCard.yaml"
+  - "🔗iPhone捷徑接線卡｜iPhoneShortcutWireCard.yaml"
+  - "🪟WindowsWSL接線卡｜WindowsWSLWireCard.yaml"
+  - "🌐Sites公開只讀出口｜SitesPublicReadOnlyOutlet.yaml"
+  - "🧾個人化指令驗證回執｜PersonalInstructionValidationReceipt.yaml"
 
 ♻️反向鏈｜ReverseChain:
   - "🧩LKMINI"
   - "🧬幻影膠囊世界核心｜PhantomCapsuleWorldCore"
   - "🧭接線總控清單｜SystemWiringLedger"
+  - "五顆剩餘接線卡"
   - "GitHub / Google Drive / Sites / Devices Projection"
   - "🪞幻影膠囊唯一出口"
