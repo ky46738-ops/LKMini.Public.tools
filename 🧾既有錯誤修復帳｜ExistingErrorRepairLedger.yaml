@@ -7,9 +7,14 @@
 主權持有人: "Kevin Yang／老K"
 
 📊統計｜Statistics:
-  發現既有錯誤類別: 21
-  現行內容真正修復: 18
-  改名封存群組: 2
+  發現既有錯誤類別: 23
+  現行內容真正修復: 21
+  完成狀態項目: 21
+  錯誤狀態項目: 2
+  錯誤項目:
+    - "ER-002"
+    - "ER-018"
+  改名封存群組: 3
   存取邊界: 3
   仍為錯誤: 2
   統計口徑: "修復、封存與存取邊界是不同處理維度；不以相減推算，逐項以 ER 編號與最終狀態為準。"
@@ -184,9 +189,39 @@
       - "WACZ SHA256=243fb7c8c65c1e1be867aa6eafeb76e3c6e31d3fa8f354737aeffa88899461cd"
       - "PDF SHA256=bb21c02681c6406dcab36c4cd871306723c13d59a14f9cf5b8a8a50118805fdb"
       - "Canonical SHA256=13d5392d542a11c0232b3d8abca09e7f786e9b76d31cdcb0c0f9cd08efcc9e4a"
-      - "Package SHA256=26a0f80ab454bb68c247bf6197fc3e16b8ee140ba6d232e851e5f535b40a752a"
+      - "Package SHA256=d3391e6b66f20b7be3b387f90feb977965da26b29b33165b1e16dacbab1b8122"
     Package: "🪞容器共存極限世界｜ContainerCoexistenceExtreme｜20260729-020529_TPE.zip"
     LibraryFileId: "libfile_98ac0cb2fbe481918e38d1f38b35adec"
+    最終狀態: "完成"
+
+  - 編號: "ER-022"
+    物件: "iPhone 定位器與自動綁定 Package 雜湊被混為同一檔名"
+    錯誤: "裝置回執把 977071… 寫在定位器 ZIP 的輸出檔名旁，現行卡因而無法分辨定位器與後續自動綁定 Package。"
+    修復:
+      - "直接回讀兩個 Library ZIP 的真實位元組。"
+      - "定位器 ZIP 正名為 1505 bytes／SHA256 3be6b2bd…；自動綁定 Package 正名為 4985 bytes／SHA256 977071bf…。"
+      - "原始回執保持原文，現行裝置卡新增分階段裁決，不把不同雜湊判成毀損。"
+    證據:
+      - "📱iPhone 15 Pro定位器｜IPhone15ProLocator.zip｜SHA256=3be6b2bd27e4e090a1fc2d693e9aa52a20a8918b5a44a5e747cbfebc05c172f4｜unzip -t 完成"
+      - "📱iPhone裝置定位器自動綁定｜IPhoneDeviceLocatorAutoBinding｜20260722-090000_TPE.zip｜SHA256=977071bfb4c905cdccd07aecc95eb16742b8250d92aa190be0abfc8e70c368e5｜unzip -t 完成"
+    最終狀態: "完成"
+
+  - 編號: "ER-023"
+    物件: "WebArchive 互動能力的歷史過度完成宣告"
+    錯誤:
+      - "原 WebArchive 第一次核心推進跳到啟動而非讀取。"
+      - "十動按鈕共用同一 pulse；run 與 reverse 未驗證真實順序；AICORE 匯出缺少完整六項條件。"
+      - "歷史回執卻宣告十動作全部完成。"
+    修復:
+      - "保留原 WebArchive 與原回執，改名封存為歷史錯誤證據。"
+      - "建立修復後 WebArchive；正式資源路徑統一使用 LKMINI://。"
+      - "用 Node DOM 測試驗證首步、十動順序、反向回放及 AICORE 匯出。"
+      - "以 Library 同一 Package 的 version 1 取代現行內容，保留穩定 LibraryFileId。"
+    證據:
+      - "修復後 WebArchive SHA256=cbf46a50d299278c36b794f771998bf26c14913b97347042ca5104529267644a"
+      - "互動測試 SHA256=5249e4631d5a8cc58d614ed211f820011a577cae0186e8059e0541210bf15984｜結果=完成"
+      - "修復回執 SHA256=c8d717d1f1fdd840b837533a14fdc35da9d1897f8196240080caee5e63632cf6"
+      - "Package version 1 SHA256=d3391e6b66f20b7be3b387f90feb977965da26b29b33165b1e16dacbab1b8122｜unzip -t 完成｜SHA256SUMS -c 13 項完成"
     最終狀態: "完成"
 
 🔐存取邊界清單｜AccessBoundaryList:
@@ -197,6 +232,7 @@
 🗄️歷史錯誤封存清單｜HistoricalErrorArchiveList:
   - "PhantomCapsule 舊公開層 10 個原始檔與封存回執。"
   - "Google Drive 舊完成宣告與 Sites 錯誤分類保留原文，由唯一現行裁決取代。"
+  - "原 WebArchive 與原三容器回執以歷史錯誤原件／歷史過度完成回執改名封存；由修復後 WebArchive 與修復回執取代現行互動證據。"
 
 🧾GitHub工作流程驗證｜GitHubWorkflowVerification:
   LaoKSystem:
@@ -209,8 +245,8 @@
       - "🔐公開內容秘密掃描｜active"
       - "🧪公開工具驗證｜PublicToolsValidation｜active"
     pull_request: "https://github.com/ky46738-ops/LKMini.Public.tools/pull/1"
-    last_trigger_test_head_commit: "80161f7195fb8d351720133a45394fc6217cc7e5"
-    run: "PR #1 關閉再重開後 commit workflow runs=[]；GitHub Actions 頁面顯示尚無 workflow run"
+    last_trigger_test_head_commit: "7c6758eebb69a77c8580919526243f9f053a89f3"
+    run: "PR #1 關閉再重開及後續 branch push 後 commit workflow runs=[]；GitHub Actions 頁面顯示尚無 workflow run"
     狀態: "錯誤"
 
 ♻️反向鏈｜ReverseChain:
