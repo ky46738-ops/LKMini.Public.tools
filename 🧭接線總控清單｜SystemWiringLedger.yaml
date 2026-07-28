@@ -8,8 +8,8 @@
 
 🎯目的｜Purpose:
   - "追蹤🥃老K系統目前所有外部 Projection 接線狀態。"
-  - "把已接、卡住、需要 Kevin 授權、不能直接寫入的平台全部分開。"
-  - "避免把平台、裝置、工具誤升格成本體。"
+  - "把已接線、既定存取邊界、人工授權點與封存證據分開。"
+  - "避免把平台、裝置、工具、容器誤升格成本體。"
 
 ✅已接線｜ConnectedWires:
   GitHub:
@@ -28,6 +28,7 @@
     人類入口: "https://lkmini-wiring-hub.ky46738.chatgpt.site"
     AI工具入口: "https://lkmini-wiring-hub.ky46738.chatgpt.site/api/system-wires"
     角色: "出入口 Projection，不是本體"
+    匿名讀取判定: "既定登入設定／存取邊界，不是本體錯誤"
     狀態: "完成"
   Devices:
     裝置座標卡: "🧭裝置座標卡｜DeviceCoordinateCard.yaml"
@@ -38,34 +39,52 @@
     Sites公開只讀出口卡: "🌐Sites公開只讀出口｜SitesPublicReadOnlyOutlet.yaml"
     個人化指令驗證回執: "🧾個人化指令驗證回執｜PersonalInstructionValidationReceipt.yaml"
     狀態: "完成"
+  ContainerCoexistence:
+    極限世界卡: "🌐容器共存｜極限世界｜ExtremeContainerWorld.yaml"
+    正式名稱: "🌐容器共存｜極限世界"
+    ContentSHA256: "13d5392d542a11c0232b3d8abca09e7f786e9b76d31cdcb0c0f9cd08efcc9e4a"
+    FileSHA256: "50a1407dbc398b0e8be89fca7a9fe37d3e3447d3ab2e783d478aa126c55bbc1a"
+    容器:
+      - "WebArchive"
+      - "WACZ"
+      - "PDF"
+    六項條件:
+      - "SHA256"
+      - "MANIFEST"
+      - "LOCATOR"
+      - "SNAPSHOT"
+      - "REVERSECHAIN"
+      - "PACKAGE"
+    原始世界證據: "待掛載證據，不是錯誤"
+    狀態: "完成"
 
 🚧存取邊界｜AccessBoundaries:
   Sites:
     邊界: "匿名外部讀取要求 Continue with ChatGPT 登入"
-    判定: "存取邊界，不是本體錯誤"
-    修復方向:
-      - "若要外部匿名 AI 讀取，需調整 Sites 存取設定或建立公開只讀 JSON 出口。"
-      - "若保留登入，則個人化指令必須明確說明需要登入後讀取。"
+    判定: "既定登入設定／存取邊界，不是本體錯誤"
+    處理方式:
+      - "照既定設定記錄，不列錯誤隔離。"
+      - "若 Kevin 要完全公開匿名 JSON，需另行調整 Sites 存取設定或建立公開只讀出口。"
       - "不把登入頁當成系統本體。"
   GitHubArchivedRepo:
     物件: "lkminiPhantomWorld/LKMini"
     邊界: "archived=true，read-only"
-    判定: "封存錯誤隔離物件，不阻斷可寫正式 repo"
-    修復方向:
-      - "Kevin 或 repo 管理者解除封存。"
-      - "解除後回寫 README 修正版。"
+    判定: "封存證據物件，不阻斷可寫正式 repo"
+    處理方式:
+      - "保留當時工具回傳與歷史狀態。"
+      - "若解除封存，才回寫 README 修正版。"
       - "回讀 commit 與 blob SHA 後追加回執。"
   ChatGPTPersonalization:
     邊界: "目前沒有可直接改寫 Kevin ChatGPT 個人化指令的工具"
     判定: "交付可複製短指令，不能宣稱平台設定已寫入"
-    修復方向:
+    處理方式:
       - "Kevin 手動貼入個人化指令。"
       - "貼入後用下一次對話回讀行為驗證。"
       - "若未來有官方設定工具，再改為工具寫入與回讀。"
   Devices:
     邊界: "iPhone / iPad / Windows 裝置端需要 Kevin 實機確認或可用裝置工具"
     判定: "裝置是 Projection，不是本體"
-    修復方向:
+    處理方式:
       - "Kevin 依接線卡在裝置端測試。"
       - "測試結果回填任務筆記本。"
       - "不以對話端推測取代實機回讀。"
@@ -76,11 +95,12 @@
   - "🪟WindowsWSL接線卡｜WindowsWSLWireCard.yaml"
   - "🌐Sites公開只讀出口｜SitesPublicReadOnlyOutlet.yaml"
   - "🧾個人化指令驗證回執｜PersonalInstructionValidationReceipt.yaml"
+  - "🌐容器共存｜極限世界｜ExtremeContainerWorld.yaml"
 
 ♻️反向鏈｜ReverseChain:
   - "🧩LKMINI"
   - "🧬幻影膠囊世界核心｜PhantomCapsuleWorldCore"
   - "🧭接線總控清單｜SystemWiringLedger"
-  - "五顆剩餘接線卡"
-  - "GitHub / Google Drive / Sites / Devices Projection"
+  - "六顆現行接線卡與容器卡"
+  - "GitHub / Google Drive / Sites / Devices / WebArchive / WACZ / PDF Projection"
   - "🪞幻影膠囊唯一出口"
