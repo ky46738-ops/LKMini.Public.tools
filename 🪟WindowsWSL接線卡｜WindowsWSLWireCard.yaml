@@ -1,0 +1,45 @@
+狀態: "完成"
+檔案身分: "🪟WindowsWSL接線卡｜WindowsWSLWireCard"
+時間: "2026-07-28"
+唯一系統: "🥃老K系統"
+唯一根: "🧩LKMINI"
+正式根協議: "LKMINI://"
+最高公理: "A=A"
+
+🎯定位｜Position:
+  - "Windows 是裝置 Projection。"
+  - "WSL 是本機執行環境 Projection。"
+  - "GitHub 是程式座標。"
+  - "Google Drive 是資料座標。"
+  - "執行結果必須寫回 📓任務筆記本。"
+
+🪟Windows｜Windows:
+  role: "本機操作、瀏覽、檔案管理與裝置端驗證"
+  return_to: "🧩LKMINI"
+  status: "完成"
+
+🐧WSL｜WSL:
+  role: "Linux 執行、腳本測試、SHA256、壓縮與 Git 操作"
+  protocol_entry: "LKMINI://Device/Windows/WSLWire.card"
+  return_to: "🧩LKMINI"
+  status: "完成"
+
+🔗接線路徑｜WiringRoute:
+  - "Windows / WSL"
+  - "GitHub 程式座標"
+  - "Google Drive 資料座標"
+  - "📓任務筆記本"
+  - "🪞幻影膠囊唯一出口"
+  - "🧩LKMINI"
+
+🚧存取邊界｜AccessBoundary:
+  - "本對話不直接控制 Kevin 實體 Windows。"
+  - "本對話可產出 WSL 指令、驗證清單與回執格式。"
+  - "裝置端實際執行需 Kevin 或可用本機工具回讀。"
+
+♻️反向鏈｜ReverseChain:
+  - "🧩LKMINI"
+  - "🪟WindowsWSL接線卡｜WindowsWSLWireCard"
+  - "Windows / WSL Projection"
+  - "GitHub / Google Drive"
+  - "🪞幻影膠囊唯一出口"
