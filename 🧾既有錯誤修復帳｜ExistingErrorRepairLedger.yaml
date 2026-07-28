@@ -130,14 +130,14 @@
   - 編號: "ER-015"
     物件: "Google Drive 歷史錯誤完成宣告"
     修復: "保留原文；追加唯一現行裁決，停止舊完成宣告作為現行狀態來源。"
-    DriveRevision: "9"
-    DocsRevisionId: "AIroW3566-kCHlEzAqjfodQYFVNR3rwPQ7HchLQzqCv7WFBpUiH1XFx9svosdTqZizIclPWBgZ33S4plh5sov0RLuEfM40xlgQdi33eTEGI"
+    📁Google Drive修訂版｜DriveRevision: "9"
+    📄Google文件修訂識別｜DocsRevisionId: "AIroW3566-kCHlEzAqjfodQYFVNR3rwPQ7HchLQzqCv7WFBpUiH1XFx9svosdTqZizIclPWBgZ33S4plh5sov0RLuEfM40xlgQdi33eTEGI"
     最終狀態: "完成"
 
   - 編號: "ER-016"
     物件: "Google Drive 把 Sites 登入邊界放在錯誤隔離清單"
     修復: "保留歷史原文；追加現行裁決，兩處 401 統一分類為🔐存取邊界｜AccessBoundary。"
-    DriveRevision: "9"
+    📁Google Drive修訂版｜DriveRevision: "9"
     最終狀態: "完成"
 
   - 編號: "ER-017"
@@ -152,8 +152,11 @@
       - "兩個 workflow 均已註冊為 active。"
       - "main 提交、repair branch 提交與 PR #1 建立後，commit workflow runs 仍為空集合。"
       - "GitHub Actions 頁面顯示尚無 workflow run。"
+      - "PR #1 已 squash merge 至 main；合併提交 4fd154abffa74b36f446e088b7357a9f90e63bcd。"
+      - "合併後公開 GitHub API 回讀 actions/runs total_count=0。"
+      - "Actions permissions 官方端點需要具 Administration(read) 的驗證；匿名回讀為 HTTP 401，現有 GitHub 工具沒有該設定讀寫或首次 dispatch 能力。"
     已完成修復: "workflow 檔案已建立，pull_request 與 push 觸發條件、jobs 與測試命令已寫入。"
-    尚需: "由 repository 管理端檢查 GitHub Actions policy／權限並允許執行，或使用具 workflow dispatch 權限的工具手動觸發；目前工具沒有設定或 dispatch 寫入能力。"
+    尚需: "Kevin 於 Settings → Actions → General 回讀 Actions permissions；若總開關關閉則開啟，再以既有 workflow_dispatch 執行 Run workflow。"
     禁止宣告: "不得把 active 或 PR 已建立冒充 run、job、steps 已成功。"
     最終狀態: "錯誤"
 
@@ -190,8 +193,8 @@
       - "PDF SHA256=bb21c02681c6406dcab36c4cd871306723c13d59a14f9cf5b8a8a50118805fdb"
       - "Canonical SHA256=13d5392d542a11c0232b3d8abca09e7f786e9b76d31cdcb0c0f9cd08efcc9e4a"
       - "Package SHA256=d3391e6b66f20b7be3b387f90feb977965da26b29b33165b1e16dacbab1b8122"
-    Package: "🪞容器共存極限世界｜ContainerCoexistenceExtreme｜20260729-020529_TPE.zip"
-    LibraryFileId: "libfile_98ac0cb2fbe481918e38d1f38b35adec"
+    📦交付包｜Package: "🪞容器共存極限世界｜ContainerCoexistenceExtreme｜20260729-020529_TPE.zip"
+    📚Library檔案識別｜LibraryFileId: "libfile_98ac0cb2fbe481918e38d1f38b35adec"
     最終狀態: "完成"
 
   - 編號: "ER-022"
@@ -235,18 +238,18 @@
   - "原 WebArchive 與原三容器回執以歷史錯誤原件／歷史過度完成回執改名封存；由修復後 WebArchive 與修復回執取代現行互動證據。"
 
 🧾GitHub工作流程驗證｜GitHubWorkflowVerification:
-  LaoKSystem:
+  🥃老K系統｜LaoKSystem:
     修復Run:
       - "30381064307｜job 90348749393｜success"
       - "30381063799｜job 90348748097｜success"
     狀態: "完成"
-  PublicTools:
-    workflows:
+  🧰公開工具｜PublicTools:
+    ⚙️工作流程｜workflows:
       - "🔐公開內容秘密掃描｜active"
       - "🧪公開工具驗證｜PublicToolsValidation｜active"
-    pull_request: "https://github.com/ky46738-ops/LKMini.Public.tools/pull/1"
-    last_trigger_test_head_commit: "7c6758eebb69a77c8580919526243f9f053a89f3"
-    run: "PR #1 關閉再重開及後續 branch push 後 commit workflow runs=[]；GitHub Actions 頁面顯示尚無 workflow run"
+    🔗拉取請求｜pull_request: "https://github.com/ky46738-ops/LKMini.Public.tools/pull/1"
+    🧪最後觸發測試提交｜last_trigger_test_head_commit: "4fd154abffa74b36f446e088b7357a9f90e63bcd"
+    ▶️執行結果｜run: "PR #1 已合併至 main；合併後公開 API actions/runs total_count=0，沒有 run、job 或 steps"
     狀態: "錯誤"
 
 ♻️反向鏈｜ReverseChain:
