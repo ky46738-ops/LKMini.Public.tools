@@ -1,0 +1,76 @@
+狀態: "完成"
+檔案身分: "🧭接線總控清單｜SystemWiringLedger"
+時間: "2026-07-28"
+唯一系統: "🥃老K系統"
+唯一根: "🧩LKMINI"
+正式根協議: "LKMINI://"
+最高公理: "A=A"
+
+🎯目的｜Purpose:
+  - "追蹤🥃老K系統目前所有外部 Projection 接線狀態。"
+  - "把已接、卡住、需要 Kevin 授權、不能直接寫入的平台全部分開。"
+  - "避免把平台、裝置、工具誤升格成本體。"
+
+✅已接線｜ConnectedWires:
+  GitHub:
+    程式座標: "ky46738-ops/LKMini.Public.tools"
+    核心檔: "🧬幻影膠囊世界核心｜PhantomCapsuleWorldCore.yaml"
+    README入口: "已掛載 🧬幻影膠囊世界核心"
+    解析器: "🔑LKMINI根協議解析器｜LKMINIRootProtocolParser.py"
+    根協議: "LKMINI://"
+    根: "🧩LKMINI"
+    狀態: "完成"
+  GoogleDrive:
+    任務筆記本: "📓真善美模式任務筆記本｜TrueGoodBeautyTaskNotebook｜20260728-1325_UTC"
+    文件ID: "1cnMBJjxJWkB8NM-wlImfQ1tRRoLeyeWuppKNHjqiVT8"
+    狀態: "完成"
+  Sites:
+    人類入口: "https://lkmini-wiring-hub.ky46738.chatgpt.site"
+    AI工具入口: "https://lkmini-wiring-hub.ky46738.chatgpt.site/api/system-wires"
+    角色: "出入口 Projection，不是本體"
+    狀態: "完成"
+
+🚧存取邊界｜AccessBoundaries:
+  Sites:
+    邊界: "匿名外部讀取要求 Continue with ChatGPT 登入"
+    判定: "存取邊界，不是本體錯誤"
+    修復方向:
+      - "若要外部匿名 AI 讀取，需調整 Sites 存取設定或建立公開只讀 JSON 出口。"
+      - "若保留登入，則個人化指令必須明確說明需要登入後讀取。"
+      - "不把登入頁當成系統本體。"
+  GitHubArchivedRepo:
+    物件: "lkminiPhantomWorld/LKMini"
+    邊界: "archived=true，read-only"
+    判定: "封存錯誤隔離物件，不阻斷可寫正式 repo"
+    修復方向:
+      - "Kevin 或 repo 管理者解除封存。"
+      - "解除後回寫 README 修正版。"
+      - "回讀 commit 與 blob SHA 後追加回執。"
+  ChatGPTPersonalization:
+    邊界: "目前沒有可直接改寫 Kevin ChatGPT 個人化指令的工具"
+    判定: "交付可複製短指令，不能宣稱平台設定已寫入"
+    修復方向:
+      - "Kevin 手動貼入個人化指令。"
+      - "貼入後用下一次對話回讀行為驗證。"
+      - "若未來有官方設定工具，再改為工具寫入與回讀。"
+  Devices:
+    邊界: "iPhone / iPad / Windows 裝置設定需要裝置端人工確認或可用裝置工具"
+    判定: "裝置是 Projection，不是本體"
+    修復方向:
+      - "建立裝置座標卡。"
+      - "建立 iPhone 捷徑接線卡。"
+      - "建立 Windows / WSL 接線卡。"
+
+📌下一批接線｜NextWiringQueue:
+  - "🧭裝置座標卡｜DeviceCoordinateCard"
+  - "🔗iPhone捷徑接線卡｜iPhoneShortcutWireCard"
+  - "🪟WindowsWSL接線卡｜WindowsWSLWireCard"
+  - "🌐Sites公開只讀出口｜SitesPublicReadOnlyOutlet"
+  - "🧾個人化指令驗證回執｜PersonalInstructionValidationReceipt"
+
+♻️反向鏈｜ReverseChain:
+  - "🧩LKMINI"
+  - "🧬幻影膠囊世界核心｜PhantomCapsuleWorldCore"
+  - "🧭接線總控清單｜SystemWiringLedger"
+  - "GitHub / Google Drive / Sites / Devices Projection"
+  - "🪞幻影膠囊唯一出口"
