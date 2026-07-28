@@ -7,12 +7,12 @@
 主權持有人: "Kevin Yang／老K"
 
 📊統計｜Statistics:
-  發現既有錯誤類別: 17
+  發現既有錯誤類別: 18
   現行內容真正修復: 15
   改名封存群組: 2
   存取邊界: 3
-  仍為錯誤: 1
-  裁決: "程式與文件修復不等於外部憑證已撤銷；因此整體狀態保持錯誤。"
+  仍為錯誤: 2
+  裁決: "程式與文件修復不等於外部憑證已撤銷，也不等於未產生 run 的公開 workflow 已完成驗證；因此整體狀態保持錯誤。"
 
 🧾真正修復清單｜ActualRepairList:
   - 編號: "ER-001"
@@ -136,6 +136,18 @@
     修復: "停止把舊值作為現行完整性證據，改指向可回讀 SHA256SUMS 與本修復帳；舊值留在 Git 歷史與演化說明。"
     最終狀態: "完成"
 
+  - 編號: "ER-018"
+    物件: "公開工具 repo workflow 沒有產生 run"
+    平台: "ky46738-ops/LKMini.Public.tools"
+    真實回讀:
+      - "兩個 workflow 均已註冊為 active。"
+      - "main 提交、repair branch 提交與 PR #1 建立後，commit workflow runs 仍為空集合。"
+      - "GitHub Actions 頁面顯示尚無 workflow run。"
+    已完成修復: "workflow 檔案已建立，pull_request 與 push 觸發條件、jobs 與測試命令已寫入。"
+    尚需: "由 repository 管理端檢查 GitHub Actions policy／權限並允許執行，或使用具 workflow dispatch 權限的工具手動觸發；目前工具沒有設定或 dispatch 寫入能力。"
+    禁止宣告: "不得把 active 或 PR 已建立冒充 run、job、steps 已成功。"
+    最終狀態: "錯誤"
+
 🔐存取邊界清單｜AccessBoundaryList:
   - "Sites：custom access 只允許 Kevin 帳號；匿名 401／Sign in required 是既定設定。"
   - "裝置：iPhone、iPad、Windows、WSL 需實機或裝置工具回讀。"
@@ -155,7 +167,9 @@
     workflows:
       - "🔐公開內容秘密掃描｜active"
       - "🧪公開工具驗證｜PublicToolsValidation｜active"
-    run: "等待驗證 PR 觸發後回寫"
+    pull_request: "https://github.com/ky46738-ops/LKMini.Public.tools/pull/1"
+    head_commit: "b4b06f96d291f875e44978767b4d037e8070c975"
+    run: "commit workflow runs=[]；GitHub Actions 頁面顯示尚無 workflow run"
     狀態: "錯誤"
 
 ♻️反向鏈｜ReverseChain:
