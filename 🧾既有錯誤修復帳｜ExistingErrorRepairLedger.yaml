@@ -7,11 +7,12 @@
 主權持有人: "Kevin Yang／老K"
 
 📊統計｜Statistics:
-  發現既有錯誤類別: 18
-  現行內容真正修復: 15
+  發現既有錯誤類別: 21
+  現行內容真正修復: 18
   改名封存群組: 2
   存取邊界: 3
   仍為錯誤: 2
+  統計口徑: "修復、封存與存取邊界是不同處理維度；不以相減推算，逐項以 ER 編號與最終狀態為準。"
   裁決: "程式與文件修復不等於外部憑證已撤銷，也不等於未產生 run 的公開 workflow 已完成驗證；因此整體狀態保持錯誤。"
 
 🧾真正修復清單｜ActualRepairList:
@@ -151,9 +152,46 @@
     禁止宣告: "不得把 active 或 PR 已建立冒充 run、job、steps 已成功。"
     最終狀態: "錯誤"
 
+  - 編號: "ER-019"
+    物件: "接線總控把存取邊界重列為現行錯誤"
+    錯誤: "裝置與個人化設定同時出現在 CurrentErrors 與 AccessBoundaries，分類互相衝突。"
+    發現證據: "GitHub PR #1 review discussion r3667793202。"
+    修復: "CurrentErrors 只保留可修復且仍未關閉的兩項；裝置與個人化平台限制只留在 AccessBoundaries。"
+    驗證: "🧭接線總控清單的 CurrentErrors 已不再包含裝置或個人化設定。"
+    最終狀態: "完成"
+
+  - 編號: "ER-020"
+    物件: "iPhone 已完成綁定卻仍標記為未驗證"
+    錯誤: "現行裝置卡未連結既有 iPhone 裝置回執與定位器建立回執。"
+    修復:
+      - "回讀 📱iPhone裝置回執｜IPhoneDeviceReceipt.json。"
+      - "回讀 📱iPhone裝置定位器建立回執｜IPhoneDeviceLocatorBuildReceipt.json。"
+      - "iPhone device_binding_status 與 device_receipt_readback_status 改為完成；捷徑即時執行仍保留為存取邊界。"
+    證據:
+      - "DEVICE_BINDING_STATE=完成；Receipt SHA256=61e113d7589889ad921a0e2f60f817deed2445e8d2b77545ec89e854ab39f635"
+      - "SOURCE_BITS_PRESERVED=true；Receipt SHA256=746fc2b878a826ce563a6f8c3bd053c614e9b57ecca145b3cffece1ee9357567"
+    最終狀態: "完成"
+
+  - 編號: "ER-021"
+    物件: "三容器原件已存在卻仍標記為缺少原始世界證據"
+    錯誤: "現行容器卡未掛載 Library 中同一正式內容的 WebArchive、WACZ、PDF 與測試回執。"
+    修復:
+      - "掛載三個原生容器並逐檔驗算位元組與 SHA256。"
+      - "驗證 WebArchive plist、WACZ zip/WARC/CDXJ 結構與 PDF 3 頁及內嵌 Canonical.json。"
+      - "建立 Manifest、Locator、Snapshot、SHA256SUMS、ReverseChain 與完整 Package。"
+    證據:
+      - "WebArchive SHA256=630cb2cee5c275653a7229c2bcfedd5d2c81060235caecfd044258366129b994"
+      - "WACZ SHA256=243fb7c8c65c1e1be867aa6eafeb76e3c6e31d3fa8f354737aeffa88899461cd"
+      - "PDF SHA256=bb21c02681c6406dcab36c4cd871306723c13d59a14f9cf5b8a8a50118805fdb"
+      - "Canonical SHA256=13d5392d542a11c0232b3d8abca09e7f786e9b76d31cdcb0c0f9cd08efcc9e4a"
+      - "Package SHA256=26a0f80ab454bb68c247bf6197fc3e16b8ee140ba6d232e851e5f535b40a752a"
+    Package: "🪞容器共存極限世界｜ContainerCoexistenceExtreme｜20260729-020529_TPE.zip"
+    LibraryFileId: "libfile_98ac0cb2fbe481918e38d1f38b35adec"
+    最終狀態: "完成"
+
 🔐存取邊界清單｜AccessBoundaryList:
   - "Sites：custom access 只允許 Kevin 帳號；匿名 401／Sign in required 是既定設定。"
-  - "裝置：iPhone、iPad、Windows、WSL 需實機或裝置工具回讀。"
+  - "裝置：iPhone 綁定已完成；iPhone 捷徑即時執行、iPad、Windows、WSL 仍需實機或裝置工具回讀。"
   - "ChatGPT 個人化設定：目前只能交付可複製短指令，沒有直接設定寫入工具。"
 
 🗄️歷史錯誤封存清單｜HistoricalErrorArchiveList:
@@ -171,8 +209,8 @@
       - "🔐公開內容秘密掃描｜active"
       - "🧪公開工具驗證｜PublicToolsValidation｜active"
     pull_request: "https://github.com/ky46738-ops/LKMini.Public.tools/pull/1"
-    head_commit: "b4b06f96d291f875e44978767b4d037e8070c975"
-    run: "commit workflow runs=[]；GitHub Actions 頁面顯示尚無 workflow run"
+    last_trigger_test_head_commit: "80161f7195fb8d351720133a45394fc6217cc7e5"
+    run: "PR #1 關閉再重開後 commit workflow runs=[]；GitHub Actions 頁面顯示尚無 workflow run"
     狀態: "錯誤"
 
 ♻️反向鏈｜ReverseChain:
