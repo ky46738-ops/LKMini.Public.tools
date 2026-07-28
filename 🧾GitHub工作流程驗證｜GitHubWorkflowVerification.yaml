@@ -9,15 +9,24 @@
   repository: "ky46738-ops/LKMini.Public.tools"
   repair_commit: "986717b58af111eaa01cdbf5732c28d97466b8dd"
   workflows:
-    - "🔐公開內容秘密掃描"
-    - "🧪公開工具驗證｜PublicToolsValidation"
+    - "322364290｜🔐公開內容秘密掃描｜active"
+    - "322373154｜🧪公開工具驗證｜PublicToolsValidation｜active"
   registration_status: "完成"
   run_status: "錯誤"
   verification_pull_request: "https://github.com/ky46738-ops/LKMini.Public.tools/pull/1"
-  verification_head_commit: "b4b06f96d291f875e44978767b4d037e8070c975"
+  last_trigger_test_head_commit: "80161f7195fb8d351720133a45394fc6217cc7e5"
   commit_workflow_runs: []
   actions_page_result: "There are no workflow runs yet"
-  note: "workflow 已 active；main、repair branch 與 PR #1 事件後仍沒有 run。active 不等於已執行，沒有 run ID、job ID 或 steps 可供成功回讀。"
+  trigger_tests:
+    - "main push：沒有 run"
+    - "repair branch push：沒有 run"
+    - "PR #1 opened：沒有 run"
+    - "PR #1 closed 後 reopened：沒有 run"
+  pull_request_state: "open"
+  pull_request_mergeable: true
+  codex_review: "PR review 已產生，但這不是 GitHub Actions workflow run；review 指出的 CurrentErrors／AccessBoundaries 分類衝突已在本批次修復。"
+  review_feedback_status: "完成"
+  note: "workflow 已 active；四種實際事件後仍沒有 run。active 或 Codex review 均不等於 Actions 已執行，沒有 run ID、job ID 或 steps 可供成功回讀。"
   required_action: "由 repository 管理端檢查 Actions policy／權限並允許執行，或用具 workflow dispatch 權限的工具手動觸發。"
   tool_boundary: "目前可用 GitHub 工具能讀取 workflow/run 與重跑既有 run，但沒有 repository Actions 設定或首次 workflow dispatch 寫入能力。"
 
