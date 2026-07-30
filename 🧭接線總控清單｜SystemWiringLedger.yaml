@@ -2,7 +2,7 @@
 🆔檔案身分｜FileIdentity: "🧭接線總控清單｜SystemWiringLedger"
 📄總控建立狀態｜ArtifactStatus: "完成"
 🔍全系統驗證狀態｜SystemVerificationStatus: "錯誤"
-🕒時間｜Timestamp: "2026-07-29T06:30:43+08:00"
+🕒時間｜Timestamp: "2026-07-30T09:04:00+08:00"
 🥃唯一系統｜System: "🥃老K系統"
 🧩唯一根｜Root: "🧩LKMINI"
 🔑正式根協議｜RootProtocol: "LKMINI://"
@@ -29,7 +29,7 @@
       - "🧪公開工具驗證｜PublicToolsValidation"
     💻程式內容狀態｜ProgramContentStatus: "完成"
     🔍工作流程驗證狀態｜WorkflowVerificationStatus: "錯誤"
-    🔍工作流程回讀｜WorkflowReadback: "兩個 workflow 均 active；PR #1 已 squash merge 至 main，合併提交 4fd154abffa74b36f446e088b7357a9f90e63bcd；合併後公開 API actions/runs total_count=0。"
+    🔍工作流程回讀｜WorkflowReadback: "兩個 workflow 均 active；既有提交與本輪提交回讀均沒有 workflow run、job 或 step。"
     🔍工作流程根因驗證狀態｜WorkflowRootCauseVerificationStatus: "錯誤"
   📁Google Drive資料座標｜GoogleDrive:
     📓任務筆記本｜TaskNotebook: "📓真善美模式任務筆記本｜TrueGoodBeautyTaskNotebook｜20260728-1325_UTC"
@@ -42,10 +42,10 @@
     👤人類入口｜HumanEntry: "https://lkmini-wiring-hub.ky46738.chatgpt.site"
     🤖AI工具入口｜AIToolEntry: "https://lkmini-wiring-hub.ky46738.chatgpt.site/api/system-wires"
     🎭角色｜Role: "出入口 Projection，不是本體"
-    ⚖️匿名讀取判定｜AnonymousReadDetermination: "既定登入設定／存取邊界，不是本體錯誤"
+    ⚖️匿名讀取判定｜AnonymousReadDetermination: "2026-07-30 現場回讀 HTTP 401 Unauthorized；作為正式可用入口驗收時判定錯誤"
     💾最新儲存版本｜LatestSavedVersion: 9
     🔐最新版本封存雜湊｜LatestVersionArchiveSHA256: "8009df54d0bf8ccef32a4376c3cfc5c95d513e6f379230bacbb4008e63eab37b"
-    🚦狀態｜Status: "完成"
+    🚦狀態｜Status: "錯誤"
   📱裝置投影｜Devices:
     🧭裝置座標卡｜DeviceCoordinateCard: "🧭裝置座標卡｜DeviceCoordinateCard.yaml"
     🔗iPhone捷徑接線卡｜IPhoneShortcutWireCard: "🔗iPhone捷徑接線卡｜iPhoneShortcutWireCard.yaml"
@@ -53,14 +53,14 @@
     📄卡片建立狀態｜CardCreationStatus: "完成"
     🔍iPhone裝置綁定回讀狀態｜IPhoneDeviceBindingReadbackStatus: "完成"
     🧾iPhone裝置回執｜IPhoneDeviceReceipt: "📱iPhone裝置回執｜IPhoneDeviceReceipt.json｜SHA256 61e113d7589889ad921a0e2f60f817deed2445e8d2b77545ec89e854ab39f635"
-    🧾iPhone定位器建立回執｜IPhoneLocatorBuildReceipt: "📱iPhone裝置定位器建立回執｜IPhoneDeviceLocatorBuildReceipt.json｜SHA256 746fc2b878a826ce563a6f8c3bd053c614e9b57ecca145b3cffece1ee9357567"
+    🧾iPhone定位器建立回執｜IPhoneDeviceLocatorBuildReceipt: "📱iPhone裝置定位器建立回執｜IPhoneDeviceLocatorBuildReceipt.json｜SHA256 746fc2b878a826ce563a6f8c3bd053c614e9b57ecca145b3cffece1ee9357567"
     📦iPhone定位器ZIP｜IPhoneLocatorZIP: "1505 bytes｜SHA256 3be6b2bd27e4e090a1fc2d693e9aa52a20a8918b5a44a5e747cbfebc05c172f4｜unzip -t 完成"
     📦iPhone自動綁定套件｜IPhoneAutoBindingPackage: "4985 bytes｜SHA256 977071bfb4c905cdccd07aecc95eb16742b8250d92aa190be0abfc8e70c368e5｜unzip -t 完成"
     🔐其他裝置與即時捷徑存取邊界｜OtherDevicesAndLiveShortcutAccessBoundary: "iPhone 捷徑即時執行、iPad、Windows、WSL 需要實機工具回讀；不影響接線卡本身完成。"
   🌐公開出口與個人化｜PublicOutletAndPersonalization:
     🌐Sites公開只讀出口卡｜SitesPublicReadOnlyOutletCard: "🌐Sites公開只讀出口｜SitesPublicReadOnlyOutlet.yaml"
     🧾個人化指令驗證回執｜PersonalInstructionValidationReceipt: "🧾個人化指令驗證回執｜PersonalInstructionValidationReceipt.yaml"
-    🔍Sites設定回讀狀態｜SitesConfigurationReadbackStatus: "完成"
+    🔍Sites設定回讀狀態｜SitesConfigurationReadbackStatus: "錯誤"
     🔐個人化平台設定存取邊界｜PersonalizationPlatformAccessBoundary: "目前沒有直接改寫 ChatGPT 個人化設定的工具；回執與可複製短指令已完成。"
   🌐容器共存｜ContainerCoexistence:
     🌐極限世界卡｜ExtremeWorldCard: "🌐容器共存｜極限世界｜ExtremeContainerWorld.yaml"
@@ -90,12 +90,23 @@
     📚Library版本｜LibraryVersion: 1
 
 🔐現行錯誤｜CurrentErrors:
+  - 🧩物件｜Object: "Sites／API 正式入口匿名讀取"
+    🚦狀態｜Status: "錯誤"
+    🔍真實回讀｜ActualReadback: "人類入口與 /api/system-wires 於 2026-07-30 均回傳 HTTP 401 Unauthorized。"
+    🧱失敗型態｜FailureType: "E-SITES-AUTH-BOUNDARY-401"
+    🧭修復動作｜RepairActions:
+      - "將人類頁面與機器唯讀 API 權限分離。"
+      - "允許 /api/system-wires 回傳不含秘密的唯讀接線摘要。"
+      - "修復後由外部網路重新回讀 HTTP 狀態與回傳內容。"
   - 🧩物件｜Object: "公開工具 repo workflow 執行"
     🚦狀態｜Status: "錯誤"
     ✅已修復｜Repaired: "workflow 檔、push／pull_request 觸發、jobs 與測試命令已建立。"
     🔍真實回讀｜ActualReadback: "workflow active，但沒有任何 run、job 或 steps；不得冒充成功。"
-    🔍根因狀態｜RootCauseStatus: "錯誤；總開關關閉是高可信候選，但 Actions permissions 官方端點需要具 Administration(read) 的驗證，尚無管理設定回讀。"
-    🧭下一步候選｜NextStepCandidates: "Kevin 於 Settings → Actions → General 回讀 Actions permissions；若總開關關閉則開啟，再以既有 workflow_dispatch 執行 Run workflow。"
+    🔍根因狀態｜RootCauseStatus: "錯誤；Actions 管理權限或總開關仍未取得可驗證回讀。"
+    🧭修復動作｜RepairActions:
+      - "取得 Settings → Actions → General 的正式設定回讀。"
+      - "開啟 Actions 後執行既有 workflow_dispatch。"
+      - "取得 run、job、step 與結論回執。"
   - 🧩物件｜Object: "公開作文頁歷史憑證"
     🚦狀態｜Status: "錯誤"
     ✅已修復｜Repaired: "main HEAD 已移除秘密、遠端傳送與 DOM XSS，並加入 CSP 與秘密掃描。"
@@ -113,12 +124,12 @@
 
 🚧存取邊界｜AccessBoundaries:
   🌐Sites存取邊界｜Sites:
-    🔐邊界｜Boundary: "匿名外部讀取要求 Continue with ChatGPT 登入"
-    ⚖️判定｜Determination: "既定登入設定／存取邊界，不是本體錯誤"
+    🔐邊界｜Boundary: "匿名外部讀取目前回傳 HTTP 401 Unauthorized"
+    ⚖️判定｜Determination: "正式入口可用性錯誤；不是本體損壞，但會阻斷外部接線閉環"
     🛠️處理方式｜HandlingMethod:
-      - "照既定設定記錄，不列錯誤隔離。"
-      - "若 Kevin 要完全公開匿名 JSON，需另行調整 Sites 存取設定或建立公開只讀出口。"
-      - "不把登入頁當成系統本體。"
+      - "保留登入門禁於管理頁面。"
+      - "另開不含秘密的公開唯讀 /api/system-wires。"
+      - "外部回讀通過前不得標示 Sites 接線完成。"
   🧾ChatGPT個人化設定｜ChatGPTPersonalization:
     🔐邊界｜Boundary: "目前沒有可直接改寫 Kevin ChatGPT 個人化指令的工具"
     ⚖️判定｜Determination: "交付可複製短指令，不能宣稱平台設定已寫入"
@@ -137,7 +148,7 @@
 
 📌已建立接線卡｜CreatedWireCards:
   - "🧭裝置座標卡｜DeviceCoordinateCard.yaml"
-  - "🔗iPhone捷徑接線卡｜iPhoneShortcutWireCard.yaml"
+  - "🔗iPhone捷徑接線卡｜IPhoneShortcutWireCard.yaml"
   - "🪟WindowsWSL接線卡｜WindowsWSLWireCard.yaml"
   - "🌐Sites公開只讀出口｜SitesPublicReadOnlyOutlet.yaml"
   - "🧾個人化指令驗證回執｜PersonalInstructionValidationReceipt.yaml"
