@@ -187,7 +187,11 @@ class CurrentRecordTests(unittest.TestCase):
         }
         self.assertEqual(
             current_error_names,
-            {"公開工具 repo workflow 執行", "公開作文頁歷史憑證"},
+            {
+                "Sites／API 正式入口匿名讀取",
+                "公開工具 repo workflow 執行",
+                "公開作文頁歷史憑證",
+            },
         )
         boundaries = data["🚧存取邊界｜AccessBoundaries"]
         self.assertEqual(
@@ -206,7 +210,7 @@ class CurrentRecordTests(unittest.TestCase):
     def test_boundary_cards_are_complete_without_claiming_external_action(self) -> None:
         cards = (
             "🧭裝置座標卡｜DeviceCoordinateCard.yaml",
-            "🔗iPhone捷徑接線卡｜iPhoneShortcutWireCard.yaml",
+            "🔗iPhone捷徑接線卡｜IPhoneShortcutWireCard.yaml",
             "🪟WindowsWSL接線卡｜WindowsWSLWireCard.yaml",
             "🧾個人化指令驗證回執｜PersonalInstructionValidationReceipt.yaml",
         )

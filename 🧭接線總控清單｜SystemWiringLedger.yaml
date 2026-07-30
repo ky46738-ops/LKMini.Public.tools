@@ -147,6 +147,7 @@
       - "不以對話端推測取代實機回讀。"
 
 📌已建立接線卡｜CreatedWireCards:
+  - "🧬命名空間總表｜NamespaceLedger.yaml"
   - "🧭裝置座標卡｜DeviceCoordinateCard.yaml"
   - "🔗iPhone捷徑接線卡｜IPhoneShortcutWireCard.yaml"
   - "🪟WindowsWSL接線卡｜WindowsWSLWireCard.yaml"

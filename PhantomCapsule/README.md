@@ -38,6 +38,7 @@ GitHub 是程式座標、Google Drive 是資料座標、Sites 是出入口 Proje
 - [🚨演化更正聲明｜CorrectionNotice](./CorrectionNotice.md)
 - [📍Locator 範本](./LocatorTemplate.json)
 - [🧾Manifest 範本](./ManifestTemplate.json)
+- [🧬Namespace 範本](./NamespaceTemplate.json)
 - [♻️ReverseChain 範本](./ReverseChainTemplate.jsonl)
 - [🪟顯示面範本](./DisplayFaceTemplate.html)
 - [🔐SHA256SUMS](./SHA256SUMS.txt)
