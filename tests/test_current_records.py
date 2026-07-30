@@ -210,7 +210,7 @@ class CurrentRecordTests(unittest.TestCase):
     def test_boundary_cards_are_complete_without_claiming_external_action(self) -> None:
         cards = (
             "🧭裝置座標卡｜DeviceCoordinateCard.yaml",
-            "🔗iPhone捷徑接線卡｜IPhoneShortcutWireCard.yaml",
+            "🔗iPhone捷徑接線卡｜iPhoneShortcutWireCard.yaml",
             "🪟WindowsWSL接線卡｜WindowsWSLWireCard.yaml",
             "🧾個人化指令驗證回執｜PersonalInstructionValidationReceipt.yaml",
         )
