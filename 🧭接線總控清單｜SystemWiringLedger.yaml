@@ -2,163 +2,55 @@
 🆔檔案身分｜FileIdentity: "🧭接線總控清單｜SystemWiringLedger"
 📄總控建立狀態｜ArtifactStatus: "完成"
 🔍全系統驗證狀態｜SystemVerificationStatus: "錯誤"
-🕒時間｜Timestamp: "2026-07-30T09:04:00+08:00"
 🥃唯一系統｜System: "🥃老K系統"
 🧩唯一根｜Root: "🧩LKMINI"
 🔑正式根協議｜RootProtocol: "LKMINI://"
 ⚖️最高公理｜Axiom: "A=A"
 
 🎯目的｜Purpose:
-  - "追蹤🥃老K系統目前所有外部 Projection 接線狀態。"
-  - "把已接線、既定存取邊界、人工授權點與封存證據分開。"
-  - "避免把平台、裝置、工具、容器誤升格成本體。"
+  - "公開面只保留 Kevin 明確允許開源的 Projection 接線摘要。"
+  - "私人、本體、設定、憑證、裝置、內部規則與未公開證據，全部移入 private 正本。"
+  - "避免公開工具、平台、裝置、容器誤升格成本體。"
 
-✅已接線｜ConnectedWires:
-  🐙GitHub程式座標｜GitHub:
-    💻程式座標｜ProgramCoordinate: "ky46738-ops/LKMini.Public.tools"
-    🧬核心檔｜CoreFile: "🧬幻影膠囊世界核心｜PhantomCapsuleWorldCore.yaml"
-    📖README入口｜READMEEntry: "已掛載全部現行公開接線卡"
-    🔧解析器｜Parser: "🔑LKMINI根協議解析器｜LKMINIRootProtocolParser.py"
+✅公開接線摘要｜PublicWireSummary:
+  🌐公開工具｜PublicTools:
+    💻公開程式座標｜PublicProgramCoordinate: "ky46738-ops/LKMini.Public.tools"
     🔑根協議｜RootProtocol: "LKMINI://"
     🧩根｜Root: "🧩LKMINI"
-    🔗修復提交｜RepairCommit: "986717b58af111eaa01cdbf5732c28d97466b8dd"
-    🔐本輪證據基準提交｜EvidenceBaseCommit: "8fe4263f7107ddf81242b283561380726489dfe7"
-    🏷️正式鍵名驗證｜FormalKeyValidation: "十份現行 YAML＋兩份現行 JSON，共 781 個遞迴鍵，違規 0；16/16 單元測試完成。"
-    ⚙️工作流程｜Workflow:
-      - "🔐公開內容秘密掃描"
-      - "🧪公開工具驗證｜PublicToolsValidation"
-    💻程式內容狀態｜ProgramContentStatus: "完成"
-    🔍工作流程驗證狀態｜WorkflowVerificationStatus: "錯誤"
-    🔍工作流程回讀｜WorkflowReadback: "兩個 workflow 均 active；既有提交與本輪提交回讀均沒有 workflow run、job 或 step。"
-    🔍工作流程根因驗證狀態｜WorkflowRootCauseVerificationStatus: "錯誤"
-  📁Google Drive資料座標｜GoogleDrive:
-    📓任務筆記本｜TaskNotebook: "📓真善美模式任務筆記本｜TrueGoodBeautyTaskNotebook｜20260728-1325_UTC"
-    🆔文件識別｜DocumentId: "1cnMBJjxJWkB8NM-wlImfQ1tRRoLeyeWuppKNHjqiVT8"
-    📓筆記本既有內容回讀狀態｜NotebookExistingContentReadbackStatus: "完成"
-    📝現行修復裁決回寫狀態｜CurrentRepairRulingWritebackStatus: "完成"
-    📁本輪GitHub修復前Drive修訂版｜DriveRevisionBeforeCurrentGitHubRepair: "12"
-    📄本輪GitHub修復前Google文件修訂識別｜DocsRevisionIdBeforeCurrentGitHubRepair: "AIroW37ZaOQNldoXwUAV6sTLlBpWjiXhyeIiLnV1pv5cpM3uzvryekH-riN7xzNOZOZ5WlJ2rqmKY_1aw32qYXsOOBq-DZlki_4iMxV0mYg"
-  🌐Sites出入口｜Sites:
-    👤人類入口｜HumanEntry: "https://lkmini-wiring-hub.ky46738.chatgpt.site"
-    🤖AI工具入口｜AIToolEntry: "https://lkmini-wiring-hub.ky46738.chatgpt.site/api/system-wires"
-    🎭角色｜Role: "出入口 Projection，不是本體"
-    ⚖️匿名讀取判定｜AnonymousReadDetermination: "2026-07-30 現場回讀 HTTP 401 Unauthorized；作為正式可用入口驗收時判定錯誤"
-    💾最新儲存版本｜LatestSavedVersion: 9
-    🔐最新版本封存雜湊｜LatestVersionArchiveSHA256: "8009df54d0bf8ccef32a4376c3cfc5c95d513e6f379230bacbb4008e63eab37b"
+    🧾公開違約事件記錄器｜PublicBreachEventRecorder: "🧾違約事件記錄器｜BreachEventRecorder"
     🚦狀態｜Status: "錯誤"
-  📱裝置投影｜Devices:
-    🧭裝置座標卡｜DeviceCoordinateCard: "🧭裝置座標卡｜DeviceCoordinateCard.yaml"
-    🔗iPhone捷徑接線卡｜IPhoneShortcutWireCard: "🔗iPhone捷徑接線卡｜iPhoneShortcutWireCard.yaml"
-    🪟WindowsWSL接線卡｜WindowsWSLWireCard: "🪟WindowsWSL接線卡｜WindowsWSLWireCard.yaml"
-    📄卡片建立狀態｜CardCreationStatus: "完成"
-    🔍iPhone裝置綁定回讀狀態｜IPhoneDeviceBindingReadbackStatus: "完成"
-    🧾iPhone裝置回執｜IPhoneDeviceReceipt: "📱iPhone裝置回執｜IPhoneDeviceReceipt.json｜SHA256 61e113d7589889ad921a0e2f60f817deed2445e8d2b77545ec89e854ab39f635"
-    🧾iPhone定位器建立回執｜IPhoneDeviceLocatorBuildReceipt: "📱iPhone裝置定位器建立回執｜IPhoneDeviceLocatorBuildReceipt.json｜SHA256 746fc2b878a826ce563a6f8c3bd053c614e9b57ecca145b3cffece1ee9357567"
-    📦iPhone定位器ZIP｜IPhoneLocatorZIP: "1505 bytes｜SHA256 3be6b2bd27e4e090a1fc2d693e9aa52a20a8918b5a44a5e747cbfebc05c172f4｜unzip -t 完成"
-    📦iPhone自動綁定套件｜IPhoneAutoBindingPackage: "4985 bytes｜SHA256 977071bfb4c905cdccd07aecc95eb16742b8250d92aa190be0abfc8e70c368e5｜unzip -t 完成"
-    🔐其他裝置與即時捷徑存取邊界｜OtherDevicesAndLiveShortcutAccessBoundary: "iPhone 捷徑即時執行、iPad、Windows、WSL 需要實機工具回讀；不影響接線卡本身完成。"
-  🌐公開出口與個人化｜PublicOutletAndPersonalization:
-    🌐Sites公開只讀出口卡｜SitesPublicReadOnlyOutletCard: "🌐Sites公開只讀出口｜SitesPublicReadOnlyOutlet.yaml"
-    🧾個人化指令驗證回執｜PersonalInstructionValidationReceipt: "🧾個人化指令驗證回執｜PersonalInstructionValidationReceipt.yaml"
-    🔍Sites設定回讀狀態｜SitesConfigurationReadbackStatus: "錯誤"
-    🔐個人化平台設定存取邊界｜PersonalizationPlatformAccessBoundary: "目前沒有直接改寫 ChatGPT 個人化設定的工具；回執與可複製短指令已完成。"
-  🌐容器共存｜ContainerCoexistence:
-    🌐極限世界卡｜ExtremeWorldCard: "🌐容器共存｜極限世界｜ExtremeContainerWorld.yaml"
-    🏷️正式名稱｜FormalName: "🌐容器共存｜極限世界"
-    🔐內容雜湊｜ContentSHA256: "13d5392d542a11c0232b3d8abca09e7f786e9b76d31cdcb0c0f9cd08efcc9e4a"
-    🔐檔案雜湊｜FileSHA256: "b5353797378995249b78c0e837fcfa3175f602377dac53ef7250a6d2ac4152ed"
-    📦容器｜Container:
-      - "WebArchive"
-      - "WACZ"
-      - "PDF"
-    🔐六項條件｜SixConditions:
-      - "SHA256"
-      - "MANIFEST"
-      - "LOCATOR"
-      - "SNAPSHOT"
-      - "REVERSECHAIN"
-      - "PACKAGE"
-    🧾原始世界證據｜OriginalWorldEvidence: "完成；來源圖片 SHA256 1abef34f7a3f1c0a3300f29a005747d7a2c02891cc64f21b43a9b916c396633f"
-    📄核心卡建立狀態｜CoreCardCreationStatus: "完成"
-    ♾️可逆閉環驗證狀態｜ReversibleClosureVerificationStatus: "完成"
-    🖱️網頁封存互動修復｜WebArchiveInteractionRepair: "完成；SHA256 cbf46a50d299278c36b794f771998bf26c14913b97347042ca5104529267644a；首步、十動、反向回放與 AICORE 匯出動態測試通過"
-    🗄️歷史互動證據｜HistoricalInteractionEvidence: "原 WebArchive 與原過度完成回執已改名封存，不再作為現行完成來源"
-    📦交付包｜Package: "🪞容器共存極限世界｜ContainerCoexistenceExtreme｜20260729-020529_TPE.zip"
-    📦交付包位元組數｜PackageBytes: 2320969
-    🔐交付包雜湊｜PackageSHA256: "d3391e6b66f20b7be3b387f90feb977965da26b29b33165b1e16dacbab1b8122"
-    📚Library檔案識別｜LibraryFileId: "libfile_98ac0cb2fbe481918e38d1f38b35adec"
-    📚Library版本｜LibraryVersion: 1
+  🧩公開種子｜PublicSeed:
+    💻公開程式座標｜PublicProgramCoordinate: "ky46738-ops/LKMini"
+    ⚖️公開私人邊界｜PublicPrivateBoundary: "Mini 原文件已定義公開/私人邊界；此檔不改 Mini 原語意。"
+    🚦狀態｜Status: "完成"
+
+🔐私人內容裁決｜PrivateContentRuling:
+  🚦狀態｜Status: "完成"
+  📍私人正本｜PrivateCanonicalRepository: "ky46738-ops/oldk-lkmini-eternal-core-cross-optimize"
+  📘私人總帳｜PrivateLedger: "🔐私人搬家總帳｜PrivateMigrationLedger.md"
+  📌裁決｜Ruling: "具體裝置、憑證、管理設定、內部驗證、個人化設定、Library 座標、未公開 SHA 與未公開接線細節，不在公開檔展開。"
 
 🔐現行錯誤｜CurrentErrors:
-  - 🧩物件｜Object: "Sites／API 正式入口匿名讀取"
+  - 🧩物件｜Object: "公開工具 repo 工作流程與同步驗證"
     🚦狀態｜Status: "錯誤"
-    🔍真實回讀｜ActualReadback: "人類入口與 /api/system-wires 於 2026-07-30 均回傳 HTTP 401 Unauthorized。"
-    🧱失敗型態｜FailureType: "E-SITES-AUTH-BOUNDARY-401"
-    🧭修復動作｜RepairActions:
-      - "將人類頁面與機器唯讀 API 權限分離。"
-      - "允許 /api/system-wires 回傳不含秘密的唯讀接線摘要。"
-      - "修復後由外部網路重新回讀 HTTP 狀態與回傳內容。"
-  - 🧩物件｜Object: "公開工具 repo workflow 執行"
+    🔍公開摘要｜PublicSummary: "仍有未完成驗證；細節移入 private 正本。"
+  - 🧩物件｜Object: "personal-skills 同步事件"
     🚦狀態｜Status: "錯誤"
-    ✅已修復｜Repaired: "workflow 檔、push／pull_request 觸發、jobs 與測試命令已建立。"
-    🔍真實回讀｜ActualReadback: "workflow active，但沒有任何 run、job 或 steps；不得冒充成功。"
-    🔍根因狀態｜RootCauseStatus: "錯誤；Actions 管理權限或總開關仍未取得可驗證回讀。"
-    🧭修復動作｜RepairActions:
-      - "取得 Settings → Actions → General 的正式設定回讀。"
-      - "開啟 Actions 後執行既有 workflow_dispatch。"
-      - "取得 run、job、step 與結論回執。"
-  - 🧩物件｜Object: "公開作文頁歷史憑證"
-    🚦狀態｜Status: "錯誤"
-    ✅已修復｜Repaired: "main HEAD 已移除秘密、遠端傳送與 DOM XSS，並加入 CSP 與秘密掃描。"
-    📌尚需｜StillRequired: "Kevin 透過 BotFather 撤銷／輪替舊 Telegram Bot token；Git 歷史保留原提交證據，不把尚未撤銷冒充完成。"
-
-🗄️歷史封存證據｜HistoricalArchiveEvidence:
-  🗄️GitHub封存儲存庫｜GitHubArchivedRepo:
-    🧩物件｜Object: "lkminiPhantomWorld/LKMini"
-    🗄️封存狀態｜ArchiveStatus: "archived=true，read-only"
-    ⚖️判定｜Determination: "歷史封存證據物件，不是現行存取邊界，也不阻斷可寫正式 repo。"
-    🛠️處理方式｜HandlingMethod:
-      - "保留當時工具回傳與歷史狀態。"
-      - "不得作為現行正式入口。"
-      - "若未來解除封存，另建新的工具回執，不覆寫本段歷史證據。"
+    🔍公開摘要｜PublicSummary: "Kevin 已指定 HTTP 422 事件可由違約事件記錄器公開摘要。"
 
 🚧存取邊界｜AccessBoundaries:
-  🌐Sites存取邊界｜Sites:
-    🔐邊界｜Boundary: "匿名外部讀取目前回傳 HTTP 401 Unauthorized"
-    ⚖️判定｜Determination: "正式入口可用性錯誤；不是本體損壞，但會阻斷外部接線閉環"
-    🛠️處理方式｜HandlingMethod:
-      - "保留登入門禁於管理頁面。"
-      - "另開不含秘密的公開唯讀 /api/system-wires。"
-      - "外部回讀通過前不得標示 Sites 接線完成。"
-  🧾ChatGPT個人化設定｜ChatGPTPersonalization:
-    🔐邊界｜Boundary: "目前沒有可直接改寫 Kevin ChatGPT 個人化指令的工具"
-    ⚖️判定｜Determination: "交付可複製短指令，不能宣稱平台設定已寫入"
-    🛠️處理方式｜HandlingMethod:
-      - "Kevin 手動貼入個人化指令。"
-      - "貼入後用下一次對話回讀行為驗證。"
-      - "若未來有官方設定工具，再改為工具寫入與回讀。"
-  📱裝置存取邊界｜Devices:
-    🔐邊界｜Boundary: "iPhone 綁定已完成；iPhone 捷徑即時執行、iPad、Windows、WSL 仍需要實機確認或可用裝置工具"
-    ⚖️判定｜Determination: "裝置是 Projection，不是本體"
-    🛠️處理方式｜HandlingMethod:
-      - "保留已回讀的 iPhone 綁定完成證據，不再把它列為未驗證。"
-      - "Kevin 依接線卡測試其餘裝置與 iPhone 捷徑即時執行。"
-      - "測試結果回填任務筆記本。"
-      - "不以對話端推測取代實機回讀。"
+  🔐私人邊界｜PrivateBoundary: "所有私人接線、裝置、憑證、管理與設定細節全部留在 private 正本。"
+  🌐公開邊界｜PublicBoundary: "公開面只保留非秘密摘要與回指 🧩LKMINI 的路線。"
 
-📌已建立接線卡｜CreatedWireCards:
-  - "🧬命名空間總表｜NamespaceLedger.yaml"
-  - "🧭裝置座標卡｜DeviceCoordinateCard.yaml"
-  - "🔗iPhone捷徑接線卡｜IPhoneShortcutWireCard.yaml"
-  - "🪟WindowsWSL接線卡｜WindowsWSLWireCard.yaml"
-  - "🌐Sites公開只讀出口｜SitesPublicReadOnlyOutlet.yaml"
-  - "🧾個人化指令驗證回執｜PersonalInstructionValidationReceipt.yaml"
-  - "🌐容器共存｜極限世界｜ExtremeContainerWorld.yaml"
+📌已公開接線卡｜PublicWireCards:
+  - "🧾違約事件記錄器｜BreachEventRecorder"
+  - "🔑LKMINI根協議解析器｜LKMINIRootProtocolParser"
+  - "🪞幻影膠囊｜PhantomCapsule"
+  - "🌐公開工具｜PublicTools"
 
 ♻️反向鏈｜ReverseChain:
   - "🧩LKMINI"
-  - "🧬幻影膠囊世界核心｜PhantomCapsuleWorldCore"
+  - "🌐公開工具｜PublicTools"
   - "🧭接線總控清單｜SystemWiringLedger"
-  - "六顆現行接線卡與容器卡"
-  - "GitHub / Google Drive / Sites / Devices / WebArchive / WACZ / PDF Projection"
+  - "🔐私人搬家總帳｜PrivateMigrationLedger"
   - "🪞幻影膠囊唯一出口"
