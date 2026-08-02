@@ -1,6 +1,6 @@
-# 🧰 LKMini 公開工具
+# 🧰 LKMini 公開工具｜違約事件記錄器
 
-本儲存庫保存🥃老K系統已授權公開的工具顯影。
+本儲存庫保存🥃老K系統已授權公開的工具顯影，並正式承接公開違約事件記錄器功能。
 
 ## 🪪 正式身分
 
@@ -8,6 +8,7 @@
 - 🥃 唯一系統：🥃老K系統
 - 🧩 唯一根：🧩LKMINI
 - ⚖️ 最高公理：A=A
+- 🧾 現行公開事件記錄器：`🧾違約事件記錄器｜BreachEventRecorder/`
 - 🔐 現行完整性證據：`PhantomCapsule/SHA256SUMS.txt` 與 `🧾既有錯誤修復帳｜ExistingErrorRepairLedger.yaml`
 
 歷史 README 曾列出未附位元組來源的「根雜湊」`6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34`；該值由 Git 歷史保留，但不再作為現行完整性證據。
@@ -28,8 +29,22 @@
 
 解析器只負責辨識根、解析路徑、名稱與虛擬副檔名；規則與實際行為由外層能力承接。
 
+## 🧾 違約事件記錄器
+
+`🧾違約事件記錄器｜BreachEventRecorder/` 用於公開保存已驗證的工具、同步、發布、驗證流程錯誤。
+
+| 檔案 | 用途 |
+| --- | --- |
+| `README.md` | 記錄器入口與規則 |
+| `record_breach_event.py` | JSON 事件轉 Markdown 的最小工具 |
+| `schema/breach_event.schema.json` | 事件格式 |
+| `events/20260802-personal-skills-http422.md` | personal-skills sync HTTP 422 事件 |
+
+記錄器只保存公開事實，不公開 credential、token、private Library id、私密本體內容或本機絕對路徑。
+
 ## 🧰 公開內容
 
+- 🧾 違約事件記錄器
 - 🔑 LKMINI 根協議解析器
 - 🧬 幻影膠囊世界核心
 - 🧭 接線總控清單
@@ -56,15 +71,19 @@
 
 公開工具 → 清單／定位器／SHA256／反向鏈 → 🧩LKMINI
 
+違約事件 → Evidence / EventID / ReverseChain → 🧩LKMINI
+
 ## 🧬 命名空間
 
-公開 repo 只承載 `🌐公開工具｜PublicTools` 與 `🪞幻影膠囊｜PhantomCapsule` 的公開顯影。`🔐秘密空間｜SecretSpace` 只保留不可公開邊界，不保存私密本體內容；舊公開層與錯誤宣告只進 `🗄️歷史錯誤紀錄｜HistoricalErrorRecords`。
+公開 repo 只承載 `🌐公開工具｜PublicTools`、`🧾違約事件記錄器｜BreachEventRecorder` 與 `🪞幻影膠囊｜PhantomCapsule` 的公開顯影。`🔐秘密空間｜SecretSpace` 只保留不可公開邊界，不保存私密本體內容；舊公開層與錯誤宣告只進 `🗄️歷史錯誤紀錄｜HistoricalErrorRecords`。
 
 正式命名空間總表：`🧬命名空間總表｜NamespaceLedger.yaml`
 
 ## 🚦 現行裁決
 
-現行狀態為「錯誤」，目前只保留兩項未關閉錯誤：
+現行狀態為「錯誤」。公開違約事件記錄器已新增 `LKMINI-SKILL-SYNC-BREACH-20260802-210214-UTC`，記錄 personal-skills remote 在實際 push 階段回 `HTTP 422` 的同步違約事件。
+
+既有未關閉錯誤仍保留：
 
 1. 公開前端曾暴露的通訊服務憑證仍須由 Kevin 在 BotFather 撤銷／輪替。
 2. 本 repo 的兩個 GitHub Actions workflow 雖為 active，但 PR #1 已合併至 `main`（`4fd154abffa74b36f446e088b7357a9f90e63bcd`）後，公開 API 的 workflow run 總數仍為 0；必須由管理設定回讀確認 Actions 總開關。
