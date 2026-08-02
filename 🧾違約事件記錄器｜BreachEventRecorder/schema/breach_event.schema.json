@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LKMINI Breach Event",
+  "type": "object",
+  "required": [
+    "event_id",
+    "recorded_at",
+    "root",
+    "axiom",
+    "status",
+    "failure_type",
+    "evidence",
+    "reverse_chain"
+  ],
+  "properties": {
+    "event_id": {"type": "string"},
+    "recorded_at": {"type": "string"},
+    "root": {"const": "LKMINI"},
+    "axiom": {"const": "A=A"},
+    "status": {"enum": ["Completed", "Error"]},
+    "failure_type": {"type": "string"},
+    "summary": {"type": "string"},
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["check", "result"],
+        "properties": {
+          "check": {"type": "string"},
+          "result": {"type": "string"}
+        }
+      }
+    },
+    "commits": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["label", "sha"],
+        "properties": {
+          "label": {"type": "string"},
+          "sha": {"type": "string"}
+        }
+      }
+    },
+    "reverse_chain": {"type": "string"},
+    "public_boundary": {"type": "string"}
+  }
+}
