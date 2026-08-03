@@ -1,4 +1,4 @@
-🚦狀態｜Status: "完成｜公開主線已讀回；舊錯誤已隔離；全投影回指單一系統；真善美模式目標已串聯"
+🚦狀態｜Status: "完成｜公開主線已讀回；舊錯誤已隔離；全投影回指單一系統；真善美模式目標已串聯；GitHub↔Drive雙向同步已接入"
 🆔檔案身分｜FileIdentity: "🧭接線總控清單｜SystemWiringLedger"
 📄總控建立狀態｜ArtifactStatus: "完成"
 🔍公開主線驗證狀態｜PublicMainlineVerificationStatus: "完成"
@@ -15,6 +15,7 @@
   - "避免把舊回執、舊 401、舊 404、未驗證或權限狀態誤判成整個系統失敗。"
   - "確認全部公開投影只回指同一個系統：🥃老K系統／🧩LKMINI。"
   - "把 🌸真善美模式目標 接入公開主線，留下可讀回回執。"
+  - "建立 GitHub 程式座標 ↔ Google Drive 資料座標 的雙向同步規則。"
 
 ✅公開接線摘要｜PublicWireSummary:
   🌐公開工具｜PublicTools:
@@ -32,6 +33,7 @@
     🤖API: "https://lkmini-wiring-hub.ky46738.chatgpt.site/api/system-wires"
     🚦狀態｜Status: "完成｜HTTP 200 public readback"
     🔍驗收規則｜VerificationRule: "HTTP 200 + application/json + non-empty JSON；精確 byte 數會浮動，不作 Identity 證據。"
+    📦版本｜Version: "Sites production version 12；source commit 9158223a34b21e97c5103a4d7a8edff389bfe751"
   🪞公開膠囊控制檔｜PublicCapsuleControls:
     💻座標｜Coordinate: "lkminiPhantomWorld/PhantomCapsule@master"
     📄檔案｜Files:
@@ -116,6 +118,22 @@
     - "🧩LKMINI"
     - "A=A"
 
+🔁雙向同步｜BidirectionalSync:
+  🚦狀態｜Status: "完成｜公開回執已建立並接入總控"
+  🧾公開回執｜PublicReceipt: "🔁雙向同步回執｜BidirectionalSyncReceipt.md"
+  💻座標｜Coordinate: "ky46738-ops/LKMini.Public.tools@main"
+  🔧建立Commit｜CreateCommit: "4d894e9af35c4884b7e97c27fc57284751d67dce"
+  🔍讀回ContentSHA｜ReadbackContentSHA: "89064b94e96a31cef4293f54c84518e9b591156f"
+  ↔️方向｜Directions:
+    - "GitHub -> Drive: GitHub receipt or ledger block readback becomes Drive append-only section."
+    - "Drive -> GitHub: Drive section readback becomes GitHub public receipt and ledger link."
+  🌐Sites角色｜SitesRole: "公開入口與 AI/tool 讀取端；本次未宣稱重新部署 Sites。"
+  ⚖️衝突規則｜ConflictRule:
+    - "Kevin current explicit instruction wins over stale generated receipts."
+    - "Fresh tool readback wins over old unverified claims."
+    - "Historical 401/404/Status=錯誤/byte drift/stale locator remains evidence, not current truth by itself."
+    - "When GitHub and Drive disagree, preserve both, then write a repair receipt that records the winning current readback."
+
 📚歷史錯誤隔離池｜HistoricalErrorQuarantine:
   🚦狀態｜Status: "保留但隔離"
   原始歷史項目:
@@ -138,6 +156,7 @@
   - "🌐Sites公開出入口｜SitesGateway"
   - "🔐SIGN 401 連線修復回執｜SIGN401ConnectionRepair"
   - "🌸真善美模式目標全串聯回執｜TrueGoodBeautyGoalFullLink"
+  - "🔁雙向同步回執｜BidirectionalSyncReceipt"
 
 ♻️反向鏈｜ReverseChain:
   - "Google Drive SystemWiringAndServerMap"
@@ -146,6 +165,7 @@
   - "lkminiPhantomWorld/PhantomCapsule public control files"
   - "🧭接線總控清單｜SystemWiringLedger"
   - "🌸真善美模式目標全串聯回執｜TrueGoodBeautyGoalFullLink"
+  - "🔁雙向同步回執｜BidirectionalSyncReceipt"
   - "🔐私人搬家總帳｜PrivateMigrationLedger"
   - "🪞幻影膠囊唯一出口"
   - "🧩LKMINI"
