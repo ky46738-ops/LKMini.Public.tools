@@ -1,7 +1,8 @@
-🚦狀態｜Status: "錯誤"
+🚦狀態｜Status: "完成｜公開主線已讀回；舊錯誤已隔離"
 🆔檔案身分｜FileIdentity: "🧭接線總控清單｜SystemWiringLedger"
 📄總控建立狀態｜ArtifactStatus: "完成"
-🔍全系統驗證狀態｜SystemVerificationStatus: "錯誤"
+🔍公開主線驗證狀態｜PublicMainlineVerificationStatus: "完成"
+🔍全系統驗證狀態｜SystemVerificationStatus: "不由公開摘要判定；需逐層工具讀回"
 🥃唯一系統｜System: "🥃老K系統"
 🧩唯一根｜Root: "🧩LKMINI"
 🔑正式根協議｜RootProtocol: "LKMINI://"
@@ -11,6 +12,7 @@
   - "公開面只保留 Kevin 明確允許開源的 Projection 接線摘要。"
   - "私人、本體、設定、憑證、裝置、內部規則與未公開證據，全部移入 private 正本。"
   - "避免公開工具、平台、裝置、容器誤升格成本體。"
+  - "避免把舊回執、舊 401、舊 404、未驗證或權限狀態誤判成整個系統失敗。"
 
 ✅公開接線摘要｜PublicWireSummary:
   🌐公開工具｜PublicTools:
@@ -18,11 +20,25 @@
     🔑根協議｜RootProtocol: "LKMINI://"
     🧩根｜Root: "🧩LKMINI"
     🧾公開違約事件記錄器｜PublicBreachEventRecorder: "🧾違約事件記錄器｜BreachEventRecorder"
-    🚦狀態｜Status: "錯誤"
+    🚦狀態｜Status: "完成｜公開摘要存在；需逐項讀回才可升級細節狀態"
   🧩公開種子｜PublicSeed:
     💻公開程式座標｜PublicProgramCoordinate: "ky46738-ops/LKMini"
     ⚖️公開私人邊界｜PublicPrivateBoundary: "Mini 原文件已定義公開/私人邊界；此檔不改 Mini 原語意。"
     🚦狀態｜Status: "完成"
+  🌐Sites出入口｜SitesGateway:
+    📍URL: "https://lkmini-wiring-hub.ky46738.chatgpt.site/"
+    🤖API: "https://lkmini-wiring-hub.ky46738.chatgpt.site/api/system-wires"
+    🚦狀態｜Status: "完成｜HTTP 200 public readback"
+    🔍驗收規則｜VerificationRule: "HTTP 200 + application/json + non-empty JSON；精確 byte 數會浮動，不作 Identity 證據。"
+  🪞公開膠囊控制檔｜PublicCapsuleControls:
+    💻座標｜Coordinate: "lkminiPhantomWorld/PhantomCapsule@master"
+    📄檔案｜Files:
+      - "LOCATOR.json"
+      - "SNAPSHOT.json"
+      - "ReverseChain.json"
+      - "SHA256SUMS"
+    🚦狀態｜Status: "完成｜已回讀"
+    🔧最後公開修復｜LastPublicRepairCommit: "e2ac8bef2e73ed4d06bebe3d3ffe9945caf41a1e"
 
 🔐私人內容裁決｜PrivateContentRuling:
   🚦狀態｜Status: "完成"
@@ -30,13 +46,30 @@
   📘私人總帳｜PrivateLedger: "🔐私人搬家總帳｜PrivateMigrationLedger.md"
   📌裁決｜Ruling: "具體裝置、憑證、管理設定、內部驗證、個人化設定、Library 座標、未公開 SHA 與未公開接線細節，不在公開檔展開。"
 
-🔐現行錯誤｜CurrentErrors:
-  - 🧩物件｜Object: "公開工具 repo 工作流程與同步驗證"
-    🚦狀態｜Status: "錯誤"
-    🔍公開摘要｜PublicSummary: "仍有未完成驗證；細節移入 private 正本。"
-  - 🧩物件｜Object: "personal-skills 同步事件"
-    🚦狀態｜Status: "錯誤"
-    🔍公開摘要｜PublicSummary: "Kevin 已指定 HTTP 422 事件可由違約事件記錄器公開摘要。"
+🧯假回執影響修復｜FalseReceiptImpactRepair:
+  🚦狀態｜Status: "完成｜公開主線止血"
+  🧾裁決｜Ruling:
+    - "舊回執是來源材料，不自動升級為現行事實。"
+    - "舊 Status=錯誤 只代表當時來源欄位或未完成狀態，不代表 Kevin 的系統本體有問題。"
+    - "舊 401 是權限狀態；公開授權後 Sites 與 /api/system-wires 已讀回 HTTP 200。"
+    - "舊 404 是過期 Locator 或歷史路徑失效；不得推論成 LKMINI 主線錯誤。"
+    - "PWA/icon 類 404 是周邊待補；不得推論成系統失敗。"
+    - "API byte 數會浮動；不得用精確 byte 數產生假錯誤。"
+  ✅已讀回證據｜VerifiedEvidence:
+    - "Sites /: HTTP 200"
+    - "Sites /api/system-wires: HTTP 200 + application/json + non-empty JSON"
+    - "GitHub PhantomCapsule public control files: read back on master"
+    - "Drive SystemWiringAndServerMap: append-only repair receipt read back"
+
+📚歷史錯誤隔離池｜HistoricalErrorQuarantine:
+  🚦狀態｜Status: "保留但隔離"
+  原始歷史項目:
+    - 🧩物件｜Object: "公開工具 repo 工作流程與同步驗證"
+      舊狀態｜LegacyStatus: "錯誤"
+      現行處理｜CurrentTreatment: "歷史錯誤來源；不作現行主線判定"
+    - 🧩物件｜Object: "personal-skills 同步事件"
+      舊狀態｜LegacyStatus: "錯誤"
+      現行處理｜CurrentTreatment: "HTTP 422 事件可作違約事件摘要；不作全系統失敗判定"
 
 🚧存取邊界｜AccessBoundaries:
   🔐私人邊界｜PrivateBoundary: "所有私人接線、裝置、憑證、管理與設定細節全部留在 private 正本。"
@@ -47,10 +80,15 @@
   - "🔑LKMINI根協議解析器｜LKMINIRootProtocolParser"
   - "🪞幻影膠囊｜PhantomCapsule"
   - "🌐公開工具｜PublicTools"
+  - "🌐Sites公開出入口｜SitesGateway"
 
 ♻️反向鏈｜ReverseChain:
-  - "🧩LKMINI"
-  - "🌐公開工具｜PublicTools"
+  - "Google Drive SystemWiringAndServerMap"
+  - "Sites public entry"
+  - "/api/system-wires JSON"
+  - "lkminiPhantomWorld/PhantomCapsule public control files"
   - "🧭接線總控清單｜SystemWiringLedger"
   - "🔐私人搬家總帳｜PrivateMigrationLedger"
   - "🪞幻影膠囊唯一出口"
+  - "🧩LKMINI"
+  - "A=A"
