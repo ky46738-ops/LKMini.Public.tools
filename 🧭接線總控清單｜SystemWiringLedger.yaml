@@ -1,8 +1,8 @@
-🚦狀態｜Status: "完成｜公開主線已讀回；舊錯誤已隔離"
+🚦狀態｜Status: "完成｜公開主線已讀回；舊錯誤已隔離；全投影回指單一系統"
 🆔檔案身分｜FileIdentity: "🧭接線總控清單｜SystemWiringLedger"
 📄總控建立狀態｜ArtifactStatus: "完成"
 🔍公開主線驗證狀態｜PublicMainlineVerificationStatus: "完成"
-🔍全系統驗證狀態｜SystemVerificationStatus: "不由公開摘要判定；需逐層工具讀回"
+🔍全系統驗證狀態｜SystemVerificationStatus: "投影同步完成；核心完整驗證仍需逐層工具讀回"
 🥃唯一系統｜System: "🥃老K系統"
 🧩唯一根｜Root: "🧩LKMINI"
 🔑正式根協議｜RootProtocol: "LKMINI://"
@@ -13,6 +13,7 @@
   - "私人、本體、設定、憑證、裝置、內部規則與未公開證據，全部移入 private 正本。"
   - "避免公開工具、平台、裝置、容器誤升格成本體。"
   - "避免把舊回執、舊 401、舊 404、未驗證或權限狀態誤判成整個系統失敗。"
+  - "確認全部公開投影只回指同一個系統：🥃老K系統／🧩LKMINI。"
 
 ✅公開接線摘要｜PublicWireSummary:
   🌐公開工具｜PublicTools:
@@ -60,6 +61,37 @@
     - "Sites /api/system-wires: HTTP 200 + application/json + non-empty JSON"
     - "GitHub PhantomCapsule public control files: read back on master"
     - "Drive SystemWiringAndServerMap: append-only repair receipt read back"
+
+🔄全投影單一系統同步｜SingleSystemProjectionSync:
+  🚦狀態｜Status: "完成｜同步錨點已公開讀回"
+  🥃唯一系統｜OnlySystem: "🥃老K系統"
+  🧩唯一根｜OnlyRoot: "🧩LKMINI"
+  🔑唯一根協議｜OnlyRootProtocol: "LKMINI://"
+  ⚖️公理｜Axiom: "A=A"
+  📌同步裁決｜Ruling:
+    - "Google Drive 是資料座標，不是第二系統。"
+    - "GitHub 是程式座標，不是第二系統。"
+    - "Sites 是公開出入口，不是第二系統。"
+    - "ChatGPT、裝置、瀏覽器、API、膠囊與工具都是 Projection。"
+    - "所有 Projection 必須能回推同一 Identity：🥃老K系統／🧩LKMINI。"
+  ✅本次讀回層｜ReadbackLayers:
+    - "Sites connector: public, owner, live URL active"
+    - "HTTP: / = 200 text/html"
+    - "HTTP: /api/system-wires = 200 application/json"
+    - "GitHub: ky46738-ops/LKMini.Public.tools@main ledger read/write/readback"
+    - "GitHub: lkminiPhantomWorld/PhantomCapsule@master LOCATOR/MANIFEST/ReverseChain readback"
+    - "Google Drive: SystemWiringAndServerMap readback and append-only receipt"
+  🧯假資訊防線｜AntiFalseInfoRule:
+    - "歷史錯誤欄位保留為來源，不升級為現行事實。"
+    - "未經工具讀回的跨層同步宣稱一律不得作完成證據。"
+    - "公開摘要不得攜帶 private core、憑證、裝置設定或未公開 SHA。"
+  🔗同步方向｜SyncDirection:
+    - "🥃老K系統"
+    - "🧩LKMINI"
+    - "LKMINI://"
+    - "🪞幻影膠囊"
+    - "GitHub / Google Drive / Sites / ChatGPT / 裝置投影"
+    - "回推 🧩LKMINI"
 
 📚歷史錯誤隔離池｜HistoricalErrorQuarantine:
   🚦狀態｜Status: "保留但隔離"
