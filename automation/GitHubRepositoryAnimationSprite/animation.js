@@ -1,7 +1,10 @@
 const DATA_URL='./animation-data.json';
 async function boot(){
  const d=await fetch(DATA_URL).then(r=>r.json());
- repoCount.textContent=d.repository_count; changeCount.textContent=d.change_count; sourceCount.textContent=d.external_sources_to_import;
- d.changes.forEach((c,i)=>{const b=document.createElement('button');b.innerHTML=`<b>${i+1}. ${c.original_message}</b><span>${c.path}</span><small>${c.summary}</small>`;b.onclick=()=>detail.innerHTML=`<h3>${c.path}</h3><p><b>Commit</b> ${c.commit_sha}</p><p><b>Blob</b> ${c.blob_sha}</p><p><b>ByteSize</b> ${c.byte_size}</p><p><b>SHA256</b> ${c.sha256}</p><p><b>Workflow</b> ${c.workflow}</p><p><b>風險</b> ${c.risk}</p><p><b>回退</b> ${c.rollback_commit}</p>`;changes.appendChild(b);});
+ for(const [id,key] of [['repoCount','repository_count'],['commitCount','new_commit_count'],['pathCount','final_path_count'],['riskCount','risk_count']]) document.getElementById(id).textContent=d[key];
+ const risks=document.getElementById('risks');
+ d.risks.forEach(r=>{const b=document.createElement('button');b.innerHTML=`<b>${r.id}｜${r.level}｜${r.title}</b><small>${r.evidence}</small>`;b.onclick=()=>document.getElementById('detail').innerHTML=`<h3>${r.title}</h3><p><b>證據：</b>${r.evidence}</p><p><b>影響：</b>${r.impact}</p><p><b>修復：</b>${r.repair}</p>`;risks.appendChild(b);});
+ const steps=document.getElementById('steps');
  d.eleven_actions.forEach(s=>{const b=document.createElement('button');b.textContent=`S${s.index} ${s.name}｜${s.status}`;steps.appendChild(b);});
-} boot();
+}
+boot();
