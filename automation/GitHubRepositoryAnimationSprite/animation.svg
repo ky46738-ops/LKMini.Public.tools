@@ -1,17 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
-<rect width="1200" height="675" fill="#08111f"/>
-<text x="60" y="70" fill="#e5eefc" font-size="38" font-family="sans-serif">🎬 GitHub 倉庫製動畫精靈</text>
-<text x="60" y="115" fill="#ffb4b4" font-size="24" font-family="sans-serif">錯誤｜23 倉庫｜8 namespace 變更｜3 高風險｜0 新內容 Commit</text>
-<rect x="60" y="160" width="500" height="180" rx="18" fill="#172a45"/>
-<text x="90" y="205" fill="#e5eefc" font-size="25" font-family="sans-serif">7 個 owner 移轉</text>
-<text x="90" y="250" fill="#9dd6ff" font-size="21" font-family="sans-serif">ky46738-ops → lkminiPhantomWorld</text>
-<text x="90" y="290" fill="#e5eefc" font-size="18" font-family="sans-serif">RepoID 與最新 Commit 保持不變</text>
-<rect x="640" y="160" width="500" height="180" rx="18" fill="#3b1c2a"/>
-<text x="670" y="205" fill="#e5eefc" font-size="25" font-family="sans-serif">1 個 Repository 改名</text>
-<text x="670" y="250" fill="#ffb4b4" font-size="21" font-family="sans-serif">lkminiPhantomWorld/- → lkstylet</text>
-<text x="670" y="290" fill="#e5eefc" font-size="18" font-family="sans-serif">visibility: internal → private</text>
-<path d="M100 430 H1100" stroke="#4f789e" stroke-width="5"/>
-<g fill="#9dd6ff"><circle cx="100" cy="430" r="12"/><circle cx="260" cy="430" r="12"/><circle cx="420" cy="430" r="12"/><circle cx="580" cy="430" r="12"/><circle cx="740" cy="430" r="12"/><circle cx="900" cy="430" r="12"/><circle cx="1100" cy="430" r="12"/></g>
-<g fill="#e5eefc" font-size="18" font-family="sans-serif"><text x="60" y="475">Repository</text><text x="225" y="475">Commit</text><text x="390" y="475">Path</text><text x="555" y="475">Blob</text><text x="695" y="475">Identity</text><text x="845" y="475">Snapshot</text><text x="1050" y="475">A=A</text></g>
-<text x="60" y="595" fill="#e5eefc" font-size="19" font-family="sans-serif">Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675"><rect width="1200" height="675" fill="#08111f"/><text x="55" y="68" fill="#e5eefc" font-size="36" font-family="sans-serif">🎬 GitHub 倉庫製動畫精靈</text><text x="55" y="110" fill="#ffb4b4" font-size="22" font-family="sans-serif">錯誤｜23 Repository｜2 新 Commit｜9 個 private sources 待搬</text><rect x="55" y="155" width="510" height="190" rx="20" fill="#172a45"/><text x="85" y="205" fill="#e5eefc" font-size="24" font-family="sans-serif">📦 私人資料搬移收件箱</text><text x="85" y="250" fill="#9dd6ff" font-size="20" font-family="sans-serif">9d194114…｜新增 57 行</text><rect x="635" y="155" width="510" height="190" rx="20" fill="#3b1c2a"/><text x="665" y="205" fill="#e5eefc" font-size="24" font-family="sans-serif">📦 私人 GitHub 來源清單</text><text x="665" y="250" fill="#ffb4b4" font-size="20" font-family="sans-serif">ac719026…｜10 個 private repos</text><text x="55" y="595" fill="#e5eefc" font-size="17" font-family="sans-serif">Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A</text></svg>
