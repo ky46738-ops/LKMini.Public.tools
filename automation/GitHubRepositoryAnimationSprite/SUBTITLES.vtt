@@ -1,19 +1,19 @@
 WEBVTT
 
 00:00:00.000 --> 00:00:07.000
-重新讀取二十三個 Repository 與全部可見 Branch。
+本輪重新核對二十三個 Repository，沒有新的外部 Commit。
 
 00:00:07.000 --> 00:00:15.000
-LaoK-System 出現六個新 Commit，新增 Manifest、Locator 與私人集中正式包。
+最近十七個 Commit 全部是精靈自己的輸出與讀回，不重複計入外部變更。
 
-00:00:15.000 --> 00:00:23.000
-十二個集中 Path 的數量已對齊，但獨立原始位元 SHA256 仍未驗證。
+00:00:15.000 --> 00:00:24.000
+新版介面融合 LKMini SVG、幻影膠囊卡片、Banner 與行動版工具素材。
 
-00:00:23.000 --> 00:00:31.000
-lkstylet 的來源 README 仍不存在，目標內容依然是 unknown 與 undefined。
+00:00:24.000 --> 00:00:33.000
+iPhone 底部導覽、搜尋、證據覆蓋環與複製摘要已完成。
 
-00:00:31.000 --> 00:00:40.000
-新版 iPhone 介面加入黏性狀態列、證據篩選、素材庫與回根時間線。
+00:00:33.000 --> 00:00:42.000
+Tree、Tag、Run、Job 與 lkstylet undefined 仍保持錯誤。
 
-00:00:40.000 --> 00:00:49.000
-所有真實證據沿 Repository、Commit、Path、Blob、Manifest、Locator、Snapshot 與 ReverseChain 回到 A 等於 A。
+00:00:42.000 --> 00:00:51.000
+所有 Projection 沿 Manifest、Locator、Snapshot 與 ReverseChain 回到 LKMINI 與 A 等於 A。
