@@ -1,45 +1,35 @@
 {
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
-  "generated_at": "2026-08-04T20:42:23+08:00",
+  "generated_at": "2026-08-04T21:42:12+08:00",
   "status": "錯誤",
-  "files": [
-    {"filename":"README.md","bytes":1154,"sha256":"cdc84726c63ce523c9dc00a7bb75b366bf93cadece484c4c1a51b45e8a1b4f32"},
-    {"filename":"SNAPSHOT.json","bytes":18473,"sha256":"923a9f57ba9af5428952d4be3ed443c86a9dd62ce355e237b12712a8fc733b64"},
-    {"filename":"animation-data.json","bytes":12508,"sha256":"3b1cb42016eb0d59c32946642bba6cd0cfc0378c0df5fb78c19f7a7684819862"},
-    {"filename":"STORYBOARD.md","bytes":1259,"sha256":"bb3952a2a67e52c3ddf1a70118d7a7342417d6071eddbcecf64d851c2d807069"},
-    {"filename":"SUBTITLES.vtt","bytes":612,"sha256":"0dd4d28f5d5094ce1801b2825d4d23317a6d3fbb0830a531270b7567faf30705"},
-    {"filename":"animation.js","bytes":1196,"sha256":"08864e8584a4cad86e8b3d16d680c91f6c5eb4b8051f7263fa55b3fb8deef164"},
-    {"filename":"index.html","bytes":2124,"sha256":"05a7a4cb68e52ca66289dcd940d445e8491a23034d18ec8f15c461b1d761a22f"},
-    {"filename":"animation.svg","bytes":2119,"sha256":"faef717b639cbbc2daa25620af5145ed9c4b3e83b257f58458af0124d84f359a"},
-    {"filename":"AICORE.json","bytes":17705,"sha256":"8010b1cef7d28eda60b68e6603317e58f65738cdaefd5713d3f0b9ed97334e44"},
-    {"filename":"LOCATOR.json","bytes":2786,"sha256":"269dc86eda02288e520afacbca0622eb7b5ecc9393fb6c3f7bf3fcea0ff13132"},
-    {"filename":"REVERSECHAIN.md","bytes":179,"sha256":"0fa468f60ce8a587c2d43349755f5d32e0f7a1945f7eed3ec99682d62aa47623"},
-    {"filename":"GitHubRepositoryAnimationSprite.xlsx","bytes":17717,"sha256":"7cf4dd50081130cac30c5fed67edc7f6bd16412cdf0cfe849767e219bb9b1084"},
-    {"filename":"GitHubRepositoryAnimationSprite.pdf","bytes":59621,"sha256":"e6e989de6d585a43cc864f8a5e8c7c4641902c14185a3013b8bdc1961081860c"},
-    {"filename":"🪞幻影膠囊","bytes":325,"sha256":"a840a794fbe4fa849300cfa0b4cd5a96d7b7841dd07f9a8e16fd2970606598b4"}
+  "sources": [
+    {
+      "commit": "9d194114d368d179039a5f2060a3a0346dc720c3",
+      "path": "📦私人資料搬移收件箱_PrivateMigrationInbox.md",
+      "blob": "967bd3a5a7bb4d3c72880d4ad81c071d55032841",
+      "bytes": 1811,
+      "sha256": "382996bd446445e5eff98a227ed955bdf190d9099e7672403ea302a5068a506c"
+    },
+    {
+      "commit": "ac7190266252b6c0a334181716148af24b85427c",
+      "path": "📦私人GitHub來源清單_PrivateGitHubSources.json",
+      "blob": "803c76923f9509fb15a3b5f16be53c6c225a0a1d",
+      "bytes": 6221,
+      "sha256": "f7d5a2437a6185a607281edab1ff2d97540239aa9e62564eb863b364a170a230"
+    }
   ],
-  "github_readback": [
-    {"path":"SNAPSHOT.json","write_commit":"772ab19cee1901bedb5d733e0212902654519e59","blob_sha":"0678f6840cda43f7bfd6fc8230ae6b39e33539b2"},
-    {"path":"README.md","write_commit":"0ce93690ddc402861015668589cce9a5b43c3f35","blob_sha":"c5e37cf9de5e65dd4c2862f79988493fe2b6e3a5"},
-    {"path":"STORYBOARD.md","write_commit":"5e394718fecea4734f6ca1509bca3b2888327dda","blob_sha":"0094476790fad1d3e38b6f11b16a1756e7a7d006"},
-    {"path":"SUBTITLES.vtt","write_commit":"a4a16a357070d50dc48bf0cb0bee337802e38d2f","blob_sha":"157c6423353148b819b74746a788a31e0164a293"},
-    {"path":"animation.js","write_commit":"2c31f7270d44462deb3fa69f843d6790547e8a40","blob_sha":"1f5c2b3f8ecb9a4c034126f5bb33e9928ddf33ac"},
-    {"path":"index.html","write_commit":"4138895362bf2f6e45b17218ac8e26c0e1f62c0f","blob_sha":"4a10adf8a4359e9aad5c2a06b9c46dc91bbb9b80"},
-    {"path":"animation-data.json","write_commit":"d1535a04d33c7e24768b02f280d2a4bf597489be","blob_sha":"12c27a89a2a8b905a564fdaf5ab34ac2197c1d2f"},
-    {"path":"animation.svg","write_commit":"04a1aa66f904fcdfafc06eb028992e1796fddd6b","blob_sha":"d5ba10c499b5472a369767183a0817b85645fe1d"},
-    {"path":"LOCATOR.json","write_commit":"cfe56b2e9af7b3315e256b64885bd511804cde9a","blob_sha":"b1ffc60a7c1e3e168fc87463ae5811f0b5ccd6b4"}
-  ],
-  "tool_gaps": {
-    "tag":"GitHub 連接器沒有 Tag 列舉動作。",
-    "tree_sha":"fetch_commit 回執未提供 Tree SHA，且沒有 fetch_tree 動作。",
-    "metadata_blob":"Repository 擁有者移轉／改名屬 metadata 事件，不產生 Path Blob SHA。",
-    "metadata_modified_time":"get_repo 回執未提供 Repository metadata 修改時間；以本輪 detected_at 留證。",
-    "workflow_scope":"fetch_commit_workflow_runs 只回傳 PR 觸發第一頁；8 個最新 Commit 的 Run/Job 均為空。",
-    "github_byte_size":"fetch_file 回執未提供 ByteSize；ByteSize 與 SHA256 以同內容本地原件留證。"
+  "package": {
+    "bytes": 118769,
+    "sha256": "810e2683fb6422c22acd2c908f1822c55eb9e371defd12e838a1a15be7e7e34a",
+    "crc_error": 0,
+    "file_count": 19
   },
-  "relations": {
-    "root":"🧩LKMINI",
-    "container":"🪞幻影膠囊",
-    "reverse_chain":"Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"
-  }
+  "tool_gaps": {
+    "Tag": "GitHub 連接器沒有 Tag 列舉動作。",
+    "TreeSHA": "fetch_commit 未提供 Tree SHA，且沒有 fetch_tree 動作。",
+    "RunJob": "fetch_commit_workflow_runs 僅回傳 PR 觸發第一頁；兩個 Commit 的 Run／Job 均為空。",
+    "ByteSize": "GitHub fetch_file 未提供 ByteSize；使用工具讀回內容的 UTF-8 bytes 與 SHA256 留證。",
+    "Migration": "9 個 private sources 尚未列樹與搬入目標倉庫。"
+  },
+  "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"
 }
