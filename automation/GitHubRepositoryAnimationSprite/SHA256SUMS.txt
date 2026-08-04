@@ -1,8 +1,8 @@
 # Local reversible Projection SHA256
-ce8d8f6fab1d1c370ca434103897d3d1bebc5bda28a8e89555db857e46fd184c  📦GitHub倉庫製動畫精靈完整可逆封裝｜GitHubRepositoryAnimationSpritePackage.zip
+2561ad1ae2f6a45483b3d273bd3403f44c27b78eef67eaf04e0eb7b83591b3e7  📦GitHub倉庫製動畫精靈完整可逆封裝｜GitHubRepositoryAnimationSpritePackage.zip
 
-# Corrective evidence readback local SHA256
-121e7873a42ebf6c9d2783c1a22b8704d0c153afa9b0d1a3c50a8649d77b2d74  SitesCurrentVersion13MaterialCurationReceipt.local-summary
+# Authoritative GitHub.fetch_file decoded UTF-8 content
+68902e17fbafc977fc9cecfbe428f5a2a93ca0d7b8c7120f8765b3af718e4095  receipts/🧙🧚Sites現行版本13素材鑑別回執｜SitesCurrentVersion13MaterialCurationReceipt.md.decoded-utf8
 
 # GitHub same-coordinate readback Blob SHA
 1f066cdfaff84cce9a318697ca48d201211d0f03  SNAPSHOT.json
@@ -11,15 +11,17 @@ ce8d8f6fab1d1c370ca434103897d3d1bebc5bda28a8e89555db857e46fd184c  📦GitHub倉�
 770b1841f7005d00ecb26fab7c37fd89e59eea45  STORYBOARD.md
 da25fbc8d45b24eee937ff91d162c9f2a870c2d9  VOICEOVER.md
 23f981c4a5bc25c16903dcf0a42346e2c67ad03b  SUBTITLES.vtt
-78a9a39f4a4e7d15de568df6e2e994959f0c8729  animation.js
+a6bcbb2415dcf2e2d4fd67e96b6f464704b62e75  animation.js
 94ca27ce2cc5f6b78223cf0d56469da876be36b2  index.html
 209700b58d65fa3dfa90152969a0393f04da06b1  animation.svg
 bb1a885cc78babf39d00b4441fbbd846f05f13ab  AICORE.json
-3135c97323fa1bf4624feac6bb015f6e0eeb4469  LOCATOR.json
+e83f8e49e81ee9f83888370f20d44e6fa320a8e8  LOCATOR.json
 e57fdec785753442881bdeab80b7581de2eae767  REVERSECHAIN.md
-e8db6c89c5c9428d79b245a956b411bf463aedcf  MANIFEST.json
+2b68c788233a44d67cf70702e372a2bdc47825a8  MANIFEST.json
+0c9a411686afb90ba7f299c67f9d77efe6d6ee4a  CORRECTION.json
+0f85baa6cb93ae96d12f00822c38e8af866f71fa  GITHUB_READBACK.json
 
 # Source evidence GitHub Blob SHA
 5bbed879abb22b1552a109e4863f7b9a157b8dcc  receipts/🧙🧚Sites現行版本13素材鑑別回執｜SitesCurrentVersion13MaterialCurationReceipt.md
 
-# GitHub Blob SHA is not SHA256. GitHub source ByteSize and source SHA256 remain error unless raw bytes and size are returned by the connector.
+# GitHub Blob SHA is not SHA256. The decoded UTF-8 SHA256 above is scoped to exact GitHub.fetch_file content, not an independent HTTP transport hash.
