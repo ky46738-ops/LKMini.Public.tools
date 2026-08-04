@@ -1,42 +1,32 @@
 # 🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite
 
-> 🥃錨點｜版本=幻界2026｜更新=2026-08-05 00:33 (Asia/Taipei)
+> 🥃錨點｜版本=v1.0｜更新=2026-08-05 01:28 (Asia/Taipei)
 
 Identity: `LKMINI://automation/GitHubRepositoryAnimationSprite`  
 狀態：**錯誤**
 
-## 本輪巡檢
+## 真實巡檢摘要
 - Repository：23
 - Branch：105
 - 新外部 Commit：0
-- 前一輸出座標後精靈 Commit：21
-- 可視化素材：12
-- PNG 搜尋結果：0
-- 回根鏈覆蓋：10／11
-- Workflow Run／Job：0
+- 可視化素材：15（SVG 3／HTML 10／JPEG 2）
+- Workflow Run／Job：0／0
 - 去重重複：0
+- 寫入前 Head：`a17cf34a2a5fb517e33df31c4aff502a611e389e`
 
 ## UI 優化
-- 新增素材雷達：SVG／HTML 分類、用途與 GitHub 來源座標。
-- 新增 Repository 擁有者分群：`ky46738-ops` 9 個、`lkminiPhantomWorld` 14 個。
-- 新增一屏證據摘要、素材類型篩選與直接來源連結。
-- 保留 iPhone 底部拇指導覽、safe-area、44px 點擊目標、搜尋、複製摘要與 reduced-motion。
-- 所有資料直接內嵌於 HTML；離線與 sandbox 開啟不依賴外部 fetch。
+- iPhone 安全區與單手底部導覽
+- S0–S10 進度軌
+- Repository／素材／錯誤三層篩選
+- 可搜尋 Path、RepoID、Blob SHA
+- `prefers-reduced-motion` 降低動態
+- 回根鏈固定顯示
 
-## 新變更摘要
-本輪沒有外部 Repository 新 Commit。`LaoK-System` 仍停在 `01b35a6e…`；其他倉庫最新 Commit 與前次 Snapshot 一致。輸出倉庫新增紀錄均為精靈自己的交付、同步與讀回，不列入外部變更。
-
-## 可視化素材
-- SVG：2 個。
-- HTML：10 個。
-- 圖片搜尋 `png`：0 個。
-- 主要來源：LKMini 根標誌、公開工具入口、幻影膠囊顯影卡、寫作課堂、直式注音數學、媒體雙讀器、VPoop Banner／資訊卡／長文導覽。
-
-## 仍有錯誤
-- `lkstylet` 集中投影為 `unknown / undefined`。
-- 私人集中六項條件只有三個獨立實體 Path。
-- 獨立原始位元 SHA256 為 `UNVERIFIED`。
-- Tag、Tree、全觸發型 Workflow Run／Job 工具欄位缺口。
+## 工具錯誤
+- Tag：連接器沒有列舉動作
+- Tree SHA：Commit 回執未提供
+- Workflow：PR 型第一頁回執為空，沒有 Run ID／Job ID
+- 來源 ByteSize：`fetch_file` 未提供 size
 
 ## 回根
 `Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A`
