@@ -1,21 +1,15 @@
-# 🥃錨點｜版本=幻界2026｜更新=2026-08-05 00:08 (Asia/Taipei)
-# Local final reversible package
-d06341d69ffc0ae51269d8c68dfc8d706990a045437d170b2ac5eb05b82d895c  🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite_PACKAGE_20260805-000826_TPE.zip
-a8002da0839872111fcf348376a297f2f9de2dbeb47b36b05db181d5d35ba5db  GITHUB_READBACK.json.local-projection
-613c34706c38bda8eda1d7dfe1e428f2e28c5c407dc480684ed36443bd4593c9  MANIFEST.json.local-projection
-5fb7986c9b2f276152aa55786a9755632c384ebaf3a6d5dfd75e085a603ff16e  SHA256SUMS.txt.local-projection
-
+# 🥃錨點｜版本=幻界2026｜更新=2026-08-05 00:33 (Asia/Taipei)
 # GitHub same-coordinate Blob SHA
-# SNAPSHOT.json f9bd5f6a1c4c0648adf772d9ca7d5ac71eb3e1e8
-# README.md a307858fe18befefd0b3d0f52ad9c0a696c35a75
-# animation-data.json aa3e56b940e505d5752548888e58d4874199f178
-# STORYBOARD.md 9a475998833eaed0f12083337b63fe78fe80e383
-# SUBTITLES.vtt 3c599c261efebac82f02682240c14d0282344b53
-# animation.js 5c9f22f4d9e23e95a1bc01dc46c3171bddb5c25e
-# index.html 0eb79e6f3070edaa3702fd2db9b839529b10aeae
-# animation.svg 5eb48c3d8bee8961c0b364c0b590aefcb2541d4f
-# AICORE.json 2ae3e76dd5cb014d348d67e105ff11e6b4637439
-# LOCATOR.json ddb3ae1bbac429cd04e3a4ff661a3dcfd3f5bef3
-# REVERSECHAIN.md 6f0c936c445495292422d151fe00bea6f74d35bc
-# GITHUB_READBACK.json a9fba5337b710be82fcc98975798121ba36255dc
-# MANIFEST.json 42d05455b30997449da52c898d98d0d033ecc251
+# SNAPSHOT.json c9eb6873cbef09e00d5a7751894618cef99439e3
+# README.md 6f188635121605f820fe7094e80f14f917072cf7
+# animation-data.json d812c4027f62f0b62ad538bddd9db3da804d7fe8
+# STORYBOARD.md de6384c8e08041f104243b16d43142e2957b2b0b
+# SUBTITLES.vtt 59aef2f736c44d056712375cc0861baa89100952
+# animation.js f33a5a178cbe6c278f8abe15347f1f9a294870bc
+# index.html 4f5fa77791eb29d039a4c982b44db435110a8a7a
+# animation.svg 3b4525fb9eb7b0fcfc6b76737878851b51d305dd
+# AICORE.json 5ec210ce8579e1601b71987761fe75bf4b00799d
+# LOCATOR.json 3074b568ca72e9b9909df1f3186e95a4e8c84cdd
+# MANIFEST.json e7031f6866e8d0e736fe47bf6af835533a4941f1
+# REVERSECHAIN.md c0271217153316e5da3112ce0c7f02254e4194f3
+# Local final package SHA256 is generated after final GitHub readback and is reported as detached evidence to avoid recursive self-hashing.
