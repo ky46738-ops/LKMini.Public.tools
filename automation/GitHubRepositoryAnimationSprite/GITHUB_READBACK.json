@@ -1,1 +1,30 @@
-{"identity":"LKMINI://automation/GitHubRepositoryAnimationSprite","anchor":"🥃錨點｜版本=幻界2026｜更新=2026-08-05 00:08 (Asia/Taipei)","repository":"ky46738-ops/LKMini.Public.tools","branch":"main","path_prefix":"automation/GitHubRepositoryAnimationSprite/","source":{"repository":"lkminiPhantomWorld/LaoK-System","head_commit":"01b35a6e69c87adc32e0bf6d927f7b464ad9a135","new_external_commits":0},"writes":[{"path":"SNAPSHOT.json","commit_sha":"3a1b4734e7eb6bdca4bb7273d8b2ab574b62c534","blob_sha":"f9bd5f6a1c4c0648adf772d9ca7d5ac71eb3e1e8","readback":"完成"},{"path":"README.md","commit_sha":"6ebd8667b8a87fca5cf3a424559594aed4dcef02","blob_sha":"a307858fe18befefd0b3d0f52ad9c0a696c35a75","readback":"完成"},{"path":"animation-data.json","commit_sha":"242acec65402b77145123542fc3941c047048d1b","blob_sha":"aa3e56b940e505d5752548888e58d4874199f178","readback":"完成"},{"path":"STORYBOARD.md","commit_sha":"331fd5fc4c045e113e823db1a60ddc3873c441ba","blob_sha":"9a475998833eaed0f12083337b63fe78fe80e383","readback":"完成"},{"path":"SUBTITLES.vtt","commit_sha":"8fbb25e00ab8fb05cb955fdac3987ab1e41f13c9","blob_sha":"3c599c261efebac82f02682240c14d0282344b53","readback":"完成"},{"path":"animation.js","commit_sha":"da38617f68f3fa01b3dfcfa429372ebd041b635c","blob_sha":"5c9f22f4d9e23e95a1bc01dc46c3171bddb5c25e","readback":"完成"},{"path":"index.html","commit_sha":"c659e2ee00050d4f0b875c77fbe06b08d1d9633a","blob_sha":"0eb79e6f3070edaa3702fd2db9b839529b10aeae","readback":"完成"},{"path":"animation.svg","commit_sha":"18d2cbd3b6c95ad3456e3171de2365ad9ae62d0a","blob_sha":"5eb48c3d8bee8961c0b364c0b590aefcb2541d4f","readback":"完成"},{"path":"AICORE.json","commit_sha":"d8d77ab4efcccc05f5c7e9f72024c6a5c19c34a5","blob_sha":"2ae3e76dd5cb014d348d67e105ff11e6b4637439","readback":"完成"},{"path":"LOCATOR.json","commit_sha":"f3f34aa6d22580b83e82c7798c6944f639328b5b","blob_sha":"1c3d5ba4d2083d93034e7200848ca9829e0e684c","readback":"完成"},{"path":"REVERSECHAIN.md","commit_sha":"d67768fba005f5953a4c118db8241ea950479d9f","blob_sha":"6f0c936c445495292422d151fe00bea6f74d35bc","readback":"完成"}],"write_count":11,"readback_count":11,"control_files_observed_before_this_receipt":{"MANIFEST.json":"334339abdc87cedcadbeb21852fb65502fb84a88","SHA256SUMS.txt":"69c7de8d5d1338c21394083b28f8f1a37159b6cc"},"local_validation":{"package":{"filename":"🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite_PACKAGE_20260805-000826_TPE.zip","bytes":248649,"sha256":"38e23c406bbfaf9b926b8d5b5b47c045e7b93352992e9d63008f124669379c78","file_count":20,"crc_error":null},"excel_formula_errors":0,"pdf_pages":1,"chain_coverage":"10/11","duplicate_count":0},"status":"錯誤","remaining_errors":["lkstylet 來源 README 不存在且集中投影為 undefined","私人集中六項只有三個獨立實體 Path","獨立原始位元 SHA256 為 UNVERIFIED","Tag／Tree／全觸發型 Workflow Run／Job 工具欄位缺口"],"reverse_chain":"Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"}
+{
+  "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
+  "anchor": "🥃錨點｜版本=幻界2026｜更新=2026-08-05 00:33 (Asia/Taipei)",
+  "repository": "ky46738-ops/LKMini.Public.tools",
+  "branch": "main",
+  "path_prefix": "automation/GitHubRepositoryAnimationSprite/",
+  "source": {"repository":"lkminiPhantomWorld/LaoK-System","head_commit":"01b35a6e69c87adc32e0bf6d927f7b464ad9a135","new_external_commits":0},
+  "writes": [
+    {"path":"SNAPSHOT.json","commit_sha":"b06f7fb5b592acfdabeff3c79bc8cf4e0f5fdb7d","blob_sha":"c9eb6873cbef09e00d5a7751894618cef99439e3","readback":"待本回合終驗"},
+    {"path":"README.md","commit_sha":"b15f3a16a35b74d7837e7590af7cdc5f723b920f","blob_sha":"6f188635121605f820fe7094e80f14f917072cf7","readback":"待本回合終驗"},
+    {"path":"animation-data.json","commit_sha":"569d4a7877456afc908e5017aa2f97c696e5cf9b","blob_sha":"d812c4027f62f0b62ad538bddd9db3da804d7fe8","readback":"待本回合終驗"},
+    {"path":"STORYBOARD.md","commit_sha":"7f21bc14f5c1e6a56846f3fa72eee37ae13017c5","blob_sha":"de6384c8e08041f104243b16d43142e2957b2b0b","readback":"待本回合終驗"},
+    {"path":"SUBTITLES.vtt","commit_sha":"14a4b63f48fe5f1d219971cd3e17f96f9e15be4c","blob_sha":"59aef2f736c44d056712375cc0861baa89100952","readback":"待本回合終驗"},
+    {"path":"animation.js","commit_sha":"3a37b364000db9a50b1484b15caba6234ca4ef67","blob_sha":"f33a5a178cbe6c278f8abe15347f1f9a294870bc","readback":"待本回合終驗"},
+    {"path":"index.html","commit_sha":"a4069580c23e87e827e63aed475b614390794d3d","blob_sha":"4f5fa77791eb29d039a4c982b44db435110a8a7a","readback":"待本回合終驗"},
+    {"path":"animation.svg","commit_sha":"48e2af75909730117fb5b8e330387b6003e6e47b","blob_sha":"3b4525fb9eb7b0fcfc6b76737878851b51d305dd","readback":"待本回合終驗"},
+    {"path":"AICORE.json","commit_sha":"a84f6e22f741de41e739d522fb78e3a76467f160","blob_sha":"5ec210ce8579e1601b71987761fe75bf4b00799d","readback":"待本回合終驗"},
+    {"path":"LOCATOR.json","commit_sha":"7ffe96b673185994f46e83c43d01e91d2187da10","blob_sha":"3074b568ca72e9b9909df1f3186e95a4e8c84cdd","readback":"待本回合終驗"},
+    {"path":"MANIFEST.json","commit_sha":"ed40314390c805b2888bd5cf67c1c16297b700dd","blob_sha":"e7031f6866e8d0e736fe47bf6af835533a4941f1","readback":"待本回合終驗"},
+    {"path":"REVERSECHAIN.md","commit_sha":"525c6cc7539f62a6bb1336b7a216b24016d79c5f","blob_sha":"c0271217153316e5da3112ce0c7f02254e4194f3","readback":"待本回合終驗"},
+    {"path":"SHA256SUMS.txt","commit_sha":"7f7faaa0ebe53def609c43ce8cef0ea72a135db6","blob_sha":"1f94313392fabbe2f97fbde52599cbd16c776752","readback":"待本回合終驗"}
+  ],
+  "write_count": 13,
+  "readback_target_count": 13,
+  "validation": {"repository_count":23,"branch_count":105,"external_commit_count":0,"visual_asset_count":12,"chain_coverage":"10/11","duplicate_count":0},
+  "status": "錯誤",
+  "remaining_errors": ["lkstylet 來源 README 不存在且集中投影為 undefined","私人集中六項只有三個獨立實體 Path","獨立原始位元 SHA256 為 UNVERIFIED","Tag／Tree／全觸發型 Workflow Run／Job 工具欄位缺口"],
+  "self_reference_rule": "本檔不遞迴記錄自己的 Commit／Blob；同座標讀回由後續 fetch_file 回執驗收。",
+  "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"
+}
