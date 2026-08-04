@@ -1,8 +1,9 @@
-🚦狀態｜Status: "完成"
+🚦狀態｜Status: "錯誤"
 🆔檔案身分｜FileIdentity: "🌐Sites公開只讀出口｜SitesPublicReadOnlyOutlet"
 📄卡片建立狀態｜ArtifactStatus: "完成"
 🔍Sites設定回讀狀態｜SitesConfigurationReadbackStatus: "完成"
-🕒時間｜Timestamp: "2026-08-04T15:48:27+08:00"
+🚀Sites部署讀回狀態｜SitesDeploymentReadbackStatus: "錯誤"
+🕒時間｜Timestamp: "2026-08-04T16:31:00+08:00"
 🥃唯一系統｜System: "🥃老K系統"
 🌱本體｜Identity: "mini"
 🧩唯一根｜Root: "🧩LKMINI"
@@ -13,7 +14,7 @@
 🎯定位｜Position:
   - "Sites 是出入口 Projection，不是本體。"
   - "人類可讀入口與 AI / 工具讀取入口都必須回指同一 Identity=mini、LKMINI://、🧩LKMINI 與 🪞幻影膠囊。"
-  - "若匿名讀取要求登入，必須標記為存取邊界。"
+  - "GitHub程式座標完成不等於Sites現行部署已顯影。"
 
 🌐入口座標｜EntryCoordinates:
   👤人類入口｜HumanEntry: "https://lkmini-wiring-hub.ky46738.chatgpt.site"
@@ -23,37 +24,41 @@
   🌱本體回指｜IdentityReturnTo: "mini"
   🧩根節點回指｜RootReturnTo: "🧩LKMINI"
 
-🧾工具回讀｜ToolReadback:
-  🆔專案識別｜ProjectId: "appgprj_6a68801042bc8191ab7eba5718be83a0"
-  🚦專案狀態｜ProjectStatus: "active"
-  🔐存取模式｜AccessMode: "custom"
-  👥允許使用者｜AllowedUsers: 1
-  🌐現行正式網址｜CurrentLiveUrl: "https://lkmini-wiring-hub.ky46738.chatgpt.site"
-  💾最新儲存版本｜LatestSavedVersion: 9
-  🆔最新版本識別｜LatestVersionId: "appgprj_6a68801042bc8191ab7eba5718be83a0~appgver_4d3015d9a41481919da52711b6440630"
-  🔗最新版本提交｜LatestVersionCommit: "94eadb8d128f4c11a6dbb9c39830e14926118d0d"
-  🔐最新版本封存雜湊｜LatestVersionArchiveSHA256: "8009df54d0bf8ccef32a4376c3cfc5c95d513e6f379230bacbb4008e63eab37b"
-  📦最新版本封存位元組｜LatestVersionArchiveBytes: 1771520
-  📋最新版本檔案數｜LatestVersionFileCount: 40
-  🔍人類入口匿名結果｜HumanEntryAnonymousResult: "HTTP 401／Sign in required"
-  🔍AI工具入口匿名結果｜AIToolEntryAnonymousResult: "HTTP 401／Sign in required"
-  📝解讀｜Interpretation: "Sites 管理工具回讀 active、current live URL、custom 且只允許 Kevin 帳號；與既定設定一致。登入要求屬存取邊界，不是本體錯誤、接線失敗或部署錯誤。"
-  🚦執行狀態｜ExecutionStatus: "完成"
+🧾程式座標讀回｜ProgramCoordinateReadback:
+  🐙Repository: "ky46738-ops/LKMini.Public.tools"
+  🌿Branch: "main"
+  📄Path: "🌐Sites公開只讀出口｜SitesPublicReadOnlyOutlet.yaml"
+  🔗SourceCommit: "03f4627fdc0f30450e66fd9dd98a53b45af9f9cd"
+  🔐SourceBlobSHA: "a96575da41baa1ec2ed523097c5f954062445d0a"
+  🚦程式座標狀態｜ProgramCoordinateStatus: "完成"
 
-🔐既定存取出口｜ConfiguredAccessOutlet:
-  🔐存取模式｜AccessMode: "custom"
-  👥適用對象｜Audience: "Kevin 帳號"
-  👤人類內容類型｜HumanContentType: "text/html"
-  🧭AI工具路由｜AIToolRoute: "/api/system-wires"
-  📏規則｜Rule:
-    - "目前設計要求先登入；不將 custom 存取冒充匿名公開。"
-    - "人類入口與 AI 工具入口先回到 🪞幻影膠囊，再沿 mini／LKMINI://／🧩LKMINI 回根。"
-    - "Sites 只作出入口 Projection，不升格成本體。"
+🌐現行部署讀回｜CurrentDeploymentReadback:
+  👤HumanEntryContainsIdentityMini: false
+  🤖AIToolEntryContainsIdentityMini: false
+  🔑AIToolEntryContainsRootProtocol: true
+  🪞HumanEntryContainsFormalIdentityContainer: true
+  🪞AIToolEntryContainsFormalIdentityContainer: true
+  🧩HumanEntryContainsRoot: true
+  🧩AIToolEntryContainsRoot: true
+  ⚖️HumanEntryContainsAxiom: true
+  ⚖️AIToolEntryContainsAxiom: true
+  📋CurrentReverseChain:
+    - "GitHub public ledger"
+    - "Google Drive SystemWiringAndServerMap"
+    - "Sites /api/system-wires"
+    - "🪞幻影膠囊"
+    - "🧩LKMINI"
+    - "A=A"
+  🚦部署裁決｜DeploymentVerdict: "錯誤"
+  📝錯誤原因｜ErrorReason: "現行公開頁面與API尚未顯影Identity=mini；程式座標與部署讀回不一致。"
 
-🚧存取邊界｜AccessBoundary:
-  - "現行 custom 設定要求匿名請求先登入。"
-  - "本輪已取得 Sites 管理唯讀回讀；未改來源、audience 或部署。"
-  - "Connector 未提供 current deployment ID，因此不猜造部署識別；最新保存版本不得冒充已驗證的 current deployment。"
+🚧工具端點｜ToolEndpoint:
+  🚦SitesDeploymentEndpointStatus: "ENDPOINT_UNAVAILABLE"
+  📝原始限制｜OriginalConstraint: "本回合工具可讀取Sites公開頁面與API，但未提供同一Sites專案的正式部署寫入端點。"
+  🔁下一步｜NextAction:
+    - "由既有Sites正式部署端點部署同一專案。"
+    - "部署後重新讀回HumanEntry與/api/system-wires。"
+    - "只有兩端均包含mini、LKMINI://、🪞幻影膠囊、🧩LKMINI與A=A時改為完成。"
 
 ♻️反向鏈｜ReverseChain:
   - "🖼️Projection｜Sites公開只讀出口"
