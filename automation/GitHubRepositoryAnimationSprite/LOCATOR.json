@@ -8,23 +8,9 @@
     "path_prefix": "automation/GitHubRepositoryAnimationSprite"
   },
   "baseline_snapshot": {"path":"SNAPSHOT.json","blob":"1430a0092911ba8dd9bd18e56ecc8c225414aea3"},
-  "missed_change": {
-    "commit": "923da85a1f8ee85e9eeeb2c78ad3b98ca94c300a",
-    "path": "receipts/🧙🧚Sites現行版本13素材鑑別回執｜SitesCurrentVersion13MaterialCurationReceipt.md",
-    "blob": "5bbed879abb22b1552a109e4863f7b9a157b8dcc"
-  },
-  "write_readback": [
-    {"path":"SNAPSHOT.json","commit":"47b6740656c421a03babab6cf9fa0d6a5e479a3a","blob":"1f066cdfaff84cce9a318697ca48d201211d0f03"},
-    {"path":"README.md","commit":"e8af83593e31301e28ab4b080e60712c0ea84bc8","blob":"69e6b83db5c8bb5c17e29d056096042ec3c77305"},
-    {"path":"animation-data.json","commit":"7dd28b3aa972e33116f910170034e5753588b129","blob":"1f066cdfaff84cce9a318697ca48d201211d0f03"},
-    {"path":"STORYBOARD.md","commit":"969fffd5020ba47232529beabc123be2c916f8c9","blob":"770b1841f7005d00ecb26fab7c37fd89e59eea45"},
-    {"path":"VOICEOVER.md","commit":"16a254524d8630c748a0f1630a2e2b8825c08ae8","blob":"da25fbc8d45b24eee937ff91d162c9f2a870c2d9"},
-    {"path":"SUBTITLES.vtt","commit":"2703bf74275bf4755ad014515d2e6dfa9a05ea9c","blob":"23f981c4a5bc25c16903dcf0a42346e2c67ad03b"},
-    {"path":"animation.js","commit":"3fcf47a362085d1f5712c2cd156d239de49d7066","blob":"78a9a39f4a4e7d15de568df6e2e994959f0c8729"},
-    {"path":"index.html","commit":"df77e962839f450162cc8b8f66d39033aa6b1be8","blob":"94ca27ce2cc5f6b78223cf0d56469da876be36b2"},
-    {"path":"animation.svg","commit":"0dcab94763fb13b1d61ddf75941eaebc507e68b4","blob":"209700b58d65fa3dfa90152969a0393f04da06b1"},
-    {"path":"AICORE.json","commit":"c9d3ff35d305ca504fee0883803047fec4bac296","blob":"bb1a885cc78babf39d00b4441fbbd846f05f13ab"}
-  ],
-  "local_root": "/mnt/data/🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite_修復巡檢",
+  "missed_change": {"commit":"923da85a1f8ee85e9eeeb2c78ad3b98ca94c300a","path":"receipts/🧙🧚Sites現行版本13素材鑑別回執｜SitesCurrentVersion13MaterialCurationReceipt.md","blob":"5bbed879abb22b1552a109e4863f7b9a157b8dcc"},
+  "correction": {"path":"CORRECTION.json","commit":"85ddc4ed34cbc292f5523b1666e3bd7d9296be50","blob":"0c9a411686afb90ba7f299c67f9d77efe6d6ee4a"},
+  "github_readback": {"path":"GITHUB_READBACK.json"},
+  "local_package": {"filename":"📦GitHub倉庫製動畫精靈完整可逆封裝｜GitHubRepositoryAnimationSpritePackage.zip","file_count":21,"bytes":177779,"sha256":"2561ad1ae2f6a45483b3d273bd3403f44c27b78eef67eaf04e0eb7b83591b3e7","crc_error":null},
   "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"
 }
