@@ -8,9 +8,9 @@ async function boot(){
  d.changes.forEach((c,i)=>{
   const el=document.createElement('button');
   el.className='change';
-  el.innerHTML=`<b>${i+1}. ${c.repository}</b><span>${c.original_message}</span><small>${c.summary}</small>`;
+  el.innerHTML=`<b>${i+1}. ${c.original}</b><span>${c.kind}</span><small>${c.summary}</small>`;
   el.onclick=()=>document.querySelector('#detail').innerHTML=
-   `<h3>${c.path}</h3><p><b>Commit</b> ${c.commit_sha}</p><p><b>Blob</b> ${c.blob_sha}</p><p><b>風險</b> ${c.risk}</p><p><b>回退</b> ${c.rollback_commit}</p><p><b>接線</b> ${c.wiring_impact}</p>`;
+   `<h3>${c.new}</h3><p><b>RepoID</b> ${c.repo_id}</p><p><b>Branch</b> ${c.branch}</p><p><b>Latest Commit</b> ${c.commit_sha}</p><p><b>Path</b> ${c.path}</p><p><b>Blob</b> metadata event - no Blob</p><p><b>Workflow</b> ${c.workflow}</p><p><b>風險</b> ${c.risk}</p><p><b>回退</b> ${c.rollback}</p><p><b>接線</b> ${c.wiring}</p>`;
   list.appendChild(el);
  });
  const steps=document.querySelector('#steps');
