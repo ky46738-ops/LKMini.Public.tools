@@ -1,0 +1,16 @@
+{
+  "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
+  "generated_at": "2026-08-04T12:44:29+08:00",
+  "scenes": [
+    {"repo":"ky46738-ops/LKMini.Public.tools","branch":"main","commit":"41eeac3e12bc61d1e7d686391a330dd898bafa95","path":"receipts/2026-08-04-lkmini-main-same-name-merge-dedup.md","blob":"af0e7c06250e694877985019039134f730f7784e","change":"修改","summary":"將含糊的多工作面敘述改為明確的多 AI 撤回與單一施工隊列。","workflow":"無回傳 status check"},
+    {"repo":"ky46738-ops/LaoK-System","branch":"main","commit":"7ede4203abe8d0c56a6a5c49ef10549a3f1a43d8","path":".github/workflows/軍令掛載檢查.yml","blob":"2b50fe4e021a206d46347aff2e683358a571d40f","change":"修改","summary":"軍令測試中的根名稱由 🥃LKMINI 修正為 🧩LKMINI。","workflow":"Vercel success；PR workflow run 查詢為空"},
+    {"repo":"ky46738-ops/tiny-state-core","branch":"main","commit":"01ab8936d91eba1369a4ba5ddb6c9a507d2c2c46","path":"SECURITY.md","blob":"2f24af793bfe99c31d667b3d8454573acc886288","change":"修改","summary":"安全政策中的正式公理由 A = A 統一為 A=A。","workflow":"無回傳 status check"},
+    {"repo":"lkminiPhantomWorld/tiny-state-core","branch":"main","commit":"78713bd5ed2c98de2b94086f4dd5f9d4f3a34e86","path":"SECURITY.md","blob":"2f24af793bfe99c31d667b3d8454573acc886288","change":"修改","summary":"組織投影的安全政策同步統一正式公理 A=A。","workflow":"無回傳 status check"},
+    {"repo":"ky46738-ops/oldk-lkmini-eternal-core-cross-optimize","branch":"master","commit":"613454594d1bd0d91c75737ae5bb364b9244734a","path":"🔐Mini額外檔案封存｜MiniExtraFileArchive/🌐公開頁面｜IndexPage.html","blob":"5a66e63a232b03a9cc08be85b8bbf994e7e3e81b","change":"修改","summary":"封存公開頁面的 A = A 顯示統一為 A=A。","workflow":"無回傳 status check"},
+    {"repo":"lkminiPhantomWorld/PhantomCapsule","branch":"master","commit":"b0f067ec3ff3be7922e767b84040884fd8de454f","path":"SHA256SUMS","blob":"14c2d3aeaa529762d95cf8fbb0d3cdbd74ae7693","change":"修改","summary":"更新 Locator、Snapshot、ReverseChain 的現行 SHA256 並閉合 A=A。","workflow":"無回傳 status check"},
+    {"repo":"lkminiPhantomWorld/LKMini","branch":"seed_v0","commit":"c9f21c9b7b196202565f1dee555ec75a8f1cb48d","path":"LKMini.svg","blob":"fc7ab7d3be796a5b0a097baffe64279cfb9a359a","change":"修改","summary":"核心 SVG 的 A = A 統一為 A=A。","workflow":"無回傳 status check"},
+    {"repo":"ky46738-ops/lkmini-elf","branch":"main","commit":"de181224df92d860102a5e06fe9d1edcd8a04ab0","path":"verified-main-flow/devices/📱此iPhone｜CurrentiPhone/projection/index.html","blob":"e52ff7a53c2a1d2bae9e695b7a3ab74b4892e41e","change":"修改","summary":"iPhone 顯影頁面的 A == A 統一為 A=A。","workflow":"無回傳 status check"}
+  ],
+  "repository_count": 23,
+  "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"
+}
