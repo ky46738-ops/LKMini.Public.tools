@@ -1,22 +1,16 @@
 WEBVTT
 
 00:00:00.000 --> 00:00:07.000
-本輪重新讀取二十三個 Repository 與一百零五個 Branch，沒有外部新 Commit。
+本輪以 GitHub 真實工具回執讀取二十三個 Repository 與一百零五個 Branch。
 
-00:00:07.000 --> 00:00:15.000
-上一輸出座標後的二十一個 Commit，全部是精靈自己的交付、同步與讀回。
+00:00:07.000 --> 00:00:14.000
+前次 Snapshot 之後沒有新的外部 Commit，精靈自身輸出另行留痕。
 
-00:00:15.000 --> 00:00:24.000
-素材雷達找到兩個 SVG 與十個 HTML；PNG 搜尋結果為零。
+00:00:14.000 --> 00:00:23.000
+素材雷達找到三個 SVG、十個 HTML 與兩張 JPEG，全部保存 Repository、Path 與 Blob SHA。
 
-00:00:24.000 --> 00:00:34.000
-新版介面融合 LKMini 根標誌、幻影膠囊卡、直式 Banner、媒體雙讀器與 VPoop 長頁能力。
+00:00:23.000 --> 00:00:32.000
+Tag、Tree SHA、完整 Run Job 與來源 ByteSize 沒有工具回執，因此維持錯誤。
 
-00:00:34.000 --> 00:00:44.000
-Repository 分群、搜尋、素材篩選、來源連結和複製摘要都在 iPhone 拇指可及範圍。
-
-00:00:44.000 --> 00:00:53.000
-Tree、Tag、Run、Job、獨立 SHA256 與 lkstylet undefined 仍保持錯誤。
-
-00:00:53.000 --> 00:01:02.000
-所有 Projection 沿 Manifest、Locator、Snapshot 與 ReverseChain 回到 LKMINI 與 A 等於 A。
+00:00:32.000 --> 00:00:42.000
+所有 Projection 沿 Manifest、Locator、Snapshot 與 ReverseChain 回到老K系統、LKMINI 與 A 等於 A。
