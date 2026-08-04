@@ -1,45 +1,16 @@
 <!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite</title><style>
-body{margin:0;background:#0f172a;color:#e2e8f0;font-family:-apple-system,BlinkMacSystemFont,"PingFang TC",sans-serif}
-main{max-width:1050px;margin:auto;padding:16px}header,.panel{background:#111c32;border:1px solid #334155;border-radius:18px;padding:16px;margin:12px 0}
-.metrics{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.metric{background:#1e293b;border-radius:14px;padding:15px;text-align:center}
-.metric b{font-size:30px}#scenes{display:grid;gap:9px}.scene{border:1px solid #475569;border-radius:12px;background:#172033;color:#e2e8f0;padding:12px;text-align:left;display:grid;grid-template-columns:32px 1fr;gap:3px}
-.scene span{grid-row:1/3;border-radius:50%;background:#0f766e;width:28px;height:28px;display:grid;place-items:center}.scene small{color:#94a3b8;word-break:break-all}.scene.active{outline:2px solid #67e8f9}code{word-break:break-all}a{color:#67e8f9}
+body{margin:0;background:#08111f;color:#e5eefc;font-family:-apple-system,BlinkMacSystemFont,"PingFang TC",sans-serif}
+main{max-width:980px;margin:auto;padding:14px}header,.panel{background:#101d31;border:1px solid #294260;border-radius:18px;padding:16px;margin:11px 0}
+.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.metric{background:#172a45;border-radius:14px;padding:13px;text-align:center}
+.metric b{font-size:28px;display:block}button{width:100%;text-align:left;background:#16263d;color:#eef;border:1px solid #365477;border-radius:12px;padding:12px;margin:5px 0}
+button span,button small{display:block;margin-top:5px}#steps{display:grid;grid-template-columns:repeat(2,1fr);gap:5px}
+code{word-break:break-all}.error{color:#ffb4b4}@media(max-width:600px){#steps{grid-template-columns:1fr}}
 </style></head><body><main>
-<header><h1>🎬 GitHub 倉庫製動畫精靈</h1><p>Repository → Commit → Tree → Path → Blob → Identity → A=A</p>
-<div class="metrics"><div class="metric"><b id="repoCount">23</b><br>Repository</div><div class="metric"><b id="changeCount">1</b><br>新外部變更</div></div></header>
-<section class="panel"><h2>核心變更</h2><p><b>lkminiPhantomWorld/LKMini</b></p><p><code>fd2d9e000ff0bc76a1724ccd498f0f22c2c18847</code></p>
-<p>將 MANIFEST、LOCATOR、SHA256SUMS、SNAPSHOT、REVERSECHAIN 的顯示名稱改為 Emoji＋中文＋英文正式物件名稱；Repository、Branch、Path、Identity 與既有 Blob 引用保持原值，並追加中文正式物件一致性修復紀錄。</p><p><b>原文：</b>修正既有 Locator 中文正式物件引用</p></section>
-<section class="panel"><h2>點擊核心推進狀態</h2><div id="scenes"></div><p id="detail"></p></section>
-<section class="panel"><h2>風險／回退／接線</h2><p><b>風險：</b>低至中。變更集中在 Locator 顯示與修復紀錄；Tree SHA 與 Tag 無對應工具回執。LOCATOR 自身未列入來源 SHA256SUMS，未直接破壞七個來源檔雜湊清單。</p>
-<p><b>回退：</b><code>c9f21c9b7b196202565f1dee555ec75a8f1cb48d</code></p><p><b>接線影響：</b>正向：中文正式物件名稱與功能總表管理路由更一致；核心 Identity、Branch、Path 與 A=A 回根鏈維持。</p></section>
-<section class="panel"><h2>驗證</h2><p>Path: <code>LOCATOR</code></p><p>Blob: <code>35d08bee445f8db3e2bb012050af2458ab19cc88</code></p>
-<p>ByteSize: 3508</p><p>SHA256: <code>2b4930b7461457a39a34119d3797307008375ed766d042242ee74d17a4e5606d</code></p><p>沒有 combined status；PR 型 workflow run 查詢為空。</p></section>
-<script>const DATA_URL = './animation-data.json';
-async function boot() {
-  const data = await fetch(DATA_URL).then(r => r.json());
-  document.querySelector('#repoCount').textContent = data.repository_count;
-  document.querySelector('#changeCount').textContent = data.external_change_count;
-  const list = document.querySelector('#scenes');
-  data.scenes.forEach((scene, index) => {
-    const item = document.createElement('button');
-    item.className = 'scene';
-    item.innerHTML = `<span>${index}</span><b>${scene.title}</b><small>${scene.value}</small>`;
-    item.onclick = () => {
-      document.querySelectorAll('.scene').forEach(x => x.classList.remove('active'));
-      item.classList.add('active');
-      document.querySelector('#detail').textContent = `${scene.title}｜${scene.value}`;
-    };
-    list.appendChild(item);
-  });
-  list.firstElementChild?.click();
-}
-boot();
-</script>
-<script>
-const embedded={"identity": "LKMINI://automation/GitHubRepositoryAnimationSprite", "generated_at": "2026-08-04T14:25:34+08:00", "repository_count": 23, "external_change_count": 1, "automation_self_write_count": 13, "change": {"repository": "lkminiPhantomWorld/LKMini", "repo_id": "1311048458", "branch": "seed_v0", "branches": ["lkmini-external-projection", "main", "seed_v0"], "tag_status": "工具未提供 Tag 列舉動作", "base_commit": "c9f21c9b7b196202565f1dee555ec75a8f1cb48d", "commit_sha": "fd2d9e000ff0bc76a1724ccd498f0f22c2c18847", "tree_sha": null, "path": "LOCATOR", "blob_sha": "35d08bee445f8db3e2bb012050af2458ab19cc88", "bytes": 3508, "sha256": "2b4930b7461457a39a34119d3797307008375ed766d042242ee74d17a4e5606d", "modified_time": "2026-08-04T06:21:11Z", "original_message": "修正既有 Locator 中文正式物件引用", "change": "修改", "additions": 26, "deletions": 13, "summary_zh_tw": "將 MANIFEST、LOCATOR、SHA256SUMS、SNAPSHOT、REVERSECHAIN 的顯示名稱改為 Emoji＋中文＋英文正式物件名稱；Repository、Branch、Path、Identity 與既有 Blob 引用保持原值，並追加中文正式物件一致性修復紀錄。", "workflow_status": "沒有 combined status；PR 型 workflow run 查詢為空。", "risk": "低至中。變更集中在 Locator 顯示與修復紀錄；Tree SHA 與 Tag 無對應工具回執。LOCATOR 自身未列入來源 SHA256SUMS，未直接破壞七個來源檔雜湊清單。", "rollback_commit": "c9f21c9b7b196202565f1dee555ec75a8f1cb48d", "rollback_blob": "86fc845d129d8984c2f80b9388c582b77313b78f", "wiring_impact": "正向：中文正式物件名稱與功能總表管理路由更一致；核心 Identity、Branch、Path 與 A=A 回根鏈維持。", "dedup_key": "lkminiPhantomWorld/LKMini／seed_v0／fd2d9e000ff0bc76a1724ccd498f0f22c2c18847／LOCATOR／35d08bee445f8db3e2bb012050af2458ab19cc88"}, "scenes": [{"id": 1, "title": "全域掃描", "value": "23 repositories"}, {"id": 2, "title": "新 Commit", "value": "fd2d9e000ff0bc76a1724ccd498f0f22c2c18847"}, {"id": 3, "title": "Path／Blob", "value": "LOCATOR / 35d08bee445f8db3e2bb012050af2458ab19cc88"}, {"id": 4, "title": "Workflow／風險", "value": "沒有 combined status；PR 型 workflow run 查詢為空。"}, {"id": 5, "title": "Rollback／接線", "value": "c9f21c9b7b196202565f1dee555ec75a8f1cb48d"}, {"id": 6, "title": "A=A 回根", "value": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"}]};
-document.querySelector('#repoCount').textContent=embedded.repository_count;
-document.querySelector('#changeCount').textContent=embedded.external_change_count;
-const list=document.querySelector('#scenes');
-embedded.scenes.forEach((scene,index)=>{const item=document.createElement('button');item.className='scene';item.innerHTML=`<span>${index}</span><b>${scene.title}</b><small>${scene.value}</small>`;item.onclick=()=>{document.querySelectorAll('.scene').forEach(x=>x.classList.remove('active'));item.classList.add('active');document.querySelector('#detail').textContent=`${scene.title}｜${scene.value}`;};list.appendChild(item);});list.firstElementChild?.click();
-</script></main></body></html>
+<header><h1>🎬 GitHub 倉庫製動畫精靈</h1><p><code>LKMINI://automation/GitHubRepositoryAnimationSprite</code></p><p class="error"><b>總狀態：錯誤</b>｜巡檢完成；Sites 部署顯影與工具欄位仍有錯誤。</p></header>
+<section class="panel metrics"><div class="metric"><b id="repoCount">23</b>倉庫</div><div class="metric"><b id="changeCount">3</b>新變更</div><div class="metric"><b id="riskCount">1</b>高風險</div></section>
+<section class="panel"><h2>⚡ 十一動核心推進</h2><div id="steps"></div></section>
+<section class="panel"><h2>新變更</h2><div id="changes"></div></section>
+<section class="panel" id="detail"><h2>點擊變更查看 Commit／Blob／風險／回退／接線影響</h2></section>
+<section class="panel"><h2>↩ 回根</h2><code>Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A</code></section>
+<script src="animation.js"></script></main></body></html>
