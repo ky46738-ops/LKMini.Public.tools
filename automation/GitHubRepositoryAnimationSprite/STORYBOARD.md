@@ -1,27 +1,27 @@
 # 🎬分鏡與旁白｜Storyboard & Voiceover
 
-> 🥃錨點｜版本=幻界2026｜更新=2026-08-04 23:09 (Asia/Taipei)
+> 🥃錨點｜版本=幻界2026｜更新=2026-08-05 00:08 (Asia/Taipei)
 
-## Scene 1｜23 個 Repository、105 個 Branch
-畫面：Repository 節點由左右兩個命名空間匯入，Branch 數量以光點展開。
-旁白：本輪重新讀取二十三個倉庫及所有可見分支，所有最新 Commit 均來自 GitHub 真實工具回執。
+## Scene 1｜零外部變更
+畫面：23 個 Repository 節點保持穩定，外部變更數字停在 0。
+旁白：本輪逐倉庫重新核對，沒有新的外部 Commit；最新紀錄來自精靈自己的交付。
 
-## Scene 2｜六個新 Commit
-畫面：`2ce322cc` 到 `01b35a6e`，六個修復節點依序亮起。
-旁白：私人集中層新增 Manifest、Locator 和正式 Package，並將 SHA256 描述改為未完成獨立重算的真實狀態。
+## Scene 2｜17 個精靈輸出
+畫面：Snapshot、README、動畫、Manifest 與讀回證據串成 17 個藍色節點。
+旁白：這些 Commit 是上一輪的輸出與驗收，不應被重複算成系統外部變更。
 
-## Scene 3｜三個實體 Path
-畫面：MANIFEST、LOCATOR、PACKAGE 三張卡由 404 轉為可讀 Blob。
-旁白：前一輪全部缺失的控制層已部分修復；現在有三個真實檔案，而不是六個獨立檔案。
+## Scene 3｜素材融合
+畫面：LKMini SVG、幻影膠囊顯影卡、VPoop Banner 與行動版工具卡匯入同一畫布。
+旁白：新版介面吸收十個真實可視化素材的結構特徵，不複製本體，只採用可驗證的版面能力。
 
-## Scene 4｜undefined 仍亮紅燈
-畫面：lkstylet 卡片顯示 Source Blob unknown、URL 空白、內容 undefined。
-旁白：來源 README 仍不存在，錯誤投影沒有被修復，不能標記為完成。
+## Scene 4｜拇指導覽
+畫面：iPhone 底部出現概覽、變更、錯誤、素材、回根五個按鈕。
+旁白：核心證據放在第一屏，拇指可以單手切換，搜尋與複製不再需要長距離捲動。
 
-## Scene 5｜UI 重新接線
-畫面：素材庫、狀態篩選、風險卡和回根時間線在 iPhone 畫面上重排。
-旁白：新版介面將重要數字放在第一屏，所有按鈕符合拇指操作，離線也能顯示證據。
+## Scene 5｜錯誤保持紅燈
+畫面：Tree、Tag、Run、Job 與 lkstylet undefined 保持紅色。
+旁白：介面變好看不等於證據完成；工具沒有提供的欄位仍維持錯誤。
 
 ## Scene 6｜回根
-畫面：Repository 到 A=A 的節點逐一閉合，未成立的 Tree、Tag、Run、Job 顯示紅色缺口。
-旁白：真實證據完成的鏈保持亮起，工具未提供的部分保持錯誤，不用推論補值。
+畫面：Repository 到 A=A 共有十一個節點，十個完成，一個 Tree 缺口。
+旁白：所有新 Projection 沿 Manifest、Locator、Snapshot 與 ReverseChain 回到 🥃老K系統、🧩LKMINI 與 A=A。
