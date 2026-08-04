@@ -1,1 +1,52 @@
-{"identity":"LKMINI://automation/GitHubRepositoryAnimationSprite","anchor":"🥃錨點｜版本=幻界2026｜更新=2026-08-05 00:08 (Asia/Taipei)","source":{"repository":"lkminiPhantomWorld/LaoK-System","branch":"main","head_commit":"01b35a6e69c87adc32e0bf6d927f7b464ad9a135","head_time":"2026-08-04T14:24:40Z","new_external_commits":0},"github_output":{"repository":"ky46738-ops/LKMini.Public.tools","branch":"main","path_prefix":"automation/GitHubRepositoryAnimationSprite/"},"local_outputs":{"html":"🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite_20260805-000826_TPE.html","svg":"🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite_20260805-000826_TPE.svg","png":"🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite_20260805-000826_TPE.png","xlsx":"🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite_20260805-000826_TPE.xlsx","pdf":"🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite_20260805-000826_TPE.pdf","wacz":"GitHubRepositoryAnimationSprite.wacz","webarchive":"GitHubRepositoryAnimationSprite_WebArchive.zip","package":{"filename":"🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite_PACKAGE_20260805-000826_TPE.zip","bytes":249332,"sha256":"d06341d69ffc0ae51269d8c68dfc8d706990a045437d170b2ac5eb05b82d895c","file_count":20,"crc_error":null}},"control_sha256":{"GITHUB_READBACK.json":"a8002da0839872111fcf348376a297f2f9de2dbeb47b36b05db181d5d35ba5db","MANIFEST.json":"613c34706c38bda8eda1d7dfe1e428f2e28c5c407dc480684ed36443bd4593c9","SHA256SUMS.txt":"5fb7986c9b2f276152aa55786a9755632c384ebaf3a6d5dfd75e085a603ff16e"},"reverse_chain":"Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"}
+{
+  "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
+  "anchor": "🥃錨點｜版本=幻界2026｜更新=2026-08-05 00:33 (Asia/Taipei)",
+  "source": {
+    "repository": "lkminiPhantomWorld/LaoK-System",
+    "branch": "main",
+    "head_commit": "01b35a6e69c87adc32e0bf6d927f7b464ad9a135",
+    "new_external_commits": 0
+  },
+  "github_output": {
+    "repository": "ky46738-ops/LKMini.Public.tools",
+    "branch": "main",
+    "path_prefix": "automation/GitHubRepositoryAnimationSprite/"
+  },
+  "write_receipts": {
+    "SNAPSHOT.json": {"commit":"b06f7fb5b592acfdabeff3c79bc8cf4e0f5fdb7d","blob":"c9eb6873cbef09e00d5a7751894618cef99439e3"},
+    "README.md": {"commit":"b15f3a16a35b74d7837e7590af7cdc5f723b920f","blob":"6f188635121605f820fe7094e80f14f917072cf7"},
+    "animation-data.json": {"commit":"569d4a7877456afc908e5017aa2f97c696e5cf9b","blob":"d812c4027f62f0b62ad538bddd9db3da804d7fe8"},
+    "STORYBOARD.md": {"commit":"7f21bc14f5c1e6a56846f3fa72eee37ae13017c5","blob":"de6384c8e08041f104243b16d43142e2957b2b0b"},
+    "SUBTITLES.vtt": {"commit":"14a4b63f48fe5f1d219971cd3e17f96f9e15be4c","blob":"59aef2f736c44d056712375cc0861baa89100952"},
+    "animation.js": {"commit":"3a37b364000db9a50b1484b15caba6234ca4ef67","blob":"f33a5a178cbe6c278f8abe15347f1f9a294870bc"},
+    "index.html": {"commit":"a4069580c23e87e827e63aed475b614390794d3d","blob":"4f5fa77791eb29d039a4c982b44db435110a8a7a"},
+    "animation.svg": {"commit":"48e2af75909730117fb5b8e330387b6003e6e47b","blob":"3b4525fb9eb7b0fcfc6b76737878851b51d305dd"},
+    "AICORE.json": {"commit":"a84f6e22f741de41e739d522fb78e3a76467f160","blob":"5ec210ce8579e1601b71987761fe75bf4b00799d"},
+    "REVERSECHAIN.md": {"commit":"525c6cc7539f62a6bb1336b7a216b24016d79c5f","blob":"c0271217153316e5da3112ce0c7f02254e4194f3"}
+  },
+  "visual_assets": [
+    {"type":"SVG","repository":"ky46738-ops/LKMini","branch":"seed_v0","path":"LKMini.svg"},
+    {"type":"SVG","repository":"ky46738-ops/LKMini.Public.tools","branch":"main","path":"automation/GitHubRepositoryAnimationSprite/animation.svg"},
+    {"type":"HTML","repository":"ky46738-ops/LKMini.Public.tools","branch":"main","path":"index.html"},
+    {"type":"HTML","repository":"ky46738-ops/LKMini.Public.tools","branch":"main","path":"PhantomCapsule/DisplayFaceTemplate.html"},
+    {"type":"HTML","repository":"ky46738-ops/LKMini.Public.tools","branch":"main","path":"tools/writing-class/index.html"},
+    {"type":"HTML","repository":"ky46738-ops/LKMini.Public.tools","branch":"main","path":"tools/writing-class/app.html"},
+    {"type":"HTML","repository":"ky46738-ops/LKMini.Public.tools","branch":"main","path":"tools/math-zhuyin-vertical.html"},
+    {"type":"HTML","repository":"ky46738-ops/LKMini.Public.tools","branch":"main","path":"tools/archive-mp4-dual-reader-stub.html"},
+    {"type":"HTML","repository":"ky46738-ops/LKMini.Public.tools","branch":"main","path":"vpoop/VPoopGuardian_PublicSeed_v1.7.html"},
+    {"type":"HTML","repository":"ky46738-ops/vpoop-guardian","branch":"main","path":"index.html"},
+    {"type":"HTML","repository":"ky46738-ops/vpoop-guardian","branch":"main","path":"business.html"},
+    {"type":"HTML","repository":"ky46738-ops/vpoop-guardian","branch":"main","path":"vpoop_bible.html"}
+  ],
+  "local_output_names": {
+    "html": "🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite_20260805-003330_TPE.html",
+    "svg": "🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite_20260805-003330_TPE.svg",
+    "xlsx": "🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite_20260805-003330_TPE.xlsx",
+    "pdf": "🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite_20260805-003330_TPE.pdf",
+    "wacz": "GitHubRepositoryAnimationSprite.wacz",
+    "webarchive": "GitHubRepositoryAnimationSprite_WebArchive.zip",
+    "package": "🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite_PACKAGE_20260805-003330_TPE.zip"
+  },
+  "status": "錯誤",
+  "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"
+}
