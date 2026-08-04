@@ -1,6 +1,6 @@
 {
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
-  "anchor": "🥃錨點｜版本=v1.3｜更新=2026-08-05 04:20 (Asia/Taipei)",
+  "anchor": "🥃錨點｜版本=v1.4｜更新=2026-08-05 05:17 (Asia/Taipei)",
   "status": "錯誤",
   "source": "本回合 GitHub 真實工具回執；GitHub Blob SHA 與本地 SHA256 分層保存",
   "github_coordinate": {
@@ -8,43 +8,48 @@
     "branch": "main",
     "path_prefix": "automation/GitHubRepositoryAnimationSprite"
   },
-  "github_readback": [
-    {"path":"SNAPSHOT.json","write_commit":"2b1f9ac83694184cbcef0c92da522073a1e68246","blob_sha":"1430a0092911ba8dd9bd18e56ecc8c225414aea3"},
-    {"path":"README.md","write_commit":"1e6b990c3033f9bb7869125bcaea185ab26248c7","blob_sha":"f66c169c7193e88f321d89dde7c6b05d86bc4083"},
-    {"path":"animation-data.json","write_commit":"76d4e01d8a1fba260243ce3f4ca0d99cc05d5e32","blob_sha":"d0f0a2992e1ca141dfa84168ea70d0ff7813a5cb"},
-    {"path":"STORYBOARD.md","write_commit":"a1bdd6141f4c1e65fae665620f975b6e9e536f3c","blob_sha":"7746c81038084bbd28ebf14b28750a02b226c9e6"},
-    {"path":"VOICEOVER.md","write_commit":"cd5d513a6d10f9a637886627d0ae015f26b4c163","blob_sha":"e48d933e4a3d84d453292993d41f135679316c35"},
-    {"path":"SUBTITLES.vtt","write_commit":"ab7765cd1e4b11d0e0e1af75f5e8c925f2f2aa75","blob_sha":"9fe227af0c595ee2285dd4ae25b68c20bfb72e39"},
-    {"path":"animation.js","write_commit":"da0e51370c1e0b0616c3fe028e4b5c578392d93d","blob_sha":"4178dba66a8a77de7de0fc7a037553c64d135095"},
-    {"path":"index.html","write_commit":"c78381e062ea79c5ce6fcdd5ede770b4991f270d","blob_sha":"55c930c86912d9659937cde26031a6c530e399e7"},
-    {"path":"animation.svg","write_commit":"92a69a1bd12af25e2425e1231f1a4a3134eae602","blob_sha":"be20635973110d36615024f830410494ef40b20e"},
-    {"path":"AICORE.json","write_commit":"3f4281d66bb37b750d585ac01cbb350230d30a90","blob_sha":"70350e7ff0b262403bfb908a7b8ec1539abf87be"},
-    {"path":"LOCATOR.json","write_commit":"21c78bdb438b3b10648f0cd7f21b5b0cf2295b62","blob_sha":"990f8ad27ee7cdcc5b4c2c7b32790fe6e113ece6"},
-    {"path":"REVERSECHAIN.md","write_commit":"0eede89fee849bbe97f8f5dfca35d2b1ad295e23","blob_sha":"be65b3035c9d42bcab45e9b8b0449599f5b72038"}
+  "repair_finding": {
+    "commit": "923da85a1f8ee85e9eeeb2c78ad3b98ca94c300a",
+    "parent": "5d426c7689c41cbe14a3afec496a3b04705caea7",
+    "path": "receipts/🧙🧚Sites現行版本13素材鑑別回執｜SitesCurrentVersion13MaterialCurationReceipt.md",
+    "blob": "5bbed879abb22b1552a109e4863f7b9a157b8dcc",
+    "compare_status": "ahead",
+    "ahead_by": 1,
+    "additions": 47,
+    "deletions": 0,
+    "workflow_runs": 0,
+    "workflow_jobs": 0
+  },
+  "github_write_readback": [
+    {"path":"SNAPSHOT.json","write_commit":"47b6740656c421a03babab6cf9fa0d6a5e479a3a","blob_sha":"1f066cdfaff84cce9a318697ca48d201211d0f03"},
+    {"path":"README.md","write_commit":"e8af83593e31301e28ab4b080e60712c0ea84bc8","blob_sha":"69e6b83db5c8bb5c17e29d056096042ec3c77305"},
+    {"path":"animation-data.json","write_commit":"7dd28b3aa972e33116f910170034e5753588b129","blob_sha":"1f066cdfaff84cce9a318697ca48d201211d0f03"},
+    {"path":"STORYBOARD.md","write_commit":"969fffd5020ba47232529beabc123be2c916f8c9","blob_sha":"770b1841f7005d00ecb26fab7c37fd89e59eea45"},
+    {"path":"VOICEOVER.md","write_commit":"16a254524d8630c748a0f1630a2e2b8825c08ae8","blob_sha":"da25fbc8d45b24eee937ff91d162c9f2a870c2d9"},
+    {"path":"SUBTITLES.vtt","write_commit":"2703bf74275bf4755ad014515d2e6dfa9a05ea9c","blob_sha":"23f981c4a5bc25c16903dcf0a42346e2c67ad03b"},
+    {"path":"animation.js","write_commit":"3fcf47a362085d1f5712c2cd156d239de49d7066","blob_sha":"78a9a39f4a4e7d15de568df6e2e994959f0c8729"},
+    {"path":"index.html","write_commit":"df77e962839f450162cc8b8f66d39033aa6b1be8","blob_sha":"94ca27ce2cc5f6b78223cf0d56469da876be36b2"},
+    {"path":"animation.svg","write_commit":"0dcab94763fb13b1d61ddf75941eaebc507e68b4","blob_sha":"209700b58d65fa3dfa90152969a0393f04da06b1"},
+    {"path":"AICORE.json","write_commit":"c9d3ff35d305ca504fee0883803047fec4bac296","blob_sha":"bb1a885cc78babf39d00b4441fbbd846f05f13ab"},
+    {"path":"LOCATOR.json","write_commit":"c44b44d221ca94fffd31cb45d1f16066917e85ad","blob_sha":"3135c97323fa1bf4624feac6bb015f6e0eeb4469"},
+    {"path":"REVERSECHAIN.md","write_commit":"ec3f49f2a97dae3bdd0eac9e404b1b56f139dc61","blob_sha":"e57fdec785753442881bdeab80b7581de2eae767"}
   ],
   "local_package": {
-    "filename": "🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite_PACKAGE_20260805-042001_TPE.zip",
-    "files": 19,
-    "bytes": 183990,
-    "sha256": "35bd569479a2dbfc4ff1d61c97b4e894d904332f34342253b2681e56f95a85ea",
+    "filename": "📦GitHub倉庫製動畫精靈完整可逆封裝｜GitHubRepositoryAnimationSpritePackage.zip",
+    "file_count": 19,
+    "bytes": 181082,
+    "sha256": "ce8d8f6fab1d1c370ca434103897d3d1bebc5bda28a8e89555db857e46fd184c",
     "crc_error": null,
     "sha256_mismatch_count": 0,
     "excel_formula_error_count": 0,
-    "pdf_render_pages": 3
-  },
-  "current_change": {
-    "commit":"5d426c7689c41cbe14a3afec496a3b04705caea7",
-    "path":"receipts/🧙🧚反向鏈標題一致性素材鑑別回執｜ReverseChainTitleIdentityRuling.md",
-    "blob":"3001f023f7abc0b354fee4fab287da1d8ca520a5",
-    "readback_local_bytes":1288,
-    "readback_local_sha256":"0147c668cf1d9e871076d5edb3f3c75e3d2e6e579a5c6bda86df21b2cdf1ac58"
+    "pdf_render_pages": 4
   },
   "tool_gaps": ["Tag", "Tree SHA", "Workflow Run／Job", "GitHub 來源 ByteSize"],
   "relations": {
-    "root":"🧩LKMINI",
-    "root_metadata_sha256":"6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
-    "container":"🪞幻影膠囊",
-    "axiom":"A=A",
-    "reverse_chain":"Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"
+    "root": "🧩LKMINI",
+    "root_metadata_sha256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
+    "container": "🪞幻影膠囊",
+    "axiom": "A=A",
+    "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"
   }
 }
