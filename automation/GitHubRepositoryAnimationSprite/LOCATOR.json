@@ -5,29 +5,16 @@
     "branch": "main",
     "path_prefix": "automation/GitHubRepositoryAnimationSprite/"
   },
-  "source_changes": [
-    {
-      "repository": "lkminiPhantomWorld/LKMini",
-      "branch": "seed_v0",
-      "commit": "7fd6a636c17cdfd17f65ea60c2d103ec918a8974",
-      "path": "LOCATOR",
-      "blob": "3d2b42b812a6d466d45929fc76b247c5ad6ee426"
-    },
-    {
-      "repository": "ky46738-ops/LKMini.Public.tools",
-      "branch": "main",
-      "commit": "03f4627fdc0f30450e66fd9dd98a53b45af9f9cd",
-      "path": "🌐Sites公開只讀出口｜SitesPublicReadOnlyOutlet.yaml",
-      "blob": "a96575da41baa1ec2ed523097c5f954062445d0a"
-    },
-    {
-      "repository": "ky46738-ops/LKMini.Public.tools",
-      "branch": "main",
-      "commit": "aa7bdea0cced3e10d09c42a52bd5ec31ad7cd743",
-      "path": "🌐Sites公開只讀出口｜SitesPublicReadOnlyOutlet.yaml",
-      "blob": "0fd2dcff124d5b81b508f4da215315b9b65c0c58"
-    }
+  "metadata_changes": [
+    {"repo_id":"1129007941","old":"ky46738-ops/LaoK-System","new":"lkminiPhantomWorld/LaoK-System","latest_commit":"7ede4203abe8d0c56a6a5c49ef10549a3f1a43d8","path":"@repository/full_name","blob":"METADATA-NO-BLOB"},
+    {"repo_id":"1246077775","old":"ky46738-ops/oldk-shuguang-folder-link-registry","new":"lkminiPhantomWorld/oldk-shuguang-folder-link-registry","latest_commit":"a5421da3580cde117062bea9927d4e298b5b9b36","path":"@repository/full_name","blob":"METADATA-NO-BLOB"},
+    {"repo_id":"1246105039","old":"ky46738-ops/oldk-lkmini-eternal-core-cross-optimize","new":"lkminiPhantomWorld/oldk-lkmini-eternal-core-cross-optimize","latest_commit":"613454594d1bd0d91c75737ae5bb364b9244734a","path":"@repository/full_name","blob":"METADATA-NO-BLOB"},
+    {"repo_id":"1249285014","old":"ky46738-ops/lk-semantic-civilization-runtime","new":"lkminiPhantomWorld/lk-semantic-civilization-runtime","latest_commit":"017710de451850b039ec1efdba7fe5b08c4ec6d0","path":"@repository/full_name","blob":"METADATA-NO-BLOB"},
+    {"repo_id":"1260546919","old":"ky46738-ops/lk-unique-gate","new":"lkminiPhantomWorld/lk-unique-gate","latest_commit":"c93025043a778b5dab0ff1f96c4281b59cdfe406","path":"@repository/full_name","blob":"METADATA-NO-BLOB"},
+    {"repo_id":"1275586196","old":"ky46738-ops/laoK-core","new":"lkminiPhantomWorld/laoK-core","latest_commit":"685a638216162b1d46d17d333464444a0bc3f8a8","path":"@repository/full_name","blob":"METADATA-NO-BLOB"},
+    {"repo_id":"1305277847","old":"ky46738-ops/lkmini-elf","new":"lkminiPhantomWorld/lkmini-elf","latest_commit":"de181224df92d860102a5e06fe9d1edcd8a04ab0","path":"@repository/full_name","blob":"METADATA-NO-BLOB"},
+    {"repo_id":"1291570141","old":"lkminiPhantomWorld/-","new":"lkminiPhantomWorld/lkstylet","latest_commit":"a3d394a6f4b29387e963dc9d1cfccf5fe743dc30","path":"@repository/full_name","blob":"METADATA-NO-BLOB"}
   ],
-  "local_root": "/mnt/data/github_sprite_run3",
+  "local_root": "/mnt/data/github_sprite_turn4",
   "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"
 }
