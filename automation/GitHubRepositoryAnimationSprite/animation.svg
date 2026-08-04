@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#08111f"/><text x="60" y="70" fill="#e5eefc" font-size="38" font-family="sans-serif">🎬 GitHub 倉庫製動畫精靈</text>
+<text x="60" y="115" fill="#ffb4b4" font-size="24" font-family="sans-serif">總狀態：錯誤｜23 倉庫｜3 新變更｜1 高風險</text>
+<g font-family="sans-serif" font-size="22" fill="#e5eefc">
+<rect x="60" y="165" width="320" height="130" rx="18" fill="#172a45"/><text x="85" y="205">📍 Locator 標題一致</text><text x="85" y="245">7fd6a636…</text><text x="85" y="280" fill="#9dd6ff">低風險</text>
+<rect x="440" y="165" width="320" height="130" rx="18" fill="#172a45"/><text x="465" y="205">🌐 Sites 回根補齊</text><text x="465" y="245">03f4627f…</text><text x="465" y="280" fill="#ffd889">中風險</text>
+<rect x="820" y="165" width="320" height="130" rx="18" fill="#3b1c2a"/><text x="845" y="205">🚨 部署顯影錯誤</text><text x="845" y="245">aa7bdea0…</text><text x="845" y="280" fill="#ffb4b4">高風險</text>
+</g>
+<path d="M100 420 H1100" stroke="#4f789e" stroke-width="5"/><g fill="#9dd6ff">
+<circle cx="100" cy="420" r="12"/><circle cx="260" cy="420" r="12"/><circle cx="420" cy="420" r="12"/><circle cx="580" cy="420" r="12"/><circle cx="740" cy="420" r="12"/><circle cx="900" cy="420" r="12"/><circle cx="1100" cy="420" r="12"/></g>
+<g fill="#e5eefc" font-size="18" font-family="sans-serif"><text x="60" y="465">Repository</text><text x="225" y="465">Commit</text><text x="390" y="465">Path</text><text x="555" y="465">Blob</text><text x="695" y="465">Identity</text><text x="845" y="465">Snapshot</text><text x="1050" y="465">A=A</text></g>
+<text x="60" y="600" fill="#e5eefc" font-size="20" font-family="sans-serif">Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A</text></svg>
