@@ -1,18 +1,17 @@
 # ↩反向回推鏈｜ReverseChain
 
-> 🥃錨點｜版本=v1.4｜更新=2026-08-05 05:17 (Asia/Taipei)
+> 🥃錨點｜版本=v1.5｜更新=2026-08-05 06:38 (Asia/Taipei)
 
 `Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A`
 
-## 修復鏈
-正式 v1.3 Snapshot Blob `1430a0092911ba8dd9bd18e56ecc8c225414aea3`
-→ 宣告 prewrite Head `5d426c7689c41cbe14a3afec496a3b04705caea7`
-→ 漏記 Commit `923da85a1f8ee85e9eeeb2c78ad3b98ca94c300a`
-→ Path `receipts/🧙🧚Sites現行版本13素材鑑別回執｜SitesCurrentVersion13MaterialCurationReceipt.md`
-→ Blob `5bbed879abb22b1552a109e4863f7b9a157b8dcc`
-→ 修復 Snapshot Commit `47b6740656c421a03babab6cf9fa0d6a5e479a3a`
-→ Locator Commit `c44b44d221ca94fffd31cb45d1f16066917e85ad`
+正式 Snapshot `1f066aaf4077575e6e48d84e1c421d34331f7472`
+→ 基線 Head `6a58cbf4069ae3fb7c225d3f4ae8a22c2a6a9039`
+→ 最新 Commit `e908dd548986aa1b58beebdd1e5967b53bc904db`
+→ Path `receipts/🧙🧚SitesAPI結構漂移素材鑑別回執｜SitesAPISchemaDriftMaterialCurationReceipt.md`
+→ GitHub 實際 Blob `2d0b0897d6cd047cc20739cb053a1274683610da`
 → Identity `LKMINI://automation/GitHubRepositoryAnimationSprite`
 → 🪞幻影膠囊
 → 🧩LKMINI
 → A=A
+
+高風險：回執內宣稱 Blob `89064e434a5b4575a180d7abcd6c2f4691ea9db9`，與 GitHub 實際 Blob 不一致。
