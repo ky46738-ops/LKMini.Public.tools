@@ -1,1 +1,21 @@
-{"identity":"LKMINI://automation/GitHubRepositoryAnimationSprite","anchor":"🥃錨點｜版本=v1.2｜更新=2026-08-05 02:48 (Asia/Taipei)","github":{"repository":"ky46738-ops/LKMini.Public.tools","branch":"main","path_prefix":"automation/GitHubRepositoryAnimationSprite"},"source":{"repository":"lkminiPhantomWorld/LKMini","branch":"seed_v0","commit":"d22e70dc1397f4a896aec3fa43b0cccafae22575","path":"REVERSECHAIN","blob":"1161c4f8d312b84e7c76316da6e9f3251a427d23"},"snapshot":{"previous_blob":"0be1d72737182f5cb8b863ede808749f78ba6126","write_commit":"da59a5092be174e9b1dc44f3ca85f3ebf43b693d","readback_blob":"33155c2024203659fb25156b51c07b0ef3c23be0"},"local_projection":{"package":"🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite_PACKAGE_20260805-024807_TPE.zip","bytes":171602,"sha256":"cfb96bef0b7726e005f1a5d08a3d84837d871021e14fc0a3df7992501f78c356","file_count":20,"crc_error":null},"reverse_chain":"Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"}
+{
+  "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
+  "anchor": "🥃錨點｜版本=v1.3｜更新=2026-08-05 04:20 (Asia/Taipei)",
+  "github": {
+    "repository": "ky46738-ops/LKMini.Public.tools",
+    "branch": "main",
+    "prewrite_head": "5d426c7689c41cbe14a3afec496a3b04705caea7",
+    "path_prefix": "automation/GitHubRepositoryAnimationSprite"
+  },
+  "baseline": {
+    "snapshot_blob": "33155c2024203659fb25156b51c07b0ef3c23be0",
+    "final_head": "d2c3319c9503c629d3b391f4a37818f83c047f21"
+  },
+  "current_change": {
+    "commit": "5d426c7689c41cbe14a3afec496a3b04705caea7",
+    "path": "receipts/🧙🧚反向鏈標題一致性素材鑑別回執｜ReverseChainTitleIdentityRuling.md",
+    "blob": "3001f023f7abc0b354fee4fab287da1d8ca520a5"
+  },
+  "local_root": "/mnt/data/🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite_LOCAL_20260805-042001_TPE",
+  "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"
+}
