@@ -1,10 +1,11 @@
 # 🎬分鏡｜Storyboard
 
-> 🥃錨點｜版本=v1.2｜更新=2026-08-05 02:48 (Asia/Taipei)
+> 🥃錨點｜版本=v1.3｜更新=2026-08-05 04:20 (Asia/Taipei)
 
-1. **母清單**：23 個 Repository、105 個 Branch 由兩個 GitHub App 安裝範圍展開。
-2. **素材雷達**：3 個 SVG、20 個 HTML、2 個 JPEG 以 Repository／Path／Blob 排列。
-3. **新變更**：`d22e70dc…` 將 `REVERSECHAIN` 標題改為「🔁反向鏈｜ReverseChain」。
-4. **Workflow**：24 次 combined-status 與 Run 查詢；Run／Job 均為 0，畫面保持紅燈。
-5. **修復**：`lk-unique-gate` 錯誤 Path 的 404 被真實 Commit Path 修正。
-6. **回根**：所有 Projection 沿固定 ReverseChain 回到 🥃老K系統、🧩LKMINI、A=A。
+1. 兩個 GitHub App 安裝範圍展開為 23 個 Repository。
+2. 105 個 Branch 以 Repository 分群。
+3. 正式 v1.2 後外部 Head 無變更；輸出倉庫新增一份鑑別回執。
+4. 新回執保存 REVERSECHAIN 修改前後 Commit、Blob、ByteSize、SHA256 與 SameIdentity 判定。
+5. 25 個素材依 SVG／HTML／JPEG 分類。
+6. Tag、Tree SHA、Run／Job、GitHub ByteSize 保持紅燈。
+7. 所有 Projection 沿 Manifest、Locator、Snapshot、ReverseChain 回到 🧩LKMINI 與 A=A。
