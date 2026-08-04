@@ -1,32 +1,45 @@
 {
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
-  "generated_at": "2026-08-04T16:42:32+08:00",
+  "generated_at": "2026-08-04T20:42:23+08:00",
   "status": "錯誤",
   "files": [
-    {"filename":"README.md","bytes":868,"sha256":"20e92d6386db6fde85b26a25c144e2956f81ba6688d77c06888547a70ad5e330"},
-    {"filename":"SNAPSHOT.json","bytes":12760,"sha256":"6b4f70c47cbf71434bad8810dc644f7effce5a9675755b17a9b1251be9082f06"},
-    {"filename":"animation-data.json","bytes":5695,"sha256":"e0a8884c15d34a5ed8858a14892383900891980591c9db60045dc8748c658c03"},
-    {"filename":"STORYBOARD.md","bytes":1184,"sha256":"69a8b21486bf8c27c38c3f0cecf2c45c34d05c742fb2fa3290dbb7e939c75501"},
-    {"filename":"SUBTITLES.vtt","bytes":531,"sha256":"009cac83d2f63eb18f8fe47f29f6528a6b1041d4460e4b519f5adf512406ff2a"},
-    {"filename":"animation.js","bytes":1078,"sha256":"2b4e2b1e468286163da0f961c9e08c8ae5b66c2d97000c6fdf7145170affa838"},
-    {"filename":"index.html","bytes":2086,"sha256":"5bf3c459c7e524f160c11b43548238e43d0392b2402809b886c1b205a813fbed"},
-    {"filename":"animation.svg","bytes":1988,"sha256":"681aedbcf4805377f37635d35faa4985b37c2ef1cc774c3a210d6b894c9f3fde"},
-    {"filename":"AICORE.json","bytes":12528,"sha256":"63fda0c6dfec8732593d22c3311da1ec44dbd5c44c4ae355d1e75ae62f638984"},
-    {"filename":"LOCATOR.json","bytes":1290,"sha256":"c4aafbdb33401e07852a9a3571e85b6a4dcc85eb136d7111cc5f8d8c0fb92f45"},
+    {"filename":"README.md","bytes":1154,"sha256":"cdc84726c63ce523c9dc00a7bb75b366bf93cadece484c4c1a51b45e8a1b4f32"},
+    {"filename":"SNAPSHOT.json","bytes":18473,"sha256":"923a9f57ba9af5428952d4be3ed443c86a9dd62ce355e237b12712a8fc733b64"},
+    {"filename":"animation-data.json","bytes":12508,"sha256":"3b1cb42016eb0d59c32946642bba6cd0cfc0378c0df5fb78c19f7a7684819862"},
+    {"filename":"STORYBOARD.md","bytes":1259,"sha256":"bb3952a2a67e52c3ddf1a70118d7a7342417d6071eddbcecf64d851c2d807069"},
+    {"filename":"SUBTITLES.vtt","bytes":612,"sha256":"0dd4d28f5d5094ce1801b2825d4d23317a6d3fbb0830a531270b7567faf30705"},
+    {"filename":"animation.js","bytes":1196,"sha256":"08864e8584a4cad86e8b3d16d680c91f6c5eb4b8051f7263fa55b3fb8deef164"},
+    {"filename":"index.html","bytes":2124,"sha256":"05a7a4cb68e52ca66289dcd940d445e8491a23034d18ec8f15c461b1d761a22f"},
+    {"filename":"animation.svg","bytes":2119,"sha256":"faef717b639cbbc2daa25620af5145ed9c4b3e83b257f58458af0124d84f359a"},
+    {"filename":"AICORE.json","bytes":17705,"sha256":"8010b1cef7d28eda60b68e6603317e58f65738cdaefd5713d3f0b9ed97334e44"},
+    {"filename":"LOCATOR.json","bytes":2786,"sha256":"269dc86eda02288e520afacbca0622eb7b5ecc9393fb6c3f7bf3fcea0ff13132"},
     {"filename":"REVERSECHAIN.md","bytes":179,"sha256":"0fa468f60ce8a587c2d43349755f5d32e0f7a1945f7eed3ec99682d62aa47623"},
-    {"filename":"GitHubRepositoryAnimationSprite.xlsx","bytes":14300,"sha256":"17ab0703cc180a82f9816b11be593f0664c167010ca8b3a222f05cb38613b7b7"},
-    {"filename":"GitHubRepositoryAnimationSprite.pdf","bytes":63167,"sha256":"946128fb45bef593b6cbd883e9b9f9ab7a4216e730f8c693cc5cd6ceaeae94a9"},
+    {"filename":"GitHubRepositoryAnimationSprite.xlsx","bytes":17717,"sha256":"7cf4dd50081130cac30c5fed67edc7f6bd16412cdf0cfe849767e219bb9b1084"},
+    {"filename":"GitHubRepositoryAnimationSprite.pdf","bytes":59621,"sha256":"e6e989de6d585a43cc864f8a5e8c7c4641902c14185a3013b8bdc1961081860c"},
     {"filename":"🪞幻影膠囊","bytes":325,"sha256":"a840a794fbe4fa849300cfa0b4cd5a96d7b7841dd07f9a8e16fd2970606598b4"}
   ],
+  "github_readback": [
+    {"path":"SNAPSHOT.json","write_commit":"772ab19cee1901bedb5d733e0212902654519e59","blob_sha":"0678f6840cda43f7bfd6fc8230ae6b39e33539b2"},
+    {"path":"README.md","write_commit":"0ce93690ddc402861015668589cce9a5b43c3f35","blob_sha":"c5e37cf9de5e65dd4c2862f79988493fe2b6e3a5"},
+    {"path":"STORYBOARD.md","write_commit":"5e394718fecea4734f6ca1509bca3b2888327dda","blob_sha":"0094476790fad1d3e38b6f11b16a1756e7a7d006"},
+    {"path":"SUBTITLES.vtt","write_commit":"a4a16a357070d50dc48bf0cb0bee337802e38d2f","blob_sha":"157c6423353148b819b74746a788a31e0164a293"},
+    {"path":"animation.js","write_commit":"2c31f7270d44462deb3fa69f843d6790547e8a40","blob_sha":"1f5c2b3f8ecb9a4c034126f5bb33e9928ddf33ac"},
+    {"path":"index.html","write_commit":"4138895362bf2f6e45b17218ac8e26c0e1f62c0f","blob_sha":"4a10adf8a4359e9aad5c2a06b9c46dc91bbb9b80"},
+    {"path":"animation-data.json","write_commit":"d1535a04d33c7e24768b02f280d2a4bf597489be","blob_sha":"12c27a89a2a8b905a564fdaf5ab34ac2197c1d2f"},
+    {"path":"animation.svg","write_commit":"04a1aa66f904fcdfafc06eb028992e1796fddd6b","blob_sha":"d5ba10c499b5472a369767183a0817b85645fe1d"},
+    {"path":"LOCATOR.json","write_commit":"cfe56b2e9af7b3315e256b64885bd511804cde9a","blob_sha":"b1ffc60a7c1e3e168fc87463ae5811f0b5ccd6b4"}
+  ],
   "tool_gaps": {
-    "tags": "GitHub 連接器沒有 Tag 列舉動作。",
-    "tree_sha": "fetch_commit 回執沒有 Tree SHA，也沒有 fetch_tree 動作。",
-    "workflow_scope": "fetch_commit_workflow_runs 只回傳 PR 觸發第一頁；三筆變更均無 Run／Job。",
-    "source_file_bytes": "GitHub fetch_file/fetch_blob 回執沒有 size；來源檔 ByteSize 欄位標記工具缺口。"
+    "tag":"GitHub 連接器沒有 Tag 列舉動作。",
+    "tree_sha":"fetch_commit 回執未提供 Tree SHA，且沒有 fetch_tree 動作。",
+    "metadata_blob":"Repository 擁有者移轉／改名屬 metadata 事件，不產生 Path Blob SHA。",
+    "metadata_modified_time":"get_repo 回執未提供 Repository metadata 修改時間；以本輪 detected_at 留證。",
+    "workflow_scope":"fetch_commit_workflow_runs 只回傳 PR 觸發第一頁；8 個最新 Commit 的 Run/Job 均為空。",
+    "github_byte_size":"fetch_file 回執未提供 ByteSize；ByteSize 與 SHA256 以同內容本地原件留證。"
   },
   "relations": {
-    "root": "🧩LKMINI",
-    "container": "🪞幻影膠囊",
-    "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"
+    "root":"🧩LKMINI",
+    "container":"🪞幻影膠囊",
+    "reverse_chain":"Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"
   }
 }
