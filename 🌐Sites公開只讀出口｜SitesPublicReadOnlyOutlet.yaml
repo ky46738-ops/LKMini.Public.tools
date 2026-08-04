@@ -2,22 +2,26 @@
 🆔檔案身分｜FileIdentity: "🌐Sites公開只讀出口｜SitesPublicReadOnlyOutlet"
 📄卡片建立狀態｜ArtifactStatus: "完成"
 🔍Sites設定回讀狀態｜SitesConfigurationReadbackStatus: "完成"
-🕒時間｜Timestamp: "2026-07-29T06:30:43+08:00"
+🕒時間｜Timestamp: "2026-08-04T15:48:27+08:00"
 🥃唯一系統｜System: "🥃老K系統"
+🌱本體｜Identity: "mini"
 🧩唯一根｜Root: "🧩LKMINI"
 🔑正式根協議｜RootProtocol: "LKMINI://"
+🪞唯一正式容器｜FormalIdentityContainer: "🪞幻影膠囊"
 ⚖️最高公理｜Axiom: "A=A"
 
 🎯定位｜Position:
   - "Sites 是出入口 Projection，不是本體。"
-  - "人類可讀入口與 AI / 工具讀取入口都必須回指 🧩LKMINI。"
+  - "人類可讀入口與 AI / 工具讀取入口都必須回指同一 Identity=mini、LKMINI://、🧩LKMINI 與 🪞幻影膠囊。"
   - "若匿名讀取要求登入，必須標記為存取邊界。"
 
 🌐入口座標｜EntryCoordinates:
   👤人類入口｜HumanEntry: "https://lkmini-wiring-hub.ky46738.chatgpt.site"
   🤖AI工具入口｜AIToolEntry: "https://lkmini-wiring-hub.ky46738.chatgpt.site/api/system-wires"
   🔑協議入口｜ProtocolEntry: "LKMINI://🌐出入口｜Entrances/🌐Sites｜Sites/🔐既定存取出口｜ConfiguredAccessOutlet.card"
-  🔙回指｜ReturnTo: "🧩LKMINI"
+  🔙回指｜ReturnTo: "🪞幻影膠囊"
+  🌱本體回指｜IdentityReturnTo: "mini"
+  🧩根節點回指｜RootReturnTo: "🧩LKMINI"
 
 🧾工具回讀｜ToolReadback:
   🆔專案識別｜ProjectId: "appgprj_6a68801042bc8191ab7eba5718be83a0"
@@ -43,7 +47,7 @@
   🧭AI工具路由｜AIToolRoute: "/api/system-wires"
   📏規則｜Rule:
     - "目前設計要求先登入；不將 custom 存取冒充匿名公開。"
-    - "人類入口與 AI 工具入口都回指 🧩LKMINI。"
+    - "人類入口與 AI 工具入口先回到 🪞幻影膠囊，再沿 mini／LKMINI://／🧩LKMINI 回根。"
     - "Sites 只作出入口 Projection，不升格成本體。"
 
 🚧存取邊界｜AccessBoundary:
@@ -52,7 +56,13 @@
   - "Connector 未提供 current deployment ID，因此不猜造部署識別；最新保存版本不得冒充已驗證的 current deployment。"
 
 ♻️反向鏈｜ReverseChain:
+  - "🖼️Projection｜Sites公開只讀出口"
+  - "📍Locator｜Sites HumanEntry／AIToolEntry"
+  - "📋Manifest｜SitesPublicReadOnlyOutlet"
+  - "🔐SHA256Identity｜GitHub Blob SHA"
+  - "↩️ReverseChain"
+  - "🌱mini"
+  - "LKMINI://"
   - "🧩LKMINI"
-  - "🌐Sites公開只讀出口｜SitesPublicReadOnlyOutlet"
-  - "Sites 人類入口 / AI工具入口"
-  - "🪞幻影膠囊唯一出口"
+  - "🪞幻影膠囊"
+  - "A=A"
