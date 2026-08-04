@@ -1,16 +1,16 @@
 WEBVTT
 
 00:00:00.000 --> 00:00:06.000
-本輪讀回二十三個 Repository，沒有新的內容 Commit。
+本輪重新讀取二十三個 GitHub Repository。
 
-00:00:06.000 --> 00:00:14.000
-七個 Repository 的 owner 已由個人帳戶移轉至 lkminiPhantomWorld 組織。
+00:00:06.000 --> 00:00:13.000
+LaoK-System 新增私人資料搬移收件箱，建立單一搬移入口。
 
-00:00:14.000 --> 00:00:22.000
-RepoID 一二九一五七零一四一已由短橫改名為 lkstylet，並改為 private。
+00:00:13.000 --> 00:00:21.000
+私人 GitHub 來源清單定位十個 private repositories，其中九個等待列樹搬移。
 
-00:00:22.000 --> 00:00:31.000
-多個 README、Pages、入口、回執與 Locator 仍保留舊 owner 字串，接線狀態為錯誤。
+00:00:21.000 --> 00:00:30.000
+目前完成的是來源定位，不是原始 Tree、Blob 與 Package 搬移完成。
 
-00:00:31.000 --> 00:00:39.000
-所有 metadata 變更沿 Snapshot、Manifest、Locator、ReverseChain 回到 LKMINI 與 A 等於 A。
+00:00:30.000 --> 00:00:39.000
+所有結果沿 Manifest、Locator、Snapshot、ReverseChain 回到 LKMINI 與 A 等於 A。
