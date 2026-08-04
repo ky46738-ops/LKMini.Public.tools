@@ -1,0 +1,18 @@
+{
+  "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
+  "generated_at": "2026-08-04T12:44:29+08:00",
+  "files": [
+    {"path":"automation/GitHubRepositoryAnimationSprite/README.md","bytes":713,"sha256":"c8b0b8e069b5a12f1f6ff0a69ddb3af1a03b55bb8518fc3277741cea01ae69bb"},
+    {"path":"automation/GitHubRepositoryAnimationSprite/SNAPSHOT.json","bytes":13831,"sha256":"815143192db4f99276128a6f5dfa9509be4df4da733bac9914c08f168d21b3bb"},
+    {"path":"automation/GitHubRepositoryAnimationSprite/animation-data.json","bytes":3634,"sha256":"8c403d151a47ce82118e17df9b2b8784b490a2228c8472f8a59b309c26d709b3"},
+    {"path":"automation/GitHubRepositoryAnimationSprite/STORYBOARD.md","bytes":3492,"sha256":"fcdf344c60c0ab250eb6563d7959bb9536cb874381eafe7a385c264bce97ce1a"},
+    {"path":"automation/GitHubRepositoryAnimationSprite/SUBTITLES.vtt","bytes":1090,"sha256":"d53cc7a19e4926d2e9e55f2baf7fc8705bb238387933431ca20a668a3e5b236a"},
+    {"path":"automation/GitHubRepositoryAnimationSprite/animation.js","bytes":1386,"sha256":"d1ae55b9d10964fca8af8f7bdd91bbb54b8d98afef6dae067f133dce181e386a"},
+    {"path":"automation/GitHubRepositoryAnimationSprite/index.html","bytes":7222,"sha256":"a08c01bdbbf018ad10074cb20e15c4436bda96ea24a15570339480fdc63b4672"},
+    {"path":"automation/GitHubRepositoryAnimationSprite/REVERSECHAIN.md","bytes":179,"sha256":"0fa468f60ce8a587c2d43349755f5d32e0f7a1945f7eed3ec99682d62aa47623"},
+    {"path":"automation/GitHubRepositoryAnimationSprite/LOCATOR.json","bytes":2621,"sha256":"bd0efd0f43c41f962ff6b48ec3062f39a345e398aa4c96e569877f6596814d6f"}
+  ],
+  "dedup_key": "Repository／Branch／Commit SHA／Path／Blob SHA",
+  "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A",
+  "source": "GitHub connector true receipts"
+}
