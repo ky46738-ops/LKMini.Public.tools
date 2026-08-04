@@ -1,19 +1,19 @@
 WEBVTT
 
 00:00:00.000 --> 00:00:07.000
-二十三個 Repository 與一百零五個 Branch 已重新讀取。
+二十三個 Repository 與一百零五個 Branch 已重新核對。
 
-00:00:07.000 --> 00:00:15.000
-外部倉庫沒有新內容變更，輸出倉庫新增一份鑑別回執。
+00:00:07.000 --> 00:00:16.000
+外部內容沒有新變更，但正式 Snapshot 漏記一筆 Sites 版本十三鑑別回執。
 
-00:00:15.000 --> 00:00:23.000
-回執保存修改前後 Commit、Blob、ByteSize、SHA256 與 SameIdentity 判定。
+00:00:16.000 --> 00:00:25.000
+Compare 證明它相對 prewrite head 正好 ahead 一個 Commit，只新增一個四十七行檔案。
 
-00:00:23.000 --> 00:00:31.000
-二十五個素材依 SVG、HTML 與 JPEG 分類。
+00:00:25.000 --> 00:00:34.000
+Path、Blob、讀回 ByteSize、SHA256、Workflow 空回執與回退座標已保存。
 
-00:00:31.000 --> 00:00:40.000
+00:00:34.000 --> 00:00:43.000
 Tag、Tree、Run Job 與 GitHub ByteSize 工具缺口維持錯誤。
 
-00:00:40.000 --> 00:00:50.000
-所有 Projection 沿 Manifest、Locator、Snapshot 與 ReverseChain 回到 LKMINI 與 A 等於 A。
+00:00:43.000 --> 00:00:52.000
+全部 Projection 沿六項可逆核心回到 LKMINI 與 A 等於 A。
