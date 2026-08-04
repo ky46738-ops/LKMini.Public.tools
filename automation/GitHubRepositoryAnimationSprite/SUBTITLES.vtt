@@ -1,16 +1,19 @@
 WEBVTT
 
 00:00:00.000 --> 00:00:07.000
-二十三個 Repository 與一百零五個 Branch 已由 GitHub 真實工具讀取。
+二十三個 Repository 與一百零五個 Branch 已重新讀取。
 
 00:00:07.000 --> 00:00:15.000
-素材雷達核對二十五個具備 Blob SHA 的可視化素材。
+外部倉庫沒有新內容變更，輸出倉庫新增一份鑑別回執。
 
-00:00:15.000 --> 00:00:24.000
-LKMini 新提交將 REVERSECHAIN 正式中文標題修正為反向鏈。
+00:00:15.000 --> 00:00:23.000
+回執保存修改前後 Commit、Blob、ByteSize、SHA256 與 SameIdentity 判定。
 
-00:00:24.000 --> 00:00:32.000
-Workflow Run 與 Job 回執為空，狀態誠實保留錯誤。
+00:00:23.000 --> 00:00:31.000
+二十五個素材依 SVG、HTML 與 JPEG 分類。
 
-00:00:32.000 --> 00:00:41.000
+00:00:31.000 --> 00:00:40.000
+Tag、Tree、Run Job 與 GitHub ByteSize 工具缺口維持錯誤。
+
+00:00:40.000 --> 00:00:50.000
 所有 Projection 沿 Manifest、Locator、Snapshot 與 ReverseChain 回到 LKMINI 與 A 等於 A。
