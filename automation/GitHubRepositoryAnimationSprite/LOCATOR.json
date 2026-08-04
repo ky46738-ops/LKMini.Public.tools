@@ -1,16 +1,1 @@
-{
-  "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
-  "anchor": "🥃錨點｜版本=v1.4｜更新=2026-08-05 05:17 (Asia/Taipei)",
-  "github": {
-    "repository": "ky46738-ops/LKMini.Public.tools",
-    "branch": "main",
-    "prewrite_head": "6a58cbf4069ae3fb7c225d3f4ae8a22c2a6a9039",
-    "path_prefix": "automation/GitHubRepositoryAnimationSprite"
-  },
-  "baseline_snapshot": {"path":"SNAPSHOT.json","blob":"1430a0092911ba8dd9bd18e56ecc8c225414aea3"},
-  "missed_change": {"commit":"923da85a1f8ee85e9eeeb2c78ad3b98ca94c300a","path":"receipts/🧙🧚Sites現行版本13素材鑑別回執｜SitesCurrentVersion13MaterialCurationReceipt.md","blob":"5bbed879abb22b1552a109e4863f7b9a157b8dcc"},
-  "correction": {"path":"CORRECTION.json","commit":"85ddc4ed34cbc292f5523b1666e3bd7d9296be50","blob":"0c9a411686afb90ba7f299c67f9d77efe6d6ee4a"},
-  "github_readback": {"path":"GITHUB_READBACK.json"},
-  "local_package": {"filename":"📦GitHub倉庫製動畫精靈完整可逆封裝｜GitHubRepositoryAnimationSpritePackage.zip","file_count":21,"bytes":177779,"sha256":"2561ad1ae2f6a45483b3d273bd3403f44c27b78eef67eaf04e0eb7b83591b3e7","crc_error":null},
-  "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"
-}
+{"identity":"LKMINI://automation/GitHubRepositoryAnimationSprite","anchor":"> 🥃錨點｜版本=v1.5｜更新=2026-08-05 06:38 (Asia/Taipei)","github":{"repository":"ky46738-ops/LKMini.Public.tools","branch":"main","prewrite_head":"e908dd548986aa1b58beebdd1e5967b53bc904db","path_prefix":"automation/GitHubRepositoryAnimationSprite"},"baseline":{"head":"6a58cbf4069ae3fb7c225d3f4ae8a22c2a6a9039","snapshot_blob":"1f066aaf4077575e6e48d84e1c421d34331f7472"},"latest_change":{"commit":"e908dd548986aa1b58beebdd1e5967b53bc904db","parent":"bb1b1ae3f7765e227e2b2b0fed1ae37d4c329445","path":"receipts/🧙🧚SitesAPI結構漂移素材鑑別回執｜SitesAPISchemaDriftMaterialCurationReceipt.md","actual_blob":"2d0b0897d6cd047cc20739cb053a1274683610da","claimed_blob":"89064e434a5b4575a180d7abcd6c2f4691ea9db9"},"local_root":"/mnt/data/github_repository_animation_sprite","reverse_chain":"Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"}
