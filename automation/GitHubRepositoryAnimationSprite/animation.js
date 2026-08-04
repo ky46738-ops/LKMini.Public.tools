@@ -1,12 +1,1 @@
-// GitHubRepositoryAnimationSprite UI controller
-window.GitHubRepositoryAnimationSprite={
-  identity:"LKMINI://automation/GitHubRepositoryAnimationSprite",
-  ui:"standalone embedded-data asset-radar type-filter owner-groups bottom-thumb-nav search source-links copy-summary chain-coverage reduced-motion",
-  reversible:true,
-  status:"錯誤",
-  repositoryCount:23,
-  branchCount:105,
-  visualAssetCount:12,
-  externalCommitCount:0,
-  bootedAt:"2026-08-05T00:33:30+08:00"
-};
+(()=>{const D=window.GITHUB_SPRITE_DATA,$=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)],S={tab:'overview',q:'',type:'ALL',owner:'ALL'};const esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c])),short=v=>v?`${v.slice(0,8)}…${v.slice(-5)}`:'錯誤',owner=r=>r.split('/')[0];function tab(t){S.tab=t;$$('.tab').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.tab===t)));$$('.view').forEach(v=>v.hidden=v.id!==`view-${t}`)}function assets(){let q=S.q.toLowerCase(),a=D.assets.filter(x=>(S.type==='ALL'||x.type===S.type)&&(S.owner==='ALL'||owner(x.repository)===S.owner)&&`${x.repository} ${x.path} ${x.blob_sha} ${x.purpose}`.toLowerCase().includes(q));$('#assetCount').textContent=`${a.length}／${D.assets.length}`;$('#assetList').innerHTML=a.map(x=>`<article class="card"><div class="row"><span class="badge">${esc(x.type)}</span><strong>${esc(x.path)}</strong></div><p>${esc(x.purpose)}</p><dl><dt>Repository</dt><dd>${esc(x.repository)}</dd><dt>Blob</dt><dd><code>${esc(short(x.blob_sha))}</code></dd></dl></article>`).join('')||'<p class="empty">沒有符合條件的素材。</p>'}function repos(){let q=S.q.toLowerCase(),a=D.repositories.filter(x=>(S.owner==='ALL'||owner(x.repository)===S.owner)&&`${x.repository} ${x.repo_id} ${x.default_branch} ${x.head}`.toLowerCase().includes(q));$('#repoCount').textContent=`${a.length}／${D.repositories.length}`;$('#repoList').innerHTML=a.map(x=>`<article class="card"><div class="row"><span class="badge ${x.visibility==='private'?'private':''}">${esc(x.visibility)}</span><strong>${esc(x.repository)}</strong></div><dl><dt>RepoID</dt><dd>${esc(x.repo_id)}</dd><dt>Branch</dt><dd>${esc(x.default_branch)}（${x.branch_count}）</dd><dt>Head</dt><dd><code>${esc(short(x.head))}</code></dd></dl></article>`).join('')}function render(){assets();repos()}$$('.tab').forEach(b=>b.onclick=()=>tab(b.dataset.tab));$('#search').oninput=e=>{S.q=e.target.value;render()};$('#typeFilter').onchange=e=>{S.type=e.target.value;assets()};$('#ownerFilter').onchange=e=>{S.owner=e.target.value;render()};$('#reset').onclick=()=>{S.q='';S.type='ALL';S.owner='ALL';$('#search').value='';$('#typeFilter').value='ALL';$('#ownerFilter').value='ALL';render()};tab('overview');render()})();
