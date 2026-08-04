@@ -1,68 +1,28 @@
-# 🎬GitHub倉庫製動畫精靈｜分鏡與旁白
+# 🎬 分鏡與旁白｜Storyboard & Voiceover
 
-- Identity：`LKMINI://automation/GitHubRepositoryAnimationSprite`
-- Snapshot：`2026-08-04T12:44:29+08:00`
-- 基線：23 個可存取 Repository。
-- 近 24 小時重點：8 個 Repository 的治理、公理、根節點、SHA256 與公開投影同步。
+Identity: LKMINI://automation/GitHubRepositoryAnimationSprite
+Time: 2026-08-04T14:25:34+08:00
 
-## 分鏡
-### Scene 01｜ky46738-ops/LKMini.Public.tools
-- 畫面：Repository 卡片進入 `main`，Commit `41eeac3e` 展開到 Path 與 Blob。
-- 路徑：`receipts/2026-08-04-lkmini-main-same-name-merge-dedup.md`
-- Blob：`af0e7c06250e694877985019039134f730f7784e`
-- 旁白：將含糊的多工作面敘述改為明確的多 AI 撤回與單一施工隊列。
-- 字幕：修改｜無回傳 status check
+## Scene 1｜全域掃描
+畫面：23 個 Repository 節點由兩個命名空間匯入中央掃描環。
+旁白：本輪逐一核對 23 個可存取倉庫，以上一份 Snapshot 為比較基線。
 
-### Scene 02｜ky46738-ops/LaoK-System
-- 畫面：Repository 卡片進入 `main`，Commit `7ede4203` 展開到 Path 與 Blob。
-- 路徑：`.github/workflows/軍令掛載檢查.yml`
-- Blob：`2b50fe4e021a206d46347aff2e683358a571d40f`
-- 旁白：軍令測試中的根名稱由 🥃LKMINI 修正為 🧩LKMINI。
-- 字幕：修改｜Vercel success；PR workflow run 查詢為空
+## Scene 2｜新 Commit 命中
+畫面：`lkminiPhantomWorld/LKMini` 節點亮起，Commit `fd2d9e000ff0` 浮現。
+旁白：偵測到一筆新的外部變更，原文為「修正既有 Locator 中文正式物件引用」。
 
-### Scene 03｜ky46738-ops/tiny-state-core
-- 畫面：Repository 卡片進入 `main`，Commit `01ab8936` 展開到 Path 與 Blob。
-- 路徑：`SECURITY.md`
-- Blob：`2f24af793bfe99c31d667b3d8454573acc886288`
-- 旁白：安全政策中的正式公理由 A = A 統一為 A=A。
-- 字幕：修改｜無回傳 status check
+## Scene 3｜Path／Blob 展開
+畫面：Commit 展開到 `LOCATOR`，Blob `35d08bee445f`，顯示 +26／-13。
+旁白：修改集中在 Locator，加入正式 Emoji、中文與英文物件名稱，路徑與 Identity 維持原值。
 
-### Scene 04｜lkminiPhantomWorld/tiny-state-core
-- 畫面：Repository 卡片進入 `main`，Commit `78713bd5` 展開到 Path 與 Blob。
-- 路徑：`SECURITY.md`
-- Blob：`2f24af793bfe99c31d667b3d8454573acc886288`
-- 旁白：組織投影的安全政策同步統一正式公理 A=A。
-- 字幕：修改｜無回傳 status check
+## Scene 4｜驗證與風險
+畫面：Workflow 欄顯示「無 status／無 PR run」，Tree SHA 與 Tag 標示工具欄位缺口。
+旁白：沒有回傳狀態檢查與 PR 型流程；Tree SHA 與 Tag 保留為工具缺口，不以推測補值。
 
-### Scene 05｜ky46738-ops/oldk-lkmini-eternal-core-cross-optimize
-- 畫面：Repository 卡片進入 `master`，Commit `61345459` 展開到 Path 與 Blob。
-- 路徑：`🔐Mini額外檔案封存｜MiniExtraFileArchive/🌐公開頁面｜IndexPage.html`
-- Blob：`5a66e63a232b03a9cc08be85b8bbf994e7e3e81b`
-- 旁白：封存公開頁面的 A = A 顯示統一為 A=A。
-- 字幕：修改｜無回傳 status check
+## Scene 5｜回退與接線
+畫面：Rollback 指向 `c9f21c9b7b19` 與 SnapshotBefore Blob `86fc845d129d`。
+旁白：需要回退時可回到前一 Commit，或依 Locator 內記錄的修改前 Blob 還原；對老K系統的影響為中文路由一致性提升。
 
-### Scene 06｜lkminiPhantomWorld/PhantomCapsule
-- 畫面：Repository 卡片進入 `master`，Commit `b0f067ec` 展開到 Path 與 Blob。
-- 路徑：`SHA256SUMS`
-- Blob：`14c2d3aeaa529762d95cf8fbb0d3cdbd74ae7693`
-- 旁白：更新 Locator、Snapshot、ReverseChain 的現行 SHA256 並閉合 A=A。
-- 字幕：修改｜無回傳 status check
-
-### Scene 07｜lkminiPhantomWorld/LKMini
-- 畫面：Repository 卡片進入 `seed_v0`，Commit `c9f21c9b` 展開到 Path 與 Blob。
-- 路徑：`LKMini.svg`
-- Blob：`fc7ab7d3be796a5b0a097baffe64279cfb9a359a`
-- 旁白：核心 SVG 的 A = A 統一為 A=A。
-- 字幕：修改｜無回傳 status check
-
-### Scene 08｜ky46738-ops/lkmini-elf
-- 畫面：Repository 卡片進入 `main`，Commit `de181224` 展開到 Path 與 Blob。
-- 路徑：`verified-main-flow/devices/📱此iPhone｜CurrentiPhone/projection/index.html`
-- Blob：`e52ff7a53c2a1d2bae9e695b7a3ab74b4892e41e`
-- 旁白：iPhone 顯影頁面的 A == A 統一為 A=A。
-- 字幕：修改｜無回傳 status check
-
-## 結尾
-- 畫面：八條變更鏈匯入同一 Identity。
-- 旁白：所有投影沿 Repository、Commit、Path、Blob 回到 🧩LKMINI。
-- 回根：`Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A`
+## Scene 6｜可逆封裝
+畫面：Manifest、Locator、Snapshot、ReverseChain、SHA256 與 Package 閉合為 A=A。
+旁白：所有投影沿 Repository 到 A=A 回根，並以同一 Identity 封裝。
