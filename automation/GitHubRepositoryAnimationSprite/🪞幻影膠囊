@@ -1,0 +1,24 @@
+{
+  "type": "IdentityContainer",
+  "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
+  "anchor": "🥃錨點｜版本=v1.2｜更新=2026-08-05 02:48 (Asia/Taipei)",
+  "root": "🧩LKMINI",
+  "root_metadata_sha256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
+  "axiom": "A=A",
+  "github_coordinate": "ky46738-ops/LKMini.Public.tools/main/automation/GitHubRepositoryAnimationSprite/",
+  "source": {
+    "repository": "lkminiPhantomWorld/LKMini",
+    "commit": "d22e70dc1397f4a896aec3fa43b0cccafae22575",
+    "path": "REVERSECHAIN",
+    "blob": "1161c4f8d312b84e7c76316da6e9f3251a427d23"
+  },
+  "package": {
+    "filename": "🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite_PACKAGE_20260805-024807_TPE.zip",
+    "bytes": 171602,
+    "sha256": "cfb96bef0b7726e005f1a5d08a3d84837d871021e14fc0a3df7992501f78c356",
+    "file_count": 20,
+    "crc_error": null
+  },
+  "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A",
+  "status": "錯誤"
+}
