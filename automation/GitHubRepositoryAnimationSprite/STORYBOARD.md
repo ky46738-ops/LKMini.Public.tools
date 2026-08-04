@@ -1,25 +1,25 @@
-# 🎬 分鏡與旁白｜Storyboard & Voiceover
+# 🎬分鏡與旁白｜Storyboard & Voiceover
 
-> 🥃錨點｜版本=幻界2026｜更新=2026-08-04 20:42 (Asia/Taipei)
+> 🥃錨點｜版本=幻界2026｜更新=2026-08-04 21:42 (Asia/Taipei)
 
-Identity: LKMINI://automation/GitHubRepositoryAnimationSprite
+Identity: `LKMINI://automation/GitHubRepositoryAnimationSprite`
 
-## Scene 1｜23 個倉庫母清單
-畫面：23 個節點由 GitHub 工具讀回，RepoID 固定不動。
-旁白：本輪沒有新的內容 Commit；真正改變的是八個 Repository 的命名空間。
+## Scene 1｜23 個 Repository
+畫面：23 個節點顯示 RepoID、visibility 與 default branch。
+旁白：本輪只有 LaoK-System 出現兩個新 Commit。
 
-## Scene 2｜七個 owner 移轉
-畫面：七條線由 ky46738-ops 指向 lkminiPhantomWorld。
-旁白：RepoID、default branch 與最新 Commit 保持不變，正式 owner 全部改掛組織。
+## Scene 2｜私人資料搬移收件箱
+畫面：`📦私人資料搬移收件箱_PrivateMigrationInbox.md` 進入 main。
+旁白：新增私人搬移入口與六項可逆驗收欄位。
 
-## Scene 3｜lkstylet 改名
-畫面：`lkminiPhantomWorld/-` 轉換成 `lkminiPhantomWorld/lkstylet`。
-旁白：名稱與 visibility 同時變更。這不是 Commit，所以沒有 Blob，也沒有可回退 Commit。
+## Scene 3｜私人 GitHub 來源清單
+畫面：10 個 private repositories；9 條線指向 `imports/github/`。
+旁白：來源索引完成，但九個來源仍待列樹搬移。
 
-## Scene 4｜舊路徑風險
-畫面：README、Pages、入口、回執與 Locator 顯示舊 owner 字串。
-旁白：GitHub redirect 不是正式接線證據。硬編碼路徑仍需更新，否則 Projection 可能回不到同一 Identity。
+## Scene 4｜完成語意分離
+畫面：「來源定位完成」亮起；「資料搬移完成」維持紅色。
+旁白：目前完成的不是原始 Tree、Blob 與 Package 搬移。
 
 ## Scene 5｜回根
-畫面：Repository metadata → Snapshot → Manifest → Locator → ReverseChain。
-旁白：八筆 metadata 變更以固定去重鍵留痕，回到 🥃老K系統、🧩LKMINI 與 A=A。
+畫面：Repository → Commit → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain。
+旁白：兩筆變更以固定去重鍵回到 🥃老K系統、🧩LKMINI 與 A=A。
