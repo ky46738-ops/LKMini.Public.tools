@@ -1,75 +1,115 @@
 {
-  "type": "CORRECTED_SNAPSHOT",
+  "type": "DELTA_INSPECTION_SNAPSHOT",
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
-  "anchor": "> 🥃錨點｜版本=v1.7｜更新=2026-08-05 09:02 (Asia/Taipei)",
+  "anchor": "> 🥃錨點｜版本=v1.8｜更新=2026-08-05 10:11 (Asia/Taipei)",
   "root": "🧩LKMINI",
   "root_metadata_sha256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
   "container": "🪞幻影膠囊",
   "axiom": "A=A",
   "baseline": {
-    "snapshot_blob": "22243d2d1a36746205511174c90f7a58d5179c89",
-    "snapshot_commit": "fe4dc78630f151b18e6f013cee1765203ab16fae"
+    "output_head": "791816e832e42f79aff68739f1509ffd14ed58cc",
+    "snapshot_blob": "0090434e760fffc83da8ddebdfbc8a3184f60937",
+    "version": "v1.7",
+    "package_sha256": "128bd7b70f26b29926afcc5bf17363f68766c0c2d0181e856a84732d65cce0c7"
   },
-  "current_head": "cbb3f2ebfa01c899c50080de73376142541450ea",
   "metrics": {
     "repositories": 23,
     "branches": 105,
-    "new_external_changes": 0,
-    "new_output_evidence_changes": 1,
+    "new_external_changes": 1,
+    "changed_paths": 14,
+    "added_paths": 10,
+    "modified_paths": 4,
+    "deleted_paths": 0,
     "visual_assets": 31,
+    "visual_asset_changes": 0,
     "workflow_runs": 0,
     "workflow_jobs": 0,
     "dedup_duplicates": 0,
-    "current_high_risk": 0
+    "current_high_risk": 0,
+    "medium_risk": 1
   },
-  "new_changes": [
-    {
-      "repository": "ky46738-ops/LKMini.Public.tools",
-      "branch": "main",
-      "commit_sha": "cbb3f2ebfa01c899c50080de73376142541450ea",
-      "tree_sha": null,
-      "path": "receipts/🧙🧚GitHub動畫精靈v1.6快照漂移修復回執｜GitHubAnimationV16SnapshotDriftRepair.md",
-      "blob_sha": "TO_READBACK",
-      "original_message": "入庫：修復 GitHub 動畫精靈 v1.6 快照漂移",
-      "change_type": "新增",
-      "summary_zh_tw": "新增 v1.6 快照漂移修復回執，將 Sites API Blob 內外不一致改列為 RESOLVED_SUPERSEDED；工具缺口仍維持錯誤。",
-      "workflow": {
-        "combined_status": [],
-        "workflow_runs": [],
-        "run_count": 0,
-        "job_count": 0
-      },
-      "risk": "低",
-      "rollback_commit": "fe4dc78630f151b18e6f013cee1765203ab16fae",
-      "wiring_impact": "修復 Snapshot 時序，不改 Identity、Root、Container 或 A=A。"
-    }
-  ],
-  "resolved_errors": [
-    {
-      "item": "Sites API 回執 Blob 內外不一致",
-      "status": "完成",
-      "evidence_commit": "07ce9bc4f845fd3f5e2516412675b3d4b6aa3eef",
-      "current_receipt_blob": "c1dbda977eca1e94dd064d0b46a982398b9be189"
-    }
-  ],
+  "repository_heads": {
+    "ky46738-ops/starter-workflows": "12baef41708ea4b4ad1e5f60a610264cea052500",
+    "ky46738-ops/LKMini": "4eb165bf912fb4c81b336db14847d223fc2c0bd9",
+    "ky46738-ops/tiny-state-core": "01ab8936d91eba1369a4ba5ddb6c9a507d2c2c46",
+    "ky46738-ops/vpoop-guardian": "ccfab0924a7fec8fa044147de6c45d46cec817b4",
+    "ky46738-ops/LKMini.Public.tools": "791816e832e42f79aff68739f1509ffd14ed58cc",
+    "ky46738-ops/desktop-tutorial": "e364ac8f272b3770fb3a3b7bcfe124af5a818f2a",
+    "ky46738-ops/lk-civilization-core": "ddc72cf83bd5367d1da789e0ce641fce6e01d712",
+    "ky46738-ops/welcome": "28b5cca07b406027744dc272aa209b904975fba0",
+    "ky46738-ops/-Tools": "9ac6695a6cd64f8ccb518b8a71e48954b89d7a38",
+    "lkminiPhantomWorld/LaoK-System": "b5b137f2e64234fa27ee97c7d338ab83520661c3",
+    "lkminiPhantomWorld/oldk-shuguang-folder-link-registry": "a5421da3580cde117062bea9927d4e298b5b9b36",
+    "lkminiPhantomWorld/oldk-lkmini-eternal-core-cross-optimize": "613454594d1bd0d91c75737ae5bb364b9244734a",
+    "lkminiPhantomWorld/lk-semantic-civilization-runtime": "017710de451850b039ec1efdba7fe5b08c4ec6d0",
+    "lkminiPhantomWorld/lk-unique-gate": "c93025043a778b5dab0ff1f96c4281b59cdfe406",
+    "lkminiPhantomWorld/laoK-core": "685a638216162b1d46d17d333464444a0bc3f8a8",
+    "lkminiPhantomWorld/welcome": "1ab117eb7959fcd9123b9fd106878a6f3bab65f8",
+    "lkminiPhantomWorld/tiny-state-core": "78713bd5ed2c98de2b94086f4dd5f9d4f3a34e86",
+    "lkminiPhantomWorld/vpoop-guardian": "c47d34a2b5b9aecc338e9663d34732f81d894b40",
+    "lkminiPhantomWorld/Tools": "9ac6695a6cd64f8ccb518b8a71e48954b89d7a38",
+    "lkminiPhantomWorld/lkstylet": "a3d394a6f4b29387e963dc9d1cfccf5fe743dc30",
+    "lkminiPhantomWorld/PhantomCapsule": "b0f067ec3ff3be7922e767b84040884fd8de454f",
+    "lkminiPhantomWorld/lkmini-elf": "de181224df92d860102a5e06fe9d1edcd8a04ab0",
+    "lkminiPhantomWorld/LKMini": "d22e70dc1397f4a896aec3fa43b0cccafae22575"
+  },
+  "branch_set": {
+    "count": 105,
+    "changed": false,
+    "evidence": "本回合逐倉庫 search_branches；完整明細在 Excel 與 PACKAGE"
+  },
+  "asset_set": {
+    "count": 31,
+    "svg": 3,
+    "html": 26,
+    "jpeg": 2,
+    "changed": false,
+    "complete": false,
+    "evidence": "v1.7 正式母清單與本回合 svg/html/IMG_034 code search 交叉核對；code search 有 topn／索引限制"
+  },
+  "new_change": {
+    "repository": "lkminiPhantomWorld/LaoK-System",
+    "branch": "main",
+    "commit_sha": "b5b137f2e64234fa27ee97c7d338ab83520661c3",
+    "parent_commit": "01b35a6e69c87adc32e0bf6d927f7b464ad9a135",
+    "tree_sha": null,
+    "original_message": "repair: add v3 reversible GitHub control plane",
+    "change_type": "混合",
+    "changed_paths": 14,
+    "added_paths": 10,
+    "modified_paths": 4,
+    "deleted_paths": 0,
+    "summary_zh_tw": "新增根控制面與 private-centralization v3.0 可逆投影，建立 MANIFEST、LOCATOR、SNAPSHOT、REVERSECHAIN、PACKAGE 與自排除 SHA256 清單；12 個 verified imports 保存 bytes、Git Blob 與 SHA256 證據。",
+    "workflow": {"combined_status": [], "workflow_runs": [], "run_count": 0, "job_count": 0},
+    "risk_level": "中",
+    "rollback_commit": "01b35a6e69c87adc32e0bf6d927f7b464ad9a135",
+    "wiring_impact": "正向：補齊 v3.0 根／私有控制面與可逆雜湊圖；唯一 Identity、🧩LKMINI、🪞幻影膠囊、LKMINI:// 與 A=A 不變。"
+  },
+  "changed_path_blobs": {
+    "LOCATOR.json": "5171f7546fd0214955fe9934ca1a829b1d94944d",
+    "MANIFEST.json": "a7da740f49ee510d4ce1cb96e3fb3077145e42fc",
+    "PACKAGE.json": "41162a3d86dacfc92f501ad32bf3cbb9ea8e023c",
+    "README.md": "5d9805eeab1b66a2d3de9f769dfac9b57a01d080",
+    "REVERSECHAIN.json": "1e811f6a23f819f31a3ea782014ad72b9efd20e2",
+    "SHA256SUMS.txt": "672792043de3c958f8037c696ce72716f3294100",
+    "SNAPSHOT.json": "f7dbffafeeaecf88065e7d5b8459f4febce69f4c",
+    "private-centralization/LOCATOR.json": "251e1989eb71d07fbf3eab81ac2c056db39d717b",
+    "private-centralization/MANIFEST.json": "ecde39b5f44bd2a3b56898de51c9a7fbe19c8c58",
+    "private-centralization/PACKAGE.json": "2c4a256f6a4ef1b70ae70fcb013df1493a0634ca",
+    "private-centralization/PRIVATE_CENTRALIZATION_PACKAGE.md": "46f121caa2a09e30db809cb6d0d275350c265fac",
+    "private-centralization/REVERSECHAIN.json": "4c742c2e3dce6ebe9b472a260c9e42bc333f80f1",
+    "private-centralization/SHA256SUMS.txt": "55a0b763c5198afbb10b812c22f407a7fbcb08d1",
+    "private-centralization/SNAPSHOT.json": "db1205a96f26cac5cd3f7b92bd90ae1cca5f438f"
+  },
   "current_errors": [
-    {
-      "item": "Tag",
-      "evidence": "GitHub connector 沒有 Tag 列舉動作。"
-    },
-    {
-      "item": "Tree SHA",
-      "evidence": "fetch_commit 未提供 Tree SHA，且沒有 fetch_tree。"
-    },
-    {
-      "item": "Workflow Run／Job",
-      "evidence": "本輪 Commit workflow_runs 為空，沒有 Run ID。"
-    },
-    {
-      "item": "GitHub 來源 ByteSize",
-      "evidence": "fetch_file／fetch_blob 不回傳 size。"
-    }
+    "Tag：GitHub connector 沒有 refs/tags 列舉動作",
+    "Tree SHA：fetch_commit 未提供 Tree SHA，且沒有 fetch_tree／遞迴 tree",
+    "Workflow Run／Job：statuses 與 workflow_runs 均為空，沒有 Run ID",
+    "GitHub 來源 ByteSize：fetch_file／fetch_blob 不回傳 size",
+    "完整 Git tree：LaoK-System v3.0 自身明列 tree_inventory.complete=false"
   ],
+  "prewrite_output_head": "791816e832e42f79aff68739f1509ffd14ed58cc",
+  "write_receipt": "由外部 GITHUB_READBACK.json 綁定，避免 Snapshot 自指",
   "status": "錯誤",
   "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"
 }
