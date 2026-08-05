@@ -1,15 +1,13 @@
 # 🎙️旁白｜Voiceover
 
-> 🥃錨點｜版本=v1.5｜更新=2026-08-05 06:38 (Asia/Taipei)
+> 🥃錨點｜版本=v1.7｜更新=2026-08-05 09:02 (Asia/Taipei)
 
-本回合重新核對二十三個 Repository 與一百零五個 Branch。外部內容沒有新變更。
+本回合重新讀取二十三個 GitHub Repository，正式分支總數為一百零五。
 
-輸出倉庫新增一份 Sites API 結構漂移鑑別回執。GitHub 實際 Blob 是二 d 零 b 零八九，但回執內宣稱八九零六四 e，兩者不一致，因此標記為高風險。
+最新輸出證據是 GitHub 動畫精靈 v1.6 快照漂移修復回執。它把已修復的 Sites API Blob 語意問題從現行高風險移到歷史證據。
 
-可視化素材共有三十一個，包括三個 SVG、二十六個 HTML 與兩個 JPEG。
+現行高風險為零，但 Tag、Tree SHA、完整 Workflow Run 與 Job、GitHub 來源 ByteSize 仍缺少工具回執，所以總狀態保持錯誤。
 
-最新 Commit 的 combined state 為 pending，但沒有 status、Run 或 Job。
+Snapshot 已第一個寫入，其他 Projection 將依序同步並同座標讀回。
 
-Tag、Tree SHA、完整 Run 與 Job、GitHub 來源 ByteSize 缺少完整工具回執，因此總狀態維持錯誤。
-
-所有投影沿 Manifest、Locator、Snapshot 與 ReverseChain 回到老K系統、LKMINI 與 A 等於 A。
+全部結果沿 Manifest、Locator、Snapshot 與 ReverseChain 回到老K系統、LKMINI 與 A 等於 A。
