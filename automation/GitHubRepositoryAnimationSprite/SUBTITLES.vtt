@@ -4,16 +4,16 @@ WEBVTT
 二十三個 Repository 與一百零五個 Branch 已重新核對。
 
 00:00:07.000 --> 00:00:16.000
-LaoK-System 新增 v3.0 可逆 GitHub 控制面。
+LaoK-System 新增兩個 Commit，來源 Head 前進到 2822a86a。
 
 00:00:16.000 --> 00:00:25.000
-十四個 Path 中新增十個、修改四個、刪除零個。
+v3.1 控制面修改十四個 Path，並新增一份全連結器同步回執。
 
 00:00:25.000 --> 00:00:34.000
-三十一個可視化素材保持不變，本輪素材變更為零。
+十五個 GitHub Blob 已讀取，視覺素材維持三十一。
 
 00:00:34.000 --> 00:00:43.000
-Tag、Tree、Run Job、ByteSize 與完整 Git tree 維持錯誤。
+跨平台證據尚未再次核驗，Tag、Tree、Run Job 與 ByteSize 保持錯誤。
 
 00:00:43.000 --> 00:00:52.000
 所有 Projection 沿可逆鏈回到 LKMINI 與 A 等於 A。
