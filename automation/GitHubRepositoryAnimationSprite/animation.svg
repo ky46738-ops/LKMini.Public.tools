@@ -1,13 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675">
 <rect width="1200" height="675" fill="#06131f"/>
 <text x="55" y="70" fill="#f4f9ff" font-size="38" font-family="sans-serif">🎬 GitHub 倉庫製動畫精靈</text>
-<text x="55" y="112" fill="#ff9797" font-size="23" font-family="sans-serif">錯誤｜23 Repository｜105 Branch｜外部 0｜證據 1｜素材 31</text>
-<rect x="55" y="155" width="1090" height="220" rx="22" fill="#3a1d2a" stroke="#a94f57"/>
-<text x="85" y="210" fill="#ff9797" font-size="29" font-family="sans-serif">高風險｜回執 Blob 內外不一致</text>
-<text x="85" y="260" fill="#f4f9ff" font-size="21" font-family="sans-serif">GitHub 實際：2d0b0897…</text>
-<text x="85" y="304" fill="#f4f9ff" font-size="21" font-family="sans-serif">回執宣稱：89064e43…</text>
-<text x="85" y="346" fill="#abc0d2" font-size="18" font-family="sans-serif">Commit e908dd54…｜回退 bb1b1ae3…</text>
-<text x="55" y="445" fill="#75d5ff" font-size="24" font-family="sans-serif">SVG 3｜HTML 26｜JPEG 2｜Run 0｜Job 0｜十一動 9/11</text>
-<text x="55" y="500" fill="#ff9797" font-size="22" font-family="sans-serif">Tag／Tree SHA／Run Job／GitHub ByteSize：錯誤</text>
-<text x="55" y="592" fill="#abc0d2" font-size="17" font-family="sans-serif">Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A</text>
-</svg>
+<text x="55" y="112" fill="#ff9797" font-size="23" font-family="sans-serif">錯誤｜23 Repository｜105 Branch｜高風險 0｜工具錯誤 4</text>
+<rect x="55" y="155" width="1090" height="220" rx="22" fill="#10283e" stroke="#315473"/>
+<text x="85" y="215" fill="#96e5bc" font-size="29" font-family="sans-serif">已修復｜v1.6 Snapshot 漂移</text>
+<text x="85" y="270" fill="#f4f9ff" font-size="21" font-family="sans-serif">cbb3f2eb… 新增修復回執</text>
+<text x="85" y="318" fill="#abc0d2" font-size="18" font-family="sans-serif">Sites API Blob 高風險 → RESOLVED_SUPERSEDED</text>
+<text x="55" y="455" fill="#75d5ff" font-size="24" font-family="sans-serif">外部變更 0｜新證據 1｜素材 31｜Run 0｜Job 0</text>
+<text x="55" y="510" fill="#ff9797" font-size="22" font-family="sans-serif">Tag／Tree SHA／Run Job／GitHub ByteSize：錯誤</text>
+<text x="55" y="600" fill="#abc0d2" font-size="17" font-family="sans-serif">Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A</text></svg>
