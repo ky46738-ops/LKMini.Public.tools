@@ -1,29 +1,21 @@
 {
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
-  "anchor": "> 🥃錨點｜版本=v1.8｜更新=2026-08-05 10:11 (Asia/Taipei)",
+  "anchor": "> 🥃錨點｜版本=v1.9｜更新=2026-08-05 10:36 (Asia/Taipei)",
   "github": {
     "repository": "ky46738-ops/LKMini.Public.tools",
     "branch": "main",
     "path_prefix": "automation/GitHubRepositoryAnimationSprite",
-    "prewrite_head": "791816e832e42f79aff68739f1509ffd14ed58cc",
-    "snapshot_commit": "3e4ec016c9150db3b56570dfae1fbbf512976cb4",
-    "snapshot_blob": "de8942e6bcce179205ff850dec3b5084483db72e"
+    "prewrite_head": "a0f90ad17d4ff95e56ed14830e0d9e7f58fbefba",
+    "snapshot_commit": "eaea0bc3f2e6fca8e2c9b00dc71c457678f95543",
+    "snapshot_blob": "d46079126d70df8f38f0156a2bcc40d593478c46"
   },
-  "source_change": {
+  "source": {
     "repository": "lkminiPhantomWorld/LaoK-System",
     "branch": "main",
-    "commit": "b5b137f2e64234fa27ee97c7d338ab83520661c3",
-    "parent": "01b35a6e69c87adc32e0bf6d927f7b464ad9a135",
-    "changed_paths": 14,
-    "manifest_blob": "a7da740f49ee510d4ce1cb96e3fb3077145e42fc",
-    "snapshot_blob": "f7dbffafeeaecf88065e7d5b8459f4febce69f4c",
-    "reversechain_blob": "1e811f6a23f819f31a3ea782014ad72b9efd20e2"
+    "base": "b5b137f2e64234fa27ee97c7d338ab83520661c3",
+    "head": "2822a86a50593a4c512afbf0584b77613e764799",
+    "changed_paths": 15
   },
-  "local_projection": {
-    "branch_details": "Excel／PACKAGE",
-    "visual_asset_details": "Excel／PACKAGE",
-    "binary_exports": ["Excel","PDF","WACZ","WebArchive","PACKAGE"]
-  },
-  "status": "錯誤",
+  "local_root": "/mnt/data/🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite_v1.9_20260805-103623_TPE",
   "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"
 }
