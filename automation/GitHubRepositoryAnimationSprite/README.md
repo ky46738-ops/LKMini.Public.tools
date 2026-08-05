@@ -1,28 +1,31 @@
 # 🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite
 
-> 🥃錨點｜版本=v1.7｜更新=2026-08-05 09:02 (Asia/Taipei)
+> 🥃錨點｜版本=v1.8｜更新=2026-08-05 10:11 (Asia/Taipei)
 
 狀態：**錯誤**
 
 - Repository：23
 - Branch：105
-- 新外部變更：0
-- 新輸出證據：1
-- 可視化素材：31
+- 新外部變更：1
+- 變更 Path：14（新增 10／修改 4／刪除 0）
+- 可視化素材：31（本輪變更 0）
 - Workflow Run／Job：0／0
 - 現行高風險：0
-- 工具錯誤：4
+- 中風險：1
+- 工具錯誤：5
 
 ## 本輪變更
-- 原文：`入庫：修復 GitHub 動畫精靈 v1.6 快照漂移`
-- Commit：`cbb3f2ebfa01c899c50080de73376142541450ea`
-- Path：`receipts/🧙🧚GitHub動畫精靈v1.6快照漂移修復回執｜GitHubAnimationV16SnapshotDriftRepair.md`
-- 摘要：新增 v1.6 快照漂移修復回執，將 Sites API Blob 內外不一致改列為 RESOLVED_SUPERSEDED；工具能力缺口仍維持錯誤。
-- 回退：`fe4dc78630f151b18e6f013cee1765203ab16fae`
-- 接線：修復 Snapshot 時序與風險顯示；🥃老K系統接線不變。
+- Repository：`lkminiPhantomWorld/LaoK-System`
+- 原文：`repair: add v3 reversible GitHub control plane`
+- Commit：`b5b137f2e64234fa27ee97c7d338ab83520661c3`
+- Parent：`01b35a6e69c87adc32e0bf6d927f7b464ad9a135`
+- 摘要：新增根控制面與 private-centralization v3.0 可逆投影，建立 MANIFEST、LOCATOR、SNAPSHOT、REVERSECHAIN、PACKAGE 與自排除 SHA256 清單；12 個 verified imports 保存 bytes、Git Blob 與 SHA256 證據。
+- 風險：中｜完整 Git tree、Drive 具體 Locator 與 Sites runtime 尚未驗證；無歷史改寫且回退座標明確。
+- 回退：`01b35a6e69c87adc32e0bf6d927f7b464ad9a135`
+- 接線：補齊 v3.0 根／私有控制面與可逆雜湊圖；唯一 Identity、🧩LKMINI、🪞幻影膠囊、LKMINI:// 與 A=A 不變。
 
-## 已修復
-Sites API receipt 與素材鑑別回執 Blob 邊界已分離；舊高風險標記為歷史錯誤已修復。
+## 工具錯誤
+Tag、Tree SHA、完整 Workflow Run／Job、GitHub 來源 ByteSize、完整 Git tree。
 
 ## 回根
 `Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A`
