@@ -18,17 +18,17 @@
     {"filename":"REVERSECHAIN.md","bytes":710,"sha256":"65afde9ea22efca14f24964401e3b41b97f78fd4794134474f1be67f5014da41"},
     {"filename":"GITHUB_READBACK.json","bytes":3239,"sha256":"db546d5f90e6d2dc20a89f38ee392a8551e16f82ec6cbb728507ecf6961b93fc"},
     {"filename":"EXECUTION_RECEIPT.json","bytes":739,"sha256":"276e673e2e26d901484776ad2ec862c9e0e9a756086a30fa6913a9d10beb0d28"},
-    {"filename":"🪞幻影膠囊","bytes":1235,"sha256":"bfd3997ffa314cc8ab9c93051a8a066862c97be7998443b5916bcfda931eab06"},
+    {"filename":"🪞幻影膠囊","bytes":1235,"sha256":"6efb2e9e9dcba71bbe88556e2c9ac97db40563d0a493f55e3526762da29bf95d"},
     {"filename":"📊GitHub倉庫巡檢智能報表｜GitHubRepositoryInspection.xlsx","bytes":22904,"sha256":"f38a246c555327ed8ce772408940b28f8de4a023c143e496182b125c9a070da0"},
     {"filename":"📄GitHub倉庫巡檢正式報告｜GitHubRepositoryInspectionReport.pdf","bytes":53004,"sha256":"536a96fd50346a2d22d5b51a602f27b3fdbcc626909a691c89299d6990f1df4e"},
     {"filename":"🌐GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite.wacz","bytes":8468,"sha256":"bf0e56cb6416b697524b5f6f74f2f18c00d37ecebc9a8a14ce498fc90cd25f7c"},
     {"filename":"🗄️GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite_WebArchive.zip","bytes":11501,"sha256":"36485423add5ef6f98d04ed5688df3396bfc1040016dd51af96539a9f0fff4de"},
-    {"filename":"MANIFEST.json","bytes":4268,"sha256":"74a311d46d83f932cb73956b763c7f61187f38d3205a8cb0704a8a1c68d86157"},
-    {"filename":"SHA256SUMS.txt","bytes":1857,"sha256":"fad1f053f6ed3d40e36d50395a8a85144c8b9b3e05d1f1fd2668e5aa4c5cc6c8"}
+    {"filename":"MANIFEST.json","bytes":4268,"sha256":"545df235b29a10dbd064da54aa388f1c6cdfbea0a5c5d7105bf3470dc616142b"},
+    {"filename":"SHA256SUMS.txt","bytes":1857,"sha256":"d0fb0417dd0bd30e6339885c143fbd3616ab122f2c7b0c2876257a007aa11da0"}
   ],
-  "package_internal_manifest": {"sha256":"74a311d46d83f932cb73956b763c7f61187f38d3205a8cb0704a8a1c68d86157","role":"package_internal_payload_manifest"},
+  "package_internal_manifest": {"sha256":"545df235b29a10dbd064da54aa388f1c6cdfbea0a5c5d7105bf3470dc616142b","role":"package_internal_payload_manifest"},
   "github_readback": {"count":12,"self_commit":"08f828a29235e0a7861638d52c460f5e4f7cff56","self_blob":"417a1adfb772caa2a77b73ba92d55bd2e4064485"},
   "validation": {"json":"完成","html":"完成","svg":"完成","vtt":"完成","excel_formula_errors":0,"pdf_render_pages":1,"package":"完成","self_reference_rule":"package hash only in external closure manifest"},
   "relations": {"root":"🧩LKMINI","root_metadata_sha256":"6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34","container":"🪞幻影膠囊","axiom":"A=A","reverse_chain":"Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"},
-  "package": {"filename":"🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite_PACKAGE_20260805-090200_TPE.zip","file_count":21,"bytes":111527,"sha256":"707f46ae9f7b41011d6626bdbedd585de080913aa14e75854e403880eb6a51c4","crc_error":null}
+  "package": {"filename":"🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite_PACKAGE_20260805-090200_TPE.zip","file_count":21,"bytes":111509,"sha256":"128bd7b70f26b29926afcc5bf17363f68766c0c2d0181e856a84732d65cce0c7","crc_error":null}
 }
