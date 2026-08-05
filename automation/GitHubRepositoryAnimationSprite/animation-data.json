@@ -8,10 +8,11 @@
   "owner": "Kevin Yang",
   "metrics": {
     "repositories_read": 23,
+    "branches_read": 108,
+    "branch_full_readback_complete": true,
     "visual_search_hits_minimum": 18,
-    "previous_branch_snapshot": 107,
-    "previous_branch_snapshot_is_current": false,
-    "unclosed_endpoints": 3,
+    "workflow_definitions_found": 3,
+    "unclosed_endpoint_groups": 3,
     "formal_roots": 1,
     "formal_containers": 1,
     "external_notifications": 0,
@@ -31,11 +32,15 @@
   "verified_this_round": {
     "repository_listing": true,
     "repository_count": 23,
-    "latest_commit_search": true,
+    "branch_listing_all_repositories": true,
+    "branch_count": 108,
+    "latest_commit_search_all_repositories": true,
+    "representative_path_blob_read_all_repositories": true,
     "visual_asset_search": true,
-    "sprite_svg_read": true,
-    "sprite_data_read": true,
-    "sprite_svg_update_commit": "0d5e631e29c3a98e300f8571ec60fc8694231528"
+    "workflow_definition_search": true,
+    "sprite_svg_readback": true,
+    "sprite_data_readback_required": true,
+    "sprite_svg_commit": "ddaf27882f45be12f4e98dd9dcc9a086ed3795d1"
   },
   "errors": [
     {
@@ -44,14 +49,14 @@
       "evidence": "目前 GitHub 連接器未提供 Tag 全量列舉工具。"
     },
     {
-      "type": "BranchFullReadbackIncomplete",
+      "type": "TreeReadEndpointUnavailable",
       "status": "錯誤",
-      "evidence": "本輪尚未重新逐倉庫完成所有 Branch 分頁列舉；107 只保留為既有快照。"
+      "evidence": "目前 GitHub 連接器未提供 Git Tree 讀取端點；Path 與 Blob 已以 fetch_file 讀回，Tree 不補造。"
     },
     {
-      "type": "ActionsRunJobIncomplete",
+      "type": "ActionsRunJobFullReadbackUnavailable",
       "status": "錯誤",
-      "evidence": "尚未取得每個倉庫的完整 Run ID 與 Job ID，未偽造 Job 結果。"
+      "evidence": "可用端點只查 Commit 關聯的 PR-triggered Runs 首頁，不能代表每倉庫全量 Run／Job；未偽造。"
     }
   ],
   "reverse_chain": [
