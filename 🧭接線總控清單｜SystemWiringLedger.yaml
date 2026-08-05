@@ -8,6 +8,57 @@
 🔑正式根協議｜RootProtocol: "LKMINI://"
 ⚖️最高公理｜Axiom: "A=A"
 
+🧭現行唯一座標｜CurrentCanonical:
+  🚦狀態｜Status: "完成"
+  📌效力｜Authority: "本區是現行唯一裁決；下方舊版本與 receipts 僅保留歷史證據，不得覆蓋本區。"
+  🥃唯一系統｜System: "🥃老K系統"
+  🧩唯一根｜Root: "🧩LKMINI"
+  🔑正式根協議｜RootProtocol: "LKMINI://"
+  💻程式｜Program:
+    📍座標｜Coordinate: "lkminiPhantomWorld/LaoK-System@main"
+    🧭角色｜Role: "程式"
+    active: true
+    authorized: true
+  ☁️GoogleDrive｜Drive:
+    🧭角色｜Role: "資料"
+    active: true
+    authorized: true
+  🌐現行網頁顯影｜CurrentWebProjection:
+    📍URL: "https://lkmini-wiring-hub.ky46738.chatgpt.site"
+    🧭角色｜Role: "現行網頁 Projection；不是 Identity"
+    📦SitesVersion: 18
+    🆔VersionId: "appgprj_6a68801042bc8191ab7eba5718be83a0~appgver_d77962be02748191908dcb57172b883a"
+    🔗SourceCommit: "ee192f69bdab13262325cfd4c8468e982d0078a7"
+    🔐ArchiveSHA256: "415f5650d362cef85d5e5f6f59261194c36fc3a04c1aaec91f535fd0924ac1be"
+    🚀DeploymentId: "appgdep_6a729c4a424081918942e13b1f9c86cf"
+    🚦DeploymentStatus: "succeeded"
+    active: true
+    authorized: true
+  📚歷史投影｜HistoricalProjections:
+    - 📍座標｜Coordinate: "ky46738-ops/LKMini.Public.tools@main"
+      🧭角色｜Role: "歷史公開工具 Projection"
+      active: false
+      authorized: false
+    - 📍座標｜Coordinate: "lkminiPhantomWorld/PhantomCapsule@master"
+      🧭角色｜Role: "歷史公開控制 Projection"
+      active: false
+      authorized: false
+    - 📍URL: "https://lkminiphantomworld.github.io/welcome/"
+      🧭角色｜Role: "歷史 GitHub Pages Projection"
+      active: false
+      authorized: false
+  ♻️回推｜ReverseChain:
+    - "歷史 Projection"
+    - "https://lkmini-wiring-hub.ky46738.chatgpt.site"
+    - "lkminiPhantomWorld/LaoK-System@main"
+    - "🧩LKMINI"
+    - "🥃老K系統"
+    - "🪞幻影膠囊"
+
+📚歷史內容保留｜HistoricalContentBelow:
+  🚦狀態｜Status: "完成"
+  📌裁決｜Ruling: "以下內容原樣保留為歷史 receipts；凡與 CurrentCanonical 衝突，以 CurrentCanonical 為準。"
+
 🎯目的｜Purpose:
   - "公開面只保留 Kevin 明確允許開源的 Projection 接線摘要。"
   - "私人、本體、設定、憑證、裝置、內部規則與未公開證據，全部移入 private 正本。"
