@@ -1,7 +1,7 @@
 {
   "type": "AICORE",
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
-  "anchor": "> 🥃錨點｜版本=v1.7｜更新=2026-08-05 09:02 (Asia/Taipei)",
+  "anchor": "> 🥃錨點｜版本=v1.8｜更新=2026-08-05 10:11 (Asia/Taipei)",
   "root": "🧩LKMINI",
   "root_metadata_sha256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
   "container": "🪞幻影膠囊",
@@ -11,23 +11,20 @@
   "locator": "LOCATOR.json",
   "readback": "GITHUB_READBACK.json",
   "latest_change": {
-    "repository": "ky46738-ops/LKMini.Public.tools",
+    "repository": "lkminiPhantomWorld/LaoK-System",
     "branch": "main",
-    "commit_sha": "cbb3f2ebfa01c899c50080de73376142541450ea",
-    "path": "receipts/🧙🧚GitHub動畫精靈v1.6快照漂移修復回執｜GitHubAnimationV16SnapshotDriftRepair.md",
-    "change_type": "新增",
-    "summary_zh_tw": "新增 v1.6 快照漂移修復回執，將 Sites API Blob 內外不一致改列為 RESOLVED_SUPERSEDED。",
-    "rollback_commit": "fe4dc78630f151b18e6f013cee1765203ab16fae"
+    "commit_sha": "b5b137f2e64234fa27ee97c7d338ab83520661c3",
+    "parent_commit": "01b35a6e69c87adc32e0bf6d927f7b464ad9a135",
+    "changed_paths": 14,
+    "added_paths": 10,
+    "modified_paths": 4,
+    "summary_zh_tw": "新增根控制面與 private-centralization v3.0 可逆投影，並保存 12 個 verified imports 的 bytes、Git Blob 與 SHA256 證據。",
+    "risk_level": "中",
+    "rollback_commit": "01b35a6e69c87adc32e0bf6d927f7b464ad9a135"
   },
-  "resolved_errors": [
-    {
-      "item": "Sites API 回執 Blob 內外不一致",
-      "status": "完成",
-      "evidence_commit": "07ce9bc4f845fd3f5e2516412675b3d4b6aa3eef",
-      "current_receipt_blob": "c1dbda977eca1e94dd064d0b46a982398b9be189"
-    }
-  ],
-  "current_errors": ["Tag", "Tree SHA", "Workflow Run／Job", "GitHub 來源 ByteSize"],
+  "visual_assets": {"count":31,"changed":false,"complete":false,"details":"Excel／PACKAGE"},
+  "workflow": {"combined_status":[],"workflow_runs":[],"run_count":0,"job_count":0},
+  "current_errors": ["Tag","Tree SHA","Workflow Run／Job","GitHub 來源 ByteSize","完整 Git tree"],
   "status": "錯誤",
   "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"
 }
