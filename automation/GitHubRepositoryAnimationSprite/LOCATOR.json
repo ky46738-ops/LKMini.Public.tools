@@ -1,21 +1,25 @@
 {
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
-  "anchor": "> 🥃錨點｜版本=v1.9｜更新=2026-08-05 10:36 (Asia/Taipei)",
+  "anchor": "> 🥃錨點｜版本=v2.0｜更新=2026-08-05 11:10 (Asia/Taipei)",
   "github": {
     "repository": "ky46738-ops/LKMini.Public.tools",
     "branch": "main",
+    "prewrite_head": "5ca5cdd0a00b06a34650d14745cfd557a695e24b",
     "path_prefix": "automation/GitHubRepositoryAnimationSprite",
-    "prewrite_head": "a0f90ad17d4ff95e56ed14830e0d9e7f58fbefba",
-    "snapshot_commit": "eaea0bc3f2e6fca8e2c9b00dc71c457678f95543",
-    "snapshot_blob": "d46079126d70df8f38f0156a2bcc40d593478c46"
+    "snapshot_commit": "862122c37c5ce6975dcbd78e84e4b44b939cf25d",
+    "snapshot_blob": "2baa7a0368b8e20b4312fa32b556eeaef4f89733"
   },
-  "source": {
-    "repository": "lkminiPhantomWorld/LaoK-System",
+  "source_change": {
+    "repository": "lkminiPhantomWorld/welcome",
     "branch": "main",
-    "base": "b5b137f2e64234fa27ee97c7d338ab83520661c3",
-    "head": "2822a86a50593a4c512afbf0584b77613e764799",
-    "changed_paths": 15
+    "commit": "94ef427686603c3a213ab70ad80e289afd595f45",
+    "parent": "d9133b366e60709459b6df5bc71ceb4871276603",
+    "paths": [
+      {"path": ".github/workflows/python-package-conda.yml", "status": "修改", "additions": 4, "deletions": 6, "blob_sha": "435ceb8bb2a42192825e22215f788b9ff236b633"},
+      {"path": "environment.yml", "status": "新增", "additions": 9, "deletions": 0, "blob_sha": "623e20e46de1ec3f7035ff89bb28969ae938a0b7"},
+      {"path": "tests/test_integrity_gates.py", "status": "新增", "additions": 28, "deletions": 0, "blob_sha": "86e52af6998f3fa32c3304e2e1ba53de91066330"}
+    ]
   },
-  "local_root": "/mnt/data/🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite_v1.9_20260805-103623_TPE",
+  "local_root": "/mnt/data/🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite_RUN_20260805-111000_TPE",
   "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"
 }
