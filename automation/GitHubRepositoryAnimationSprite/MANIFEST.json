@@ -1,23 +1,26 @@
 {
   "manifest_role": "external_package_closure_manifest",
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
-  "anchor": "> 🥃錨點｜版本=v1.9｜更新=2026-08-05 10:36 (Asia/Taipei)",
+  "anchor": "> 🥃錨點｜版本=v2.0｜更新=2026-08-05 11:10 (Asia/Taipei)",
   "status": "錯誤",
   "package_internal_manifest": {
-    "sha256": "e1822f350f0e404f896ebb2557b6929e16b62dc2b86696079602bad67ea03515",
+    "filename": "PACKAGE_MANIFEST.json",
+    "sha256": "9af166267021fa4966d6d9e3ae1d78ab2b782932d7bc1095872b0ba3ccfdbfc0",
     "role": "package_internal_payload_manifest"
   },
   "github_readback": {
-    "count": 12,
-    "self_commit": "b5e1e358def80ddf2c7b9cb299e921be17afffe1",
-    "self_blob": "17102968bc96d39fcd3d1513530946d01dd89b6f"
+    "count": 13,
+    "generated_before_self_write": true,
+    "final_non_self_commit": "fa7d36fbd26dddc6612613cb6ead728611ec4f8e",
+    "final_non_self_blob": "21d2ca059b93141b266fa9e137ad1897e50770a8"
   },
   "package": {
-    "filename": "🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite_PACKAGE_20260805-103623_TPE.zip",
+    "filename": "📦GitHub倉庫製動畫精靈可逆封裝｜GitHubRepositoryAnimationSpritePackage.zip",
     "file_count": 22,
-    "bytes": 329839,
-    "sha256": "17073ebc5286381f80adc035c3df77faee00e2f2e827a733674d89ef1dc51813",
-    "crc_error": null
+    "bytes": 286659,
+    "sha256": "516f319a88cc334339302ccf1504a2cf92e99f16458a619f90f24e12a7f76e33",
+    "crc_error": null,
+    "sha256_mismatch_count": 0
   },
   "validation": {
     "json": "完成",
@@ -26,6 +29,8 @@
     "vtt": "完成",
     "excel_formula_errors": 0,
     "pdf_render_pages": 2,
+    "wacz_crc_error": null,
+    "webarchive_crc_error": null,
     "package": "完成",
     "self_reference_rule": "package hash only in external closure manifest"
   },
