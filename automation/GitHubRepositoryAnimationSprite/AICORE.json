@@ -1,30 +1,28 @@
 {
   "type": "AICORE",
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
-  "anchor": "> 🥃錨點｜版本=v1.8｜更新=2026-08-05 10:11 (Asia/Taipei)",
+  "anchor": "> 🥃錨點｜版本=v1.9｜更新=2026-08-05 10:36 (Asia/Taipei)",
   "root": "🧩LKMINI",
   "root_metadata_sha256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
   "container": "🪞幻影膠囊",
   "axiom": "A=A",
   "snapshot": "SNAPSHOT.json",
+  "data": "animation-data.json",
   "manifest": "MANIFEST.json",
   "locator": "LOCATOR.json",
   "readback": "GITHUB_READBACK.json",
-  "latest_change": {
-    "repository": "lkminiPhantomWorld/LaoK-System",
-    "branch": "main",
-    "commit_sha": "b5b137f2e64234fa27ee97c7d338ab83520661c3",
-    "parent_commit": "01b35a6e69c87adc32e0bf6d927f7b464ad9a135",
-    "changed_paths": 14,
-    "added_paths": 10,
-    "modified_paths": 4,
-    "summary_zh_tw": "新增根控制面與 private-centralization v3.0 可逆投影，並保存 12 個 verified imports 的 bytes、Git Blob 與 SHA256 證據。",
-    "risk_level": "中",
-    "rollback_commit": "01b35a6e69c87adc32e0bf6d927f7b464ad9a135"
-  },
-  "visual_assets": {"count":31,"changed":false,"complete":false,"details":"Excel／PACKAGE"},
-  "workflow": {"combined_status":[],"workflow_runs":[],"run_count":0,"job_count":0},
-  "current_errors": ["Tag","Tree SHA","Workflow Run／Job","GitHub 來源 ByteSize","完整 Git tree"],
+  "changes": [
+    {"commit_sha":"8ff843f1ae3efbef0e514cae0aaf855a9039573b","parent_commit":"b5b137f2e64234fa27ee97c7d338ab83520661c3","message":"repair: align v3.1 Drive and Sites evidence","created_at":"2026-08-05T02:21:00Z","change_type":"修改","paths":14,"summary_zh_tw":"將 LaoK-System 根控制面與 private-centralization 升至 v3.1，加入 Google Drive 固定 ID 與 Sites v18 部署欄位，更新雙層 MANIFEST、LOCATOR、SNAPSHOT、REVERSECHAIN、PACKAGE 與自排除 SHA256 清單。","risk_level":"中","risk_reason":"GitHub 內容與 Blob 已讀回；其中 Drive／Sites 外部證據未在本輪透過各自連接器重新驗證。","rollback_commit":"b5b137f2e64234fa27ee97c7d338ab83520661c3"},
+    {"commit_sha":"2822a86a50593a4c512afbf0584b77613e764799","parent_commit":"8ff843f1ae3efbef0e514cae0aaf855a9039573b","message":"🔄新增全連結器同步回執 Connector sync receipt","created_at":"2026-08-05T02:27:24Z","change_type":"新增","paths":1,"summary_zh_tw":"新增全連結器同步回執，說明 Drive、GitHub、Goodnotes、GPT／OpenAI 與 Obsidian 的 Projection 分工；GitHub 顯影完成，🧩LKMINI 本輪修改為 0。","risk_level":"低","risk_reason":"只新增 Markdown 回執；本輪只驗證 GitHub 顯影，其他平台描述未重新呼叫連接器。","rollback_commit":"8ff843f1ae3efbef0e514cae0aaf855a9039573b"}
+  ],
+  "current_errors": [
+    {"item":"Tag","evidence":"GitHub connector 沒有 refs/tags 列舉動作。","repair_a":"保存 Branch／Commit／Path／Blob 與錯誤。","repair_b":"新增 refs/tags 端點。"},
+    {"item":"Tree SHA／完整 Git tree","evidence":"fetch_commit 未提供 Tree SHA，也沒有 fetch_tree／recursive tree；來源 MANIFEST 明列 tree_inventory.complete=false。","repair_a":"保存 compare_commits 與 15 個 Path／Blob。","repair_b":"新增 git/commits、git/trees 或 archive 端點。"},
+    {"item":"Workflow Run／Job","evidence":"8ff843、2822a86 與輸出 Head 的 statuses／workflow_runs 均為空，沒有 Run ID。","repair_a":"保存空陣列回執。","repair_b":"擴充所有事件類型的 Run／Job 查詢。"},
+    {"item":"GitHub 來源 ByteSize","evidence":"fetch_file／fetch_blob 不回傳 size。","repair_a":"保存 GitHub Blob；本地 Projection 另計 ByteSize／SHA256。","repair_b":"回傳 Contents API size。"},
+    {"item":"外部連接器再驗證","evidence":"v3.1 GitHub 檔案記錄 Drive 固定 ID 與 Sites v18 部署證據；本輪沒有用 Drive／Sites 連接器重新讀回。","repair_a":"將其標示為 GitHub 內記錄的外部證據。","repair_b":"下一輪同時呼叫 Drive／Sites 工具做跨平台核對。"},
+    {"item":"可視化素材完整列舉","evidence":"官方 v1.8 母清單為 31，fresh code search 仍受 topn／索引限制；本輪 15 個變更 Path 無視覺副檔名。","repair_a":"沿用官方 31 筆母清單並保存 delta=0。","repair_b":"新增 recursive tree／archive 素材掃描。"}
+  ],
   "status": "錯誤",
   "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"
 }
