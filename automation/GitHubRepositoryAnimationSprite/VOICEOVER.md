@@ -1,15 +1,15 @@
 # 🎙️旁白｜Voiceover
 
-> 🥃錨點｜版本=v1.8｜更新=2026-08-05 10:11 (Asia/Taipei)
+> 🥃錨點｜版本=v1.9｜更新=2026-08-05 10:36 (Asia/Taipei)
 
 本回合重新核對二十三個 GitHub Repository 與一百零五個 Branch。
 
-唯一外部變更出現在老K系統正式倉庫。新的 v3.0 控制面一次更新十四個 Path，建立根控制投影、私有集中控制投影、可逆快照、反向鏈與自排除 SHA256 清單。
+老K系統正式倉庫在 v1.8 Snapshot 之後新增兩個 Commit。第一個把根控制面與私有集中控制面升到 v3.1，加入 Google Drive 固定 ID 與 Sites v18 部署欄位。第二個新增全連結器同步回執。
 
-十二個 verified imports 保存 Git Blob、位元組數與 SHA256 證據。完整 Git tree 仍因連接器能力限制而沒有被冒稱完成。
+總計一個新增 Path、十四個修改 Path。十五個 Path 的 GitHub Blob 均已讀取。視覺素材數維持三十一，本輪沒有視覺副檔名變更。
 
-可視化素材維持三十一個，本輪沒有素材檔案增刪。
+GitHub 內容為真，但 Drive、Sites、Goodnotes 與 Obsidian 的跨平台狀態沒有在本輪使用各自連接器重新驗證，因此保留中風險。
 
-Workflow Status、Run 與 Job 均為空，因此總狀態保持錯誤。
+Tag、Tree SHA、完整 Workflow Run 與 Job、GitHub 來源 ByteSize，以及完整遞迴素材清單仍缺工具能力，總狀態保持錯誤。
 
-所有結果沿 Repository、Commit、Path、Blob、Identity、Manifest、Locator、Snapshot 與 ReverseChain 回到老K系統、LKMINI 與 A 等於 A。
+所有投影沿可逆鏈回到老K系統、LKMINI 與 A 等於 A。
