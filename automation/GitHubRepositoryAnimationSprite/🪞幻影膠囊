@@ -6,11 +6,22 @@
   "root_metadata_sha256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
   "axiom": "A=A",
   "github_coordinate": "ky46738-ops/LKMini.Public.tools/main/automation/GitHubRepositoryAnimationSprite/",
-  "snapshot": {"path":"SNAPSHOT.json","commit":"21d7ce36940dddf7397d1aae143abc96f4091cd4","blob":"0090434e760fffc83da8ddebdfbc8a3184f60937"},
-  "readback": {"path":"GITHUB_READBACK.json","commit":"08f828a29235e0a7861638d52c460f5e4f7cff56","blob":"417a1adfb772caa2a77b73ba92d55bd2e4064485"},
-  "manifest": {"path":"MANIFEST.json","commit":"ac933998892b779208791688435023755b4cb53c","blob":"a489001cf541dfe1344279f1c7abff208279631b"},
-  "sha256sums": {"path":"SHA256SUMS.txt","commit":"ea239a4cfd753369788d899f42c57c11855441b5","blob":"aad007dcb1b6954d719dace665dd6ba35316260b"},
-  "package": {"filename":"🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite_PACKAGE_20260805-090200_TPE.zip","file_count":21,"bytes":111336,"sha256":"2ba3ee08b2dd9ed309068e33dab61180342c28388fa3e315d547b55de6138a64","crc_error":null},
+  "snapshot": "SNAPSHOT.json",
+  "manifest": {
+    "path": "MANIFEST.json",
+    "role": "external_package_closure_manifest"
+  },
+  "locator": "LOCATOR.json",
+  "readback": "GITHUB_READBACK.json",
+  "reversechain": "REVERSECHAIN.md",
   "status": "錯誤",
-  "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"
+  "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A",
+  "package": {
+    "filename": "🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite_PACKAGE_20260805-090200_TPE.zip",
+    "file_count": 21,
+    "bytes": "EXTERNAL_CLOSURE_MANIFEST",
+    "sha256": "EXTERNAL_CLOSURE_MANIFEST",
+    "crc_error": null
+  },
+  "package_internal_manifest": "MANIFEST.json inside PACKAGE; digest recorded in external MANIFEST.json"
 }
