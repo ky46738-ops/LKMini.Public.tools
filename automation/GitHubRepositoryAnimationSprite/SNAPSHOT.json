@@ -1,81 +1,74 @@
 {
-  "type": "REVERSIBLE_DELTA_SNAPSHOT",
+  "type": "CORRECTED_SNAPSHOT",
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
-  "anchor": "> 🥃錨點｜版本=v1.6｜更新=2026-08-05 08:11 (Asia/Taipei)",
+  "anchor": "> 🥃錨點｜版本=v1.7｜更新=2026-08-05 09:02 (Asia/Taipei)",
   "root": "🧩LKMINI",
   "root_metadata_sha256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
   "container": "🪞幻影膠囊",
   "axiom": "A=A",
-  "base_snapshot": {
-    "repository": "ky46738-ops/LKMini.Public.tools",
-    "branch": "main",
-    "path": "automation/GitHubRepositoryAnimationSprite/SNAPSHOT.json",
-    "commit": "760efca13ea1eb27fd62d7c4cf57fd76deec7032",
-    "blob": "1a1cef9d500f56db704ea7b7eedd765fd33fe086",
-    "anchor": "2026-08-05 06:38 Asia/Taipei"
+  "baseline": {
+    "snapshot_blob": "22243d2d1a36746205511174c90f7a58d5179c89",
+    "snapshot_commit": "fe4dc78630f151b18e6f013cee1765203ab16fae"
   },
-  "delta": "DELTA.json",
-  "prewrite_head": "e2020a286a8029c5f44e5980b3d6fd5142e59162",
+  "current_head": "cbb3f2ebfa01c899c50080de73376142541450ea",
   "metrics": {
     "repositories": 23,
     "branches": 105,
-    "external_content_changes": 0,
-    "output_evidence_changes": 1,
+    "new_external_changes": 0,
+    "new_output_evidence_changes": 1,
     "visual_assets": 31,
-    "svg": 3,
-    "html": 26,
-    "jpeg": 2,
     "workflow_runs": 0,
     "workflow_jobs": 0,
     "dedup_duplicates": 0,
-    "high_risk": 1
+    "current_high_risk": 0
   },
   "new_changes": [
     {
-      "scope": "輸出證據",
       "repository": "ky46738-ops/LKMini.Public.tools",
-      "repo_id": "1260329511",
-      "default_branch": "main",
       "branch": "main",
-      "commit_sha": "e2020a286a8029c5f44e5980b3d6fd5142e59162",
-      "parent_commit": "f2ca41517292bc4511ccd1da0425a67eb10b67e4",
+      "commit_sha": "cbb3f2ebfa01c899c50080de73376142541450ea",
       "tree_sha": null,
-      "path": "receipts/🧙🧚跨倉庫搬移安全工作流素材鑑別回執｜CrossRepositoryMigrationWorkflowMaterialCurationReceipt.md",
-      "blob_sha": "f53aa3175f446b8a34cca0fda01b2c9b24f86b7f",
-      "github_byte_size": null,
-      "readback_local_byte_size": 2578,
-      "readback_local_sha256": "d0a996a7c28a192555786ec0d3144260ed42bae1ede40369433365c725957b7f",
-      "modified_time": "2026-08-04T23:26:22Z",
-      "original_message": "入庫：跨倉庫搬移安全工作流素材鑑別回執",
+      "path": "receipts/🧙🧚GitHub動畫精靈v1.6快照漂移修復回執｜GitHubAnimationV16SnapshotDriftRepair.md",
+      "blob_sha": "TO_READBACK",
+      "original_message": "入庫：修復 GitHub 動畫精靈 v1.6 快照漂移",
       "change_type": "新增",
-      "additions": 60,
-      "deletions": 0,
-      "summary_zh_tw": "新增跨倉庫搬移安全工作流鑑別回執，保存現行／歷史 Commit 與 Blob、SameIdentity 裁決及六項安全強化；沒有觸發搬移工作流。",
-      "workflow": {"combined_status": [], "workflow_runs": [], "run_count": 0, "job_count": 0},
-      "risk_level": "低",
-      "risk_reason": "只新增證據文件；來源工作流未觸發，MIGRATE_PAT 權限仍未驗證。",
-      "rollback_commit": "f2ca41517292bc4511ccd1da0425a67eb10b67e4",
-      "wiring_impact": "補強跨倉庫搬移安全工作流的版本與位元證據，不改變唯一 Identity、🧩LKMINI、🪞幻影膠囊或 A=A。",
-      "dedup_key": "ky46738-ops/LKMini.Public.tools／main／e2020a286a8029c5f44e5980b3d6fd5142e59162／receipts/🧙🧚跨倉庫搬移安全工作流素材鑑別回執｜CrossRepositoryMigrationWorkflowMaterialCurationReceipt.md／f53aa3175f446b8a34cca0fda01b2c9b24f86b7f",
-      "source_current": {"repository": "lkminiPhantomWorld/lk-semantic-civilization-runtime", "commit": "017710de451850b039ec1efdba7fe5b08c4ec6d0", "path": ".github/workflows/migrate-to-lk-unique-gate.yml", "blob": "862a8fb870d382e8eec4082e82242896fbf717a1"},
-      "source_historical": {"commit": "f5581489b7cce808472cc15a20f6f8f67d3b220c", "blob": "65b29c84330335b86adb8327e91861d2315cd4c4"}
+      "summary_zh_tw": "新增 v1.6 快照漂移修復回執，將 Sites API Blob 內外不一致改列為 RESOLVED_SUPERSEDED；工具缺口仍維持錯誤。",
+      "workflow": {
+        "combined_status": [],
+        "workflow_runs": [],
+        "run_count": 0,
+        "job_count": 0
+      },
+      "risk": "低",
+      "rollback_commit": "fe4dc78630f151b18e6f013cee1765203ab16fae",
+      "wiring_impact": "修復 Snapshot 時序，不改 Identity、Root、Container 或 A=A。"
     }
   ],
-  "branch_set": {"count": 105, "changed": false, "evidence": "本回合逐倉庫 search_branches 重新讀取"},
-  "asset_set": {"count": 31, "svg": 3, "html": 26, "jpeg": 2, "changed": false, "evidence": "GitHub search 與 v1.5 素材清單交叉核對"},
-  "workflow": {"new_commit_statuses": [], "new_commit_runs": [], "source_commit_statuses": [], "source_commit_runs": [], "run_count": 0, "job_count": 0, "status": "錯誤"},
-  "persistent_risks": [
-    {"level": "高", "item": "Sites API 回執 Blob 內外不一致", "evidence": "回執宣稱 89064e434a5b4575a180d7abcd6c2f4691ea9db9；GitHub 實際 2d0b0897d6cd047cc20739cb053a1274683610da。"},
-    {"level": "錯誤", "item": "Tag", "evidence": "GitHub 連接器沒有 Tag 列舉動作。"},
-    {"level": "錯誤", "item": "Tree SHA", "evidence": "fetch_commit 未提供 Tree SHA，且沒有 fetch_tree。"},
-    {"level": "錯誤", "item": "Workflow Run／Job", "evidence": "新 Commit 與來源工作流 Commit 的 statuses／workflow_runs 均為空，沒有 Run ID。"},
-    {"level": "錯誤", "item": "GitHub 來源 ByteSize", "evidence": "fetch_file／fetch_blob 不回傳來源 size；本地只對讀回內容另算 ByteSize／SHA256。"}
+  "resolved_errors": [
+    {
+      "item": "Sites API 回執 Blob 內外不一致",
+      "status": "完成",
+      "evidence_commit": "07ce9bc4f845fd3f5e2516412675b3d4b6aa3eef",
+      "current_receipt_blob": "c1dbda977eca1e94dd064d0b46a982398b9be189"
+    }
   ],
-  "tool_gaps": [
-    {"item": "Tag", "evidence": "GitHub 連接器沒有 Tag 列舉動作。", "repair_a": "保留錯誤並保存 Branch／Commit／Path／Blob。", "repair_b": "新增 refs/tags 端點。"},
-    {"item": "Tree SHA", "evidence": "fetch_commit 未提供 Tree SHA，且沒有 fetch_tree。", "repair_a": "使用 Commit diff 與 Path／Blob 證據。", "repair_b": "新增 git/commits 與 git/trees 端點。"},
-    {"item": "Workflow Run／Job", "evidence": "statuses 與 PR 型 workflow_runs 均為空，沒有 Run ID。", "repair_a": "保存空回執與錯誤。", "repair_b": "擴充所有事件類型的 Run／Job 查詢。"},
-    {"item": "GitHub 來源 ByteSize", "evidence": "fetch_file／fetch_blob 不回傳來源 size。", "repair_a": "保存 Blob SHA，讀回內容另計本地 ByteSize／SHA256。", "repair_b": "回傳 Contents API size。"}
+  "current_errors": [
+    {
+      "item": "Tag",
+      "evidence": "GitHub connector 沒有 Tag 列舉動作。"
+    },
+    {
+      "item": "Tree SHA",
+      "evidence": "fetch_commit 未提供 Tree SHA，且沒有 fetch_tree。"
+    },
+    {
+      "item": "Workflow Run／Job",
+      "evidence": "本輪 Commit workflow_runs 為空，沒有 Run ID。"
+    },
+    {
+      "item": "GitHub 來源 ByteSize",
+      "evidence": "fetch_file／fetch_blob 不回傳 size。"
+    }
   ],
   "status": "錯誤",
   "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"
