@@ -1,1 +1,82 @@
-{"type":"REVERSIBLE_DELTA_SNAPSHOT","identity":"LKMINI://automation/GitHubRepositoryAnimationSprite","anchor":"> 🥃錨點｜版本=v1.5｜更新=2026-08-05 06:38 (Asia/Taipei)","root":"🧩LKMINI","root_metadata_sha256":"6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34","container":"🪞幻影膠囊","axiom":"A=A","baseline":{"head":"6a58cbf4069ae3fb7c225d3f4ae8a22c2a6a9039","snapshot_blob":"1f066aaf4077575e6e48d84e1c421d34331f7472"},"output_coordinate":{"repository":"ky46738-ops/LKMini.Public.tools","branch":"main","path_prefix":"automation/GitHubRepositoryAnimationSprite","prewrite_head":"e908dd548986aa1b58beebdd1e5967b53bc904db"},"metrics":{"repositories":23,"branches":105,"external_content_changes":0,"output_evidence_changes":1,"visual_assets":31,"svg":3,"html":26,"jpeg":2,"workflow_runs":0,"workflow_jobs":0,"dedup_duplicates":0,"high_risk":1},"repository_heads":[{"repository":"ky46738-ops/starter-workflows","default_branch":"main","branch_count":27,"head":"12baef41708ea4b4ad1e5f60a610264cea052500","path":".github/workflows/jekyll-gh-pages.yml","blob_sha":"ef2918fe55e023e976da24884a3622a3bd3e2c93"},{"repository":"ky46738-ops/LKMini","default_branch":"seed_v0","branch_count":6,"head":"4eb165bf912fb4c81b336db14847d223fc2c0bd9","path":"SHA256SUMS","blob_sha":"ce982e6fb6ef19fc89714970febfe468ddb3f1ff"},{"repository":"ky46738-ops/tiny-state-core","default_branch":"main","branch_count":2,"head":"01ab8936d91eba1369a4ba5ddb6c9a507d2c2c46","path":"SECURITY.md","blob_sha":"2f24af793bfe99c31d667b3d8454573acc886288"},{"repository":"ky46738-ops/vpoop-guardian","default_branch":"main","branch_count":1,"head":"ccfab0924a7fec8fa044147de6c45d46cec817b4","path":"README.md","blob_sha":"2ba03739567a7e7905b86b513800d01b00a4b185"},{"repository":"ky46738-ops/LKMini.Public.tools","default_branch":"main","branch_count":5,"head":"e908dd548986aa1b58beebdd1e5967b53bc904db","path":"receipts/🧙🧚SitesAPI結構漂移素材鑑別回執｜SitesAPISchemaDriftMaterialCurationReceipt.md","blob_sha":"2d0b0897d6cd047cc20739cb053a1274683610da"},{"repository":"ky46738-ops/desktop-tutorial","default_branch":"main","branch_count":1,"head":"e364ac8f272b3770fb3a3b7bcfe124af5a818f2a","path":"README.md","blob_sha":"79c0873ce951b1cb9b433535fe190c74467c844d"},{"repository":"ky46738-ops/lk-civilization-core","default_branch":"main","branch_count":1,"head":"ddc72cf83bd5367d1da789e0ce641fce6e01d712","path":"README.md","blob_sha":"b3a50b6a83fe088a55c3f4c330bd1bd460bfef09"},{"repository":"ky46738-ops/welcome","default_branch":"main","branch_count":3,"head":"28b5cca07b406027744dc272aa209b904975fba0","path":"index.html","blob_sha":"b9c9701e1aa1554ac78b87a89561a70d3c635f7c"},{"repository":"ky46738-ops/-Tools","default_branch":"main","branch_count":1,"head":"9ac6695a6cd64f8ccb518b8a71e48954b89d7a38","path":"README.md","blob_sha":"b85fe5f12491e6097f542dba87c41046e14d685a"},{"repository":"lkminiPhantomWorld/LaoK-System","default_branch":"main","branch_count":18,"head":"01b35a6e69c87adc32e0bf6d927f7b464ad9a135","path":"private-centralization/PRIVATE_CENTRALIZATION_PACKAGE.md","blob_sha":"c94b0b07bde7043fb57c099322a48776d55b840d"},{"repository":"lkminiPhantomWorld/oldk-shuguang-folder-link-registry","default_branch":"main","branch_count":2,"head":"a5421da3580cde117062bea9927d4e298b5b9b36","path":"README.md","blob_sha":"fa1962c2e996dfcce01046a881f68d8fb1521901"},{"repository":"lkminiPhantomWorld/oldk-lkmini-eternal-core-cross-optimize","default_branch":"master","branch_count":2,"head":"613454594d1bd0d91c75737ae5bb364b9244734a","path":"🔐Mini額外檔案封存｜MiniExtraFileArchive/🌐公開頁面｜IndexPage.html","blob_sha":"5a66e63a232b03a9cc08be85b8bbf994e7e3e81b"},{"repository":"lkminiPhantomWorld/lk-semantic-civilization-runtime","default_branch":"main","branch_count":1,"head":"017710de451850b039ec1efdba7fe5b08c4ec6d0","path":".github/workflows/migrate-to-lk-unique-gate.yml","blob_sha":"862a8fb870d382e8eec4082e82242896fbf717a1"},{"repository":"lkminiPhantomWorld/lk-unique-gate","default_branch":"main","branch_count":7,"head":"c93025043a778b5dab0ff1f96c4281b59cdfe406","path":"03_🧠知識庫_驗證與理解層/📚操作說明/📜開源與私有處理邊界｜OpenSourcePrivateBoundary.md","blob_sha":"cf7399e7cf105b7f25884a263b4deb7d8b983f79"},{"repository":"lkminiPhantomWorld/laoK-core","default_branch":"main","branch_count":1,"head":"685a638216162b1d46d17d333464444a0bc3f8a8","path":"index.html","blob_sha":"cce31e826e5b4a5a3ee34f1214eb1ce47f6f59fb"},{"repository":"lkminiPhantomWorld/welcome","default_branch":"main","branch_count":12,"head":"1ab117eb7959fcd9123b9fd106878a6f3bab65f8","path":"🧭命名空間入口定位登記｜NamespacePortalLocatorRegistry.md","blob_sha":"1bdd1b1acc8f4e395ea37e0cc4a1e3e32ee8611d"},{"repository":"lkminiPhantomWorld/tiny-state-core","default_branch":"main","branch_count":1,"head":"78713bd5ed2c98de2b94086f4dd5f9d4f3a34e86","path":"SECURITY.md","blob_sha":"2f24af793bfe99c31d667b3d8454573acc886288"},{"repository":"lkminiPhantomWorld/vpoop-guardian","default_branch":"main","branch_count":1,"head":"c47d34a2b5b9aecc338e9663d34732f81d894b40","path":"SECURITY.md","blob_sha":"ae68b426feb30020b8b68a2fd3946a25d66f84d4"},{"repository":"lkminiPhantomWorld/Tools","default_branch":"main","branch_count":3,"head":"9ac6695a6cd64f8ccb518b8a71e48954b89d7a38","path":"README.md","blob_sha":"b85fe5f12491e6097f542dba87c41046e14d685a"},{"repository":"lkminiPhantomWorld/lkstylet","default_branch":"main","branch_count":3,"head":"a3d394a6f4b29387e963dc9d1cfccf5fe743dc30","path":"00_🧭正式命名規則｜中文優先命名規則.md","blob_sha":"04bee6fbd8264cedbf9f1850ff2d0986ef6c6a26"},{"repository":"lkminiPhantomWorld/PhantomCapsule","default_branch":"master","branch_count":3,"head":"b0f067ec3ff3be7922e767b84040884fd8de454f","path":"SHA256SUMS","blob_sha":"14c2d3aeaa529762d95cf8fbb0d3cdbd74ae7693"},{"repository":"lkminiPhantomWorld/lkmini-elf","default_branch":"main","branch_count":1,"head":"de181224df92d860102a5e06fe9d1edcd8a04ab0","path":"verified-main-flow/devices/📱此iPhone｜CurrentiPhone/projection/index.html","blob_sha":"e52ff7a53c2a1d2bae9e695b7a3ab74b4892e41e"},{"repository":"lkminiPhantomWorld/LKMini","default_branch":"seed_v0","branch_count":3,"head":"d22e70dc1397f4a896aec3fa43b0cccafae22575","path":"REVERSECHAIN","blob_sha":"1161c4f8d312b84e7c76316da6e9f3251a427d23"}],"branch_set":{"count":105,"sha256":"e680b51910b6fe8894f88e3b8951a5ea6f09e7154806e6b522f089bde0bc8d06","source_snapshot_blob":"1f066aaf4077575e6e48d84e1c421d34331f7472","changed":false},"output_evidence_changes":[{"scope":"輸出證據","repository":"ky46738-ops/LKMini.Public.tools","repo_id":"1260329511","default_branch":"main","branch":"main","commit_sha":"e908dd548986aa1b58beebdd1e5967b53bc904db","parent_commit":"bb1b1ae3f7765e227e2b2b0fed1ae37d4c329445","tree_sha":null,"path":"receipts/🧙🧚SitesAPI結構漂移素材鑑別回執｜SitesAPISchemaDriftMaterialCurationReceipt.md","blob_sha":"2d0b0897d6cd047cc20739cb053a1274683610da","receipt_claimed_blob_sha":"89064e434a5b4575a180d7abcd6c2f4691ea9db9","github_byte_size":null,"readback_local_byte_size":2540,"readback_local_sha256":"83ab8ad3a6fe4d0bb8971265553e8ac6bc3c7e02ade57a4e976a5131a860143a","modified_time":"2026-08-04T22:04:39Z","original_message":"curation: record Sites API schema drift material receipt","change_type":"新增","additions":68,"deletions":0,"summary_zh_tw":"新增 Sites API 結構漂移鑑別回執；但回執內宣稱的 GitHub Blob 與連接器實際 Blob 不一致。","workflow":{"combined_state":"pending","statuses":[],"workflow_runs":[],"run_count":0,"job_count":0},"risk_level":"高","risk_reason":"回執內稱 Blob 89064e…且 SameReceiptBlob=true；GitHub fetch_file／fetch_blob 實際 Blob 為 2d0b089…。","rollback_commit":"bb1b1ae3f7765e227e2b2b0fed1ae37d4c329445","wiring_impact":"證據一致性錯誤；不改變唯一 Identity、🧩LKMINI、🪞幻影膠囊或 A=A。","dedup_key":"ky46738-ops/LKMini.Public.tools／main／e908dd548986aa1b58beebdd1e5967b53bc904db／receipts/🧙🧚SitesAPI結構漂移素材鑑別回執｜SitesAPISchemaDriftMaterialCurationReceipt.md／2d0b0897d6cd047cc20739cb053a1274683610da"}],"prewrite_target_blobs":{"SNAPSHOT.json":"1f066aaf4077575e6e48d84e1c421d34331f7472","README.md":"69e99690c6406012d8550704273c5c53543038e0","animation-data.json":"1f066aaf4077575e6e48d84e1c421d34331f7472","STORYBOARD.md":"77062a213b86e2a94b64a85f36f75d788d1ca893","VOICEOVER.md":"da2522e930e0359fc0b39ee4e26cb570fa903f08","SUBTITLES.vtt":"23f24cc0c579827907eaf42b85c0d6b6aa52f5cb","animation.js":"a6bc9be85c618aa1cf6f17cfc9828d96b1eaad04","index.html":"94cae201471679cb343bc27bd82a2d046d60bf05","animation.svg":"2097abd3c9c4ec8367e401ac2cffefae7a70b9b6","AICORE.json":"bb1beaa9f90c3ad71e993a0ababbfe336b354301","LOCATOR.json":"e83bb61e8d5ea9cb297c254f40f36320146ebc8b","REVERSECHAIN.md":"e5702ef1efec9442f1b49e027cde49f90e356816","MANIFEST.json":"2b68da73c41de11886132662a01ccd891b0cca4f","SHA256SUMS.txt":"470e5a024e22a478dcb7e28a5186be3870f63f01","🪞幻影膠囊":"cdb77844eaea07ada540b6499aa03e2ad3d4b81a"},"tool_gaps":[{"item":"Tag","evidence":"GitHub 連接器沒有 Tag 列舉動作。","repair_a":"保存 Branch／Commit／Path／Blob 並標記錯誤。","repair_b":"新增 refs/tags 端點。"},{"item":"Tree SHA","evidence":"fetch_commit 未提供 Tree SHA，且沒有 fetch_tree。","repair_a":"使用 Commit diff 與 Path／Blob 證據。","repair_b":"新增 git/commits 與 git/trees 讀取端點。"},{"item":"Workflow Run／Job","evidence":"最新 Commit combined state=pending、statuses=0、PR 型 workflow_runs=0，沒有 Run ID。","repair_a":"保存空回執與錯誤。","repair_b":"擴充所有事件類型 Run 查詢。"},{"item":"GitHub 來源 ByteSize","evidence":"fetch_file／fetch_blob 不回傳來源 size。","repair_a":"保存 Blob SHA，讀回內容另計本地 ByteSize／SHA256。","repair_b":"回傳 Contents API size。"}],"status":"錯誤","status_reason":"素材、Repository、default branch、Branch、Commit、Path、Blob 與最新證據已驗證；回執 Blob 內外不一致，且 Tag、Tree SHA、完整 Run／Job、GitHub來源ByteSize缺少完整回執。","reverse_chain":"Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"}
+{
+  "type": "REVERSIBLE_DELTA_SNAPSHOT",
+  "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
+  "anchor": "> 🥃錨點｜版本=v1.6｜更新=2026-08-05 08:11 (Asia/Taipei)",
+  "root": "🧩LKMINI",
+  "root_metadata_sha256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
+  "container": "🪞幻影膠囊",
+  "axiom": "A=A",
+  "base_snapshot": {
+    "repository": "ky46738-ops/LKMini.Public.tools",
+    "branch": "main",
+    "path": "automation/GitHubRepositoryAnimationSprite/SNAPSHOT.json",
+    "commit": "760efca13ea1eb27fd62d7c4cf57fd76deec7032",
+    "blob": "1a1cef9d500f56db704ea7b7eedd765fd33fe086",
+    "anchor": "2026-08-05 06:38 Asia/Taipei"
+  },
+  "delta": "DELTA.json",
+  "prewrite_head": "e2020a286a8029c5f44e5980b3d6fd5142e59162",
+  "metrics": {
+    "repositories": 23,
+    "branches": 105,
+    "external_content_changes": 0,
+    "output_evidence_changes": 1,
+    "visual_assets": 31,
+    "svg": 3,
+    "html": 26,
+    "jpeg": 2,
+    "workflow_runs": 0,
+    "workflow_jobs": 0,
+    "dedup_duplicates": 0,
+    "high_risk": 1
+  },
+  "new_changes": [
+    {
+      "scope": "輸出證據",
+      "repository": "ky46738-ops/LKMini.Public.tools",
+      "repo_id": "1260329511",
+      "default_branch": "main",
+      "branch": "main",
+      "commit_sha": "e2020a286a8029c5f44e5980b3d6fd5142e59162",
+      "parent_commit": "f2ca41517292bc4511ccd1da0425a67eb10b67e4",
+      "tree_sha": null,
+      "path": "receipts/🧙🧚跨倉庫搬移安全工作流素材鑑別回執｜CrossRepositoryMigrationWorkflowMaterialCurationReceipt.md",
+      "blob_sha": "f53aa3175f446b8a34cca0fda01b2c9b24f86b7f",
+      "github_byte_size": null,
+      "readback_local_byte_size": 2578,
+      "readback_local_sha256": "d0a996a7c28a192555786ec0d3144260ed42bae1ede40369433365c725957b7f",
+      "modified_time": "2026-08-04T23:26:22Z",
+      "original_message": "入庫：跨倉庫搬移安全工作流素材鑑別回執",
+      "change_type": "新增",
+      "additions": 60,
+      "deletions": 0,
+      "summary_zh_tw": "新增跨倉庫搬移安全工作流鑑別回執，保存現行／歷史 Commit 與 Blob、SameIdentity 裁決及六項安全強化；沒有觸發搬移工作流。",
+      "workflow": {"combined_status": [], "workflow_runs": [], "run_count": 0, "job_count": 0},
+      "risk_level": "低",
+      "risk_reason": "只新增證據文件；來源工作流未觸發，MIGRATE_PAT 權限仍未驗證。",
+      "rollback_commit": "f2ca41517292bc4511ccd1da0425a67eb10b67e4",
+      "wiring_impact": "補強跨倉庫搬移安全工作流的版本與位元證據，不改變唯一 Identity、🧩LKMINI、🪞幻影膠囊或 A=A。",
+      "dedup_key": "ky46738-ops/LKMini.Public.tools／main／e2020a286a8029c5f44e5980b3d6fd5142e59162／receipts/🧙🧚跨倉庫搬移安全工作流素材鑑別回執｜CrossRepositoryMigrationWorkflowMaterialCurationReceipt.md／f53aa3175f446b8a34cca0fda01b2c9b24f86b7f",
+      "source_current": {"repository": "lkminiPhantomWorld/lk-semantic-civilization-runtime", "commit": "017710de451850b039ec1efdba7fe5b08c4ec6d0", "path": ".github/workflows/migrate-to-lk-unique-gate.yml", "blob": "862a8fb870d382e8eec4082e82242896fbf717a1"},
+      "source_historical": {"commit": "f5581489b7cce808472cc15a20f6f8f67d3b220c", "blob": "65b29c84330335b86adb8327e91861d2315cd4c4"}
+    }
+  ],
+  "branch_set": {"count": 105, "changed": false, "evidence": "本回合逐倉庫 search_branches 重新讀取"},
+  "asset_set": {"count": 31, "svg": 3, "html": 26, "jpeg": 2, "changed": false, "evidence": "GitHub search 與 v1.5 素材清單交叉核對"},
+  "workflow": {"new_commit_statuses": [], "new_commit_runs": [], "source_commit_statuses": [], "source_commit_runs": [], "run_count": 0, "job_count": 0, "status": "錯誤"},
+  "persistent_risks": [
+    {"level": "高", "item": "Sites API 回執 Blob 內外不一致", "evidence": "回執宣稱 89064e434a5b4575a180d7abcd6c2f4691ea9db9；GitHub 實際 2d0b0897d6cd047cc20739cb053a1274683610da。"},
+    {"level": "錯誤", "item": "Tag", "evidence": "GitHub 連接器沒有 Tag 列舉動作。"},
+    {"level": "錯誤", "item": "Tree SHA", "evidence": "fetch_commit 未提供 Tree SHA，且沒有 fetch_tree。"},
+    {"level": "錯誤", "item": "Workflow Run／Job", "evidence": "新 Commit 與來源工作流 Commit 的 statuses／workflow_runs 均為空，沒有 Run ID。"},
+    {"level": "錯誤", "item": "GitHub 來源 ByteSize", "evidence": "fetch_file／fetch_blob 不回傳來源 size；本地只對讀回內容另算 ByteSize／SHA256。"}
+  ],
+  "tool_gaps": [
+    {"item": "Tag", "evidence": "GitHub 連接器沒有 Tag 列舉動作。", "repair_a": "保留錯誤並保存 Branch／Commit／Path／Blob。", "repair_b": "新增 refs/tags 端點。"},
+    {"item": "Tree SHA", "evidence": "fetch_commit 未提供 Tree SHA，且沒有 fetch_tree。", "repair_a": "使用 Commit diff 與 Path／Blob 證據。", "repair_b": "新增 git/commits 與 git/trees 端點。"},
+    {"item": "Workflow Run／Job", "evidence": "statuses 與 PR 型 workflow_runs 均為空，沒有 Run ID。", "repair_a": "保存空回執與錯誤。", "repair_b": "擴充所有事件類型的 Run／Job 查詢。"},
+    {"item": "GitHub 來源 ByteSize", "evidence": "fetch_file／fetch_blob 不回傳來源 size。", "repair_a": "保存 Blob SHA，讀回內容另計本地 ByteSize／SHA256。", "repair_b": "回傳 Contents API size。"}
+  ],
+  "status": "錯誤",
+  "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"
+}
