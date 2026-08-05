@@ -1,0 +1,77 @@
+{
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-05 14:12 (Asia/Taipei)｜狀態=完成",
+  "version": null,
+  "edition": "正版",
+  "status": "完成",
+  "captured_at": "2026-08-05T06:12:33Z",
+  "state": {
+    "retired_items": 7,
+    "source_surface_items_after_commit": 0,
+    "historical_items_after_commit": 7,
+    "byte_identity_preserved": true,
+    "history_rewrite": false,
+    "permanent_delete_count": 0
+  },
+  "base_commit": "8b98a67df907d939b4b42562cf705cee611c3b50",
+  "items": [
+    {
+      "source": "receipts/🧙🧚GitHub倉庫製動畫精靈v1.5素材鑑別入庫回執｜GitHubRepositoryAnimationSpriteV15MaterialCurationReceipt.md",
+      "destination": "🗄️歷史錯誤紀錄｜HistoricalErrorRecords/📦帶版本號成品退役｜NumberedArtifactRetirement/🧙🧚GitHub倉庫製動畫精靈v1.5素材鑑別入庫回執｜GitHubRepositoryAnimationSpriteV15MaterialCurationReceipt.md",
+      "blob_sha1": "c5e53b1336a1a5699b7b352b64f7a6bc2dea0991",
+      "sha256": "6bed7f3d301eb2c6f507248fbef047ba2a2f5e081483b70391704d0bcd2ed1af",
+      "bytes": 2885
+    },
+    {
+      "source": "receipts/🧙🧚GitHub動畫精靈v1.6快照漂移修復回執｜GitHubAnimationV16SnapshotDriftRepair.md",
+      "destination": "🗄️歷史錯誤紀錄｜HistoricalErrorRecords/📦帶版本號成品退役｜NumberedArtifactRetirement/🧙🧚GitHub動畫精靈v1.6快照漂移修復回執｜GitHubAnimationV16SnapshotDriftRepair.md",
+      "blob_sha1": "2475c9ebd97e6e58f2e95683e0a0cff5dccfd021",
+      "sha256": "c9df4f8e3f49edf72a7ae285a4774e78e6f665c21bbea6034d02f3017acf3907",
+      "bytes": 2345
+    },
+    {
+      "source": "receipts/🧙🧚GitHub動畫精靈v2.0漏算多倉庫校正回執｜GitHubAnimationV20MultiRepositoryCorrection.md",
+      "destination": "🗄️歷史錯誤紀錄｜HistoricalErrorRecords/📦帶版本號成品退役｜NumberedArtifactRetirement/🧙🧚GitHub動畫精靈v2.0漏算多倉庫校正回執｜GitHubAnimationV20MultiRepositoryCorrection.md",
+      "blob_sha1": "9ad3a56c25ee3ec74a6d2779b13ec53a365382de",
+      "sha256": "2faa61fafb5ce4e376098a69985316a0ad5e751a7aef17d1e40d9a3821648126",
+      "bytes": 3104
+    },
+    {
+      "source": "receipts/🧙🧚GitHub控制面v3.1與全連結器同步素材鑑別回執｜GitHubControlPlaneV31ConnectorSyncMaterialCurationReceipt.md",
+      "destination": "🗄️歷史錯誤紀錄｜HistoricalErrorRecords/📦帶版本號成品退役｜NumberedArtifactRetirement/🧙🧚GitHub控制面v3.1與全連結器同步素材鑑別回執｜GitHubControlPlaneV31ConnectorSyncMaterialCurationReceipt.md",
+      "blob_sha1": "79ebf12e89972b79e9f2f2c53dd453cedce04a6e",
+      "sha256": "86282e47460a4cff731c2d182cca9bcc5aaa667d946835fc6d222ae2602a70c9",
+      "bytes": 3441
+    },
+    {
+      "source": "receipts/🧙🧚GitHub控制面v3.2素材鑑別回執｜GitHubControlPlaneV32MaterialCurationReceipt.md",
+      "destination": "🗄️歷史錯誤紀錄｜HistoricalErrorRecords/📦帶版本號成品退役｜NumberedArtifactRetirement/🧙🧚GitHub控制面v3.2素材鑑別回執｜GitHubControlPlaneV32MaterialCurationReceipt.md",
+      "blob_sha1": "38a783bd1a01ff9b367d21b42d1343f86a8b2aed",
+      "sha256": "ee1888dbc2f32af48fa0426aa9506e63f6de9b1c7bc74c30131d5e46feaf9053",
+      "bytes": 1813
+    },
+    {
+      "source": "receipts/🧙🧚GitHub控制面v3與Sitesv18缺口素材鑑別回執｜GitHubControlPlaneV3SitesV18GapMaterialCurationReceipt.md",
+      "destination": "🗄️歷史錯誤紀錄｜HistoricalErrorRecords/📦帶版本號成品退役｜NumberedArtifactRetirement/🧙🧚GitHub控制面v3與Sitesv18缺口素材鑑別回執｜GitHubControlPlaneV3SitesV18GapMaterialCurationReceipt.md",
+      "blob_sha1": "d71cbdc1dd9b0a975a5ec13b1766fcb5c1914dbd",
+      "sha256": "95dedb15912b0036b5752325a77bbd91b20d0058ddb90654136cfc139da3f020",
+      "bytes": 3576
+    },
+    {
+      "source": "receipts/🧙🧚Sites現行版本13素材鑑別回執｜SitesCurrentVersion13MaterialCurationReceipt.md",
+      "destination": "🗄️歷史錯誤紀錄｜HistoricalErrorRecords/📦帶版本號成品退役｜NumberedArtifactRetirement/🧙🧚Sites現行版本13素材鑑別回執｜SitesCurrentVersion13MaterialCurationReceipt.md",
+      "blob_sha1": "5bbed879abb22b1552a109e4863f7b9a157b8dcc",
+      "sha256": "68902e17fbafc977fc9cecfbe428f5a2a93ca0d7b8c7120f8765b3af718e4095",
+      "bytes": 2160
+    }
+  ],
+  "official_release_policy": {
+    "official_edition": "正版",
+    "official_version": null,
+    "numbered_artifacts": {
+      "role": "歷史證據",
+      "active": false,
+      "authorized": false,
+      "delete": false
+    }
+  }
+}
