@@ -1,27 +1,24 @@
 {
   "type": "IdentityContainer",
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
-  "anchor": "> 🥃錨點｜版本=v1.7｜更新=2026-08-05 09:02 (Asia/Taipei)",
+  "anchor": "> 🥃錨點｜版本=v1.8｜更新=2026-08-05 10:11 (Asia/Taipei)",
   "root": "🧩LKMINI",
   "root_metadata_sha256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
   "axiom": "A=A",
   "github_coordinate": "ky46738-ops/LKMini.Public.tools/main/automation/GitHubRepositoryAnimationSprite/",
   "snapshot": "SNAPSHOT.json",
-  "manifest": {
-    "path": "MANIFEST.json",
-    "role": "external_package_closure_manifest"
-  },
+  "manifest": {"path":"MANIFEST.json","role":"external_package_closure_manifest"},
   "locator": "LOCATOR.json",
   "readback": "GITHUB_READBACK.json",
   "reversechain": "REVERSECHAIN.md",
-  "status": "錯誤",
-  "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A",
   "package": {
-    "filename": "🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite_PACKAGE_20260805-090200_TPE.zip",
+    "filename": "🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite_PACKAGE_20260805-101113_TPE.zip",
     "file_count": 21,
     "bytes": "EXTERNAL_CLOSURE_MANIFEST",
     "sha256": "EXTERNAL_CLOSURE_MANIFEST",
     "crc_error": null
   },
-  "package_internal_manifest": "MANIFEST.json inside PACKAGE; digest recorded in external MANIFEST.json"
+  "package_internal_manifest": "MANIFEST.json inside PACKAGE; digest recorded in external MANIFEST.json",
+  "status": "錯誤",
+  "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"
 }
