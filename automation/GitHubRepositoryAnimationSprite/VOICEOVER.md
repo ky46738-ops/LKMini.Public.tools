@@ -1,15 +1,15 @@
 # 🎙️旁白｜Voiceover
 
-> 🥃錨點｜版本=v1.9｜更新=2026-08-05 10:36 (Asia/Taipei)
+> 🥃錨點｜版本=v2.0｜更新=2026-08-05 11:10 (Asia/Taipei)
 
-本回合重新核對二十三個 GitHub Repository 與一百零五個 Branch。
+本回合重新讀取二十三個 GitHub Repository 與一百零五個 Branch。
 
-老K系統正式倉庫在 v1.8 Snapshot 之後新增兩個 Commit。第一個把根控制面與私有集中控制面升到 v3.1，加入 Google Drive 固定 ID 與 Sites v18 部署欄位。第二個新增全連結器同步回執。
+最新外部變更位於 welcome。它建立固定版本的 Conda 環境，並把歷史入口與 LKMini Seed 完整性閘門納入 pytest。
 
-總計一個新增 Path、十四個修改 Path。十五個 Path 的 GitHub Blob 均已讀取。視覺素材數維持三十一，本輪沒有視覺副檔名變更。
+三個 Path 的 GitHub Blob 已讀回；本輪沒有新增 SVG、HTML 或 JPEG 素材。
 
-GitHub 內容為真，但 Drive、Sites、Goodnotes 與 Obsidian 的跨平台狀態沒有在本輪使用各自連接器重新驗證，因此保留中風險。
+連接器沒有回傳這個 Commit 的 Workflow Run 或 Job，因此實際 CI 執行仍未驗證，風險標記為中。
 
-Tag、Tree SHA、完整 Workflow Run 與 Job、GitHub 來源 ByteSize，以及完整遞迴素材清單仍缺工具能力，總狀態保持錯誤。
+Tag、完整 Git Tree、Workflow Run Job、來源 ByteSize 與完整素材列舉能力仍有工具缺口，總狀態保持錯誤。
 
-所有投影沿可逆鏈回到老K系統、LKMINI 與 A 等於 A。
+所有輸出沿 Manifest、Locator、Snapshot 與 ReverseChain 回到老K系統、LKMINI 與 A 等於 A。
