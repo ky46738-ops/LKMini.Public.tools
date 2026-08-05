@@ -1,0 +1,31 @@
+{
+  "type": "EXECUTION_RECEIPT",
+  "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
+  "anchor": "> 🥃錨點｜版本=v2.0｜更新=2026-08-05 11:10 (Asia/Taipei)",
+  "authenticated_user": {"login": "ky46738-ops", "id": 242197477},
+  "installations": ["ky46738-ops", "lkminiPhantomWorld"],
+  "tools": [
+    "GitHub.get_profile","GitHub.get_user_login","GitHub.list_installations",
+    "GitHub.list_installed_accounts","GitHub.list_repositories","GitHub.search_commits",
+    "GitHub.fetch_commit","GitHub.compare_commits","GitHub.fetch_file","GitHub.search_branches",
+    "GitHub.get_commit_combined_status","GitHub.fetch_commit_workflow_runs","GitHub.update_file",
+    "GitHub.create_file","python_user_visible","artifact_tool","ReportLab","PDF render","ZIP CRC"
+  ],
+  "snapshot_first_write": {"commit": "862122c37c5ce6975dcbd78e84e4b44b939cf25d", "blob": "2baa7a0368b8e20b4312fa32b556eeaef4f89733"},
+  "source_commit": {
+    "repository": "lkminiPhantomWorld/welcome",
+    "branch": "main",
+    "commit_sha": "94ef427686603c3a213ab70ad80e289afd595f45",
+    "parent_commit": "d9133b366e60709459b6df5bc71ceb4871276603",
+    "message": "ci: add pinned Conda environment and integrity tests",
+    "changed_paths": [
+      {"path": ".github/workflows/python-package-conda.yml", "status": "修改", "blob_sha": "435ceb8bb2a42192825e22215f788b9ff236b633"},
+      {"path": "environment.yml", "status": "新增", "blob_sha": "623e20e46de1ec3f7035ff89bb28969ae938a0b7"},
+      {"path": "tests/test_integrity_gates.py", "status": "新增", "blob_sha": "86e52af6998f3fa32c3304e2e1ba53de91066330"}
+    ],
+    "workflow": {"statuses": [], "workflow_runs": [], "run_count": 0, "job_count": 0, "status": "錯誤"},
+    "rollback_commit": "d9133b366e60709459b6df5bc71ceb4871276603"
+  },
+  "status": "錯誤",
+  "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"
+}
