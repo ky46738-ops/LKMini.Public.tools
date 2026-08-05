@@ -1,1 +1,17 @@
-{"identity":"LKMINI://automation/GitHubRepositoryAnimationSprite","anchor":"> 🥃錨點｜版本=v1.5｜更新=2026-08-05 06:38 (Asia/Taipei)","github":{"repository":"ky46738-ops/LKMini.Public.tools","branch":"main","prewrite_head":"e908dd548986aa1b58beebdd1e5967b53bc904db","path_prefix":"automation/GitHubRepositoryAnimationSprite"},"baseline":{"head":"6a58cbf4069ae3fb7c225d3f4ae8a22c2a6a9039","snapshot_blob":"1f066aaf4077575e6e48d84e1c421d34331f7472"},"latest_change":{"commit":"e908dd548986aa1b58beebdd1e5967b53bc904db","parent":"bb1b1ae3f7765e227e2b2b0fed1ae37d4c329445","path":"receipts/🧙🧚SitesAPI結構漂移素材鑑別回執｜SitesAPISchemaDriftMaterialCurationReceipt.md","actual_blob":"2d0b0897d6cd047cc20739cb053a1274683610da","claimed_blob":"89064e434a5b4575a180d7abcd6c2f4691ea9db9"},"local_root":"/mnt/data/github_repository_animation_sprite","reverse_chain":"Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"}
+{
+  "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
+  "anchor": "> 🥃錨點｜版本=v1.7｜更新=2026-08-05 09:02 (Asia/Taipei)",
+  "github": {
+    "repository": "ky46738-ops/LKMini.Public.tools",
+    "branch": "main",
+    "path_prefix": "automation/GitHubRepositoryAnimationSprite",
+    "snapshot_commit": "21d7ce36940dddf7397d1aae143abc96f4091cd4",
+    "snapshot_blob": "0090434e760fffc83da8ddebdfbc8a3184f60937"
+  },
+  "source_change": {
+    "commit": "cbb3f2ebfa01c899c50080de73376142541450ea",
+    "path": "receipts/🧙🧚GitHub動畫精靈v1.6快照漂移修復回執｜GitHubAnimationV16SnapshotDriftRepair.md",
+    "blob": "待同座標讀回"
+  },
+  "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"
+}
