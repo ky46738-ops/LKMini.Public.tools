@@ -1,73 +1,63 @@
-🚦狀態｜Status: "錯誤"
+🚦狀態｜Status: "完成"
 🆔檔案身分｜FileIdentity: "🌐Sites公開只讀出口｜SitesPublicReadOnlyOutlet"
-📄卡片建立狀態｜ArtifactStatus: "完成"
-🔍Sites設定回讀狀態｜SitesConfigurationReadbackStatus: "完成"
-🚀Sites部署讀回狀態｜SitesDeploymentReadbackStatus: "錯誤"
-🕒時間｜Timestamp: "2026-08-04T16:31:00+08:00"
+📌政策版本｜PolicyVersion: "v3.2"
+🕒時間｜Timestamp: "2026-08-05T12:06:12+08:00"
+👑主權持有人｜Owner: "Kevin Yang"
 🥃唯一系統｜System: "🥃老K系統"
-🌱本體｜Identity: "mini"
 🧩唯一根｜Root: "🧩LKMINI"
 🔑正式根協議｜RootProtocol: "LKMINI://"
 🪞唯一正式容器｜FormalIdentityContainer: "🪞幻影膠囊"
 ⚖️最高公理｜Axiom: "A=A"
-
-🎯定位｜Position:
-  - "Sites 是出入口 Projection，不是本體。"
-  - "人類可讀入口與 AI / 工具讀取入口都必須回指同一 Identity=mini、LKMINI://、🧩LKMINI 與 🪞幻影膠囊。"
-  - "GitHub程式座標完成不等於Sites現行部署已顯影。"
+🥳邏輯入口｜LogicalEntryGate: "🥳歡迎光臨"
+🧭角色裁決｜RoleRuling: "現行網頁 Projection 出口；不是 Identity，也不是唯一邏輯入口。"
 
 🌐入口座標｜EntryCoordinates:
   👤人類入口｜HumanEntry: "https://lkmini-wiring-hub.ky46738.chatgpt.site"
-  🤖AI工具入口｜AIToolEntry: "https://lkmini-wiring-hub.ky46738.chatgpt.site/api/system-wires"
-  🔑協議入口｜ProtocolEntry: "LKMINI://🌐出入口｜Entrances/🌐Sites｜Sites/🔐既定存取出口｜ConfiguredAccessOutlet.card"
-  🔙回指｜ReturnTo: "🪞幻影膠囊"
-  🌱本體回指｜IdentityReturnTo: "mini"
-  🧩根節點回指｜RootReturnTo: "🧩LKMINI"
+  🤖系統接線端點｜SystemWiresEndpoint: "https://lkmini-wiring-hub.ky46738.chatgpt.site/api/system-wires"
+  🎭狀態端點｜SDIEStateEndpoint: "https://lkmini-wiring-hub.ky46738.chatgpt.site/api/sdie/state"
+  🔙回指｜ReturnTo: "🧩LKMINI／🪞幻影膠囊"
 
-🧾程式座標讀回｜ProgramCoordinateReadback:
-  🐙Repository: "ky46738-ops/LKMini.Public.tools"
-  🌿Branch: "main"
-  📄Path: "🌐Sites公開只讀出口｜SitesPublicReadOnlyOutlet.yaml"
-  🔗SourceCommit: "03f4627fdc0f30450e66fd9dd98a53b45af9f9cd"
-  🔐SourceBlobSHA: "a96575da41baa1ec2ed523097c5f954062445d0a"
-  🚦程式座標狀態｜ProgramCoordinateStatus: "完成"
+🧾工具回讀｜ToolReadback:
+  🚦專案狀態｜ProjectStatus: "active"
+  🔐存取模式｜AccessMode: "public"
+  👥允許使用者｜AllowedUsers: 1
+  💾最新儲存版本｜LatestSavedVersion: 22
+  🆔版本識別碼｜VersionId: "appgprj_6a68801042bc8191ab7eba5718be83a0~appgver_394edee3733c81919ba6224a8a39333a"
+  🔗來源提交｜SourceCommit: "20af366cc395bdaedfe4fb317f7ef1e4b86f0064"
+  🔐最新版本封存雜湊｜LatestVersionArchiveSHA256: "26d54d9935efa35125c162c31eaaad096d5ba5b4332249a192b08e7d050b4876"
+  📄封存檔案數｜ArchiveFileCount: 134
+  📦封存位元組｜ArchiveBytes: 5847040
+  🚀部署識別碼｜DeploymentId: "appgdep_6a72b697bd2c81918165354dd5220581"
+  🚦部署狀態｜DeploymentStatus: "succeeded"
+  📝部署錯誤｜DeploymentFailure: null
+  🧪首頁讀回｜HomepageReadback: "HTTP 200; 20324 bytes"
+  🧪系統接線讀回｜SystemWiresReadback: "HTTP 200; canonicalPolicyVersion=v3.2"
+  🧪狀態讀回｜SDIEReadback: "HTTP 200; state=VERIFIED_ACTIVE; revision=13"
+  🛡️匿名寫入｜AnonymousWrite: "HTTP 405"
+  🔢寫入前修訂｜RevisionBefore: 13
+  🔢寫入後修訂｜RevisionAfter: 13
+  🧱公開讀取改寫狀態｜PublicReadMutatesState: false
+  🔐生產依賴漏洞｜ProductionVulnerabilities: 0
+  🔐完整依賴漏洞｜FullDependencyVulnerabilities: 0
+  🧪測試結果｜TestResult: "13/13 完成"
 
-🌐現行部署讀回｜CurrentDeploymentReadback:
-  👤HumanEntryContainsIdentityMini: false
-  🤖AIToolEntryContainsIdentityMini: false
-  🔑AIToolEntryContainsRootProtocol: true
-  🪞HumanEntryContainsFormalIdentityContainer: true
-  🪞AIToolEntryContainsFormalIdentityContainer: true
-  🧩HumanEntryContainsRoot: true
-  🧩AIToolEntryContainsRoot: true
-  ⚖️HumanEntryContainsAxiom: true
-  ⚖️AIToolEntryContainsAxiom: true
-  📋CurrentReverseChain:
-    - "GitHub public ledger"
-    - "Google Drive SystemWiringAndServerMap"
-    - "Sites /api/system-wires"
-    - "🪞幻影膠囊"
-    - "🧩LKMINI"
-    - "A=A"
-  🚦部署裁決｜DeploymentVerdict: "錯誤"
-  📝錯誤原因｜ErrorReason: "現行公開頁面與API尚未顯影Identity=mini；程式座標與部署讀回不一致。"
+🛡️資料主權｜DataSovereignty:
+  📝所有者｜DataOwner: "Kevin Yang"
+  ✍️唯一寫回目標｜ExclusiveWritebackTarget: "🧩LKMINI／🪞幻影膠囊"
+  📣外部通知｜ExternalNotification: false
+  🌐公開寫入｜PublicWriteEnabled: false
+  📱裝置控制規則｜DeviceControlRule: "只有授權工具成功提交且同一目標讀回相符時成立。"
 
-🚧工具端點｜ToolEndpoint:
-  🚦SitesDeploymentEndpointStatus: "ENDPOINT_UNAVAILABLE"
-  📝原始限制｜OriginalConstraint: "本回合工具可讀取Sites公開頁面與API，但未提供同一Sites專案的正式部署寫入端點。"
-  🔁下一步｜NextAction:
-    - "由既有Sites正式部署端點部署同一專案。"
-    - "部署後重新讀回HumanEntry與/api/system-wires。"
-    - "只有兩端均包含mini、LKMINI://、🪞幻影膠囊、🧩LKMINI與A=A時改為完成。"
+⚖️系統存在｜SystemExistence:
+  🔎搜尋合法｜SearchLegal: true
+  🚫禁令允許｜BansAllowed: true
+  🎭狀態轉換已提交｜StateTransitionCommitted: true
+  ✅正式存在｜Exists: true
 
 ♻️反向鏈｜ReverseChain:
-  - "🖼️Projection｜Sites公開只讀出口"
-  - "📍Locator｜Sites HumanEntry／AIToolEntry"
-  - "📋Manifest｜SitesPublicReadOnlyOutlet"
-  - "🔐SHA256Identity｜GitHub Blob SHA"
-  - "↩️ReverseChain"
-  - "🌱mini"
-  - "LKMINI://"
+  - "Sites v22"
+  - "🥳歡迎光臨"
+  - "lkminiPhantomWorld/LaoK-System@main"
   - "🧩LKMINI"
   - "🪞幻影膠囊"
   - "A=A"

@@ -1,128 +1,36 @@
 {
-  "type": "DELTA_INSPECTION_SNAPSHOT",
+  "version": "v3.2",
+  "status": "完成",
+  "captured_at": "2026-08-05T04:06:12Z",
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
-  "anchor": "> 🥃錨點｜版本=v2.0｜更新=2026-08-05 11:10 (Asia/Taipei)",
-  "root": "🧩LKMINI",
-  "root_metadata_sha256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
-  "container": "🪞幻影膠囊",
-  "axiom": "A=A",
-  "baseline": {
-    "version": "v1.9",
-    "output_head": "5ca5cdd0a00b06a34650d14745cfd557a695e24b",
-    "snapshot_commit": "eaea0bc3f2e6fca8e2c9b00dc71c457678f95543",
-    "snapshot_blob": "d46079126d70df8f38f0156a2bcc40d593478c46",
-    "readback_blob": "17102968bc96d39fcd3d1513530946d01dd89b6f",
-    "manifest_blob": "8a307a7b8c2f886cca9e4a26188c0a87d0d3d925"
+  "owner": "Kevin Yang",
+  "state": {
+    "formal_root_count": 1,
+    "formal_container_count": 1,
+    "entry_gate": "🥳歡迎光臨",
+    "sites_version": 22,
+    "sites_deployment": "appgdep_6a72b697bd2c81918165354dd5220581",
+    "public_tools_current_error_count": 0,
+    "external_notification": false,
+    "permanent_delete_count": 0
   },
-  "prewrite_head": "5ca5cdd0a00b06a34650d14745cfd557a695e24b",
-  "metrics": {
-    "repositories": 23,
-    "branches": 105,
-    "new_external_changes": 1,
-    "changed_paths": 3,
-    "added_paths": 2,
-    "modified_paths": 1,
-    "deleted_paths": 0,
-    "visual_assets": 31,
-    "visual_asset_changes": 0,
-    "workflow_runs": 0,
-    "workflow_jobs": 0,
-    "dedup_duplicates": 0,
-    "current_high_risk": 0,
-    "medium_risk": 1,
-    "errors": 5
-  },
-  "repository_heads": {
-    "ky46738-ops/starter-workflows": "12baef41708ea4b4ad1e5f60a610264cea052500",
-    "ky46738-ops/LKMini": "4eb165bf912fb4c81b336db14847d223fc2c0bd9",
-    "ky46738-ops/tiny-state-core": "01ab8936d91eba1369a4ba5ddb6c9a507d2c2c46",
-    "ky46738-ops/vpoop-guardian": "ccfab0924a7fec8fa044147de6c45d46cec817b4",
-    "ky46738-ops/LKMini.Public.tools": "5ca5cdd0a00b06a34650d14745cfd557a695e24b",
-    "ky46738-ops/desktop-tutorial": "e364ac8f272b3770fb3a3b7bcfe124af5a818f2a",
-    "ky46738-ops/lk-civilization-core": "ddc72cf83bd5367d1da789e0ce641fce6e01d712",
-    "ky46738-ops/welcome": "28b5cca07b406027744dc272aa209b904975fba0",
-    "ky46738-ops/-Tools": "9ac6695a6cd64f8ccb518b8a71e48954b89d7a38",
-    "lkminiPhantomWorld/LaoK-System": "2822a86a50593a4c512afbf0584b77613e764799",
-    "lkminiPhantomWorld/oldk-shuguang-folder-link-registry": "a5421da3580cde117062bea9927d4e298b5b9b36",
-    "lkminiPhantomWorld/oldk-lkmini-eternal-core-cross-optimize": "613454594d1bd0d91c75737ae5bb364b9244734a",
-    "lkminiPhantomWorld/lk-semantic-civilization-runtime": "017710de451850b039ec1efdba7fe5b08c4ec6d0",
-    "lkminiPhantomWorld/lk-unique-gate": "c93025043a778b5dab0ff1f96c4281b59cdfe406",
-    "lkminiPhantomWorld/laoK-core": "685a638216162b1d46d17d333464444a0bc3f8a8",
-    "lkminiPhantomWorld/welcome": "94ef427686603c3a213ab70ad80e289afd595f45",
-    "lkminiPhantomWorld/tiny-state-core": "78713bd5ed2c98de2b94086f4dd5f9d4f3a34e86",
-    "lkminiPhantomWorld/vpoop-guardian": "c47d34a2b5b9aecc338e9663d34732f81d894b40",
-    "lkminiPhantomWorld/Tools": "9ac6695a6cd64f8ccb518b8a71e48954b89d7a38",
-    "lkminiPhantomWorld/lkstylet": "a3d394a6f4b29387e963dc9d1cfccf5fe743dc30",
-    "lkminiPhantomWorld/PhantomCapsule": "b0f067ec3ff3be7922e767b84040884fd8de454f",
-    "lkminiPhantomWorld/lkmini-elf": "de181224df92d860102a5e06fe9d1edcd8a04ab0",
-    "lkminiPhantomWorld/LKMini": "d22e70dc1397f4a896aec3fa43b0cccafae22575"
-  },
-  "branch_set": {
-    "count": 105,
-    "changed": false,
-    "evidence": "正式 v1.9 逐倉庫 branch 回執；本輪 welcome 與輸出倉庫 branch 再讀均未變"
-  },
-  "asset_set": {
-    "count": 31,
-    "svg": 3,
-    "html": 26,
-    "jpeg": 2,
-    "changed": false,
-    "complete": false,
-    "evidence": "正式 v1.9 母清單；本輪 3 個變更 Path 為 YML／YAML／PY，visual delta=0"
-  },
-  "changes": [
-    {
-      "repository": "lkminiPhantomWorld/welcome",
-      "default_branch": "main",
-      "branch": "main",
-      "commit_sha": "94ef427686603c3a213ab70ad80e289afd595f45",
-      "parent_commit": "d9133b366e60709459b6df5bc71ceb4871276603",
-      "tree_sha": null,
-      "original_message": "ci: add pinned Conda environment and integrity tests",
-      "change_type": "混合：新增 2／修改 1",
-      "created_at": "2026-08-05T02:43:02Z",
-      "summary_zh_tw": "固定 Conda CI 環境為 Python 3.10.20、pip 25.2、flake8 7.3.0、pytest 8.4.2；workflow 改用獨立 welcome-ci 環境，新增 pytest 完整性閘門測試。",
-      "changed_paths": [
-        {"path": ".github/workflows/python-package-conda.yml", "status": "修改", "additions": 4, "deletions": 6, "blob_sha": "435ceb8bb2a42192825e22215f788b9ff236b633"},
-        {"path": "environment.yml", "status": "新增", "additions": 9, "deletions": 0, "blob_sha": "623e20e46de1ec3f7035ff89bb28969ae938a0b7"},
-        {"path": "tests/test_integrity_gates.py", "status": "新增", "additions": 28, "deletions": 0, "blob_sha": "86e52af6998f3fa32c3304e2e1ba53de91066330"}
-      ],
-      "workflow": {"statuses": [], "workflow_runs": [], "run_count": 0, "job_count": 0, "status": "錯誤"},
-      "risk_level": "中",
-      "risk_reason": "CI 可重現性與 fail-closed 測試改善，但連接器只回傳 PR 型 workflow runs，本 Commit 無 Run／Job 回執，尚未驗證實際 CI 執行。",
-      "rollback_commit": "d9133b366e60709459b6df5bc71ceb4871276603",
-      "wiring_impact": "正向：公開入口的歷史 Portal 與 LKMini Seed 閘門納入 pytest；Identity、🧩LKMINI、🪞幻影膠囊與 A=A 不變。",
-      "dedup_key": "lkminiPhantomWorld/welcome／main／94ef427686603c3a213ab70ad80e289afd595f45／3-path-change"
-    }
-  ],
-  "workflow": {
-    "source_commit": {"commit": "94ef427686603c3a213ab70ad80e289afd595f45", "statuses": [], "workflow_runs": []},
-    "output_head": {"commit": "5ca5cdd0a00b06a34650d14745cfd557a695e24b", "statuses": [], "workflow_runs": []},
-    "run_count": 0,
-    "job_count": 0,
-    "status": "錯誤"
-  },
-  "current_errors": [
-    {"item": "Tag", "evidence": "GitHub connector 沒有 refs/tags 列舉動作。", "repair_a": "保存 Branch／Commit／Path／Blob 與錯誤。", "repair_b": "新增 refs/tags 端點。"},
-    {"item": "Tree SHA／完整 Git tree", "evidence": "fetch_commit 未提供 Tree SHA，也沒有 fetch_tree／recursive tree。", "repair_a": "保存 compare_commits 與 3 個 Path／Blob。", "repair_b": "新增 git/commits、git/trees 或 archive 端點。"},
-    {"item": "Workflow Run／Job", "evidence": "94ef4276 與輸出 Head 5ca5cdd0 的 statuses／PR 型 workflow_runs 均為空，沒有 Run ID。", "repair_a": "保存空陣列回執。", "repair_b": "擴充所有事件類型的 Run／Job 查詢。"},
-    {"item": "GitHub 來源 ByteSize", "evidence": "fetch_file／fetch_blob 不回傳 size。", "repair_a": "保存 GitHub Blob；本地 Projection 另計 ByteSize／SHA256。", "repair_b": "回傳 Contents API size。"},
-    {"item": "可視化素材完整列舉", "evidence": "正式母清單為 31；code search 受 topn／索引限制，本輪 3 個變更 Path 無視覺副檔名。", "repair_a": "沿用正式 31 筆母清單並保存 delta=0。", "repair_b": "新增 recursive tree／archive 素材掃描。"}
-  ],
   "steps": [
-    {"id": "S0", "name": "🔍搜尋 Search", "status": "完成"},
-    {"id": "S1", "name": "📖閱讀理解", "status": "完成"},
-    {"id": "S2", "name": "⚡啟動掛載", "status": "完成"},
-    {"id": "S3", "name": "🧠知識驗證", "status": "完成"},
-    {"id": "S4", "name": "🧩零件更新", "status": "完成"},
-    {"id": "S5", "name": "👘樣式廣播", "status": "完成"},
-    {"id": "S6", "name": "🧬融合", "status": "完成"},
-    {"id": "S7", "name": "📸快照", "status": "完成"},
-    {"id": "S8", "name": "🔁自動化同步", "status": "錯誤"},
-    {"id": "S9", "name": "♾️可逆循環", "status": "錯誤"},
-    {"id": "S10", "name": "🚫禁令查核", "status": "完成"}
+    {"id": "S0", "status": "完成"},
+    {"id": "S1", "status": "完成"},
+    {"id": "S2", "status": "完成"},
+    {"id": "S3", "status": "完成"},
+    {"id": "S4", "status": "完成"},
+    {"id": "S5", "status": "完成"},
+    {"id": "S6", "status": "完成"},
+    {"id": "S7", "status": "完成"},
+    {"id": "S8", "status": "完成"},
+    {"id": "S9", "status": "完成"},
+    {"id": "S10", "status": "完成"}
   ],
-  "status": "錯誤",
-  "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"
+  "system_existence": {
+    "search_legal": true,
+    "bans_allowed": true,
+    "state_transition_committed": true,
+    "exists": true
+  }
 }

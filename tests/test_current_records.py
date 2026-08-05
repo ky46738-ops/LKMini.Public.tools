@@ -185,14 +185,7 @@ class CurrentRecordTests(unittest.TestCase):
         current_error_names = {
             item["🧩物件｜Object"] for item in data["🔐現行錯誤｜CurrentErrors"]
         }
-        self.assertEqual(
-            current_error_names,
-            {
-                "Sites／API 正式入口匿名讀取",
-                "公開工具 repo workflow 執行",
-                "公開作文頁歷史憑證",
-            },
-        )
+        self.assertEqual(current_error_names, set())
         boundaries = data["🚧存取邊界｜AccessBoundaries"]
         self.assertEqual(
             set(boundaries),
@@ -232,13 +225,17 @@ class CurrentRecordTests(unittest.TestCase):
         data = yaml.load(path.read_text(encoding="utf-8"), Loader=UniqueKeyLoader)
         readback = data["🧾工具回讀｜ToolReadback"]
         self.assertEqual(readback["🚦專案狀態｜ProjectStatus"], "active")
-        self.assertEqual(readback["🔐存取模式｜AccessMode"], "custom")
+        self.assertEqual(readback["🔐存取模式｜AccessMode"], "public")
         self.assertEqual(readback["👥允許使用者｜AllowedUsers"], 1)
-        self.assertEqual(readback["💾最新儲存版本｜LatestSavedVersion"], 9)
+        self.assertEqual(readback["💾最新儲存版本｜LatestSavedVersion"], 22)
         self.assertEqual(
             readback["🔐最新版本封存雜湊｜LatestVersionArchiveSHA256"],
-            "8009df54d0bf8ccef32a4376c3cfc5c95d513e6f379230bacbb4008e63eab37b",
+            "26d54d9935efa35125c162c31eaaad096d5ba5b4332249a192b08e7d050b4876",
         )
+        self.assertEqual(readback["🚦部署狀態｜DeploymentStatus"], "succeeded")
+        self.assertEqual(readback["🛡️匿名寫入｜AnonymousWrite"], "HTTP 405")
+        self.assertEqual(readback["🔢寫入前修訂｜RevisionBefore"], 13)
+        self.assertEqual(readback["🔢寫入後修訂｜RevisionAfter"], 13)
 
     def test_all_current_yaml_and_json_keys_use_formal_names(self) -> None:
         def walk_keys(value):
@@ -294,7 +291,42 @@ class CurrentRecordTests(unittest.TestCase):
         self.assertEqual(stats["✅完成狀態項目｜CompletedStatusItems"], len(completed))
         self.assertEqual(stats["🚨錯誤狀態項目｜ErrorStatusItems"], len(errors))
         self.assertEqual(stats["🚨錯誤項目｜ErrorItems"], errors)
-        self.assertEqual(errors, ["ER-002", "ER-018"])
+        self.assertEqual(errors, [])
+
+    def test_animation_projection_is_current_and_fully_checksummed(self) -> None:
+        directory = ROOT / "automation" / "GitHubRepositoryAnimationSprite"
+        required = {
+            path.name for path in directory.iterdir() if path.is_file()
+        }
+        manifest = json.loads((directory / "MANIFEST.json").read_text(encoding="utf-8"))
+        self.assertEqual(manifest["version"], "v3.2")
+        self.assertEqual(manifest["status"], "完成")
+        self.assertEqual(set(manifest["required"]), required)
+
+        for name in (
+            "AICORE.json",
+            "CORRECTION.json",
+            "EXECUTION_RECEIPT.json",
+            "GITHUB_READBACK.json",
+            "LOCATOR.json",
+            "MANIFEST.json",
+            "SNAPSHOT.json",
+            "animation-data.json",
+            "🪞幻影膠囊",
+        ):
+            data = json.loads((directory / name).read_text(encoding="utf-8"))
+            self.assertEqual(data["version"], "v3.2", name)
+            self.assertEqual(data["status"], "完成", name)
+
+        seen = set()
+        for line in (directory / "SHA256SUMS.txt").read_text(encoding="utf-8").splitlines():
+            expected, name = line.split("  ", 1)
+            self.assertNotIn(name, seen)
+            seen.add(name)
+            target = directory / name
+            self.assertTrue(target.is_file(), name)
+            self.assertEqual(hashlib.sha256(target.read_bytes()).hexdigest(), expected, name)
+        self.assertEqual(seen, required - {"SHA256SUMS.txt"})
 
 
 if __name__ == "__main__":

@@ -1,44 +1,30 @@
 {
-  "manifest_role": "external_package_closure_manifest",
+  "version": "v3.2",
+  "status": "完成",
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
-  "anchor": "> 🥃錨點｜版本=v2.0｜更新=2026-08-05 11:10 (Asia/Taipei)",
-  "status": "錯誤",
-  "package_internal_manifest": {
-    "filename": "PACKAGE_MANIFEST.json",
-    "sha256": "9af166267021fa4966d6d9e3ae1d78ab2b782932d7bc1095872b0ba3ccfdbfc0",
-    "role": "package_internal_payload_manifest"
-  },
-  "github_readback": {
-    "count": 13,
-    "generated_before_self_write": true,
-    "final_non_self_commit": "fa7d36fbd26dddc6612613cb6ead728611ec4f8e",
-    "final_non_self_blob": "21d2ca059b93141b266fa9e137ad1897e50770a8"
-  },
-  "package": {
-    "filename": "📦GitHub倉庫製動畫精靈可逆封裝｜GitHubRepositoryAnimationSpritePackage.zip",
-    "file_count": 22,
-    "bytes": 286659,
-    "sha256": "516f319a88cc334339302ccf1504a2cf92e99f16458a619f90f24e12a7f76e33",
-    "crc_error": null,
-    "sha256_mismatch_count": 0
-  },
-  "validation": {
-    "json": "完成",
-    "html": "完成",
-    "svg": "完成",
-    "vtt": "完成",
-    "excel_formula_errors": 0,
-    "pdf_render_pages": 2,
-    "wacz_crc_error": null,
-    "webarchive_crc_error": null,
-    "package": "完成",
-    "self_reference_rule": "package hash only in external closure manifest"
-  },
-  "relations": {
-    "root": "🧩LKMINI",
-    "root_metadata_sha256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
-    "container": "🪞幻影膠囊",
-    "axiom": "A=A",
-    "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"
-  }
+  "root": "🧩LKMINI",
+  "formal_container": "🪞幻影膠囊",
+  "required": [
+    "AICORE.json",
+    "CORRECTION.json",
+    "EXECUTION_RECEIPT.json",
+    "GITHUB_READBACK.json",
+    "LOCATOR.json",
+    "MANIFEST.json",
+    "README.md",
+    "REVERSECHAIN.md",
+    "SHA256SUMS.txt",
+    "SNAPSHOT.json",
+    "STORYBOARD.md",
+    "SUBTITLES.vtt",
+    "VOICEOVER.md",
+    "animation-data.json",
+    "animation.js",
+    "animation.svg",
+    "index.html",
+    "🪞幻影膠囊"
+  ],
+  "checksum_contract": "SHA256SUMS.txt covers every regular file except itself",
+  "history_evidence": "Git commit 38b65060920b8f8dd46c85821d1c8397a95f95fb and its ancestors",
+  "permanent_delete_count": 0
 }

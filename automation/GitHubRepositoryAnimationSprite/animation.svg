@@ -1,13 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675">
-<rect width="1200" height="675" fill="#06131f"/>
-<text x="55" y="70" fill="#f4f9ff" font-size="38" font-family="sans-serif">🎬 GitHub 倉庫製動畫精靈</text>
-<text x="55" y="112" fill="#ff9d9d" font-size="23" font-family="sans-serif">錯誤｜23 Repository｜105 Branch｜新外部變更 1｜素材 31</text>
-<rect x="55" y="155" width="1090" height="225" rx="22" fill="#10283e" stroke="#315473"/>
-<text x="85" y="210" fill="#75d5ff" font-size="27" font-family="sans-serif">welcome｜固定 Conda CI 與完整性閘門</text>
-<text x="85" y="258" fill="#f4f9ff" font-size="20" font-family="sans-serif">Commit 94ef4276…｜新增 2｜修改 1｜中風險</text>
-<text x="85" y="305" fill="#abc0d2" font-size="18" font-family="sans-serif">Python 3.10.20｜flake8 7.3.0｜pytest 8.4.2</text>
-<text x="85" y="347" fill="#abc0d2" font-size="18" font-family="sans-serif">Run 0｜Job 0｜回退 d9133b36…</text>
-<text x="55" y="455" fill="#75d5ff" font-size="24" font-family="sans-serif">Path 3｜素材變更 0｜高風險 0｜工具錯誤 5</text>
-<text x="55" y="510" fill="#ff9d9d" font-size="21" font-family="sans-serif">Tag／Tree／Run Job／ByteSize／完整素材列舉：錯誤</text>
-<text x="55" y="600" fill="#abc0d2" font-size="17" font-family="sans-serif">Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub 倉庫製動畫精靈 v3.2</title>
+  <desc id="desc">唯一根、唯一容器、Sites v22、十六項測試通過、現行錯誤零。</desc>
+  <rect width="1200" height="675" fill="#06131f"/>
+  <rect x="48" y="48" width="1104" height="579" rx="28" fill="#10283e" stroke="#315473" stroke-width="2"/>
+  <text x="84" y="120" fill="#f4f9ff" font-size="38" font-family="system-ui,sans-serif">🎬 GitHub 倉庫製動畫精靈 v3.2</text>
+  <text x="84" y="166" fill="#95e6bd" font-size="25" font-family="system-ui,sans-serif">完成｜Sites v22｜現行錯誤 0｜永久刪除 0</text>
+  <g font-family="system-ui,sans-serif" text-anchor="middle">
+    <rect x="84" y="220" width="230" height="150" rx="18" fill="#142f49" stroke="#315473"/>
+    <text x="199" y="292" fill="#75d5ff" font-size="52">1</text><text x="199" y="334" fill="#abc0d2" font-size="22">正式根</text>
+    <rect x="350" y="220" width="230" height="150" rx="18" fill="#142f49" stroke="#315473"/>
+    <text x="465" y="292" fill="#75d5ff" font-size="52">1</text><text x="465" y="334" fill="#abc0d2" font-size="22">正式容器</text>
+    <rect x="616" y="220" width="230" height="150" rx="18" fill="#142f49" stroke="#315473"/>
+    <text x="731" y="292" fill="#75d5ff" font-size="52">16/16</text><text x="731" y="334" fill="#abc0d2" font-size="22">公開測試</text>
+    <rect x="882" y="220" width="230" height="150" rx="18" fill="#142f49" stroke="#315473"/>
+    <text x="997" y="292" fill="#95e6bd" font-size="52">0</text><text x="997" y="334" fill="#abc0d2" font-size="22">現行錯誤</text>
+  </g>
+  <text x="84" y="445" fill="#f4f9ff" font-size="24" font-family="system-ui,sans-serif">🥳歡迎光臨 → Sites Projection → LaoK-System@main</text>
+  <text x="84" y="495" fill="#abc0d2" font-size="21" font-family="system-ui,sans-serif">唯一寫回：🧩LKMINI／🪞幻影膠囊</text>
+  <text x="84" y="560" fill="#abc0d2" font-size="18" font-family="system-ui,sans-serif">Git history → Manifest → Locator → Snapshot → ReverseChain → A=A</text>
 </svg>

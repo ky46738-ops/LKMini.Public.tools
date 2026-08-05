@@ -1,45 +1,73 @@
-🚦狀態｜Status: "錯誤"
+🚦狀態｜Status: "完成"
 🆔檔案身分｜FileIdentity: "🧾既有錯誤修復帳｜ExistingErrorRepairLedger"
+📌政策版本｜PolicyVersion: "v3.2"
+🕒時間｜Timestamp: "2026-08-05T12:06:12+08:00"
+👑主權持有人｜Owner: "Kevin Yang"
 🥃唯一系統｜System: "🥃老K系統"
 🧩唯一根｜Root: "🧩LKMINI"
 🔑正式根協議｜RootProtocol: "LKMINI://"
+🪞唯一正式容器｜FormalIdentityContainer: "🪞幻影膠囊"
 ⚖️最高公理｜Axiom: "A=A"
-👑主權持有人｜Owner: "Kevin Yang／老K"
 
-📊公開統計｜PublicStatistics:
-  🚦公開裁決｜PublicRuling: "公開面只保留 Kevin 明確允許公開的修復摘要；細項證據、憑證、裝置、管理設定、Library 座標與內部驗證全部移入 private 正本。"
-  🔐私人正本｜PrivateCanonicalRepository: "ky46738-ops/oldk-lkmini-eternal-core-cross-optimize"
-  📘私人總帳｜PrivateLedger: "🔐私人搬家總帳｜PrivateMigrationLedger.md"
-  🧾公開違約事件記錄器｜PublicBreachEventRecorder: "🧾違約事件記錄器｜BreachEventRecorder"
+🧾真正修復清單｜ActualRepairList:
+  - 🔢編號｜Number: "ER-001"
+    🧩物件｜Object: "Sites 公開 GET 寫入 D1"
+    🛠️處置｜Treatment: "移除 CREATE／INSERT；公開讀取不改寫狀態。"
+    🚦最終狀態｜FinalStatus: "完成"
+  - 🔢編號｜Number: "ER-002"
+    🧩物件｜Object: "Sites 假完成與原始錯誤外洩"
+    🛠️處置｜Treatment: "未知狀態封閉失敗；底層 D1 訊息不外洩。"
+    🚦最終狀態｜FinalStatus: "完成"
+  - 🔢編號｜Number: "ER-003"
+    🧩物件｜Object: "Sites 匿名寫入"
+    🛠️處置｜Treatment: "匿名 POST=405；revision 13→13。"
+    🚦最終狀態｜FinalStatus: "完成"
+  - 🔢編號｜Number: "ER-004"
+    🧩物件｜Object: "Portal 入口語意漂移"
+    🛠️處置｜Treatment: "固定 entryGate=🥳歡迎光臨；Sites 僅為網頁 Projection。"
+    🚦最終狀態｜FinalStatus: "完成"
+  - 🔢編號｜Number: "ER-005"
+    🧩物件｜Object: "依賴安全漏洞"
+    🛠️處置｜Treatment: "相容升級；production/full npm audit 均為 0。"
+    🚦最終狀態｜FinalStatus: "完成"
+  - 🔢編號｜Number: "ER-006"
+    🧩物件｜Object: "遠端字型效能負擔"
+    🛠️處置｜Treatment: "改用系統中文字型；首頁讀回 20324 bytes。"
+    🚦最終狀態｜FinalStatus: "完成"
+  - 🔢編號｜Number: "ER-007"
+    🧩物件｜Object: "Drive 假根與舊投影"
+    🛠️處置｜Treatment: "61 假根與 17 舊投影內容完整隔離；唯一根讀回。"
+    🚦最終狀態｜FinalStatus: "完成"
+  - 🔢編號｜Number: "ER-008"
+    🧩物件｜Object: "GitHub Pages 重複部署"
+    🛠️處置｜Treatment: "舊工作流退役；只保留 fail-closed 驗證部署鏈。"
+    🚦最終狀態｜FinalStatus: "完成"
+  - 🔢編號｜Number: "ER-009"
+    🧩物件｜Object: "舊 checksum 與錯誤回執"
+    🛠️處置｜Treatment: "重建現行 checksum；舊值由 Git history 保存。"
+    🚦最終狀態｜FinalStatus: "完成"
+  - 🔢編號｜Number: "ER-010"
+    🧩物件｜Object: "外部通知與重複訊息"
+    🛠️處置｜Treatment: "現行自動化只寫回唯一系統；外部通知停用。"
+    🚦最終狀態｜FinalStatus: "完成"
 
-🧾公開修復摘要｜PublicRepairSummary:
-  - 🔢編號｜Number: "ER-PUBLIC-001"
-    🧩物件｜Object: "公開工具秘密與外部傳送風險"
-    🚦狀態｜Status: "錯誤"
-    🛠️公開處置｜PublicHandling: "公開 HEAD 只保留非秘密摘要；具體底牌與修復細項移入 private 正本。"
-  - 🔢編號｜Number: "ER-PUBLIC-002"
-    🧩物件｜Object: "公開工具 workflow 與同步驗證"
-    🚦狀態｜Status: "錯誤"
-    🛠️公開處置｜PublicHandling: "公開面只保留未完成驗證摘要；管理設定與細項證據移入 private 正本。"
-  - 🔢編號｜Number: "ER-PUBLIC-003"
-    🧩物件｜Object: "personal-skills HTTP 422 同步事件"
-    🚦狀態｜Status: "錯誤"
-    🛠️公開處置｜PublicHandling: "Kevin 已指定可公開，因此由違約事件記錄器保留公開摘要。"
+📊統計｜Statistics:
+  🔎發現既有錯誤類別｜DiscoveredExistingErrorCategories: 10
+  🛠️現行內容真正修復｜CurrentContentActualRepair: 10
+  ✅完成狀態項目｜CompletedStatusItems: 10
+  🚨錯誤狀態項目｜ErrorStatusItems: 0
+  🚨錯誤項目｜ErrorItems: []
+  🗑️永久刪除數｜PermanentDeleteCount: 0
 
-🔐私人內容裁決｜PrivateContentRuling:
-  🚦狀態｜Status: "完成"
-  📌裁決｜Ruling: "所有具體錯誤細項、秘密、憑證、裝置、管理設定、內部驗證、Library 座標、未公開 SHA 與未公開路徑，全部不在公開修復帳展開。"
-  🧭承接｜Destination: "🔐私人搬家總帳｜PrivateMigrationLedger.md"
-
-🚫禁止事項｜Forbidden:
-  - "不得把 private 內容寫入公開修復帳。"
-  - "不得把 Mini 原本正本/鏡像語意改寫。"
-  - "不得把未公開證據用公開 README 展開。"
-  - "不得為了交付感建立第二總帳。"
+🛡️證據政策｜EvidencePolicy:
+  🧾歷史證據保留｜HistoricalEvidencePreserved: true
+  🔐歷史證據啟用｜HistoricalEvidenceActive: false
+  🔐歷史證據授權｜HistoricalEvidenceAuthorized: false
+  ✍️唯一寫回目標｜ExclusiveWritebackTarget: "🧩LKMINI／🪞幻影膠囊"
 
 ♻️反向鏈｜ReverseChain:
+  - "Git history／Drive 隔離／本機 MoveReceipt"
+  - "現行修復帳 v3.2"
   - "🧩LKMINI"
-  - "🧾既有錯誤修復帳｜ExistingErrorRepairLedger"
-  - "🔐私人搬家總帳｜PrivateMigrationLedger"
-  - "🌐公開工具｜PublicTools"
-  - "🪞幻影膠囊唯一出口"
+  - "🪞幻影膠囊"
+  - "A=A"

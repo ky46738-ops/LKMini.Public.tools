@@ -1,13 +1,36 @@
-<!doctype html><html lang="zh-Hant"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>🎬GitHub倉庫製動畫精靈｜GitHubRepositoryAnimationSprite</title>
-<style>
-:root{--p:#10283e;--c:#142f49;--l:#315473;--t:#f4f9ff;--m:#abc0d2;--a:#75d5ff;--x:#ff9d9d;--ok:#95e6bd}*{box-sizing:border-box}body{margin:0;background:linear-gradient(#06131f,#0a2030);color:var(--t);font-family:-apple-system,BlinkMacSystemFont,"PingFang TC",sans-serif}main{max-width:980px;margin:auto;padding:calc(12px + env(safe-area-inset-top)) 12px calc(94px + env(safe-area-inset-bottom))}header,section{background:var(--p);border:1px solid var(--l);border-radius:19px;padding:14px;margin:9px 0}h1{font-size:24px}p,small{color:var(--m);overflow-wrap:anywhere}code{word-break:break-all}.bad{color:var(--x)}.ok{color:var(--ok)}.metrics{display:grid;grid-template-columns:repeat(2,1fr);gap:7px}.metric,.card{background:var(--c);border:1px solid var(--l);border-radius:14px;padding:11px}.metric b{display:block;color:var(--a);font-size:26px}.grid{display:grid;gap:7px}input{position:sticky;top:6px;z-index:3;width:100%;min-height:46px;background:#071a29;color:var(--t);border:1px solid var(--l);border-radius:12px;padding:11px;font-size:16px}nav{position:fixed;left:50%;bottom:calc(8px + env(safe-area-inset-bottom));transform:translateX(-50%);width:min(96%,700px);display:grid;grid-template-columns:repeat(5,1fr);gap:4px;padding:6px;background:#06131ff2;border:1px solid var(--l);border-radius:18px}button{min-height:48px;border:0;border-radius:11px;background:var(--c);color:var(--m)}button.on{background:#27648b;color:white}[hidden]{display:none!important}@media(min-width:720px){.metrics{grid-template-columns:repeat(4,1fr)}.grid{grid-template-columns:repeat(2,1fr)}}</style></head><body><main>
-<header><small>🥃錨點｜版本=v2.0｜更新=2026-08-05 11:10 (Asia/Taipei)</small><h1>🎬 GitHub 倉庫製動畫精靈</h1><p><code>LKMINI://automation/GitHubRepositoryAnimationSprite</code></p><p id="state" class="bad"><b>錯誤</b>｜資料讀取中</p></header>
-<section class="metrics"><div class="metric"><b>23</b>Repository</div><div class="metric"><b>105</b>Branch</div><div class="metric"><b>3</b>Path</div><div class="metric"><b>31</b>素材</div><div class="metric"><b>2／1</b>新增／修改</div><div class="metric"><b>0／0</b>Run／Job</div><div class="metric"><b>0</b>高風險</div><div class="metric"><b>1</b>中風險</div></section>
-<input id="q" placeholder="搜尋 Repository、Commit、Path、Blob"><section id="v0" class="view"><div id="summary" class="grid"></div></section><section id="v1" class="view" hidden><div id="changes" class="grid"></div></section><section id="v2" class="view" hidden><div id="repos" class="grid"></div></section><section id="v3" class="view" hidden><div id="steps" class="grid"></div></section><section id="v4" class="view" hidden><div id="errors" class="grid"></div></section></main>
-<nav><button data-v="0">總覽</button><button data-v="1">變更</button><button data-v="2">倉庫</button><button data-v="3">十一動</button><button data-v="4">錯誤</button></nav>
-<script>
-const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)],e=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),card=(t,b,m='',x='')=>`<article class="card searchable ${x}" data-s="${e(t+' '+b+' '+m)}"><h3>${e(t)}</h3><p>${e(b)}</p><small>${m}</small></article>`;function show(n){$$('.view').forEach(v=>v.hidden=v.id!=='v'+n);$$('nav button').forEach(b=>b.classList.toggle('on',b.dataset.v===String(n)))}$$('nav button').forEach(b=>b.onclick=()=>show(b.dataset.v));
-async function boot(){const D=await fetch('./animation-data.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('animation-data '+r.status);return r.json()});$('#state').innerHTML='<b>錯誤</b>｜新外部變更 1｜中風險 1｜工具錯誤 5';const c=D.change;$('#summary').innerHTML=card('固定 Conda CI 與完整性閘門',c.summary_zh_tw,`Commit ${c.commit_sha}<br>回退 ${c.rollback_commit}`)+card('回根',D.reverse_chain,'');$('#changes').innerHTML=c.changed_paths.map(p=>card(`${p.status}｜${p.path}`,`+${p.additions}／-${p.deletions}`,`Blob ${p.blob_sha}<br>風險 ${c.risk_level}`)).join('');$('#repos').innerHTML=D.repositories.map(r=>card(r.repository,`Default ${r.default_branch}`,`Commit ${r.head}`)).join('');$('#steps').innerHTML=D.steps.map(s=>card(`${s.id}｜${s.name}`,s.status,'',s.status==='錯誤'?'bad':'ok')).join('');$('#errors').innerHTML=D.errors.map(x=>card(`錯誤｜${x.item}`,x.evidence,`A：${e(x.repair_a)}<br>B：${e(x.repair_b)}`,'bad')).join('');$('#q').oninput=x=>{let q=x.target.value.toLowerCase();$$('.searchable').forEach(y=>y.hidden=!y.dataset.s.toLowerCase().includes(q))}}boot().catch(x=>$('#state').innerHTML='<b>錯誤</b>｜'+e(x.message));show(0);
-</script></body></html>
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>🎬 GitHub 倉庫製動畫精靈 v3.2</title>
+  <style>
+    :root{color-scheme:dark;--bg:#07141f;--panel:#10283e;--line:#315473;--text:#f4f9ff;--muted:#abc0d2;--ok:#95e6bd;--accent:#75d5ff}*{box-sizing:border-box}body{margin:0;background:linear-gradient(160deg,#06131f,#0a2030);color:var(--text);font-family:system-ui,-apple-system,"PingFang TC",sans-serif}main{width:min(920px,100%);margin:auto;padding:24px 14px 80px}header,section{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:18px;margin:12px 0}h1{font-size:clamp(1.5rem,5vw,2.2rem);margin:.5rem 0}.ok{color:var(--ok);font-weight:800}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}.card{background:#142f49;border:1px solid var(--line);border-radius:14px;padding:14px}.card b{display:block;color:var(--accent);font-size:2rem}a{color:var(--accent);overflow-wrap:anywhere}code{overflow-wrap:anywhere}small,p{color:var(--muted)}
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <small>🥃錨點｜版本=v3.2｜狀態=完成</small>
+    <h1>🎬 GitHub 倉庫製動畫精靈</h1>
+    <p><code>LKMINI://automation/GitHubRepositoryAnimationSprite</code></p>
+    <p id="state" class="ok">載入現行驗證資料</p>
+  </header>
+  <section class="grid" aria-label="驗證指標">
+    <div class="card"><b id="root-count">1</b>正式根</div>
+    <div class="card"><b id="container-count">1</b>正式容器</div>
+    <div class="card"><b id="test-count">16/16</b>公開測試</div>
+    <div class="card"><b id="error-count">0</b>現行錯誤</div>
+  </section>
+  <section>
+    <h2>現行裁決</h2>
+    <p>邏輯入口：🥳歡迎光臨</p>
+    <p>網頁 Projection：<a id="projection" href="https://lkmini-wiring-hub.ky46738.chatgpt.site">Sites v22</a></p>
+    <p>唯一寫回：<strong id="writeback">🧩LKMINI／🪞幻影膠囊</strong></p>
+    <p>舊錯誤與舊版本保留於 Git 歷史；不再作為現行狀態。</p>
+  </section>
+</main>
+<script src="./animation.js" defer></script>
+</body>
+</html>

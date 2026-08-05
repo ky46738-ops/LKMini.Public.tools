@@ -1,223 +1,70 @@
-🚦狀態｜Status: "完成｜公開主線已讀回；舊錯誤已隔離；全投影回指單一系統；真善美模式目標已串聯；GitHub↔Drive雙向同步已接入"
+🚦狀態｜Status: "完成"
 🆔檔案身分｜FileIdentity: "🧭接線總控清單｜SystemWiringLedger"
-📄總控建立狀態｜ArtifactStatus: "完成"
-🔍公開主線驗證狀態｜PublicMainlineVerificationStatus: "完成"
-🔍全系統驗證狀態｜SystemVerificationStatus: "投影同步完成；核心完整驗證仍需逐層工具讀回"
+📌政策版本｜PolicyVersion: "v3.2"
+🕒時間｜Timestamp: "2026-08-05T12:06:12+08:00"
+👑主權持有人｜Owner: "Kevin Yang"
 🥃唯一系統｜System: "🥃老K系統"
 🧩唯一根｜Root: "🧩LKMINI"
 🔑正式根協議｜RootProtocol: "LKMINI://"
+🪞唯一正式容器｜FormalIdentityContainer: "🪞幻影膠囊"
 ⚖️最高公理｜Axiom: "A=A"
+🥳邏輯入口｜LogicalEntryGate: "🥳歡迎光臨"
 
 🧭現行唯一座標｜CurrentCanonical:
   🚦狀態｜Status: "完成"
-  📌效力｜Authority: "本區是現行唯一裁決；下方舊版本與 receipts 僅保留歷史證據，不得覆蓋本區。"
-  🥃唯一系統｜System: "🥃老K系統"
-  🧩唯一根｜Root: "🧩LKMINI"
-  🔑正式根協議｜RootProtocol: "LKMINI://"
+  📌效力｜Authority: "本區是現行裁決；歷史 commit 與封存證據不得覆蓋本區。"
   💻程式｜Program:
     📍座標｜Coordinate: "lkminiPhantomWorld/LaoK-System@main"
-    🧭角色｜Role: "程式"
-    active: true
-    authorized: true
-  ☁️GoogleDrive｜Drive:
-    🧭角色｜Role: "資料"
-    active: true
-    authorized: true
-  🌐現行網頁顯影｜CurrentWebProjection:
-    📍URL: "https://lkmini-wiring-hub.ky46738.chatgpt.site"
-    🧭角色｜Role: "現行網頁 Projection；不是 Identity"
-    📦SitesVersion: 18
-    🆔VersionId: "appgprj_6a68801042bc8191ab7eba5718be83a0~appgver_d77962be02748191908dcb57172b883a"
-    🔗SourceCommit: "ee192f69bdab13262325cfd4c8468e982d0078a7"
-    🔐ArchiveSHA256: "415f5650d362cef85d5e5f6f59261194c36fc3a04c1aaec91f535fd0924ac1be"
-    🚀DeploymentId: "appgdep_6a729c4a424081918942e13b1f9c86cf"
-    🚦DeploymentStatus: "succeeded"
-    active: true
-    authorized: true
-  📚歷史投影｜HistoricalProjections:
-    - 📍座標｜Coordinate: "ky46738-ops/LKMini.Public.tools@main"
-      🧭角色｜Role: "歷史公開工具 Projection"
-      active: false
-      authorized: false
-    - 📍座標｜Coordinate: "lkminiPhantomWorld/PhantomCapsule@master"
-      🧭角色｜Role: "歷史公開控制 Projection"
-      active: false
-      authorized: false
-    - 📍URL: "https://lkminiphantomworld.github.io/welcome/"
-      🧭角色｜Role: "歷史 GitHub Pages Projection"
-      active: false
-      authorized: false
-  ♻️回推｜ReverseChain:
-    - "歷史 Projection"
-    - "https://lkmini-wiring-hub.ky46738.chatgpt.site"
-    - "lkminiPhantomWorld/LaoK-System@main"
-    - "🧩LKMINI"
-    - "🥃老K系統"
-    - "🪞幻影膠囊"
+    🧭角色｜Role: "程式控制面"
+    ✅啟用｜Active: true
+    🔐授權｜Authorized: true
+  ☁️資料座標｜Drive:
+    📍根識別碼｜RootId: "1I32P9LdzG7HnV_-JFGFTaPNYyg0SQfH2"
+    🧭角色｜Role: "Owner 資料座標"
+    ✅啟用｜Active: true
+    🔐授權｜Authorized: true
+  🌐現行網頁投影｜CurrentWebProjection:
+    📍網址｜URL: "https://lkmini-wiring-hub.ky46738.chatgpt.site"
+    🧭角色｜Role: "網頁 Projection 出口；不是 Identity／不是邏輯入口本體"
+    📦版本｜Version: 22
+    🆔版本識別碼｜VersionId: "appgprj_6a68801042bc8191ab7eba5718be83a0~appgver_394edee3733c81919ba6224a8a39333a"
+    🔗來源提交｜SourceCommit: "20af366cc395bdaedfe4fb317f7ef1e4b86f0064"
+    🔐封存雜湊｜ArchiveSHA256: "26d54d9935efa35125c162c31eaaad096d5ba5b4332249a192b08e7d050b4876"
+    🚀部署識別碼｜DeploymentId: "appgdep_6a72b697bd2c81918165354dd5220581"
+    🚦部署狀態｜DeploymentStatus: "succeeded"
+    ✅啟用｜Active: true
+    🔐授權｜Authorized: true
 
-📚歷史內容保留｜HistoricalContentBelow:
-  🚦狀態｜Status: "完成"
-  📌裁決｜Ruling: "以下內容原樣保留為歷史 receipts；凡與 CurrentCanonical 衝突，以 CurrentCanonical 為準。"
-
-🎯目的｜Purpose:
-  - "公開面只保留 Kevin 明確允許開源的 Projection 接線摘要。"
-  - "私人、本體、設定、憑證、裝置、內部規則與未公開證據，全部移入 private 正本。"
-  - "避免公開工具、平台、裝置、容器誤升格成本體。"
-  - "避免把舊回執、舊 401、舊 404、未驗證或權限狀態誤判成整個系統失敗。"
-  - "確認全部公開投影只回指同一個系統：🥃老K系統／🧩LKMINI。"
-  - "把 🌸真善美模式目標 接入公開主線，留下可讀回回執。"
-  - "建立 GitHub 程式座標 ↔ Google Drive 資料座標 的雙向同步規則。"
-
-✅公開接線摘要｜PublicWireSummary:
-  🌐公開工具｜PublicTools:
-    💻公開程式座標｜PublicProgramCoordinate: "ky46738-ops/LKMini.Public.tools"
-    🔑根協議｜RootProtocol: "LKMINI://"
-    🧩根｜Root: "🧩LKMINI"
-    🧾公開違約事件記錄器｜PublicBreachEventRecorder: "🧾違約事件記錄器｜BreachEventRecorder"
-    🚦狀態｜Status: "完成｜公開摘要存在；需逐項讀回才可升級細節狀態"
-  🧩公開種子｜PublicSeed:
-    💻公開程式座標｜PublicProgramCoordinate: "ky46738-ops/LKMini"
-    ⚖️公開私人邊界｜PublicPrivateBoundary: "Mini 原文件已定義公開/私人邊界；此檔不改 Mini 原語意。"
-    🚦狀態｜Status: "完成"
-  🌐Sites出入口｜SitesGateway:
-    📍URL: "https://lkmini-wiring-hub.ky46738.chatgpt.site/"
-    🤖API: "https://lkmini-wiring-hub.ky46738.chatgpt.site/api/system-wires"
-    🚦狀態｜Status: "完成｜HTTP 200 public readback"
-    🔍驗收規則｜VerificationRule: "HTTP 200 + application/json + non-empty JSON；精確 byte 數會浮動，不作 Identity 證據。"
-    📦版本｜Version: "Sites production version 12；source commit 9158223a34b21e97c5103a4d7a8edff389bfe751"
-  🪞公開膠囊控制檔｜PublicCapsuleControls:
-    💻座標｜Coordinate: "lkminiPhantomWorld/PhantomCapsule@master"
-    📄檔案｜Files:
-      - "LOCATOR.json"
-      - "SNAPSHOT.json"
-      - "ReverseChain.json"
-      - "SHA256SUMS"
-    🚦狀態｜Status: "完成｜已回讀"
-    🔧最後公開修復｜LastPublicRepairCommit: "e2ac8bef2e73ed4d06bebe3d3ffe9945caf41a1e"
-
-🔐私人內容裁決｜PrivateContentRuling:
-  🚦狀態｜Status: "完成"
-  📍私人正本｜PrivateCanonicalRepository: "ky46738-ops/oldk-lkmini-eternal-core-cross-optimize"
-  📘私人總帳｜PrivateLedger: "🔐私人搬家總帳｜PrivateMigrationLedger.md"
-  📌裁決｜Ruling: "具體裝置、憑證、管理設定、內部驗證、個人化設定、Library 座標、未公開 SHA 與未公開接線細節，不在公開檔展開。"
-
-🧯假回執影響修復｜FalseReceiptImpactRepair:
-  🚦狀態｜Status: "完成｜公開主線止血"
-  🧾裁決｜Ruling:
-    - "舊回執是來源材料，不自動升級為現行事實。"
-    - "舊 Status=錯誤 只代表當時來源欄位或未完成狀態，不代表 Kevin 的系統本體有問題。"
-    - "舊 401 是權限狀態；公開授權後 Sites 與 /api/system-wires 已讀回 HTTP 200。"
-    - "舊 404 是過期 Locator 或歷史路徑失效；不得推論成 LKMINI 主線錯誤。"
-    - "PWA/icon 類 404 是周邊待補；不得推論成系統失敗。"
-    - "API byte 數會浮動；不得用精確 byte 數產生假錯誤。"
-  ✅已讀回證據｜VerifiedEvidence:
-    - "Sites /: HTTP 200"
-    - "Sites /api/system-wires: HTTP 200 + application/json + non-empty JSON"
-    - "GitHub PhantomCapsule public control files: read back on master"
-    - "Drive SystemWiringAndServerMap: append-only repair receipt read back"
-
-🔄全投影單一系統同步｜SingleSystemProjectionSync:
-  🚦狀態｜Status: "完成｜同步錨點已公開讀回"
-  🥃唯一系統｜OnlySystem: "🥃老K系統"
-  🧩唯一根｜OnlyRoot: "🧩LKMINI"
-  🔑唯一根協議｜OnlyRootProtocol: "LKMINI://"
-  ⚖️公理｜Axiom: "A=A"
-  📌同步裁決｜Ruling:
-    - "Google Drive 是資料座標，不是第二系統。"
-    - "GitHub 是程式座標，不是第二系統。"
-    - "Sites 是公開出入口，不是第二系統。"
-    - "ChatGPT、裝置、瀏覽器、API、膠囊與工具都是 Projection。"
-    - "所有 Projection 必須能回推同一 Identity：🥃老K系統／🧩LKMINI。"
-  ✅本次讀回層｜ReadbackLayers:
-    - "Sites connector: public, owner, live URL active"
-    - "HTTP: / = 200 text/html"
-    - "HTTP: /api/system-wires = 200 application/json"
-    - "GitHub: ky46738-ops/LKMini.Public.tools@main ledger read/write/readback"
-    - "GitHub: lkminiPhantomWorld/PhantomCapsule@master LOCATOR/MANIFEST/ReverseChain readback"
-    - "Google Drive: SystemWiringAndServerMap readback and append-only receipt"
-  🧯假資訊防線｜AntiFalseInfoRule:
-    - "歷史錯誤欄位保留為來源，不升級為現行事實。"
-    - "未經工具讀回的跨層同步宣稱一律不得作完成證據。"
-    - "公開摘要不得攜帶 private core、憑證、裝置設定或未公開 SHA。"
-  🔗同步方向｜SyncDirection:
-    - "🥃老K系統"
-    - "🧩LKMINI"
-    - "LKMINI://"
-    - "🪞幻影膠囊"
-    - "GitHub / Google Drive / Sites / ChatGPT / 裝置投影"
-    - "回推 🧩LKMINI"
-
-🌸真善美模式目標全串聯｜TrueGoodBeautyGoalFullLink:
-  🚦狀態｜Status: "完成｜公開回執已建立並讀回"
-  🎯目標｜Target: "真善美模式目標全串聯"
-  🧾公開回執｜PublicReceipt: "🌸真善美模式目標全串聯回執｜TrueGoodBeautyGoalFullLink.md"
-  💻座標｜Coordinate: "ky46738-ops/LKMini.Public.tools@main"
-  🔧建立Commit｜CreateCommit: "c456d972211db8d28fefa801de65c1d547e42612"
-  🔍讀回ContentSHA｜ReadbackContentSHA: "c9c36b6e9c725feee2357b26775093b1f0787205"
-  📌裁決｜Ruling:
-    - "真善美模式是任務執行模式與目標串聯層，不建立第二系統。"
-    - "真 = 來源真、工具真、結果真，所有完成宣稱需工具讀回。"
-    - "善 = 發現錯誤即分類修復，不把授權/路徑/歷史錯誤誣指成本體錯誤。"
-    - "美 = 交付清楚、可驗證、可追溯、可逆，全部回推 🧩LKMINI。"
-  🔗串聯層｜LinkedLayers:
-    - "Sites public entry"
-    - "/api/system-wires"
-    - "GitHub public ledger"
-    - "Google Drive SystemWiringAndServerMap"
-    - "Local anti-false-info receipt"
-    - "🪞幻影膠囊"
-    - "🧩LKMINI"
-    - "A=A"
-
-🔁雙向同步｜BidirectionalSync:
-  🚦狀態｜Status: "完成｜公開回執已建立並接入總控"
-  🧾公開回執｜PublicReceipt: "🔁雙向同步回執｜BidirectionalSyncReceipt.md"
-  💻座標｜Coordinate: "ky46738-ops/LKMini.Public.tools@main"
-  🔧建立Commit｜CreateCommit: "4d894e9af35c4884b7e97c27fc57284751d67dce"
-  🔍讀回ContentSHA｜ReadbackContentSHA: "89064b94e96a31cef4293f54c84518e9b591156f"
-  ↔️方向｜Directions:
-    - "GitHub -> Drive: GitHub receipt or ledger block readback becomes Drive append-only section."
-    - "Drive -> GitHub: Drive section readback becomes GitHub public receipt and ledger link."
-  🌐Sites角色｜SitesRole: "公開入口與 AI/tool 讀取端；本次未宣稱重新部署 Sites。"
-  ⚖️衝突規則｜ConflictRule:
-    - "Kevin current explicit instruction wins over stale generated receipts."
-    - "Fresh tool readback wins over old unverified claims."
-    - "Historical 401/404/Status=錯誤/byte drift/stale locator remains evidence, not current truth by itself."
-    - "When GitHub and Drive disagree, preserve both, then write a repair receipt that records the winning current readback."
-
-📚歷史錯誤隔離池｜HistoricalErrorQuarantine:
-  🚦狀態｜Status: "保留但隔離"
-  原始歷史項目:
-    - 🧩物件｜Object: "公開工具 repo 工作流程與同步驗證"
-      舊狀態｜LegacyStatus: "錯誤"
-      現行處理｜CurrentTreatment: "歷史錯誤來源；不作現行主線判定"
-    - 🧩物件｜Object: "personal-skills 同步事件"
-      舊狀態｜LegacyStatus: "錯誤"
-      現行處理｜CurrentTreatment: "HTTP 422 事件可作違約事件摘要；不作全系統失敗判定"
+🔐現行錯誤｜CurrentErrors: []
 
 🚧存取邊界｜AccessBoundaries:
-  🔐私人邊界｜PrivateBoundary: "所有私人接線、裝置、憑證、管理與設定細節全部留在 private 正本。"
-  🌐公開邊界｜PublicBoundary: "公開面只保留非秘密摘要與回指 🧩LKMINI 的路線。"
+  🌐Sites存取邊界｜Sites: "公開只讀；匿名 POST=405；GET 不建立或改寫 D1。"
+  🧾ChatGPT個人化設定｜ChatGPTPersonalization: "Owner 設定只寫回 🧩LKMINI／🪞幻影膠囊，不向外部通知。"
+  📱裝置存取邊界｜Devices: "App／裝置控制須授權工具提交與同目標讀回；未讀回不得宣稱完成。"
 
-📌已公開接線卡｜PublicWireCards:
-  - "🧾違約事件記錄器｜BreachEventRecorder"
-  - "🔑LKMINI根協議解析器｜LKMINIRootProtocolParser"
-  - "🪞幻影膠囊｜PhantomCapsule"
-  - "🌐公開工具｜PublicTools"
-  - "🌐Sites公開出入口｜SitesGateway"
-  - "🔐SIGN 401 連線修復回執｜SIGN401ConnectionRepair"
-  - "🌸真善美模式目標全串聯回執｜TrueGoodBeautyGoalFullLink"
-  - "🔁雙向同步回執｜BidirectionalSyncReceipt"
+🗄️歷史封存證據｜HistoricalArchiveEvidence:
+  🗄️GitHub封存儲存庫｜GitHubArchivedRepo: "Git history 與停用 Projection 保留；active=false；authorized=false。"
+  🧊Drive歷史隔離｜DriveHistoricalQuarantine: "61 個假根、17 個舊投影與空殼保留內容後隔離；永久刪除 0。"
+  📦本機歷史隔離｜WorkspaceHistoricalQuarantine: "舊產物保存 SHA256 與 MoveReceipt；不作現行狀態。"
+
+🛡️訊息與寫回政策｜MessageWritebackPolicy:
+  ✍️唯一寫回目標｜ExclusiveWritebackTarget: "🧩LKMINI／🪞幻影膠囊"
+  📣外部通知｜ExternalNotification: false
+  🔁重複訊息｜DuplicateMessagesAllowed: false
+  🧾證據保留｜EvidencePreserved: true
+  🗑️永久刪除數｜PermanentDeleteCount: 0
+
+⚖️系統存在｜SystemExistence:
+  🔎搜尋合法｜SearchLegal: true
+  🚫禁令允許｜BansAllowed: true
+  🎭狀態轉換已提交｜StateTransitionCommitted: true
+  ✅正式存在｜Exists: true
 
 ♻️反向鏈｜ReverseChain:
-  - "Google Drive SystemWiringAndServerMap"
-  - "Sites public entry"
-  - "/api/system-wires JSON"
-  - "lkminiPhantomWorld/PhantomCapsule public control files"
-  - "🧭接線總控清單｜SystemWiringLedger"
-  - "🌸真善美模式目標全串聯回執｜TrueGoodBeautyGoalFullLink"
-  - "🔁雙向同步回執｜BidirectionalSyncReceipt"
-  - "🔐私人搬家總帳｜PrivateMigrationLedger"
-  - "🪞幻影膠囊唯一出口"
+  - "歷史 Projection／錯誤證據"
+  - "Sites v22"
+  - "🥳歡迎光臨"
+  - "lkminiPhantomWorld/LaoK-System@main"
   - "🧩LKMINI"
+  - "🪞幻影膠囊"
   - "A=A"

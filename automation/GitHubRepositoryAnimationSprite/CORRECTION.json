@@ -1,26 +1,13 @@
 {
-  "type": "EVIDENCE_CORRECTION",
-  "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
-  "anchor": "🥃錨點｜版本=v1.4｜更新=2026-08-05 05:17 (Asia/Taipei)",
+  "version": "v3.2",
   "status": "完成",
-  "reason": "The earlier readback_local_byte_size and readback_local_sha256 values were calculated from an abbreviated local summary Projection, not from the exact GitHub.fetch_file content.",
-  "supersedes": [
-    {"path":"SNAPSHOT.json","blob":"1f066cdfaff84cce9a318697ca48d201211d0f03","fields":["repair_findings[0].readback_local_byte_size","repair_findings[0].readback_local_sha256"]},
-    {"path":"animation-data.json","blob":"1f066cdfaff84cce9a318697ca48d201211d0f03","fields":["repair_findings[0].readback_local_byte_size","repair_findings[0].readback_local_sha256"]},
-    {"path":"AICORE.json","blob":"bb1a885cc78babf39d00b4441fbbd846f05f13ab","fields":["repair_findings[0].readback_local_byte_size","repair_findings[0].readback_local_sha256"]}
-  ],
-  "invalid_abbreviated_projection": {
-    "bytes": 1315,
-    "sha256": "121e7873a42ebf6c9d2783c1a22b8704d0c153afa9b0d1a3c50a8649d77b2d74"
-  },
-  "authoritative_connector_readback": {
-    "repository": "ky46738-ops/LKMini.Public.tools",
-    "commit": "923da85a1f8ee85e9eeeb2c78ad3b98ca94c300a",
-    "path": "receipts/🧙🧚Sites現行版本13素材鑑別回執｜SitesCurrentVersion13MaterialCurationReceipt.md",
-    "blob_sha": "5bbed879abb22b1552a109e4863f7b9a157b8dcc",
-    "decoded_utf8_bytes": 2160,
-    "decoded_utf8_sha256": "68902e17fbafc977fc9cecfbe428f5a2a93ca0d7b8c7120f8765b3af718e4095",
-    "hash_scope": "Exact UTF-8 content returned by GitHub.fetch_file; this SHA256 is not Git Blob SHA and is not an independent HTTP transport hash."
-  },
-  "reverse_chain": "Repository → Commit → Path → Blob → Correction → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"
+  "type": "historical_error_boundary",
+  "repair_base_commit": "38b65060920b8f8dd46c85821d1c8397a95f95fb",
+  "historical_versions": ["v1.4", "v1.9", "v2.0"],
+  "ruling": "舊工具缺口與空回執只存在於 Git 歷史，不是現行系統錯誤。",
+  "historical_active": false,
+  "historical_authorized": false,
+  "history_deleted": false,
+  "permanent_delete_count": 0,
+  "return_to": "🧩LKMINI／🪞幻影膠囊"
 }

@@ -1,31 +1,31 @@
 {
-  "type": "POST_WRITE_READBACK",
-  "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
-  "anchor": "> 🥃錨點｜版本=v2.0｜更新=2026-08-05 11:10 (Asia/Taipei)",
-  "repository": "ky46738-ops/LKMini.Public.tools",
-  "branch": "main",
-  "path_prefix": "automation/GitHubRepositoryAnimationSprite",
-  "readback_scope": "generated_before_self_write",
-  "tracked_files": [
-    {"path":"SNAPSHOT.json","write_commit":"862122c37c5ce6975dcbd78e84e4b44b939cf25d","write_blob":"2baa7a0368b8e20b4312fa32b556eeaef4f89733","readback_blob":"2baa7a0368b8e20b4312fa32b556eeaef4f89733","status":"完成"},
-    {"path":"README.md","write_commit":"58f9acfed507ca3382abadcdf1ef644bd4dfdfe8","write_blob":"97dbf4eaba8757a8f897209c8773e9f9e6fd89f6","readback_blob":"97dbf4eaba8757a8f897209c8773e9f9e6fd89f6","status":"完成"},
-    {"path":"animation-data.json","write_commit":"d13c2a62ce9df4a58587a0a72817aeb5b25b93cd","write_blob":"fc5487997e4b5724ea7b09894f2f0b7819bfafc4","readback_blob":"fc5487997e4b5724ea7b09894f2f0b7819bfafc4","status":"完成"},
-    {"path":"STORYBOARD.md","write_commit":"59f362346d5d229e942245f180a87c72c432de16","write_blob":"5d5f8d64cb901025c678c6d0123e96307f2d03bc","readback_blob":"5d5f8d64cb901025c678c6d0123e96307f2d03bc","status":"完成"},
-    {"path":"VOICEOVER.md","write_commit":"240ae572435d65cb1082c21887a0799b1babf6a5","write_blob":"06cfb08719008684613e8725339e79dc4403d9dd","readback_blob":"06cfb08719008684613e8725339e79dc4403d9dd","status":"完成"},
-    {"path":"SUBTITLES.vtt","write_commit":"9751954adb737d6dd3ffd9adf4b39a620e53d7cf","write_blob":"4d985e0c9947b66f50ff7c165c4bd7ac5102692d","readback_blob":"4d985e0c9947b66f50ff7c165c4bd7ac5102692d","status":"完成"},
-    {"path":"animation.js","write_commit":"b6274c992bbe615f50aefa9ad5d9c53be800625e","write_blob":"eaab965ced0b42f86d05ebafcae470cc38b5e656","readback_blob":"eaab965ced0b42f86d05ebafcae470cc38b5e656","status":"完成"},
-    {"path":"index.html","write_commit":"5cdc7974c012cad329ca934fc7a687143d1c8ce9","write_blob":"e7a3b71c8cab4b805ec550ff11bdde9f49631dce","readback_blob":"e7a3b71c8cab4b805ec550ff11bdde9f49631dce","status":"完成"},
-    {"path":"animation.svg","write_commit":"e77735568ffbc515e3d15a21c81e54d06172e884","write_blob":"abc1510a129339522c79b3e997953af6657b7ebb","readback_blob":"abc1510a129339522c79b3e997953af6657b7ebb","status":"完成"},
-    {"path":"AICORE.json","write_commit":"36160e24a255c95b269c9757876ee5e53560d0be","write_blob":"05c42f686b3bf344384f98d6c92ef644f4c3081f","readback_blob":"05c42f686b3bf344384f98d6c92ef644f4c3081f","status":"完成"},
-    {"path":"LOCATOR.json","write_commit":"73b6664af1a7b8aff36154d65bb4a7893ce8f20c","write_blob":"75f3247a0c55450e9c6d7d3814cb590f73e1f046","readback_blob":"75f3247a0c55450e9c6d7d3814cb590f73e1f046","status":"完成"},
-    {"path":"REVERSECHAIN.md","write_commit":"60c7dc72dec2769298af7ae823586b1257856a63","write_blob":"f9c1e6303fe039d86df5df5006361c394bd52563","readback_blob":"f9c1e6303fe039d86df5df5006361c394bd52563","status":"完成"},
-    {"path":"EXECUTION_RECEIPT.json","write_commit":"fa7d36fbd26dddc6612613cb6ead728611ec4f8e","write_blob":"21d2ca059b93141b266fa9e137ad1897e50770a8","readback_blob":"21d2ca059b93141b266fa9e137ad1897e50770a8","status":"完成"}
-  ],
-  "readback_count": 13,
-  "final_non_self_commit": "fa7d36fbd26dddc6612613cb6ead728611ec4f8e",
-  "final_non_self_blob": "21d2ca059b93141b266fa9e137ad1897e50770a8",
-  "workflow": {"combined_status": [], "workflow_runs": [], "run_count": 0, "job_count": 0, "status": "錯誤"},
-  "tool_gaps": ["Tag","Tree SHA／完整 Git tree","Workflow Run／Job","GitHub 來源 ByteSize","可視化素材完整列舉"],
-  "status": "錯誤",
-  "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"
+  "version": "v3.2",
+  "status": "完成",
+  "captured_at": "2026-08-05T04:06:12Z",
+  "repositories": {
+    "canonical_program": {
+      "coordinate": "lkminiPhantomWorld/LaoK-System@main",
+      "pre_repair_head": "2822a86a50593a4c512afbf0584b77613e764799",
+      "recursive_tree": "完成",
+      "tree_source_commit": "c2612cf154b6da5727be5a6f77f670a9a135bc5e",
+      "tree_sha": "d42bcce3a667b9b66a8b52ce1c4a5b380253262f",
+      "file_count": 172,
+      "archive_sha256": "462abc54f2ddae4691d14e9c9e90e72de9f7d4fc90300b7608dbdc5c203576a3"
+    },
+    "historical_welcome_projection": {
+      "coordinate": "lkminiPhantomWorld/welcome@main",
+      "repair_commit": "131be70d1a4fc1fdf0e8ec938759080b89b38d2d",
+      "repair_parent": "94ef427686603c3a213ab70ad80e289afd595f45",
+      "active": false,
+      "authorized": false,
+      "remote_blob_readback": "7/7 完成"
+    },
+    "public_tools_projection": {
+      "coordinate": "ky46738-ops/LKMini.Public.tools@main",
+      "repair_base_head": "38b65060920b8f8dd46c85821d1c8397a95f95fb",
+      "result_head_policy": "read main after non-force commit; do not hardcode a self-referential result"
+    }
+  },
+  "current_errors": [],
+  "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🧩LKMINI → 🪞幻影膠囊 → A=A"
 }

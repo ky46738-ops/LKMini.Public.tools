@@ -1,24 +1,15 @@
 {
-  "type": "IdentityContainer",
+  "version": "v3.2",
+  "status": "完成",
+  "type": "ProjectionIdentityContainerReference",
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
-  "anchor": "> 🥃錨點｜版本=v2.0｜更新=2026-08-05 11:10 (Asia/Taipei)",
   "root": "🧩LKMINI",
-  "root_metadata_sha256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
-  "axiom": "A=A",
-  "github_coordinate": "ky46738-ops/LKMini.Public.tools/main/automation/GitHubRepositoryAnimationSprite/",
-  "snapshot": {"path": "SNAPSHOT.json", "commit": "862122c37c5ce6975dcbd78e84e4b44b939cf25d", "blob": "2baa7a0368b8e20b4312fa32b556eeaef4f89733"},
-  "manifest": {"path": "MANIFEST.json", "role": "external_package_closure_manifest"},
-  "locator": "LOCATOR.json",
-  "readback": {"path": "GITHUB_READBACK.json", "tracked_count": 13},
-  "execution_receipt": "EXECUTION_RECEIPT.json",
-  "reversechain": "REVERSECHAIN.md",
-  "package": {
-    "filename": "📦GitHub倉庫製動畫精靈可逆封裝｜GitHubRepositoryAnimationSpritePackage.zip",
-    "file_count": 22,
-    "bytes": "EXTERNAL_CLOSURE_MANIFEST",
-    "sha256": "EXTERNAL_CLOSURE_MANIFEST",
-    "crc_error": null
-  },
-  "status": "錯誤",
-  "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"
+  "formal_container": "🪞幻影膠囊",
+  "is_second_container": false,
+  "entry_gate": "🥳歡迎光臨",
+  "current_web_projection": "https://lkmini-wiring-hub.ky46738.chatgpt.site",
+  "writeback": "🧩LKMINI／🪞幻影膠囊",
+  "external_notification": false,
+  "current_errors": [],
+  "axiom": "A=A"
 }
