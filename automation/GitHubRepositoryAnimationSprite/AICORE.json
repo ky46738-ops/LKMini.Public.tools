@@ -1,5 +1,7 @@
 {
-  "version": "v3.2",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-05 14:12 (Asia/Taipei)｜狀態=完成",
+  "version": null,
+  "edition": "正版",
   "status": "完成",
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
   "owner": "Kevin Yang",
@@ -7,16 +9,30 @@
   "formal_container": "🪞幻影膠囊",
   "entry_gate": "🥳歡迎光臨",
   "axiom": "A=A",
-  "role": "verified GitHub readback Projection; not Identity",
+  "role": "GitHub 巡檢與可視化 Projection；不是 Identity",
+  "canonical_program_commit": "e9efb23594f3342e722d5003a624ba782c67f1a1",
   "current_web_projection": "https://lkmini-wiring-hub.ky46738.chatgpt.site",
-  "exclusive_writeback_target": "🧩LKMINI／🪞幻影膠囊",
+  "exclusive_writeback_target": "🥃老K系統／🧩LKMINI／🪞幻影膠囊",
   "external_notification": false,
   "current_errors": [],
+  "official_release_policy": {
+    "official_edition": "正版",
+    "official_version": null,
+    "canonical_name_has_version_number": false,
+    "numbered_artifact_disposition": {
+      "role": "歷史證據",
+      "active": false,
+      "authorized": false,
+      "delete": false
+    },
+    "immutable_git_coordinates": "evidence_only"
+  },
   "validation": {
-    "public_records_tests": "16/16 完成",
-    "welcome_portal_gate": "完成",
-    "welcome_seed_gate": "完成",
-    "full_tree_evidence": "完成",
+    "repository_readback": "23/23 完成",
+    "branch_readback": "107 Branch",
+    "visual_search": "29 candidates / 2 exact SVG",
+    "workflow_definition_readback": "3",
+    "tag_readback": "錯誤：連接器無 Tag 列舉端點",
     "checksum_coverage": "all regular files except SHA256SUMS.txt"
   },
   "system_existence": {

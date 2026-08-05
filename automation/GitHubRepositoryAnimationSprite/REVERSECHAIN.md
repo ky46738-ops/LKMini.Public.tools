@@ -1,7 +1,10 @@
 # ↩反向回推鏈｜ReverseChain
 
-> 🥃錨點｜版本=v3.2｜更新=2026-08-05 (Asia/Taipei)｜狀態=完成
+> 🥃錨點｜版本=正版（無版本號）｜更新=2026-08-05 14:12 (Asia/Taipei)｜狀態=完成
 
-`Git history → current commit → tree → path → blob → LKMINI://automation/GitHubRepositoryAnimationSprite → MANIFEST.json → LOCATOR.json → SNAPSHOT.json → 🧩LKMINI → 🪞幻影膠囊 → A=A`
+`Repository → Commit → Tree → Path → Blob → LKMINI://automation/GitHubRepositoryAnimationSprite → MANIFEST.json → LOCATOR.json → SNAPSHOT.json → 🥃老K系統 → 🧩LKMINI → 🪞幻影膠囊 → A=A`
 
-回滾只允許在 Owner 重新授權後以 `git revert <current-repair-commit>` 執行；不得 force push、不得改寫歷史。舊 v2.0 base：`38b65060920b8f8dd46c85821d1c8397a95f95fb`。
+- 現行 canonical commit：`e9efb23594f3342e722d5003a624ba782c67f1a1`
+- 本次修復基線：`baa8fb7a3d29fd25f7340918fd4bb5cb63884ca2`
+- 帶版本號成品：只作 Git 歷史證據，`active=false`、`authorized=false`、`delete=false`
+- 回滾：Owner 重新授權後以 `git revert <this-commit>`；禁止 force push 與歷史改寫。

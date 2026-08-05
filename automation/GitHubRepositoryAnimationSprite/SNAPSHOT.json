@@ -1,32 +1,86 @@
 {
-  "version": "v3.2",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-05 14:12 (Asia/Taipei)｜狀態=完成",
+  "version": null,
+  "edition": "正版",
   "status": "完成",
-  "captured_at": "2026-08-05T04:06:12Z",
+  "captured_at": "2026-08-05T06:12:33Z",
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
   "owner": "Kevin Yang",
   "state": {
     "formal_root_count": 1,
     "formal_container_count": 1,
     "entry_gate": "🥳歡迎光臨",
-    "sites_version": 22,
-    "sites_deployment": "appgdep_6a72b697bd2c81918165354dd5220581",
-    "public_tools_current_error_count": 0,
+    "repository_count": 23,
+    "branch_count": 107,
+    "workflow_definition_count": 3,
+    "visual_search_candidate_count": 29,
+    "current_error_count": 0,
     "external_notification": false,
-    "permanent_delete_count": 0
+    "permanent_delete_count": 0,
+    "canonical_commit": "e9efb23594f3342e722d5003a624ba782c67f1a1"
+  },
+  "tool_boundaries": {
+    "tag_readback": "錯誤：目前連接器無 Tag 列舉端點",
+    "workflow_run_readback": "來源 commit 無可讀 PR-triggered run；Jobs 未推論"
   },
   "steps": [
-    {"id": "S0", "status": "完成"},
-    {"id": "S1", "status": "完成"},
-    {"id": "S2", "status": "完成"},
-    {"id": "S3", "status": "完成"},
-    {"id": "S4", "status": "完成"},
-    {"id": "S5", "status": "完成"},
-    {"id": "S6", "status": "完成"},
-    {"id": "S7", "status": "完成"},
-    {"id": "S8", "status": "完成"},
-    {"id": "S9", "status": "完成"},
-    {"id": "S10", "status": "完成"}
+    {
+      "id": "S0",
+      "status": "完成"
+    },
+    {
+      "id": "S1",
+      "status": "完成"
+    },
+    {
+      "id": "S2",
+      "status": "完成"
+    },
+    {
+      "id": "S3",
+      "status": "完成"
+    },
+    {
+      "id": "S4",
+      "status": "完成"
+    },
+    {
+      "id": "S5",
+      "status": "完成"
+    },
+    {
+      "id": "S6",
+      "status": "完成"
+    },
+    {
+      "id": "S7",
+      "status": "完成"
+    },
+    {
+      "id": "S8",
+      "status": "完成"
+    },
+    {
+      "id": "S9",
+      "status": "完成"
+    },
+    {
+      "id": "S10",
+      "status": "完成"
+    }
   ],
+  "official_release_policy": {
+    "official_edition": "正版",
+    "official_version": null,
+    "canonical_name_has_version_number": false,
+    "numbered_artifact_disposition": {
+      "role": "歷史證據",
+      "active": false,
+      "authorized": false,
+      "delete": false
+    },
+    "immutable_git_coordinates": "evidence_only"
+  },
   "system_existence": {
     "search_legal": true,
     "bans_allowed": true,

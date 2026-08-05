@@ -1,24 +1,61 @@
 {
-  "version": "v3.2",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-05 14:12 (Asia/Taipei)｜狀態=完成",
+  "version": null,
+  "edition": "正版",
   "status": "完成",
-  "mode": "death-mode-repair",
+  "mode": "github-repository-animation-sprite",
   "repository": "ky46738-ops/LKMini.Public.tools",
   "branch": "main",
-  "base_commit": "38b65060920b8f8dd46c85821d1c8397a95f95fb",
+  "base_commit": "baa8fb7a3d29fd25f7340918fd4bb5cb63884ca2",
   "actions": {
-    "stale_current_errors_removed": true,
-    "invalid_checksums_rebuilt": true,
-    "current_records_repaired": true,
+    "repositories_inspected": 23,
+    "branches_read": 107,
+    "visual_search_queries": 9,
+    "workflow_definitions_read": 3,
+    "canonical_drift_detected": true,
+    "canonical_no_version_alignment": true,
+    "ui_optimized": true,
+    "checksums_rebuilt": true,
+    "tests_updated": true,
     "history_preserved": true,
     "force_push": false,
     "permanent_delete_count": 0
   },
   "verification": {
-    "unittest": "16/16 完成",
-    "secret_scan": "完成",
     "json_parse": "完成",
-    "checksum": "完成"
+    "sha256_self_test": "完成",
+    "manifest_required_set": "完成",
+    "no_version_on_current_ui": "完成",
+    "remote_blob_readback": "提交後執行",
+    "workflow_run_and_job_boundary": "已記錄",
+    "tag_boundary": "已記錄"
   },
-  "writeback": "🧩LKMINI／🪞幻影膠囊",
-  "reverse_chain": ["Git history", "v3.2 current controls", "🧩LKMINI", "🪞幻影膠囊", "A=A"]
+  "writeback": "🥃老K系統／🧩LKMINI／🪞幻影膠囊",
+  "official_release_policy": {
+    "official_edition": "正版",
+    "official_version": null,
+    "canonical_name_has_version_number": false,
+    "numbered_artifact_disposition": {
+      "role": "歷史證據",
+      "active": false,
+      "authorized": false,
+      "delete": false
+    },
+    "immutable_git_coordinates": "evidence_only"
+  },
+  "reverse_chain": [
+    "Repository",
+    "Commit",
+    "Tree",
+    "Path",
+    "Blob",
+    "Identity",
+    "Manifest",
+    "Locator",
+    "Snapshot",
+    "ReverseChain",
+    "🥃老K系統",
+    "🧩LKMINI",
+    "A=A"
+  ]
 }

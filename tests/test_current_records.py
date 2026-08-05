@@ -295,12 +295,14 @@ class CurrentRecordTests(unittest.TestCase):
 
     def test_animation_projection_is_current_and_fully_checksummed(self) -> None:
         directory = ROOT / "automation" / "GitHubRepositoryAnimationSprite"
-        required = {
-            path.name for path in directory.iterdir() if path.is_file()
-        }
+        required = {path.name for path in directory.iterdir() if path.is_file()}
         manifest = json.loads((directory / "MANIFEST.json").read_text(encoding="utf-8"))
-        self.assertEqual(manifest["version"], "v3.2")
+        self.assertIsNone(manifest["version"])
+        self.assertEqual(manifest["edition"], "正版")
         self.assertEqual(manifest["status"], "完成")
+        self.assertFalse(
+            manifest["official_release_policy"]["canonical_name_has_version_number"]
+        )
         self.assertEqual(set(manifest["required"]), required)
 
         for name in (
@@ -315,8 +317,32 @@ class CurrentRecordTests(unittest.TestCase):
             "🪞幻影膠囊",
         ):
             data = json.loads((directory / name).read_text(encoding="utf-8"))
-            self.assertEqual(data["version"], "v3.2", name)
+            self.assertIsNone(data["version"], name)
+            self.assertEqual(data["edition"], "正版", name)
             self.assertEqual(data["status"], "完成", name)
+
+        current_surface = (
+            "README.md",
+            "index.html",
+            "animation.js",
+            "animation.svg",
+            "STORYBOARD.md",
+            "SUBTITLES.vtt",
+            "VOICEOVER.md",
+        )
+        version_pattern = re.compile(r"\\bv\\d+(?:\\.\\d+)*\\b")
+        for name in current_surface:
+            text = (directory / name).read_text(encoding="utf-8")
+            self.assertIsNone(version_pattern.search(text), name)
+        animation_data = json.loads(
+            (directory / "animation-data.json").read_text(encoding="utf-8")
+        )
+        self.assertEqual(
+            animation_data["current"]["writeback"],
+            "🥃老K系統／🧩LKMINI／🪞幻影膠囊",
+        )
+        self.assertEqual(animation_data["metrics"]["repositories"], 23)
+        self.assertEqual(animation_data["metrics"]["branches"], 107)
 
         seen = set()
         for line in (directory / "SHA256SUMS.txt").read_text(encoding="utf-8").splitlines():

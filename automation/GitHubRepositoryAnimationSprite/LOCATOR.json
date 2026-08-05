@@ -1,16 +1,35 @@
 {
-  "version": "v3.2",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-05 14:12 (Asia/Taipei)｜狀態=完成",
+  "version": null,
+  "edition": "正版",
   "status": "完成",
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
   "repository": "ky46738-ops/LKMini.Public.tools",
   "branch": "main",
   "path_prefix": "automation/GitHubRepositoryAnimationSprite",
-  "repair_base_head": "38b65060920b8f8dd46c85821d1c8397a95f95fb",
-  "result_head_policy": "remote main exact readback after atomic non-force commit",
+  "source_head": "baa8fb7a3d29fd25f7340918fd4bb5cb63884ca2",
+  "result_head_policy": "remote main exact readback after one non-force Git Tree commit",
   "current_program": "lkminiPhantomWorld/LaoK-System@main",
+  "canonical_commit": "e9efb23594f3342e722d5003a624ba782c67f1a1",
   "entry_gate": "🥳歡迎光臨",
   "current_web_projection": "https://lkmini-wiring-hub.ky46738.chatgpt.site",
   "root": "🧩LKMINI",
   "formal_container": "🪞幻影膠囊",
-  "writeback": "🧩LKMINI／🪞幻影膠囊"
+  "writeback": "🥃老K系統／🧩LKMINI／🪞幻影膠囊",
+  "platform_coordinates": {
+    "sites_project_version_id_role": "immutable evidence only",
+    "git_commit_role": "immutable evidence only"
+  },
+  "official_release_policy": {
+    "official_edition": "正版",
+    "official_version": null,
+    "canonical_name_has_version_number": false,
+    "numbered_artifact_disposition": {
+      "role": "歷史證據",
+      "active": false,
+      "authorized": false,
+      "delete": false
+    },
+    "immutable_git_coordinates": "evidence_only"
+  }
 }

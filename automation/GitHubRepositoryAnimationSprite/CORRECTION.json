@@ -1,13 +1,39 @@
 {
-  "version": "v3.2",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-05 14:12 (Asia/Taipei)｜狀態=完成",
+  "version": null,
+  "edition": "正版",
   "status": "完成",
-  "type": "historical_error_boundary",
-  "repair_base_commit": "38b65060920b8f8dd46c85821d1c8397a95f95fb",
-  "historical_versions": ["v1.4", "v1.9", "v2.0"],
-  "ruling": "舊工具缺口與空回執只存在於 Git 歷史，不是現行系統錯誤。",
+  "type": "numbered_artifact_retirement",
+  "current_rule": "正版無版本號；正式名稱、UI、資料鍵與 package identity 不使用版本號。",
+  "historical_versions": [
+    "v1.4",
+    "v1.5",
+    "v1.6",
+    "v1.9",
+    "v2.0",
+    "v3",
+    "v3.1",
+    "v3.2"
+  ],
+  "historical_evidence_commits": [
+    "baa8fb7a3d29fd25f7340918fd4bb5cb63884ca2",
+    "2bed88f8a38cd38c89f4e9509499d6af68adbfbe"
+  ],
   "historical_active": false,
   "historical_authorized": false,
   "history_deleted": false,
   "permanent_delete_count": 0,
-  "return_to": "🧩LKMINI／🪞幻影膠囊"
+  "return_to": "🥃老K系統／🧩LKMINI／🪞幻影膠囊",
+  "official_release_policy": {
+    "official_edition": "正版",
+    "official_version": null,
+    "canonical_name_has_version_number": false,
+    "numbered_artifact_disposition": {
+      "role": "歷史證據",
+      "active": false,
+      "authorized": false,
+      "delete": false
+    },
+    "immutable_git_coordinates": "evidence_only"
+  }
 }

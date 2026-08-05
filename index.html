@@ -2,41 +2,29 @@
 <html lang="zh-Hant">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="referrer" content="no-referrer">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'">
-<title>🎩 LKMini Pages</title>
+<meta name="theme-color" content="#0d0d0d">
+<title>🥃老K系統｜公開工具</title>
 <style>
-*{box-sizing:border-box;margin:0;padding:0}
-body{background:#0d0d0d;color:#e8e8e8;font-family:'Noto Sans TC',sans-serif;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px;}
-h1{font-size:28px;color:#ffd700;margin-bottom:8px;}
-p{color:#888;font-size:14px;margin-bottom:32px;}
-.cards{display:flex;flex-direction:column;gap:16px;width:100%;max-width:400px;}
-.card{background:#161616;border:1px solid #2a2a2a;border-radius:16px;padding:20px;text-decoration:none;color:#e8e8e8;display:flex;align-items:center;gap:16px;transition:border-color .2s;}
-.card:hover,.card:active{border-color:#ffd700;}
-.card-icon{font-size:36px;flex-shrink:0;}
-.card-title{font-size:16px;font-weight:700;color:#ffd700;margin-bottom:4px;}
-.card-desc{font-size:13px;color:#888;}
+*{box-sizing:border-box;margin:0;padding:0}body{background:radial-gradient(circle at 80% 0,#332700 0,transparent 38%),#0d0d0d;color:#e8e8e8;font-family:system-ui,-apple-system,"PingFang TC",sans-serif;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px 16px max(40px,env(safe-area-inset-bottom))}main{width:min(440px,100%)}.badge{display:inline-block;border:1px solid #6b5a16;border-radius:999px;padding:7px 11px;color:#ffd700;font-size:13px}h1{font-size:clamp(27px,8vw,38px);color:#ffd700;margin:14px 0 8px}p{color:#aaa;font-size:14px;line-height:1.6;margin-bottom:24px}.cards{display:grid;gap:14px}.card{background:#171717;border:1px solid #343434;border-radius:18px;padding:18px;text-decoration:none;color:#e8e8e8;display:grid;grid-template-columns:auto 1fr;align-items:center;gap:15px;min-height:92px}.card:active{border-color:#ffd700;transform:scale(.99)}.icon{font-size:34px}.title{font-size:17px;font-weight:800;color:#ffd700;margin-bottom:4px}.desc{font-size:13px;color:#999;line-height:1.45}.path{margin-top:22px;padding:12px;border-radius:13px;background:#15120a;color:#bba95d;font-size:12px;overflow-wrap:anywhere}
 </style>
 </head>
 <body>
-<h1>🎩 LKMini Pages</h1>
-<p>Kevin Yang 的小工具集合</p>
+<main>
+<span class="badge">正版・無版本號</span>
+<h1>🥃老K系統｜公開工具</h1>
+<p>此頁是 Projection 出口；唯一正式寫回仍是中文正式路徑。</p>
 <div class="cards">
-  <a class="card" href="./tools/writing-class/">
-    <div class="card-icon">✏️</div>
-    <div>
-      <div class="card-title">mini 作文教室</div>
-      <div class="card-desc">聊天就能寫作文，小朋友的作文小幫手 ✨</div>
-    </div>
+  <a class="card" href="./automation/GitHubRepositoryAnimationSprite/">
+    <div class="icon">🎬</div><div><div class="title">GitHub 倉庫製動畫精靈</div><div class="desc">23 個倉庫巡檢、變更摘要與可視化證據</div></div>
   </a>
-  <a class="card" href="./vpoop/VPoopGuardian_PublicSeed_v1.7.html">
-    <div class="card-icon">💩</div>
-    <div>
-      <div class="card-title">VPoop Guardian</div>
-      <div class="card-desc">A=A 防偽系統</div>
-    </div>
+  <a class="card" href="./tools/writing-class/">
+    <div class="icon">✏️</div><div><div class="title">mini 作文教室</div><div class="desc">離線、安全、適合 iPhone 的作文小幫手</div></div>
   </a>
 </div>
+<div class="path">🥃老K系統／🧩LKMINI／🪞幻影膠囊</div>
+</main>
 </body>
 </html>

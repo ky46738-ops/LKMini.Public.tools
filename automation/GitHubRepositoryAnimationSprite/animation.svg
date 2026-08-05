@@ -1,21 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
-  <title id="title">GitHub 倉庫製動畫精靈 v3.2</title>
-  <desc id="desc">唯一根、唯一容器、Sites v22、十六項測試通過、現行錯誤零。</desc>
+  <title id="title">GitHub 倉庫製動畫精靈・正版無版本號</title>
+  <desc id="desc">二十三個倉庫、一百零七個分支、三個工作流程定義、二十九個可視化候選、唯一根、現行錯誤零。</desc>
   <rect width="1200" height="675" fill="#06131f"/>
+  <circle cx="1080" cy="80" r="260" fill="#153d57" opacity=".55"/>
   <rect x="48" y="48" width="1104" height="579" rx="28" fill="#10283e" stroke="#315473" stroke-width="2"/>
-  <text x="84" y="120" fill="#f4f9ff" font-size="38" font-family="system-ui,sans-serif">🎬 GitHub 倉庫製動畫精靈 v3.2</text>
-  <text x="84" y="166" fill="#95e6bd" font-size="25" font-family="system-ui,sans-serif">完成｜Sites v22｜現行錯誤 0｜永久刪除 0</text>
+  <text x="84" y="112" fill="#95e6bd" font-size="22" font-family="system-ui,sans-serif">正版・無版本號</text>
+  <text x="84" y="160" fill="#f4f9ff" font-size="38" font-family="system-ui,sans-serif">🎬 GitHub 倉庫製動畫精靈</text>
+  <text x="84" y="198" fill="#abc0d2" font-size="21" font-family="system-ui,sans-serif">完成｜現行錯誤 0｜永久刪除 0</text>
   <g font-family="system-ui,sans-serif" text-anchor="middle">
-    <rect x="84" y="220" width="230" height="150" rx="18" fill="#142f49" stroke="#315473"/>
-    <text x="199" y="292" fill="#75d5ff" font-size="52">1</text><text x="199" y="334" fill="#abc0d2" font-size="22">正式根</text>
-    <rect x="350" y="220" width="230" height="150" rx="18" fill="#142f49" stroke="#315473"/>
-    <text x="465" y="292" fill="#75d5ff" font-size="52">1</text><text x="465" y="334" fill="#abc0d2" font-size="22">正式容器</text>
-    <rect x="616" y="220" width="230" height="150" rx="18" fill="#142f49" stroke="#315473"/>
-    <text x="731" y="292" fill="#75d5ff" font-size="52">16/16</text><text x="731" y="334" fill="#abc0d2" font-size="22">公開測試</text>
-    <rect x="882" y="220" width="230" height="150" rx="18" fill="#142f49" stroke="#315473"/>
-    <text x="997" y="292" fill="#95e6bd" font-size="52">0</text><text x="997" y="334" fill="#abc0d2" font-size="22">現行錯誤</text>
+    <rect x="84" y="238" width="160" height="132" rx="18" fill="#142f49" stroke="#315473"/><text x="164" y="300" fill="#75d5ff" font-size="46">23</text><text x="164" y="340" fill="#abc0d2" font-size="18">Repository</text>
+    <rect x="260" y="238" width="160" height="132" rx="18" fill="#142f49" stroke="#315473"/><text x="340" y="300" fill="#75d5ff" font-size="46">107</text><text x="340" y="340" fill="#abc0d2" font-size="18">Branch</text>
+    <rect x="436" y="238" width="160" height="132" rx="18" fill="#142f49" stroke="#315473"/><text x="516" y="300" fill="#75d5ff" font-size="46">3</text><text x="516" y="340" fill="#abc0d2" font-size="18">Workflow</text>
+    <rect x="612" y="238" width="160" height="132" rx="18" fill="#142f49" stroke="#315473"/><text x="692" y="300" fill="#75d5ff" font-size="46">29</text><text x="692" y="340" fill="#abc0d2" font-size="18">視覺候選</text>
+    <rect x="788" y="238" width="160" height="132" rx="18" fill="#142f49" stroke="#315473"/><text x="868" y="300" fill="#75d5ff" font-size="46">1</text><text x="868" y="340" fill="#abc0d2" font-size="18">正式根</text>
+    <rect x="964" y="238" width="148" height="132" rx="18" fill="#142f49" stroke="#315473"/><text x="1038" y="300" fill="#95e6bd" font-size="46">0</text><text x="1038" y="340" fill="#abc0d2" font-size="18">現行錯誤</text>
   </g>
-  <text x="84" y="445" fill="#f4f9ff" font-size="24" font-family="system-ui,sans-serif">🥳歡迎光臨 → Sites Projection → LaoK-System@main</text>
-  <text x="84" y="495" fill="#abc0d2" font-size="21" font-family="system-ui,sans-serif">唯一寫回：🧩LKMINI／🪞幻影膠囊</text>
-  <text x="84" y="560" fill="#abc0d2" font-size="18" font-family="system-ui,sans-serif">Git history → Manifest → Locator → Snapshot → ReverseChain → A=A</text>
+  <text x="84" y="446" fill="#f4f9ff" font-size="23" font-family="system-ui,sans-serif">🥳歡迎光臨 → Sites 正式入口 → LaoK-System@main</text>
+  <text x="84" y="494" fill="#abc0d2" font-size="20" font-family="system-ui,sans-serif">唯一正式寫回：🥃老K系統／🧩LKMINI／🪞幻影膠囊</text>
+  <text x="84" y="558" fill="#abc0d2" font-size="17" font-family="system-ui,sans-serif">Repository → Commit → Tree → Path → Blob → Manifest → Locator → Snapshot → ReverseChain → A=A</text>
 </svg>

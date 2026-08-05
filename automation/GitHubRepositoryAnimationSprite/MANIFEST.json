@@ -1,5 +1,7 @@
 {
-  "version": "v3.2",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-05 14:12 (Asia/Taipei)｜狀態=完成",
+  "version": null,
+  "edition": "正版",
   "status": "完成",
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
   "root": "🧩LKMINI",
@@ -24,7 +26,29 @@
     "index.html",
     "🪞幻影膠囊"
   ],
+  "source_repository_count": 23,
+  "source_branch_count": 107,
+  "workflow_definition_count": 3,
+  "visual_search_candidate_count": 29,
   "checksum_contract": "SHA256SUMS.txt covers every regular file except itself",
-  "history_evidence": "Git commit 38b65060920b8f8dd46c85821d1c8397a95f95fb and its ancestors",
+  "history_evidence": {
+    "previous_sprite_commit": "baa8fb7a3d29fd25f7340918fd4bb5cb63884ca2",
+    "canonical_numbered_slice_commit": "2bed88f8a38cd38c89f4e9509499d6af68adbfbe",
+    "active": false,
+    "authorized": false,
+    "delete": false
+  },
+  "official_release_policy": {
+    "official_edition": "正版",
+    "official_version": null,
+    "canonical_name_has_version_number": false,
+    "numbered_artifact_disposition": {
+      "role": "歷史證據",
+      "active": false,
+      "authorized": false,
+      "delete": false
+    },
+    "immutable_git_coordinates": "evidence_only"
+  },
   "permanent_delete_count": 0
 }

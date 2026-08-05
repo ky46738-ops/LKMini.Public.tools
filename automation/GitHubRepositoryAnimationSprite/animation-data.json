@@ -1,30 +1,503 @@
 {
-  "version": "v3.2",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-05 14:12 (Asia/Taipei)｜狀態=完成",
+  "version": null,
+  "edition": "正版",
   "status": "完成",
+  "captured_at": "2026-08-05T06:12:33Z",
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
   "owner": "Kevin Yang",
   "metrics": {
+    "repositories": 23,
+    "branches": 107,
+    "workflow_definitions": 3,
+    "visual_search_candidates": 29,
+    "exact_svg_assets": 2,
     "formal_roots": 1,
     "formal_containers": 1,
-    "sites_version": 22,
-    "public_tests_passed": 16,
-    "public_tests_total": 16,
     "current_errors": 0,
-    "dependency_vulnerabilities": 0,
     "permanent_deletes": 0
   },
   "current": {
     "entry_gate": "🥳歡迎光臨",
     "program": "lkminiPhantomWorld/LaoK-System@main",
+    "canonical_commit": "e9efb23594f3342e722d5003a624ba782c67f1a1",
+    "canonical_commit_url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/e9efb23594f3342e722d5003a624ba782c67f1a1",
     "web_projection": "https://lkmini-wiring-hub.ky46738.chatgpt.site",
-    "writeback": "🧩LKMINI／🪞幻影膠囊"
+    "writeback": "🥃老K系統／🧩LKMINI／🪞幻影膠囊"
   },
-  "historical": {
-    "base_commit": "38b65060920b8f8dd46c85821d1c8397a95f95fb",
+  "repository_scan": [
+    {
+      "repository": "ky46738-ops/-Tools",
+      "default_branch": "main",
+      "branches": [
+        "main"
+      ],
+      "branch_count": 1,
+      "latest_repository_commit_search": {
+        "sha": "9ac6695a6cd64f8ccb518b8a71e48954b89d7a38",
+        "message": "公開 🧩LKMINI｜seed0 身份與公私邊界",
+        "created_at": "2026-07-24T12:31:35Z",
+        "url": "https://github.com/ky46738-ops/-Tools/commit/9ac6695a6cd64f8ccb518b8a71e48954b89d7a38"
+      }
+    },
+    {
+      "repository": "ky46738-ops/desktop-tutorial",
+      "default_branch": "main",
+      "branches": [
+        "main"
+      ],
+      "branch_count": 1,
+      "latest_repository_commit_search": {
+        "sha": "e364ac8f272b3770fb3a3b7bcfe124af5a818f2a",
+        "message": "Initial commit",
+        "created_at": "2026-06-08T23:17:31Z",
+        "url": "https://github.com/ky46738-ops/desktop-tutorial/commit/e364ac8f272b3770fb3a3b7bcfe124af5a818f2a"
+      }
+    },
+    {
+      "repository": "ky46738-ops/lk-civilization-core",
+      "default_branch": "main",
+      "branches": [
+        "main"
+      ],
+      "branch_count": 1,
+      "latest_repository_commit_search": {
+        "sha": "ddc72cf83bd5367d1da789e0ce641fce6e01d712",
+        "message": "Initial commit",
+        "created_at": "2026-06-18T21:13:05Z",
+        "url": "https://github.com/ky46738-ops/lk-civilization-core/commit/ddc72cf83bd5367d1da789e0ce641fce6e01d712"
+      }
+    },
+    {
+      "repository": "ky46738-ops/LKMini",
+      "default_branch": "seed_v0",
+      "branches": [
+        "add-banners",
+        "codex/triple-bidir-sync-20260803",
+        "copilot/fix-delete-feature-bug",
+        "copilot/seed-v0-gate-locked",
+        "main",
+        "seed_v0"
+      ],
+      "branch_count": 6,
+      "latest_repository_commit_search": {
+        "sha": "4eb165bf912fb4c81b336db14847d223fc2c0bd9",
+        "message": "更新中文公開內容 SHA256SUMS",
+        "created_at": "2026-08-02T21:58:09Z",
+        "url": "https://github.com/ky46738-ops/LKMini/commit/4eb165bf912fb4c81b336db14847d223fc2c0bd9"
+      }
+    },
+    {
+      "repository": "ky46738-ops/LKMini.Public.tools",
+      "default_branch": "main",
+      "branches": [
+        "copilot/move-lkmini-public-to-private",
+        "lkmini-internal-external-split",
+        "main",
+        "repair/chatgpt-delivery-repair-20260801",
+        "repair/verify-existing-errors-20260728"
+      ],
+      "branch_count": 5,
+      "latest_repository_commit_search": {
+        "sha": "baa8fb7a3d29fd25f7340918fd4bb5cb63884ca2",
+        "message": "receipt: verify LKMINI GitHub control plane v3.2",
+        "created_at": "2026-08-05T05:24:03Z",
+        "url": "https://github.com/ky46738-ops/LKMini.Public.tools/commit/baa8fb7a3d29fd25f7340918fd4bb5cb63884ca2"
+      }
+    },
+    {
+      "repository": "ky46738-ops/starter-workflows",
+      "default_branch": "main",
+      "branches": [
+        "Add_new",
+        "add_template_categories",
+        "add-in-contributing",
+        "andymckay-patch-1",
+        "cschleiden/experiment",
+        "dependabot/github_actions/actions/checkout-5",
+        "dependabot/github_actions/actions/labeler-6",
+        "dependabot/github_actions/actions/setup-python-6",
+        "dependabot/github_actions/kentaro-m/auto-assign-action-2.0.0",
+        "dependabot/github_actions/pozil/auto-assign-issue-2.2.0",
+        "dependabot/npm_and_yarn/script/sync-ghes/js-yaml-4.1.1",
+        "dependabot/npm_and_yarn/script/validate-data/js-yaml-4.1.1",
+        "ethomson/typescript",
+        "feat/add-code-scanning-partner-issue-template",
+        "ghes",
+        "h10s-no-google-master",
+        "h10s-no-master",
+        "labeler-trigger",
+        "main",
+        "npm-ci",
+        "pages-concurrency-cancellations",
+        "pages-update",
+        "patch-1",
+        "phantsure/ghes-codescanning-exclusion",
+        "phoenix",
+        "starter_workflow_new_exp",
+        "updae_azure_python_cache"
+      ],
+      "branch_count": 27,
+      "latest_repository_commit_search": {
+        "sha": "12baef41708ea4b4ad1e5f60a610264cea052500",
+        "message": "修復：範本倉庫 Pages 流程改為僅手動啟動",
+        "created_at": "2026-07-15T01:11:05Z",
+        "url": "https://github.com/ky46738-ops/starter-workflows/commit/12baef41708ea4b4ad1e5f60a610264cea052500"
+      }
+    },
+    {
+      "repository": "ky46738-ops/tiny-state-core",
+      "default_branch": "main",
+      "branches": [
+        "copilot/restore-tiny-state-core",
+        "main"
+      ],
+      "branch_count": 2,
+      "latest_repository_commit_search": {
+        "sha": "01ab8936d91eba1369a4ba5ddb6c9a507d2c2c46",
+        "message": "fix(governance): normalize A=A and unique LKMINI root",
+        "created_at": "2026-08-03T22:10:19Z",
+        "url": "https://github.com/ky46738-ops/tiny-state-core/commit/01ab8936d91eba1369a4ba5ddb6c9a507d2c2c46"
+      }
+    },
+    {
+      "repository": "ky46738-ops/vpoop-guardian",
+      "default_branch": "main",
+      "branches": [
+        "main"
+      ],
+      "branch_count": 1,
+      "latest_repository_commit_search": {
+        "sha": "ccfab0924a7fec8fa044147de6c45d46cec817b4",
+        "message": "Merge pull request #1 from ky46738-ops/agent/public-seed-landing-v1",
+        "created_at": "2026-08-01T08:50:46Z",
+        "url": "https://github.com/ky46738-ops/vpoop-guardian/commit/ccfab0924a7fec8fa044147de6c45d46cec817b4"
+      }
+    },
+    {
+      "repository": "ky46738-ops/welcome",
+      "default_branch": "main",
+      "branches": [
+        "中文化首頁-待確認",
+        "main",
+        "revert-1-audit-execution-probe-20260720"
+      ],
+      "branch_count": 3,
+      "latest_repository_commit_search": {
+        "sha": "28b5cca07b406027744dc272aa209b904975fba0",
+        "message": "🔌修正唯一路口中文顯影與折疊接線｜WiringFix",
+        "created_at": "2026-07-30T01:29:19Z",
+        "url": "https://github.com/ky46738-ops/welcome/commit/28b5cca07b406027744dc272aa209b904975fba0"
+      }
+    },
+    {
+      "repository": "lkminiPhantomWorld/LaoK-System",
+      "default_branch": "main",
+      "branches": [
+        "agent/github-canonical-full-sync-20260804",
+        "agent/lkmini-full-tree-audit-20260805",
+        "automation/lkmini-banking-legacy-repair-20260728",
+        "automation/lkmini-multi-node-speed-20260728",
+        "ci/verify-military-order-20260802-1715",
+        "codex/clarify-family-guardian-ai-architecture",
+        "codex-9lhbnc",
+        "copilot/create-private-repository",
+        "copilot/edit-existing-repo-files",
+        "copilot/https-ky46738-ops-github-io-my-repo-html",
+        "copilot/roundly-cross-zone-sprite-patch",
+        "copilot/task-242197477-1129007941-9fd73939-c29f-4dec-a593-23b214de2baa",
+        "copilot/task-242197477-1129007941-6277a455-e1c5-4858-a5b5-d21755e5d5d1",
+        "hundred-engine-nine-folder-architecture",
+        "ky46738-ops-patch-1",
+        "lkmini/sync-status-receipt-20260805-1216",
+        "main",
+        "sync/platform-usage-sync-enforcement-20260707-1817",
+        "正式安裝",
+        "第八區銀行修正"
+      ],
+      "branch_count": 20,
+      "latest_repository_commit_search": {
+        "sha": "e9efb23594f3342e722d5003a624ba782c67f1a1",
+        "message": "repair: 對齊無版本號正版控制語意",
+        "created_at": "2026-08-05T06:03:36Z",
+        "url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/e9efb23594f3342e722d5003a624ba782c67f1a1"
+      }
+    },
+    {
+      "repository": "lkminiPhantomWorld/oldk-shuguang-folder-link-registry",
+      "default_branch": "main",
+      "branches": [
+        "copilot/oldk-shuguang-folder-link-registry",
+        "main"
+      ],
+      "branch_count": 2,
+      "latest_repository_commit_search": {
+        "sha": "a5421da3580cde117062bea9927d4e298b5b9b36",
+        "message": "Finalize registry validation status",
+        "created_at": "2026-05-21T21:16:00Z",
+        "url": "https://github.com/lkminiPhantomWorld/oldk-shuguang-folder-link-registry/commit/a5421da3580cde117062bea9927d4e298b5b9b36"
+      }
+    },
+    {
+      "repository": "lkminiPhantomWorld/oldk-lkmini-eternal-core-cross-optimize",
+      "default_branch": "master",
+      "branches": [
+        "copilot/remove-all-and-move",
+        "master"
+      ],
+      "branch_count": 2,
+      "latest_repository_commit_search": {
+        "sha": "613454594d1bd0d91c75737ae5bb364b9244734a",
+        "message": "Normalize formal A=A axiom notation",
+        "created_at": "2026-08-03T21:00:30Z",
+        "url": "https://github.com/lkminiPhantomWorld/oldk-lkmini-eternal-core-cross-optimize/commit/613454594d1bd0d91c75737ae5bb364b9244734a"
+      }
+    },
+    {
+      "repository": "lkminiPhantomWorld/lk-semantic-civilization-runtime",
+      "default_branch": "main",
+      "branches": [
+        "main"
+      ],
+      "branch_count": 1,
+      "latest_repository_commit_search": {
+        "sha": "017710de451850b039ec1efdba7fe5b08c4ec6d0",
+        "message": "強化：跨倉庫搬移加入明確確認與最小權限",
+        "created_at": "2026-07-15T01:11:43Z",
+        "url": "https://github.com/lkminiPhantomWorld/lk-semantic-civilization-runtime/commit/017710de451850b039ec1efdba7fe5b08c4ec6d0"
+      }
+    },
+    {
+      "repository": "lkminiPhantomWorld/lk-unique-gate",
+      "default_branch": "main",
+      "branches": [
+        "agent/device-install-open-test-20260712",
+        "codex/company-alignment",
+        "codex/fix-pr7-review",
+        "copilot/complete-final-cleanup-integration",
+        "copilot/ky46738-ops-lk-semantic-civilization-runtime-to-lk",
+        "lkmini-integration-draft",
+        "main"
+      ],
+      "branch_count": 7,
+      "latest_repository_commit_search": {
+        "sha": "c93025043a778b5dab0ff1f96c4281b59cdfe406",
+        "message": "📱 裝置安裝＋💻筆電重載節點真人測試\n\n* 新增裝置安裝與筆電重載測試入口\n\n* 新增 Windows 筆電重載節點腳本\n\n* 新增裝置任務自動分流規則\n\n* 新增筆電重載節點雙擊啟動器\n\n* 新增開源與私有處理邊界\n\n* 新增裝置安裝真人驗收表\n\n* 補強筆電節點檔案傳輸完成檢查",
+        "created_at": "2026-07-23T09:48:41Z",
+        "url": "https://github.com/lkminiPhantomWorld/lk-unique-gate/commit/c93025043a778b5dab0ff1f96c4281b59cdfe406"
+      }
+    },
+    {
+      "repository": "lkminiPhantomWorld/laoK-core",
+      "default_branch": "main",
+      "branches": [
+        "main"
+      ],
+      "branch_count": 1,
+      "latest_repository_commit_search": {
+        "sha": "685a638216162b1d46d17d333464444a0bc3f8a8",
+        "message": "🌌 修復：補上幻界書籤.html 真實內容（上次推空檔）\n\n- 幻界書籤.html 補完整內容 14KB\n- 同步新增 index.html 讓根目錄網址直接可開",
+        "created_at": "2026-06-20T23:52:31Z",
+        "url": "https://github.com/lkminiPhantomWorld/laoK-core/commit/685a638216162b1d46d17d333464444a0bc3f8a8"
+      }
+    },
+    {
+      "repository": "lkminiPhantomWorld/welcome",
+      "default_branch": "main",
+      "branches": [
+        "add-banners",
+        "agent/fix-a-equals-a",
+        "agent/lkmini-root-protocol-portal-sync",
+        "agent/open-source-upload-evidence-20260727",
+        "agent/public-verification-scope-sync",
+        "alert-autofix-2",
+        "automation/portal-integrity-20260722",
+        "codex/org-company-alignment",
+        "copilot/ky46738-ops-move-tiny-state-core",
+        "copilot/seed-v0-gate-locked",
+        "main",
+        "seed_v0"
+      ],
+      "branch_count": 12,
+      "latest_repository_commit_search": {
+        "sha": "131be70d1a4fc1fdf0e8ec938759080b89b38d2d",
+        "message": "repair: retire legacy projection under v3.2",
+        "created_at": "2026-08-05T04:14:00Z",
+        "url": "https://github.com/lkminiPhantomWorld/welcome/commit/131be70d1a4fc1fdf0e8ec938759080b89b38d2d"
+      }
+    },
+    {
+      "repository": "lkminiPhantomWorld/tiny-state-core",
+      "default_branch": "main",
+      "branches": [
+        "main"
+      ],
+      "branch_count": 1,
+      "latest_repository_commit_search": {
+        "sha": "78713bd5ed2c98de2b94086f4dd5f9d4f3a34e86",
+        "message": "Normalize formal A=A axiom notation",
+        "created_at": "2026-08-03T21:00:17Z",
+        "url": "https://github.com/lkminiPhantomWorld/tiny-state-core/commit/78713bd5ed2c98de2b94086f4dd5f9d4f3a34e86"
+      }
+    },
+    {
+      "repository": "lkminiPhantomWorld/vpoop-guardian",
+      "default_branch": "main",
+      "branches": [
+        "main"
+      ],
+      "branch_count": 1,
+      "latest_repository_commit_search": {
+        "sha": "c47d34a2b5b9aecc338e9663d34732f81d894b40",
+        "message": "補齊公開安全政策",
+        "created_at": "2026-07-24T02:52:17Z",
+        "url": "https://github.com/lkminiPhantomWorld/vpoop-guardian/commit/c47d34a2b5b9aecc338e9663d34732f81d894b40"
+      }
+    },
+    {
+      "repository": "lkminiPhantomWorld/Tools",
+      "default_branch": "main",
+      "branches": [
+        "death-mode/github-shortcut-wiring",
+        "lkmini-private-parser",
+        "main"
+      ],
+      "branch_count": 3,
+      "latest_repository_commit_search": {
+        "sha": "9ac6695a6cd64f8ccb518b8a71e48954b89d7a38",
+        "message": "公開 🧩LKMINI｜seed0 身份與公私邊界",
+        "created_at": "2026-07-24T12:31:35Z",
+        "url": "https://github.com/lkminiPhantomWorld/Tools/commit/9ac6695a6cd64f8ccb518b8a71e48954b89d7a38"
+      }
+    },
+    {
+      "repository": "lkminiPhantomWorld/lkstylet",
+      "default_branch": "main",
+      "branches": [
+        "lkmini-internal-external-split",
+        "lkmini-private-core",
+        "main"
+      ],
+      "branch_count": 3,
+      "latest_repository_commit_search": {
+        "sha": "a3d394a6f4b29387e963dc9d1cfccf5fe743dc30",
+        "message": "修正命名規則｜本體無副檔名與英文鍵可隱藏",
+        "created_at": "2026-08-02T15:52:58Z",
+        "url": "https://github.com/lkminiPhantomWorld/lkstylet/commit/a3d394a6f4b29387e963dc9d1cfccf5fe743dc30"
+      }
+    },
+    {
+      "repository": "lkminiPhantomWorld/PhantomCapsule",
+      "default_branch": "master",
+      "branches": [
+        "canonical-completion",
+        "copilot/search-namespace-in-repository",
+        "master"
+      ],
+      "branch_count": 3,
+      "latest_repository_commit_search": {
+        "sha": "b0f067ec3ff3be7922e767b84040884fd8de454f",
+        "message": "修正 PhantomCapsule 現行位元 SHA256 並閉合 A=A",
+        "created_at": "2026-08-03T21:04:25Z",
+        "url": "https://github.com/lkminiPhantomWorld/PhantomCapsule/commit/b0f067ec3ff3be7922e767b84040884fd8de454f"
+      }
+    },
+    {
+      "repository": "lkminiPhantomWorld/lkmini-elf",
+      "default_branch": "main",
+      "branches": [
+        "main"
+      ],
+      "branch_count": 1,
+      "latest_repository_commit_search": {
+        "sha": "de181224df92d860102a5e06fe9d1edcd8a04ab0",
+        "message": "Normalize formal A=A axiom notation",
+        "created_at": "2026-08-03T20:58:39Z",
+        "url": "https://github.com/lkminiPhantomWorld/lkmini-elf/commit/de181224df92d860102a5e06fe9d1edcd8a04ab0"
+      }
+    },
+    {
+      "repository": "lkminiPhantomWorld/LKMini",
+      "default_branch": "seed_v0",
+      "branches": [
+        "lkmini-external-projection",
+        "main",
+        "seed_v0"
+      ],
+      "branch_count": 3,
+      "latest_repository_commit_search": {
+        "sha": "d22e70dc1397f4a896aec3fa43b0cccafae22575",
+        "message": "修正 REVERSECHAIN 正式中文標題與 EnglishKey 一致性",
+        "created_at": "2026-08-04T18:28:21Z",
+        "url": "https://github.com/lkminiPhantomWorld/LKMini/commit/d22e70dc1397f4a896aec3fa43b0cccafae22575"
+      }
+    }
+  ],
+  "workflow_readback": {
+    "definitions": [
+      "ky46738-ops/LKMini/.github/workflows/gatekeeper.yml",
+      "ky46738-ops/LKMini.Public.tools/.github/workflows/🔐秘密掃描.yml",
+      "ky46738-ops/LKMini.Public.tools/.github/workflows/🧪公開工具驗證｜PublicToolsValidation.yml"
+    ],
+    "latest_sprite_commit_pr_triggered_runs": [],
+    "jobs": [],
+    "note": "GitHub 連接器的 commit workflow run 端點只回傳 PR 觸發首頁；來源提交沒有可讀 PR run，因此未推論 Job。"
+  },
+  "tag_readback": {
+    "status": "錯誤",
+    "value": null,
+    "reason": "目前 GitHub 連接器未提供 Tag 列舉端點；未用推論補值。"
+  },
+  "visual_search": {
+    "queries": [
+      "svg",
+      "png",
+      "gif",
+      "webp",
+      "animation",
+      "canvas",
+      "mermaid",
+      "motion",
+      "visual"
+    ],
+    "candidates": 29,
+    "exact_assets": [
+      "ky46738-ops/LKMini/LKMini.svg",
+      "ky46738-ops/LKMini.Public.tools/automation/GitHubRepositoryAnimationSprite/animation.svg"
+    ]
+  },
+  "historical_evidence": {
+    "previous_sprite_commit": "baa8fb7a3d29fd25f7340918fd4bb5cb63884ca2",
+    "previous_canonical_commit": "2bed88f8a38cd38c89f4e9509499d6af68adbfbe",
     "preserved": true,
     "active": false,
-    "authorized": false
+    "authorized": false,
+    "delete": false
   },
-  "steps": ["S0", "S1", "S2", "S3", "S4", "S5", "S6", "S7", "S8", "S9", "S10"],
-  "reverse_chain": "Git history → current controls → 🧩LKMINI → 🪞幻影膠囊 → A=A"
+  "official_release_policy": {
+    "official_edition": "正版",
+    "official_version": null,
+    "canonical_name_has_version_number": false,
+    "numbered_artifact_disposition": {
+      "role": "歷史證據",
+      "active": false,
+      "authorized": false,
+      "delete": false
+    },
+    "immutable_git_coordinates": "evidence_only"
+  },
+  "steps": [
+    "S0",
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "S8",
+    "S9",
+    "S10"
+  ],
+  "reverse_chain": "Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A"
 }
