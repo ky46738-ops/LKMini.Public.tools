@@ -1,11 +1,12 @@
 # 🎬分鏡｜Storyboard
 
-> 🥃錨點｜版本=v1.8｜更新=2026-08-05 10:11 (Asia/Taipei)
+> 🥃錨點｜版本=v1.9｜更新=2026-08-05 10:36 (Asia/Taipei)
 
-1. 23 個 Repository 與 105 個 Branch 展開；Branch 集合不變。
-2. `LaoK-System` 從 `01b35a6e…` 前進到 `b5b137f2…`。
-3. 14 個控制面 Path 展開：新增 10、修改 4、刪除 0。
-4. 根控制面與 private-centralization v3.0 同時出現，12 個 verified imports 保存位元證據。
-5. 31 個視覺素材保持不變，本輪沒有 SVG、HTML、JPEG 等素材 Path 變更。
-6. Workflow Status、Run、Job 均為空；Tag、Tree、ByteSize 與完整 tree 保持紅燈。
-7. 所有 Projection 沿 ReverseChain 回到 🪞幻影膠囊、🧩LKMINI 與 A=A。
+1. 23 個 Repository 與 105 個 Branch 完整展開。
+2. v1.8 Snapshot 只追到 LaoK-System `b5b137f2…`。
+3. `8ff843f1…` 將根與 private-centralization 控制面升到 v3.1，修改 14 個 Path。
+4. `2822a86a…` 新增全連結器同步回執，最終來源 Head 前進到 `2822a86a…`。
+5. 15 個 Path／Blob 以新增 1、修改 14 顯示；視覺素材 delta 為 0。
+6. GitHub 內的 Drive／Sites 欄位亮黃燈：內容已讀回，但跨平台未再次核驗。
+7. Tag、Tree、Run／Job、GitHub ByteSize 與完整素材列舉保持紅燈。
+8. 全部 Projection 沿 Manifest、Locator、Snapshot、ReverseChain 回到 🪞幻影膠囊、🧩LKMINI 與 A=A。
