@@ -1,16 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675">
 <rect width="1200" height="675" fill="#06131f"/>
 <text x="55" y="70" fill="#f4f9ff" font-size="38" font-family="sans-serif">🎬 GitHub 倉庫製動畫精靈</text>
-<text x="55" y="112" fill="#ff9797" font-size="23" font-family="sans-serif">錯誤｜23 Repository｜105 Branch｜外部 Commit 2｜15 Path</text>
-<rect x="55" y="155" width="520" height="220" rx="22" fill="#10283e" stroke="#315473"/>
-<text x="85" y="210" fill="#75d5ff" font-size="27" font-family="sans-serif">LaoK-System v3.1</text>
-<text x="85" y="260" fill="#f4f9ff" font-size="21" font-family="sans-serif">8ff843f1…｜修改 14 Path</text>
-<text x="85" y="305" fill="#ffd37a" font-size="18" font-family="sans-serif">Drive／Sites 欄位未跨平台重驗</text>
-<rect x="625" y="155" width="520" height="220" rx="22" fill="#10283e" stroke="#315473"/>
-<text x="655" y="210" fill="#75d5ff" font-size="27" font-family="sans-serif">全連結器同步回執</text>
-<text x="655" y="260" fill="#f4f9ff" font-size="21" font-family="sans-serif">2822a86a…｜新增 1 Path</text>
-<text x="655" y="305" fill="#abc0d2" font-size="18" font-family="sans-serif">GitHub 顯影完成｜LKMINI 修改 0</text>
-<text x="55" y="455" fill="#75d5ff" font-size="24" font-family="sans-serif">素材 31｜素材變更 0｜Run 0｜Job 0</text>
-<text x="55" y="510" fill="#ff9797" font-size="21" font-family="sans-serif">Tag／Tree／Run Job／ByteSize／跨平台重驗／完整素材：錯誤</text>
+<text x="55" y="112" fill="#ff9d9d" font-size="23" font-family="sans-serif">錯誤｜23 Repository｜105 Branch｜新外部變更 1｜素材 31</text>
+<rect x="55" y="155" width="1090" height="225" rx="22" fill="#10283e" stroke="#315473"/>
+<text x="85" y="210" fill="#75d5ff" font-size="27" font-family="sans-serif">welcome｜固定 Conda CI 與完整性閘門</text>
+<text x="85" y="258" fill="#f4f9ff" font-size="20" font-family="sans-serif">Commit 94ef4276…｜新增 2｜修改 1｜中風險</text>
+<text x="85" y="305" fill="#abc0d2" font-size="18" font-family="sans-serif">Python 3.10.20｜flake8 7.3.0｜pytest 8.4.2</text>
+<text x="85" y="347" fill="#abc0d2" font-size="18" font-family="sans-serif">Run 0｜Job 0｜回退 d9133b36…</text>
+<text x="55" y="455" fill="#75d5ff" font-size="24" font-family="sans-serif">Path 3｜素材變更 0｜高風險 0｜工具錯誤 5</text>
+<text x="55" y="510" fill="#ff9d9d" font-size="21" font-family="sans-serif">Tag／Tree／Run Job／ByteSize／完整素材列舉：錯誤</text>
 <text x="55" y="600" fill="#abc0d2" font-size="17" font-family="sans-serif">Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A</text>
 </svg>
