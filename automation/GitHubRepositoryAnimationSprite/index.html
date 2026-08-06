@@ -7,38 +7,20 @@
   <meta name="theme-color" content="#07141f">
   <title>🎬 GitHub 倉庫製動畫精靈</title>
   <style>
-    :root{color-scheme:dark;--bg:#06131f;--panel:#10283e;--line:#315473;--text:#f4f9ff;--muted:#abc0d2;--ok:#95e6bd;--accent:#75d5ff;--warn:#ffd27a}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 90% 0,#153d57 0,transparent 42%),linear-gradient(160deg,#06131f,#091e2e);color:var(--text);font-family:system-ui,-apple-system,"PingFang TC",sans-serif}main{width:min(980px,100%);margin:auto;padding:18px 14px max(64px,env(safe-area-inset-bottom))}header,section{background:color-mix(in srgb,var(--panel) 94%,transparent);border:1px solid var(--line);border-radius:20px;padding:18px;margin:12px 0;box-shadow:0 14px 38px #0005}h1{font-size:clamp(1.55rem,6vw,2.5rem);margin:.45rem 0}.eyebrow{display:inline-flex;gap:.45rem;align-items:center;border:1px solid var(--line);border-radius:999px;padding:.4rem .7rem;color:var(--ok);font-weight:750}.ok{color:var(--ok);font-weight:800}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(138px,1fr));gap:10px}.card{background:#142f49;border:1px solid var(--line);border-radius:16px;padding:14px;min-height:108px}.card b{display:block;color:var(--accent);font-size:clamp(1.65rem,7vw,2.4rem);line-height:1.1}.card span{color:var(--muted)}a{color:var(--accent);overflow-wrap:anywhere}.chain{overflow:auto;white-space:nowrap;padding:.8rem;border-radius:12px;background:#071723;color:var(--muted)}code{overflow-wrap:anywhere}small,p,li{color:var(--muted)}ul{padding-left:1.2rem}@media(prefers-reduced-motion:no-preference){.card{transition:transform .18s,border-color .18s}.card:hover{transform:translateY(-2px);border-color:var(--accent)}}@media(max-width:420px){main{padding-inline:10px}header,section{border-radius:16px;padding:15px}.grid{grid-template-columns:repeat(2,1fr)}}
+    :root{color-scheme:dark;--bg:#06131f;--panel:#10283e;--line:#315473;--text:#f4f9ff;--muted:#abc0d2;--ok:#95e6bd;--accent:#75d5ff;--warn:#ffd27a;--bad:#ff9a9a}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 90% 0,#153d57 0,transparent 42%),linear-gradient(160deg,#06131f,#091e2e);color:var(--text);font-family:system-ui,-apple-system,"PingFang TC",sans-serif}main{width:min(980px,100%);margin:auto;padding:18px 14px max(64px,env(safe-area-inset-bottom))}header,section{background:color-mix(in srgb,var(--panel) 94%,transparent);border:1px solid var(--line);border-radius:20px;padding:18px;margin:12px 0;box-shadow:0 14px 38px #0005}h1{font-size:clamp(1.55rem,6vw,2.5rem);margin:.45rem 0}.eyebrow{display:inline-flex;gap:.45rem;align-items:center;border:1px solid var(--line);border-radius:999px;padding:.4rem .7rem;color:var(--ok);font-weight:750}.error{color:var(--bad);font-weight:800}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(138px,1fr));gap:10px}.card{background:#142f49;border:1px solid var(--line);border-radius:16px;padding:14px;min-height:108px}.card b{display:block;color:var(--accent);font-size:clamp(1.65rem,7vw,2.4rem);line-height:1.1}.card span,small,p,li{color:var(--muted)}a{color:var(--accent);overflow-wrap:anywhere}.change{border-left:4px solid var(--accent);padding:.6rem .8rem;margin:.65rem 0;background:#091e2e;border-radius:10px}.chain{overflow:auto;white-space:nowrap;padding:.8rem;border-radius:12px;background:#071723;color:var(--muted)}code{overflow-wrap:anywhere}ul{padding-left:1.2rem}@media(prefers-reduced-motion:no-preference){.card{transition:transform .18s,border-color .18s}.card:hover{transform:translateY(-2px);border-color:var(--accent)}}@media(max-width:420px){main{padding-inline:10px}header,section{border-radius:16px;padding:15px}.grid{grid-template-columns:repeat(2,1fr)}}
   </style>
 </head>
-<body>
-<main>
-  <header>
-    <span class="eyebrow">正版・無版本號</span>
-    <h1>🎬 GitHub 倉庫製動畫精靈</h1>
-    <p><code>LKMINI://automation/GitHubRepositoryAnimationSprite</code></p>
-    <p id="state" class="ok">載入真實巡檢資料</p>
-  </header>
+<body><main>
+  <header><span class="eyebrow">正版・無版本號</span><h1>🎬 GitHub 倉庫製動畫精靈</h1><p><code>LKMINI://automation/GitHubRepositoryAnimationSprite</code></p><p id="state" class="error">載入巡檢資料</p></header>
   <section class="grid" aria-label="巡檢指標">
-    <div class="card"><b id="repo-count">23</b><span>Repository</span></div>
-    <div class="card"><b id="branch-count">107</b><span>Branch</span></div>
-    <div class="card"><b id="workflow-count">3</b><span>Workflow 定義</span></div>
-    <div class="card"><b id="visual-count">29</b><span>可視化候選</span></div>
-    <div class="card"><b id="root-count">1</b><span>正式根</span></div>
-    <div class="card"><b id="error-count">0</b><span>現行錯誤</span></div>
+    <div class="card"><b id="repo-count">23</b><span>倉庫｜Repository</span></div>
+    <div class="card"><b id="branch-count">109</b><span>分支｜Branch</span></div>
+    <div class="card"><b id="change-count">3</b><span>本輪變更倉庫</span></div>
+    <div class="card"><b id="workflow-count">3</b><span>工作流程定義</span></div>
+    <div class="card"><b id="error-count">3</b><span>端點缺口</span></div>
+    <div class="card"><b id="notify-count">0</b><span>外部通知</span></div>
   </section>
-  <section>
-    <h2>現行裁決</h2>
-    <p>正式網頁 Projection：<a id="projection" href="https://lkmini-wiring-hub.ky46738.chatgpt.site">Sites 正式入口</a></p>
-    <p>Canonical commit：<a id="canonical-commit" href="https://github.com/lkminiPhantomWorld/LaoK-System/commit/e9efb23594f3342e722d5003a624ba782c67f1a1"><code>e9efb23594f3…</code></a></p>
-    <p>唯一正式寫回：<strong id="writeback">🥃老K系統／🧩LKMINI／🪞幻影膠囊</strong></p>
-    <p>帶版本號成品已退出正式表面，只保留 Git 歷史證據；不永久刪除。</p>
-  </section>
-  <section>
-    <h2>可逆回根</h2>
-    <div class="chain">Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A</div>
-    <p id="captured-at"></p>
-  </section>
-</main>
-<script src="./animation.js" defer></script>
-</body>
-</html>
+  <section><h2>本輪真實變更</h2><div id="changes"></div></section>
+  <section><h2>現行裁決</h2><p>正式網頁投影：<a id="projection" href="https://lkmini-wiring-hub.ky46738.chatgpt.site">Sites 正式入口</a></p><p>Canonical commit：<a id="canonical-commit" href="https://github.com/lkminiPhantomWorld/LaoK-System/commit/86a9e9a6352bf8aa7a065fad4e77008346a92be1"><code>86a9e9a6352b…</code></a></p><p>唯一正式寫回：<strong id="writeback">🥃老K系統／🧩LKMINI／🪞幻影膠囊</strong></p><p class="error">Tag、完整 Tree、全量 Run／Job 尚未閉環，因此狀態維持錯誤。</p></section>
+  <section><h2>可逆回根</h2><div class="chain">Repository → Commit → Tree → Path → Blob → Identity → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A</div><p id="captured-at"></p></section>
+</main><script src="./animation.js" defer></script></body></html>
