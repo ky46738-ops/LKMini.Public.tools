@@ -145,3 +145,18 @@ GitHub public ledger -> Google Drive SystemWiringAndServerMap -> GitHub public r
 - S0-S10: `完成`
 - New root: `0`; second formal container: `0`; permanent deletion: `0`
 - ReverseChain: Source -> AIRegistrar -> ActionPlan -> EngineBinding -> ToolReceipt -> Feedback -> Manifest -> Locator -> Snapshot -> ReverseChain -> 🥃老K系統 -> 🧩LKMINI -> A=A
+
+
+### AI情報教育外掛與狀態自適應記憶增量｜2026-08-06
+
+- TaskID: `LKMINI-AIINTEL-20260806-142231-TPE`
+- PlanID: `AIINTEL-8B5A61E122D34EB0`
+- InputSHA256: `8b5a61e122d34eb0028bf5326f610495db313cc591aa490982769e376363cc6b`
+- OpenAI source: https://openai.com/index/learn-teach-chatgpt-work-codex/
+- SAM source: https://arxiv.org/abs/2605.24468
+- Google Drive archive ObjectID: `1xsbJno5vmR-wyK39luFyF4K_hQwbz7Hb3mAB9ZDJ9CU`
+- Google Drive archive revision: `AIroW34h-sAEk_m5o_Y4V0Y7OlLXqIx4fIckxDbTsHRE-R23L9haLRDFUOAme5Bv_xYFvIQ5LoU1Bu2KtJ_FFYed5NgKu00911wRbV4Dp-Y`
+- Dedup result: added 2; duplicate append 0; arXiv:2606.06448 REFERENCE_ONLY.
+- Source bytes unavailable: ByteSize and ContentSHA256 remain UNAVAILABLE; evidence-record hashes are preserved separately.
+- New root: `0`; second formal container: `0`; permanent deletion: `0`.
+- ReverseChain: Source -> AIRegistrar -> ActionPlan -> EngineBinding -> ToolReceipt -> Feedback -> Manifest -> Locator -> Snapshot -> ReverseChain -> 🥃老K系統 -> 🧩LKMINI -> A=A
