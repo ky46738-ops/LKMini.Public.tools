@@ -226,3 +226,22 @@ GitHub public ledger -> Google Drive SystemWiringAndServerMap -> GitHub public r
 - ZIP / WACZ / WebArchive / PDF / SVG-WebP / workbook / minimum-world rebuild: 完成
 - New root: 0; second formal container: 0; permanent deletion: 0
 - ReverseChain: Projection -> DifferenceDetector -> WriteBackToSource -> FormulaRebuild -> JsonCoreRebuild -> Manifest -> SHA256Identity -> ReverseChain -> 🥃老K系統 -> 🧩LKMINI -> A=A
+
+
+### 九位置隱藏保留校準｜2026-08-06
+
+- Status: 完成
+- Correction: 九資料夾是九個抽象功能位置，不是全域固定的九個可見、同名實體資料夾。
+- Abstract positions: 9；空位置保留並可隱藏；隱藏不等於刪除。
+- Physical folders: 數量可依物件用途少於九個；目前幻影膠囊可見資料夾為9，僅代表本物件現況。
+- Naming: 依Identity與用途調整；既有物件先讀取、分類、歸位，必要時改原件名稱。
+- Creation: 本輪檔案數65→65；新增檔案0；平行副本0。
+- Eleven actions: S0–S10 = 完成
+- Idempotency InputSHA256: `07e7ea89f9bc01c23ca61ddd88577c03f86e992f7eb880cc100547f36f62135f`
+- Drive package ObjectID: `1HrRPXuoaHRlqheTYD_HpcZ61tJ3xCqpm`
+- Drive revision: `0B0rZjEvqIMWsaFBjcXZ6UHY3ejJXRm9NU2N2V1M4V1dMMG9vPQ`
+- Package ByteSize: `10973190`
+- Package SHA256: `358b5ff13fe937f8d40bc542d9d1b83a951016278cca43db1c9ec15b72c1482f`
+- ZIP integrity / workbook / SVG-WebP / minimum-world rebuild: 完成
+- New root: 0; second formal container: 0; permanent deletion: 0
+- ReverseChain: ExistingObject -> Read -> Classify -> Place -> HiddenPositionMetadata -> ElevenActions -> Manifest -> Snapshot -> ReverseChain -> 🥃老K系統 -> 🧩LKMINI -> A=A
