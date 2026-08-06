@@ -337,3 +337,17 @@ GitHub public ledger -> Google Drive SystemWiringAndServerMap -> GitHub public r
 - PackageSHA256: 0d1fd42a3eb27d188269fad3262c5939b8fc66b8debaa7d034e91205752c7190
 - PackageFileCount: 65
 - ReverseChain: Source → AIRegistrar → ActionPlan → EngineBinding → ToolReceipt → Feedback → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A
+
+
+## 🧚AI情報增量｜縱向記憶、替換權、技能估值與資源編排｜2026-08-06
+
+- TaskID: `LKMINI-AIINTEL-20260806-201815-TPE`
+- PlanID: `AIINTEL-9E78AEB3083A5678`
+- InputSHA256: `9e78aeb3083a5678b90832e1a84b3471f864e50d23efd0cb45b98766cefb10f2`
+- ContextWeave: https://arxiv.org/abs/2608.04830 ; DocumentID `arXiv:2608.04830`; PublishedAt `2026-08-05`; EvidenceRecordSHA256 `4ae97cce655bea039801d2e436e35bf0cf3e9cd12c1a953f84568038d21cf269`; 能力 `CAP-EXECUTION-AWARE-LONGITUDINAL-MEMORY`.
+- Agreement Before Diversity: https://arxiv.org/abs/2608.04618 ; DocumentID `arXiv:2608.04618`; PublishedAt `2026-08-05`; EvidenceRecordSHA256 `3ac5e18c14011e9c4de5ead306e78f752100b2b90d62b95874d7e4358f339a15`; 能力 `CAP-VERIFICATION-FIRST-REPLACEMENT-AUTHORITY`.
+- What Is a Skill Worth?: https://arxiv.org/abs/2608.04562 ; DocumentID `arXiv:2608.04562`; PublishedAt `2026-08-05`; EvidenceRecordSHA256 `b4ceb576098adbdbff496a08f84516b3d846f83a90291bbdc962ca91a208cee2`; 能力 `CAP-STRUCTURE-AWARE-SKILL-VALUATION`.
+- Architectural Implications of Agentic AI Workflows: https://arxiv.org/abs/2608.04458 ; DocumentID `arXiv:2608.04458`; PublishedAt `2026-08-05`; EvidenceRecordSHA256 `a482949f46fdaa5c5ce210d38c16d81f3c3e51e797fe3c32a99ab954b9a2d61f`; 能力 `CAP-AGENTIC-WORKLOAD-RESOURCE-ORCHESTRATION`.
+- Source ByteSize / ContentSHA256: `UNAVAILABLE`; 已實讀來源頁與全文內容，但讀取器未交付穩定原始位元流，未以摘要雜湊冒充來源內容雜湊。
+- Dedup: new `4`; duplicate/reference-only `3`; identical evidence append `0`.
+- ReverseChain: Source → AIRegistrar → ActionPlan → EngineBinding → ToolReceipt → Feedback → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A
