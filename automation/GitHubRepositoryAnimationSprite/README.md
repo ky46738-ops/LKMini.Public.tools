@@ -1,25 +1,17 @@
 # 🎬 GitHub 倉庫製動畫精靈
 
-> 🥃錨點｜版本=正版（無版本號）｜更新=2026-08-05 14:12 (Asia/Taipei)｜狀態=完成
+> 🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 05:14 (Asia/Taipei)｜狀態=錯誤
 
-這是 `LKMINI://automation/GitHubRepositoryAnimationSprite` 的唯讀視覺 Projection。正版不使用版本號；Git commit、Tree、平台版本 ID 與舊版名稱只作不可變歷史證據。
+這是 `LKMINI://automation/GitHubRepositoryAnimationSprite` 的唯讀視覺 Projection。
 
 - Owner：Kevin Yang
 - 唯一根：`🧩LKMINI`
 - 唯一正式容器：`🪞幻影膠囊`
-- 邏輯入口：`🥳歡迎光臨`
-- 正式網頁 Projection：[Sites 正式入口](https://lkmini-wiring-hub.ky46738.chatgpt.site)
 - 唯一正式寫回：`🥃老K系統／🧩LKMINI／🪞幻影膠囊`
-- GitHub 巡檢：23 個 Repository、107 個 Branch
-- Workflow 定義：3
-- 可視化搜尋候選：29；實體 SVG：2
-- 現行錯誤：0；永久刪除：0
-
-## 現行座標
-
-- Canonical program：[`lkminiPhantomWorld/LaoK-System@main`](https://github.com/lkminiPhantomWorld/LaoK-System/commit/e9efb23594f3342e722d5003a624ba782c67f1a1)
-- Current sprite：`ky46738-ops/LKMini.Public.tools@main/automation/GitHubRepositoryAnimationSprite`
-- 歷史帶版本號成品：`active=false`、`authorized=false`、`delete=false`
+- 巡檢：23 個 Repository、109 個 Branch、3 個變更倉庫
+- Canonical：[`lkminiPhantomWorld/LaoK-System@86a9e9a6`](https://github.com/lkminiPhantomWorld/LaoK-System/commit/86a9e9a6352bf8aa7a065fad4e77008346a92be1)
+- 現行錯誤：3；Tag、完整 Tree、全量 Run／Job 未閉環
+- 外部通知：0；永久刪除：0
 
 ## 驗證
 
