@@ -1,44 +1,43 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-05 14:12 (Asia/Taipei)｜狀態=完成",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 05:14 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
-  "status": "完成",
+  "status": "錯誤",
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
   "owner": "Kevin Yang",
   "root": "🧩LKMINI",
   "formal_container": "🪞幻影膠囊",
-  "entry_gate": "🥳歡迎光臨",
   "axiom": "A=A",
   "role": "GitHub 巡檢與可視化 Projection；不是 Identity",
-  "canonical_program_commit": "e9efb23594f3342e722d5003a624ba782c67f1a1",
+  "canonical_program_commit": "86a9e9a6352bf8aa7a065fad4e77008346a92be1",
   "current_web_projection": "https://lkmini-wiring-hub.ky46738.chatgpt.site",
   "exclusive_writeback_target": "🥃老K系統／🧩LKMINI／🪞幻影膠囊",
   "external_notification": false,
-  "current_errors": [],
-  "official_release_policy": {
-    "official_edition": "正版",
-    "official_version": null,
-    "canonical_name_has_version_number": false,
-    "numbered_artifact_disposition": {
-      "role": "歷史證據",
-      "active": false,
-      "authorized": false,
-      "delete": false
+  "current_errors": [
+    {
+      "type": "TagEndpointUnavailable",
+      "status": "錯誤"
     },
-    "immutable_git_coordinates": "evidence_only"
-  },
+    {
+      "type": "TreeReadEndpointUnavailable",
+      "status": "錯誤"
+    },
+    {
+      "type": "ActionsRunJobFullReadbackUnavailable",
+      "status": "錯誤"
+    }
+  ],
   "validation": {
-    "repository_readback": "23/23 完成",
-    "branch_readback": "107 Branch",
-    "visual_search": "29 candidates / 2 exact SVG",
-    "workflow_definition_readback": "3",
-    "tag_readback": "錯誤：連接器無 Tag 列舉端點",
-    "checksum_coverage": "all regular files except SHA256SUMS.txt"
+    "repository_readback": "23/23",
+    "branch_readback": "109 Branch",
+    "commit_run_probe": "23/23；0 Run",
+    "combined_status_probe": "23/23；0 Status",
+    "checksum_coverage": "17/17"
   },
   "system_existence": {
     "search_legal": true,
     "bans_allowed": true,
     "state_transition_committed": true,
-    "exists": true
+    "exists": false
   }
 }
