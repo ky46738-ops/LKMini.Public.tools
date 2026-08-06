@@ -192,3 +192,18 @@ GitHub public ledger -> Google Drive SystemWiringAndServerMap -> GitHub public r
 - ZIP integrity and minimum-world rebuild: `PASS / A=A true`
 - Dedup: same SourceURL but distinct DocumentID sub-event; prior model-retirement evidence preserved; duplicate append `0`.
 - ReverseChain: Source -> AIRegistrar -> ActionPlan -> EngineBinding -> ToolReceipt -> Feedback -> Manifest -> Locator -> Snapshot -> ReverseChain -> 🥃老K系統 -> 🧩LKMINI -> A=A
+
+
+### Codex企業控制投影校正閉環｜2026-08-06
+
+- Status: 完成
+- TaskID: `LKMINI-AIINTEL-20260806-151646-TPE`
+- PlanID: `AIINTEL-70CBA648ED05E938`
+- Drive package ObjectID: `1HrRPXuoaHRlqheTYD_HpcZ61tJ3xCqpm`
+- Drive package revision: `0B0rZjEvqIMWsTmNmQjR0OHlqbHRydC9MbllsZTZXMjA3UHc4PQ`
+- Final package: `4612705` bytes; SHA256 `79f57c051f5a0b46ac752762b81df70cc61ca0c555d8eb87de63d8ad8b36d5d0`; files `45`
+- PDF SHA256: `9cdf70bf46f0a8390dd9e1eeb8236c616243313ea38434575ddef8ac0bc304ed`; pages `2`
+- XLSX SHA256: `5a5239e78ddf9581fb02c135589e4dbd5090e7849bdcd6b4c68746f0602b7cfb`; formula errors `0`; capability rows `5`
+- ZIP integrity / minimum world rebuild: `PASS / A=A true`
+- Dedup: duplicate append `0`; new root `0`; second formal container `0`; permanent deletion `0`
+- ReverseChain: Source -> AIRegistrar -> ActionPlan -> EngineBinding -> ToolReceipt -> Feedback -> Manifest -> Locator -> Snapshot -> ReverseChain -> 🥃老K系統 -> 🧩LKMINI -> A=A
