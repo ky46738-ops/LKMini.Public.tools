@@ -1,22 +1,20 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-05 14:12 (Asia/Taipei)｜狀態=完成",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 05:14 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
-  "status": "完成",
+  "status": "錯誤",
   "mode": "github-repository-animation-sprite",
   "repository": "ky46738-ops/LKMini.Public.tools",
   "branch": "main",
-  "base_commit": "baa8fb7a3d29fd25f7340918fd4bb5cb63884ca2",
+  "source_head": "535f4b2b8360596c5c5529946af297cbbee28c9a",
   "actions": {
     "repositories_inspected": 23,
-    "branches_read": 107,
-    "visual_search_queries": 9,
+    "branches_read": 109,
+    "changed_repositories": 3,
     "workflow_definitions_read": 3,
-    "canonical_drift_detected": true,
-    "canonical_no_version_alignment": true,
-    "ui_optimized": true,
+    "ui_schema_repaired": true,
+    "hardcoded_metrics_repaired": true,
     "checksums_rebuilt": true,
-    "tests_updated": true,
     "history_preserved": true,
     "force_push": false,
     "permanent_delete_count": 0
@@ -25,24 +23,13 @@
     "json_parse": "完成",
     "sha256_self_test": "完成",
     "manifest_required_set": "完成",
-    "no_version_on_current_ui": "完成",
-    "remote_blob_readback": "提交後執行",
-    "workflow_run_and_job_boundary": "已記錄",
-    "tag_boundary": "已記錄"
+    "main_same_target_readback": "完成",
+    "tag_full_readback": "錯誤",
+    "tree_full_readback": "錯誤",
+    "workflow_run_job_full_readback": "錯誤"
   },
   "writeback": "🥃老K系統／🧩LKMINI／🪞幻影膠囊",
-  "official_release_policy": {
-    "official_edition": "正版",
-    "official_version": null,
-    "canonical_name_has_version_number": false,
-    "numbered_artifact_disposition": {
-      "role": "歷史證據",
-      "active": false,
-      "authorized": false,
-      "delete": false
-    },
-    "immutable_git_coordinates": "evidence_only"
-  },
+  "external_notification": false,
   "reverse_chain": [
     "Repository",
     "Commit",
