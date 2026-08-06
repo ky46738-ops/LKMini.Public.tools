@@ -207,3 +207,22 @@ GitHub public ledger -> Google Drive SystemWiringAndServerMap -> GitHub public r
 - ZIP integrity / minimum world rebuild: `PASS / A=A true`
 - Dedup: duplicate append `0`; new root `0`; second formal container `0`; permanent deletion `0`
 - ReverseChain: Source -> AIRegistrar -> ActionPlan -> EngineBinding -> ToolReceipt -> Feedback -> Manifest -> Locator -> Snapshot -> ReverseChain -> 🥃老K系統 -> 🧩LKMINI -> A=A
+
+
+### 九資料夾副檔名抽象與十一動閉環｜2026-08-06
+
+- Status: 完成
+- Correction: 所有正式格式能力改以九個能力層抽象；Projection不再被解讀為23項平鋪本體。
+- Top-level folders: 9
+- FormatIdentity records: 31; each has exactly one PrimaryLayer.
+- Eleven actions: S0–S10 = 完成
+- Idempotency InputSHA256: `e54b66c23f8c115a2f95393340cf53a65d563af745fcf19c6c96d5527c670d0e`
+- Formal source DocumentID: `gdrive:1gTOgS08zIUH_v73_q6EWScmq8h6tPCveTcxPBEu-ZGI`
+- Drive package ObjectID: `1HrRPXuoaHRlqheTYD_HpcZ61tJ3xCqpm`
+- Drive revision: `0B0rZjEvqIMWsS3g3NlBEMlUrWEYwL3FINTRzeFJNNnNUV1BvPQ`
+- Package ByteSize: `10972890`
+- Package SHA256: `8b809135f816c5506dceecfc41e3547597e9dc34beaa701986734dea953231b9`
+- Package files: 65; Manifest rows: 60
+- ZIP / WACZ / WebArchive / PDF / SVG-WebP / workbook / minimum-world rebuild: 完成
+- New root: 0; second formal container: 0; permanent deletion: 0
+- ReverseChain: Projection -> DifferenceDetector -> WriteBackToSource -> FormulaRebuild -> JsonCoreRebuild -> Manifest -> SHA256Identity -> ReverseChain -> 🥃老K系統 -> 🧩LKMINI -> A=A
