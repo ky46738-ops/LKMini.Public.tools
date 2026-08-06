@@ -290,3 +290,18 @@ GitHub public ledger -> Google Drive SystemWiringAndServerMap -> GitHub public r
 - Workbook: 6 capabilities; formula errors 0; Chinese render readback 完成。
 - Sites: version 35; deployment `appgdep_6a745b8b08a081918af98453ffc44756`; succeeded.
 - A=A.
+
+
+### MemoryCPT與CoEvoKG記憶架構增量｜2026-08-06
+
+- TaskID: `LKMINI-AIINTEL-20260806-181951-TPE`
+- PlanID: `AIINTEL-0560B10B31F7FADA`
+- InputSHA256: `0560b10b31f7fadaa743bb089bdc46974c64121074595fdc9feb2620982e17b8`
+- MemoryCPT: https://arxiv.org/abs/2608.04843 ; DocumentID `arXiv:2608.04843`; PublishedAt `2026-08-05`; EvidenceRecordSHA256 `e20d0a9f3c4d2cc1a88b2182513b5db5a7e246b07dec7a99d70026a4530a9c61`
+- CoEvoKG: https://arxiv.org/abs/2608.01904 ; DocumentID `arXiv:2608.01904`; PublishedAt `2026-08-03`; EvidenceRecordSHA256 `5fd9235cde95f6a506db219f3c72c55bbdab1ce44b055b853d5e8ec1fb923fc1`
+- Source ByteSize / ContentSHA256: `UNAVAILABLE`; 閱讀器提供完整文字但未提供穩定位元流，未以摘要雜湊冒充來源內容雜湊。
+- Capability absorption: `CAP-COST-AWARE-MEMORY-PIPELINE`, `CAP-VERIFIED-GRAPH-MEMORY-WRITEBACK`
+- Dedup: new `2`; duplicate/reference-only `1`; OpenAI 2026-08-05 API changelog event already archived and not re-added.
+- Preliminary package: `11084264` bytes; SHA256 `afef21a18e8d65e61d0a808c97b217e5fe3f241eb39da91a6ce6839763872222`; files `65`; ZIP `PASS`.
+- Workbook: capability rows `8`; formula errors `0`.
+- ReverseChain: Source -> AIRegistrar -> ActionPlan -> EngineBinding -> ToolReceipt -> Feedback -> Manifest -> Locator -> Snapshot -> ReverseChain -> 🥃老K系統 -> 🧩LKMINI -> A=A
