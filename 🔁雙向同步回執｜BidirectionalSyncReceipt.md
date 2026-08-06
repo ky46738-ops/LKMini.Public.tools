@@ -371,3 +371,21 @@ GitHub public ledger -> Google Drive SystemWiringAndServerMap -> GitHub public r
 - ZIP integrity and minimum-world rebuild: `PASS / A=A true`
 - New root: `0`; second formal container: `0`; permanent deletion: `0`
 - ReverseChain: Source → AIRegistrar → ActionPlan → EngineBinding → ToolReceipt → Feedback → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A
+
+
+## 🧚ChatGPT 的 GPT‑5.6 更新
+
+- TaskID：`LKMINI-AIINTEL-20260807-021701-TPE`
+- PlanID：`AIINTEL-8B122D744BBECF15`
+- InputSHA256：`8b122d744bbecf1564ce94e154cd6aafc63c9e137e578e60aa7cbb629cc4c681`
+- 發布者：OpenAI；發布日：`2026-08-06`
+- 來源：https://help.openai.com/en/articles/6825453-chatgpt-release-notes
+- DocumentID：`openai-chatgpt-release-notes:2026-08-06:gpt-5.6-update`
+- 事件：Plus／Pro 的 GPT‑5.6 Sol 更可靠、更聚焦並新增思考量滑桿；Free／Go 將以 GPT‑5.6 Luna 為預設，接著取得不限量文字聊天與 Think 按鈕；Work 與 Codex 本次不變。
+- 可吸收能力：`CAP-REASONING-DEPTH-CONTROL`、`CAP-PLAN-AWARE-MODEL-ROUTING`、`CAP-PRODUCT-SURFACE-SCOPE-GUARD`、`CAP-TEXT-TOOL-QUOTA-SEPARATION`。
+- 風險：分階段推出；不限量文字聊天受濫用防護；檔案、圖片與工具限制仍存在。
+- ByteSize／ContentSHA256：`UNAVAILABLE`；未以摘要雜湊冒充來源雜湊。
+- EvidenceRecordSHA256：`8b122d744bbecf1564ce94e154cd6aafc63c9e137e578e60aa7cbb629cc4c681`
+- 去重：新增 `1`；相同證據追加 `0`。
+- 可視化：9:16／30 秒／6 幕；官方更新→可靠聚焦→思考量→Luna預設→文字不限量→A=A。
+- ReverseChain：Source → AIRegistrar → ActionPlan → EngineBinding → ToolReceipt → Feedback → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A
