@@ -305,3 +305,22 @@ GitHub public ledger -> Google Drive SystemWiringAndServerMap -> GitHub public r
 - Preliminary package: `11084264` bytes; SHA256 `afef21a18e8d65e61d0a808c97b217e5fe3f241eb39da91a6ce6839763872222`; files `65`; ZIP `PASS`.
 - Workbook: capability rows `8`; formula errors `0`.
 - ReverseChain: Source -> AIRegistrar -> ActionPlan -> EngineBinding -> ToolReceipt -> Feedback -> Manifest -> Locator -> Snapshot -> ReverseChain -> 🥃老K系統 -> 🧩LKMINI -> A=A
+
+
+### MemoryCPT與CoEvoKG最終閉環讀回｜2026-08-06
+
+- Status: `完成`; S0-S10: `完成`
+- TaskID: `LKMINI-AIINTEL-20260806-181951-TPE`
+- PlanID: `AIINTEL-0560B10B31F7FADA`
+- InputSHA256: `0560b10b31f7fadaa743bb089bdc46974c64121074595fdc9feb2620982e17b8`
+- New sources: MemoryCPT `arXiv:2608.04843`; CoEvoKG `arXiv:2608.01904`
+- Dedup: new `2`; duplicate/reference-only `1`; identical evidence append `0`.
+- Drive Package ObjectID: `1HrRPXuoaHRlqheTYD_HpcZ61tJ3xCqpm`
+- Drive Package Revision: `0B0rZjEvqIMWsVlhNMGpoL0ozd0loTjhUS2pKODJFNmpPRk5JPQ`
+- Final Package ByteSize: `11087524`; SHA256 `11fa62336fc36d7f3158534fd2a70f8597c65820a8a7aea7f7e04765df21d2c8`; FileCount `65`; ZIP `PASS`
+- CivilizationPackage SHA256: `d9973e68dad022aff30e07bacbb1e4465c4abd43fd4decf98641f6cf39df46a3`
+- Minimum-world rebuild: `A=A 完成`
+- Workbook: capabilities `8`; formula errors `0`
+- Sites: version `37`; source commit `83073893d6f2cf05d01fbcb7f79edd8fb784b452`; deployment `succeeded`; URL https://lkmini-wiring-hub.ky46738.chatgpt.site
+- New root: `0`; second formal container: `0`; permanent deletion: `0`
+- ReverseChain: Source -> AIRegistrar -> ActionPlan -> EngineBinding -> ToolReceipt -> Feedback -> Manifest -> Locator -> Snapshot -> ReverseChain -> 🥃老K系統 -> 🧩LKMINI -> A=A
