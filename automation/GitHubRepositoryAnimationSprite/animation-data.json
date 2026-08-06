@@ -1,64 +1,86 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-05 18:36 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 05:14 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
-  "captured_at": "2026-08-05T10:36:00Z",
+  "captured_at": "2026-08-06T21:14:10Z",
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
   "owner": "Kevin Yang",
   "metrics": {
-    "repositories_read": 23,
-    "branches_read": 108,
-    "branch_full_readback_complete": true,
-    "visual_search_hits_minimum": 18,
-    "workflow_definitions_found": 3,
-    "unclosed_endpoint_groups": 3,
+    "repositories": 23,
+    "branches": 109,
+    "workflow_definitions": 3,
+    "visual_search_candidates": 29,
     "formal_roots": 1,
     "formal_containers": 1,
+    "current_errors": 3,
+    "changed_repositories": 3,
+    "runs_read": 0,
+    "jobs_read": 0,
     "external_notifications": 0,
     "permanent_deletes": 0
   },
   "current": {
     "canonical_repository": "lkminiPhantomWorld/LaoK-System",
     "canonical_default_branch": "main",
-    "canonical_commit": "17ca538ded806d61a0664c517209dc87a557136b",
-    "canonical_commit_url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/17ca538ded806d61a0664c517209dc87a557136b",
+    "canonical_commit": "86a9e9a6352bf8aa7a065fad4e77008346a92be1",
+    "canonical_commit_url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/86a9e9a6352bf8aa7a065fad4e77008346a92be1",
     "sprite_repository": "ky46738-ops/LKMini.Public.tools",
     "sprite_path": "automation/GitHubRepositoryAnimationSprite",
+    "source_head": "535f4b2b8360596c5c5529946af297cbbee28c9a",
     "writeback": "🥃老K系統／🧩LKMINI／🪞幻影膠囊",
+    "web_projection": "https://lkmini-wiring-hub.ky46738.chatgpt.site",
     "external_email": false,
     "external_notification": false
   },
-  "verified_this_round": {
-    "repository_listing": true,
-    "repository_count": 23,
-    "branch_listing_all_repositories": true,
-    "branch_count": 108,
-    "latest_commit_search_all_repositories": true,
-    "representative_path_blob_read_all_repositories": true,
-    "visual_asset_search": true,
-    "workflow_definition_search": true,
-    "sprite_svg_readback": true,
-    "sprite_data_readback_required": true,
-    "sprite_svg_commit": "ddaf27882f45be12f4e98dd9dcc9a086ed3795d1"
-  },
+  "changes": [
+    {
+      "repository": "ky46738-ops/LKMini",
+      "commit": "0cddbc9c2a1656ffade24438ac5cbef14603f0ca",
+      "message": "新增單回合1GB全量施工回執",
+      "path": "evidence/📊單回合1GB全量施工回執｜OneGigabyteFullRunReceipt.md",
+      "blob": "6be991ff50f7cf789015433456c2593b41ab9429"
+    },
+    {
+      "repository": "ky46738-ops/LKMini.Public.tools",
+      "commit": "535f4b2b8360596c5c5529946af297cbbee28c9a",
+      "message": "同步 GPT-5.6 情報增量封裝回執",
+      "path": "🔁雙向同步回執｜BidirectionalSyncReceipt.md"
+    },
+    {
+      "repository": "lkminiPhantomWorld/LaoK-System",
+      "commit": "86a9e9a6352bf8aa7a065fad4e77008346a92be1",
+      "message": "修復終局封裝跨平台證據漂移",
+      "path": "09｜⭕️唯一真相/📊死亡模式實際處理量總帳｜DeathModeProcessingVolumeLedger.json",
+      "blob": "a12f264c9cf70b983251af9ad6c6e81299b26335"
+    }
+  ],
   "errors": [
     {
       "type": "TagEndpointUnavailable",
       "status": "錯誤",
-      "evidence": "目前 GitHub 連接器未提供 Tag 全量列舉工具。"
+      "evidence": "GitHub 連接器未提供 Tag 全量列舉端點。"
     },
     {
       "type": "TreeReadEndpointUnavailable",
       "status": "錯誤",
-      "evidence": "目前 GitHub 連接器未提供 Git Tree 讀取端點；Path 與 Blob 已以 fetch_file 讀回，Tree 不補造。"
+      "evidence": "GitHub 連接器未提供完整 Git Tree 讀取端點；Path 與 Blob 已讀回。"
     },
     {
       "type": "ActionsRunJobFullReadbackUnavailable",
       "status": "錯誤",
-      "evidence": "可用端點只查 Commit 關聯的 PR-triggered Runs 首頁，不能代表每倉庫全量 Run／Job；未偽造。"
+      "evidence": "Commit Run 端點只涵蓋 PR-triggered 首頁，無法代表每倉庫全量 Run／Job。"
     }
   ],
+  "verified_this_round": {
+    "repository_listing": "23/23",
+    "branch_listing": "23/23；109 Branch",
+    "latest_commit_search": "23/23",
+    "commit_run_probe": "23/23；0 Run",
+    "combined_status_probe": "23/23；0 Status",
+    "changed_commit_diff": "3/3",
+    "changed_path_blob_readback": "3/3"
+  },
   "reverse_chain": [
     "Repository",
     "Commit",
