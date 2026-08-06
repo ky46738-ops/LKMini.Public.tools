@@ -1,0 +1,38 @@
+{
+  "系統": "🥃老K系統",
+  "可見性": "PUBLIC",
+  "公開安全": "PUBLIC_SAFE",
+  "根節點SHA256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
+  "檔案": [
+    {
+      "檔名": "🌐🥃老K系統公開開源總入口｜LaoKSystemPublicOpenSourceGateway.html",
+      "ByteSize": 5808,
+      "SHA256": "d4c248f2248eae7b26df2ff13e637c045d5d369a920efe96e5b0bce8b3cd4e7d"
+    },
+    {
+      "檔名": "📄老K系統公開開源安全說明｜LaoKSystemPublicSafeNotice.pdf",
+      "ByteSize": 7146,
+      "SHA256": "a758f51c6701960f1ecbdb8796b7f7b70b248b6dc3b6c8a1eaf86be495f7a030"
+    },
+    {
+      "檔名": "📊老K系統公開開源安全掃描報表｜LaoKSystemPublicSafetyReport.xlsx",
+      "ByteSize": 6951,
+      "SHA256": "1dc0e29b46aa583df0ac64c5645c436ad9250371d4600413b98205e0dd13c37f"
+    },
+    {
+      "檔名": "📑老K系統公開正式定義清冊｜LaoKSystemPublicDefinitions.csv",
+      "ByteSize": 3416,
+      "SHA256": "85f7a671c96a5294bce190cfbbea64010e8e548196484563b21fd746167c02db"
+    },
+    {
+      "檔名": "📘老K系統公開開源說明書｜LaoKSystemPublicOpenSourceManual.md",
+      "ByteSize": 4299,
+      "SHA256": "223966792b0624984c57b540963a839553119b8dfa0809b1ea0b9be612475eff"
+    },
+    {
+      "檔名": "🧠老K系統公開安全核心｜LaoKSystemPublicSafeCore.json",
+      "ByteSize": 6089,
+      "SHA256": "21cc6abea8aa1890c189800a71779a1258d1c875043e3d55772761031018c17f"
+    }
+  ]
+}
