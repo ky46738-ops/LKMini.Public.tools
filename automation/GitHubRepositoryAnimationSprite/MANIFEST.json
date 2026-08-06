@@ -1,8 +1,8 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-05 14:12 (Asia/Taipei)｜狀態=完成",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 05:14 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
-  "status": "完成",
+  "status": "錯誤",
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
   "root": "🧩LKMINI",
   "formal_container": "🪞幻影膠囊",
@@ -27,17 +27,20 @@
     "🪞幻影膠囊"
   ],
   "source_repository_count": 23,
-  "source_branch_count": 107,
+  "source_branch_count": 109,
+  "changed_repository_count": 3,
   "workflow_definition_count": 3,
-  "visual_search_candidate_count": 29,
+  "current_error_count": 3,
   "checksum_contract": "SHA256SUMS.txt covers every regular file except itself",
-  "history_evidence": {
-    "previous_sprite_commit": "baa8fb7a3d29fd25f7340918fd4bb5cb63884ca2",
-    "canonical_numbered_slice_commit": "2bed88f8a38cd38c89f4e9509499d6af68adbfbe",
-    "active": false,
-    "authorized": false,
-    "delete": false
+  "current_evidence": {
+    "canonical_commit": "86a9e9a6352bf8aa7a065fad4e77008346a92be1",
+    "source_sprite_head": "535f4b2b8360596c5c5529946af297cbbee28c9a"
   },
+  "unresolved": [
+    "Tag 全量列舉",
+    "完整 Git Tree",
+    "全量 Workflow Run／Job"
+  ],
   "official_release_policy": {
     "official_edition": "正版",
     "official_version": null,
@@ -47,8 +50,8 @@
       "active": false,
       "authorized": false,
       "delete": false
-    },
-    "immutable_git_coordinates": "evidence_only"
+    }
   },
+  "external_notification": false,
   "permanent_delete_count": 0
 }
