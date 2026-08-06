@@ -87,3 +87,14 @@ GitHub public ledger -> Google Drive SystemWiringAndServerMap -> GitHub public r
 - New formal container: 0
 - Permanent deletion: 0
 - ReverseChain: Google Drive → GitHub → Notion → Gmail → Sites → 🪞幻影膠囊 → 🧩LKMINI → A=A
+
+
+### AI情報增量｜2026-08-06
+
+- EviGraph: https://arxiv.org/abs/2608.04738
+- A/B Agent: https://arxiv.org/abs/2608.04625
+- Google Drive archive revision: `AIroW36XiYz7b-UxtAysZ1_q4fbVABoeMfxy0iqIU6zYP4N6C9wqwyRoxC4tLiN8QA5jr5fvFMQh7r81VXYRhgizrVXeRfnxhAY8p5kEaGE`
+- Notion page readback time: `2026-08-06T04:33:29.737Z`
+- Gmail research summary MessageID / ThreadID: `19fd5588be7b6abc`
+- Dedup result: added 2; duplicate append 0.
+- ReverseChain: Sources -> AIRegistrar -> ActionPlan -> EngineBinding -> ToolReceipt -> Feedback -> Manifest -> Locator -> Snapshot -> ReverseChain -> 🥃老K系統 -> 🧩LKMINI -> A=A
