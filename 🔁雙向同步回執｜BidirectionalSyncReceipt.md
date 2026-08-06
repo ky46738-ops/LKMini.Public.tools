@@ -175,3 +175,20 @@ GitHub public ledger -> Google Drive SystemWiringAndServerMap -> GitHub public r
 - Gmail MessageID / ThreadID: `19fd5d26c2de2aaf`
 - S0-S10: `完成`; new root: `0`; second formal container: `0`; permanent deletion: `0`
 - ReverseChain: Source -> AIRegistrar -> ActionPlan -> EngineBinding -> ToolReceipt -> Feedback -> Manifest -> Locator -> Snapshot -> ReverseChain -> 🥃老K系統 -> 🧩LKMINI -> A=A
+
+
+### Codex企業控制增量｜2026-08-06
+
+- TaskID: `LKMINI-AIINTEL-20260806-151646-TPE`
+- PlanID: `AIINTEL-70CBA648ED05E938`
+- Source: https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan
+- DocumentID: `openai-help:11369540#enterprise-controls`
+- EvidenceRecordSHA256: `e881b8b326183726a1839572483cc0e8d4f9d93330462d61c46ef46e9f3b5744`
+- Absorbed: managed control precedence; plugin-to-app permission inheritance; Sites publishing governance; explicit approval and admin disablement for Browser full CDP.
+- PublishedAt: `2026-08-03 (inferred)`; official page displayed “Updated: 3 days ago” on 2026-08-06.
+- Drive archive revision: `AIroW34WCniAPvsr69vqNjOKmpZMcFCqI-01oOtqRAiTaQA1xK-ajiu9C5af8QUDuRhu8rvK5LAAhN6z3d0Bm-birAuvTlS9icctmnFmIA4`
+- Drive package ObjectID: `1HrRPXuoaHRlqheTYD_HpcZ61tJ3xCqpm`; revision: `0B0rZjEvqIMWsWEsxM1BVeWQ1LzVCL0FKKy81eGJ3MlVLMWpjPQ`; ByteSize: `4603185`
+- Package SHA256: `bc81927e2afecc8b27c2ef3973949aae383442be3c446ef7c2648522b886c06c`; files: `45`
+- ZIP integrity and minimum-world rebuild: `PASS / A=A true`
+- Dedup: same SourceURL but distinct DocumentID sub-event; prior model-retirement evidence preserved; duplicate append `0`.
+- ReverseChain: Source -> AIRegistrar -> ActionPlan -> EngineBinding -> ToolReceipt -> Feedback -> Manifest -> Locator -> Snapshot -> ReverseChain -> 🥃老K系統 -> 🧩LKMINI -> A=A
