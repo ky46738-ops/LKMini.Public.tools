@@ -274,3 +274,19 @@ GitHub public ledger -> Google Drive SystemWiringAndServerMap -> GitHub public r
 - Final Gmail confirmation: MessageID `19fd679046742cf8`; ThreadID `19fd673c9f09429e`.
 - Sites final version: 34; deployment `appgdep_6a7458b70d508191abbc6d9f0b796b7c`; status succeeded.
 - A=A.
+
+
+### OpenAI Work／Codex Voice情報增量｜2026-08-06
+
+- Status: 完成；新增 1；重複追加 0。
+- Source: https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex
+- DocumentID: `openai-help:20001275`; PublishedAt: `2026-08-01 (inferred)`; EvidenceRecordSHA256: `193efb8dbef1406cde9d29cc1f37918bc6f1382e33ce4932372d86c930295b73`.
+- Event: Voice可作為Work與Codex桌面介面；Work Cloud、Work Local、Codex Local採分離權限；工作區可設定起始模型、推理、速度與新對話預設。
+- Absorbed: VoiceCoordinatedAgentTasks; WorkCloudLocalRoleMatrix; StartingDefaultsPolicy; SingleVoiceSessionGate; UsagePoolReceipt.
+- Risk: Voice沿用所選體驗的工具與權限；麥克風、螢幕錄製與輔助使用權限必須明示、可查、可回退。
+- ContentSHA256: UNAVAILABLE；網頁讀取器未提供穩定原始位元，不以摘要雜湊冒充。
+- Drive ObjectID: `1HrRPXuoaHRlqheTYD_HpcZ61tJ3xCqpm`; Revision: `0B0rZjEvqIMWsckREUVZQUmZMK2RBV3ozN0RDOTQ1ZERBOHlBPQ`.
+- Package: 11074484 bytes; SHA256 `3d072b487da09b62cf029c731bc8ca60d08b9806373d84cee4192ebedd9e5393`; files 65; ZIP 完成。
+- Workbook: 6 capabilities; formula errors 0; Chinese render readback 完成。
+- Sites: version 35; deployment `appgdep_6a745b8b08a081918af98453ffc44756`; succeeded.
+- A=A.
