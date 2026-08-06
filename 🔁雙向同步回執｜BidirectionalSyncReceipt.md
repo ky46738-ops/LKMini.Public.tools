@@ -245,3 +245,21 @@ GitHub public ledger -> Google Drive SystemWiringAndServerMap -> GitHub public r
 - ZIP integrity / workbook / SVG-WebP / minimum-world rebuild: 完成
 - New root: 0; second formal container: 0; permanent deletion: 0
 - ReverseChain: ExistingObject -> Read -> Classify -> Place -> HiddenPositionMetadata -> ElevenActions -> Manifest -> Snapshot -> ReverseChain -> 🥃老K系統 -> 🧩LKMINI -> A=A
+
+
+### 本體顯影互換與千面幻影最終校準｜2026-08-06
+
+- Status: 完成
+- Nine positions: 抽象位置9；空位置保留並可隱藏；實體資料夾數量與名稱依物件用途；本輪檔案數65→65。
+- Identity: 目標是誰；Coordinate = Identity.Position。
+- Locator: TargetIdentity + CoordinateType + CurrentLocation + Parser + FallbackLocation + UpdatedAt + VerificationData。
+- Portal: Identity ⇄ Projection 可逆傳送；每個Projection各自回到同一Identity，彼此不必直接耦合。
+- Thousand Phantom: 唯一本體；千面、面具與幻影可切換；共鳴失敗不得宣稱同步完成。
+- Minimum reversible conditions: SHA256 / MANIFEST / LOCATOR / SNAPSHOT / REVERSECHAIN / PACKAGE；允許內嵌中繼資料，不強制每項生成實體檔案。
+- Eleven actions: S0搜尋吸回去重 → S1閱讀理解 → S2啟動＋掛載 → S3知識＋驗證 → S4零件更新 → S5樣式＋廣播 → S6融合 → S7快照 → S8自動化同步 → S9可逆循環 → S10禁令引擎查核＋軍令看守。
+- InputSHA256: `b6fec7278c83bb8e2efdcd5728a4fa461184bc3b3047eaff116d235c5bb9b239`
+- Drive ObjectID: `1HrRPXuoaHRlqheTYD_HpcZ61tJ3xCqpm`; revision: `0B0rZjEvqIMWscnFPK3dOcTBlQ3pmZnkweWNWRUVaQ29sd0N3PQ`.
+- Package: 10989614 bytes; SHA256 `76de34a14e823dcb1ed7dab25934191cb88f0da967295a8ccfb284ce158ea491`; files 65; ZIP integrity 完成。
+- Sites: version 33; deployment `appgdep_6a7455e1821081919c4a413b22c50e2a`; status succeeded; https://lkmini-wiring-hub.ky46738.chatgpt.site
+- New root: 0; second formal container: 0; permanent deletion: 0; parallel file: 0.
+- ReverseChain: Projection → Locator → Manifest → Verification → Snapshot → ReverseChain → Identity → 🥃老K系統 → 🧩LKMINI → A=A
