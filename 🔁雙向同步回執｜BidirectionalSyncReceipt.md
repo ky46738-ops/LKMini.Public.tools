@@ -98,3 +98,14 @@ GitHub public ledger -> Google Drive SystemWiringAndServerMap -> GitHub public r
 - Gmail research summary MessageID / ThreadID: `19fd5588be7b6abc`
 - Dedup result: added 2; duplicate append 0.
 - ReverseChain: Sources -> AIRegistrar -> ActionPlan -> EngineBinding -> ToolReceipt -> Feedback -> Manifest -> Locator -> Snapshot -> ReverseChain -> 🥃老K系統 -> 🧩LKMINI -> A=A
+
+
+### Sites 新內容部署讀回｜2026-08-06
+
+- Source commit: `f1b823d3737310843bd9f560165242fcf851ba76`
+- Sites project: `appgprj_6a68801042bc8191ab7eba5718be83a0`
+- Sites version: `27`
+- Deployment status: `succeeded`
+- Production URL: https://lkmini-wiring-hub.ky46738.chatgpt.site
+- Build and tests: `13/13 PASS`
+- Remaining overall errors: 114-item full artifact generation and formal package/minimal-world rebuild are not closed.
