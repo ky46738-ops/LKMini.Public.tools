@@ -1,30 +1,33 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-05 14:12 (Asia/Taipei)｜狀態=完成",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 05:14 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
-  "status": "完成",
+  "status": "錯誤",
   "type": "ProjectionIdentityContainerReference",
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
   "root": "🧩LKMINI",
   "formal_container": "🪞幻影膠囊",
   "is_second_container": false,
   "entry_gate": "🥳歡迎光臨",
-  "canonical_commit": "e9efb23594f3342e722d5003a624ba782c67f1a1",
+  "canonical_commit": "86a9e9a6352bf8aa7a065fad4e77008346a92be1",
   "current_web_projection": "https://lkmini-wiring-hub.ky46738.chatgpt.site",
   "writeback": "🥃老K系統／🧩LKMINI／🪞幻影膠囊",
   "external_notification": false,
-  "current_errors": [],
-  "axiom": "A=A",
-  "official_release_policy": {
-    "official_edition": "正版",
-    "official_version": null,
-    "canonical_name_has_version_number": false,
-    "numbered_artifact_disposition": {
-      "role": "歷史證據",
-      "active": false,
-      "authorized": false,
-      "delete": false
+  "current_errors": [
+    {
+      "type": "TagEndpointUnavailable",
+      "status": "錯誤"
     },
-    "immutable_git_coordinates": "evidence_only"
-  }
+    {
+      "type": "TreeReadEndpointUnavailable",
+      "status": "錯誤"
+    },
+    {
+      "type": "ActionsRunJobFullReadbackUnavailable",
+      "status": "錯誤"
+    }
+  ],
+  "axiom": "A=A",
+  "exists": false,
+  "permanent_delete_count": 0
 }
