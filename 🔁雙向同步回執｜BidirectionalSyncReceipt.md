@@ -109,3 +109,23 @@ GitHub public ledger -> Google Drive SystemWiringAndServerMap -> GitHub public r
 - Production URL: https://lkmini-wiring-hub.ky46738.chatgpt.site
 - Build and tests: `13/13 PASS`
 - Remaining overall errors: 114-item full artifact generation and formal package/minimal-world rebuild are not closed.
+
+
+### S7-S10 可逆交付修復讀回｜2026-08-06
+
+- Status: 完成
+- Formal container parent ID: `1e87BX4VLLnOZvMaDHdzGMEghNON9SqdX`
+- Drive package ObjectID: `1HrRPXuoaHRlqheTYD_HpcZ61tJ3xCqpm`
+- Package ByteSize: `6227069`
+- Package SHA256: `13194559f4095fdb9732ca8d0a44f204237fa4c56ed4a1895c4b8f2e8fb4c0bf`
+- Package files: `41`
+- ZIP integrity: `PASS`
+- Minimum-world rebuild: `A=A true`
+- PDF ObjectID: `1IAb4RRWquOn8l-GgZYvyyPF8IVrEY85v`; Chinese render: `PASS`
+- XLSX ObjectID: `1Nx5i1pcnZSnJT52Mtooos2Yo5Rzyq-AB`; formula errors: `0`
+- WebP ObjectID: `1dCK3kQ1AaQqzOvlAj4oky8JfnmfDgCEy`
+- SVG ObjectID: `1uo-mU07pK_yW75lUKueiN9aTYz8gazmy`
+- PNG ObjectID: `1MqW9UZBmstHOzdUiRsCjexsf8nQ8fayd`
+- Same parent readback: `true`
+- New root: `0`; second formal container: `0`; permanent deletion: `0`
+- ReverseChain: Source -> AIRegistrar -> ActionPlan -> EngineBinding -> ToolReceipt -> Feedback -> Manifest -> Locator -> Snapshot -> ReverseChain -> 🥃老K系統 -> 🧩LKMINI -> A=A
