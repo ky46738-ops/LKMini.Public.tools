@@ -1,9 +1,9 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 20:12 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 23:14 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
-  "captured_at": "2026-08-07T12:12:18Z",
+  "captured_at": "2026-08-07T15:14:32Z",
   "repositories": {
     "count": 23,
     "inventory_count": 23,
@@ -52,7 +52,7 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T12:12:18Z"
+        "readback_at": "2026-08-07T15:14:32Z"
       },
       {
         "repository": "ky46738-ops/LKMini",
@@ -74,7 +74,7 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T12:12:18Z"
+        "readback_at": "2026-08-07T15:14:32Z"
       },
       {
         "repository": "ky46738-ops/tiny-state-core",
@@ -92,7 +92,7 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T12:12:18Z"
+        "readback_at": "2026-08-07T15:14:32Z"
       },
       {
         "repository": "ky46738-ops/vpoop-guardian",
@@ -109,7 +109,7 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T12:12:18Z"
+        "readback_at": "2026-08-07T15:14:32Z"
       },
       {
         "repository": "ky46738-ops/LKMini.Public.tools",
@@ -124,13 +124,13 @@
           "repair/verify-existing-errors-20260728"
         ],
         "branch_count": 5,
-        "latest_commit": "945034e10e7f62160e41617003707269e04de759",
-        "latest_commit_url": "https://github.com/ky46738-ops/LKMini.Public.tools/commit/945034e10e7f62160e41617003707269e04de759",
+        "latest_commit": "0d44cd92c807055f09665afd8b3d8e7714dd3825",
+        "latest_commit_url": "https://github.com/ky46738-ops/LKMini.Public.tools/commit/0d44cd92c807055f09665afd8b3d8e7714dd3825",
         "default_branch_compare": "identical",
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T12:12:18Z"
+        "readback_at": "2026-08-07T15:14:32Z"
       },
       {
         "repository": "ky46738-ops/desktop-tutorial",
@@ -147,7 +147,7 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T12:12:18Z"
+        "readback_at": "2026-08-07T15:14:32Z"
       },
       {
         "repository": "ky46738-ops/lk-civilization-core",
@@ -164,7 +164,7 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T12:12:18Z"
+        "readback_at": "2026-08-07T15:14:32Z"
       },
       {
         "repository": "ky46738-ops/welcome",
@@ -183,7 +183,7 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T12:12:18Z"
+        "readback_at": "2026-08-07T15:14:32Z"
       },
       {
         "repository": "ky46738-ops/-Tools",
@@ -200,7 +200,7 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T12:12:18Z"
+        "readback_at": "2026-08-07T15:14:32Z"
       },
       {
         "repository": "lkminiPhantomWorld/LaoK-System",
@@ -231,13 +231,13 @@
           "第八區銀行修正"
         ],
         "branch_count": 21,
-        "latest_commit": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
-        "latest_commit_url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
+        "latest_commit": "86cef441a385eff14d108d29ee2a8b07d3d30436",
+        "latest_commit_url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/86cef441a385eff14d108d29ee2a8b07d3d30436",
         "default_branch_compare": "identical",
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T12:12:18Z"
+        "readback_at": "2026-08-07T15:14:32Z"
       },
       {
         "repository": "lkminiPhantomWorld/oldk-shuguang-folder-link-registry",
@@ -255,7 +255,7 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T12:12:18Z"
+        "readback_at": "2026-08-07T15:14:32Z"
       },
       {
         "repository": "lkminiPhantomWorld/oldk-lkmini-eternal-core-cross-optimize",
@@ -273,7 +273,7 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T12:12:18Z"
+        "readback_at": "2026-08-07T15:14:32Z"
       },
       {
         "repository": "lkminiPhantomWorld/lk-semantic-civilization-runtime",
@@ -290,7 +290,7 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T12:12:18Z"
+        "readback_at": "2026-08-07T15:14:32Z"
       },
       {
         "repository": "lkminiPhantomWorld/lk-unique-gate",
@@ -313,7 +313,7 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T12:12:18Z"
+        "readback_at": "2026-08-07T15:14:32Z"
       },
       {
         "repository": "lkminiPhantomWorld/laoK-core",
@@ -330,7 +330,7 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T12:12:18Z"
+        "readback_at": "2026-08-07T15:14:32Z"
       },
       {
         "repository": "lkminiPhantomWorld/welcome",
@@ -360,7 +360,7 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T12:12:18Z"
+        "readback_at": "2026-08-07T15:14:32Z"
       },
       {
         "repository": "lkminiPhantomWorld/tiny-state-core",
@@ -377,7 +377,7 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T12:12:18Z"
+        "readback_at": "2026-08-07T15:14:32Z"
       },
       {
         "repository": "lkminiPhantomWorld/vpoop-guardian",
@@ -394,7 +394,7 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T12:12:18Z"
+        "readback_at": "2026-08-07T15:14:32Z"
       },
       {
         "repository": "lkminiPhantomWorld/Tools",
@@ -413,7 +413,7 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T12:12:18Z"
+        "readback_at": "2026-08-07T15:14:32Z"
       },
       {
         "repository": "lkminiPhantomWorld/lkstylet",
@@ -432,7 +432,7 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T12:12:18Z"
+        "readback_at": "2026-08-07T15:14:32Z"
       },
       {
         "repository": "lkminiPhantomWorld/PhantomCapsule",
@@ -451,7 +451,7 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T12:12:18Z"
+        "readback_at": "2026-08-07T15:14:32Z"
       },
       {
         "repository": "lkminiPhantomWorld/lkmini-elf",
@@ -468,7 +468,7 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T12:12:18Z"
+        "readback_at": "2026-08-07T15:14:32Z"
       },
       {
         "repository": "lkminiPhantomWorld/LKMini",
@@ -487,15 +487,34 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T12:12:18Z"
+        "readback_at": "2026-08-07T15:14:32Z"
       }
     ]
   },
-  "changed_repositories": [],
+  "changed_repositories": [
+    {
+      "repository": "lkminiPhantomWorld/LaoK-System",
+      "before_commit": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
+      "current_commit": "86cef441a385eff14d108d29ee2a8b07d3d30436",
+      "commit_span": 7,
+      "changed_paths": [
+        "LOCATOR.json",
+        "MANIFEST.json",
+        "PACKAGE.json",
+        "README.md",
+        "REVERSECHAIN.json",
+        "SHA256SUMS.txt",
+        "SNAPSHOT.json"
+      ],
+      "path_blob_readback": "7/7",
+      "commit_message": "同步跨平台漂移修復 SHA256 清單",
+      "url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/86cef441a385eff14d108d29ee2a8b07d3d30436"
+    }
+  ],
   "canonical_program": {
     "coordinate": "lkminiPhantomWorld/LaoK-System@main",
-    "commit": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
-    "url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/8f0366fc82d950cfabde85fc6d73bc0d570b0d9f"
+    "commit": "86cef441a385eff14d108d29ee2a8b07d3d30436",
+    "url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/86cef441a385eff14d108d29ee2a8b07d3d30436"
   },
   "workflows": {
     "definition_count": 7,
@@ -591,12 +610,14 @@
     }
   ],
   "source_checksum_detail": {
-    "expected": 18,
-    "verified": 18,
+    "expected": 46,
+    "verified": 46,
     "missing": 0,
     "mismatched": 0,
-    "laoK_system": "8/8",
+    "control_plane": "28/28",
+    "laoK_system_skill": "8/8",
     "phantom_capsule": "10/10",
+    "verified_at": "2026-08-07T15:14:32Z",
     "previous_drift_evidence": {
       "before_commit": "5d3255f55ff0d94cc107788d7142be37b7e240fd",
       "missing": [
@@ -609,8 +630,7 @@
         "🧠JSON核心｜JsonCore.json"
       ],
       "policy": "不存在檔案不重建；舊值由 Git 歷史保存"
-    },
-    "verified_at": "2026-08-07T12:12:18Z"
+    }
   },
   "endpoint_gaps": {
     "tag_full_pagination": false,
