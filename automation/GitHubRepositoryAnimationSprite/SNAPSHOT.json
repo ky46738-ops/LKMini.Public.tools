@@ -1,9 +1,9 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 20:12 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 23:14 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
-  "captured_at": "2026-08-07T12:12:18Z",
+  "captured_at": "2026-08-07T15:14:32Z",
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
   "owner": "Kevin Yang",
   "state": {
@@ -11,14 +11,14 @@
     "formal_container_count": 1,
     "repository_count": 23,
     "branch_count": 110,
-    "changed_repository_count": 0,
+    "changed_repository_count": 1,
     "workflow_definition_count": 7,
     "current_error_count": 3,
     "external_notification": false,
     "permanent_delete_count": 0,
-    "canonical_commit": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
+    "canonical_commit": "86cef441a385eff14d108d29ee2a8b07d3d30436",
     "mirror_gate_commit": "4af1f59b7423ba82f93d074ae3084d6dd45940c4",
-    "latest_external_commit": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
+    "latest_external_commit": "86cef441a385eff14d108d29ee2a8b07d3d30436",
     "repository_inventory_count": 23,
     "inaccessible_repository_count": 0,
     "access_drift_repository_count": 0,
@@ -27,14 +27,14 @@
   "tool_evidence": {
     "repository_readback": "23/23",
     "branch_readback": "23/23；110 Branch",
-    "commit_readback": "23/23；HEAD 漂移 0",
+    "commit_readback": "23/23 identical；LaoK-System 前進 7 Commit",
     "default_branch_compare": "23/23 identical",
     "run_probe": "23/23；0",
     "combined_status_probe": "23/23；0",
     "workflow_definition_readback": "7/7",
     "inventory_reconciliation": "10/10",
-    "projection_source_readback": "18/18",
-    "path_blob_readback": "2/2"
+    "projection_source_readback": "46/46",
+    "path_blob_readback": "7/7"
   },
   "tool_boundaries": {
     "tag_readback": "錯誤：無 Tag 列舉端點",
@@ -99,12 +99,12 @@
     "accessible_repositories": 23,
     "inaccessible_repositories": 0,
     "branches": 110,
-    "changed_repositories": 0,
-    "source_commit_span": 0,
-    "changed_path_blobs": 0,
-    "changed_json": 0,
-    "source_hashes_verified": 18,
-    "source_hashes_expected": 18,
+    "changed_repositories": 1,
+    "source_commit_span": 7,
+    "changed_path_blobs": 7,
+    "changed_json": 5,
+    "source_hashes_verified": 46,
+    "source_hashes_expected": 46,
     "workflow_definitions": 7,
     "runs": 0,
     "statuses": 0,
@@ -115,20 +115,21 @@
     "permanent_deletes": 0
   },
   "commits": {
-    "canonical": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
+    "canonical": "86cef441a385eff14d108d29ee2a8b07d3d30436",
     "phantom_capsule": "b36fc6a1bcc5c55649d19c0825ec666b28f4acda",
-    "projection_before_write": "945034e10e7f62160e41617003707269e04de759"
+    "projection_before_write": "0d44cd92c807055f09665afd8b3d8e7714dd3825"
   },
   "validations": {
-    "path_blob": "2/2",
-    "json": "6/6",
+    "path_blob": "7/7",
+    "json": "5/5 changed JSON",
     "laoK_system_skill_sha256": "8/8",
     "laoK_system_manifest": "7/7 bytes + SHA256",
     "phantom_capsule_sha256": "10/10",
     "default_branch_compare": "23/23 identical",
     "workflow_files": "7/7",
     "inventory_reconciliation": "10/10",
-    "previous_drift_evidence": "保留"
+    "previous_drift_evidence": "保留",
+    "laoK_system_control_plane_sha256": "28/28"
   },
   "errors": [
     {
