@@ -1,5 +1,5 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 18:11 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 19:15 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
@@ -9,17 +9,13 @@
   "formal_container": "🪞幻影膠囊",
   "is_second_container": false,
   "entry_gate": "🥳歡迎光臨",
-  "canonical_commit": "5d3255f55ff0d94cc107788d7142be37b7e240fd",
+  "canonical_commit": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
   "current_web_projection": "https://lkmini-wiring-hub.ky46738.chatgpt.site",
   "writeback": "🥃老K系統／🧩LKMINI／🪞幻影膠囊",
   "external_notification": false,
   "current_errors": [
     {
       "type": "RepositoryAccessUnavailable",
-      "status": "錯誤"
-    },
-    {
-      "type": "SourceChecksumMismatch",
       "status": "錯誤"
     },
     {
@@ -58,12 +54,11 @@
     {
       "repository": "lkminiPhantomWorld/LaoK-System",
       "default_branch": "main",
-      "commit": "5d3255f55ff0d94cc107788d7142be37b7e240fd",
-      "source_commit_span": 1,
-      "changed_path_count": 1,
-      "source_sha256": "4/9",
-      "missing": 1,
-      "mismatched": 4,
+      "commit": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
+      "source_commit_span": 2,
+      "changed_path_count": 2,
+      "source_sha256": "8/8",
+      "manifest_coverage": "7/7",
       "default_branch_compare": "identical"
     }
   ]
