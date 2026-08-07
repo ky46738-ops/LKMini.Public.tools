@@ -1,5 +1,5 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 19:15 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 20:12 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
@@ -14,10 +14,6 @@
   "writeback": "🥃老K系統／🧩LKMINI／🪞幻影膠囊",
   "external_notification": false,
   "current_errors": [
-    {
-      "type": "RepositoryAccessUnavailable",
-      "status": "錯誤"
-    },
     {
       "type": "TagEndpointUnavailable",
       "status": "錯誤"
@@ -43,23 +39,21 @@
   },
   "current_access_state": {
     "inventory_count": 23,
-    "accessible_count": 13,
-    "inaccessible_count": 10,
-    "branches_read": 76,
-    "head_drift": 1,
+    "accessible_count": 23,
+    "inaccessible_count": 0,
+    "branches_read": 110,
+    "head_drift": 0,
+    "workflow_definitions": 7,
     "workflow_runs": 0,
-    "combined_statuses": 0
+    "combined_statuses": 0,
+    "coordinates_reconciled": 10
   },
-  "latest_external_increments": [
-    {
-      "repository": "lkminiPhantomWorld/LaoK-System",
-      "default_branch": "main",
-      "commit": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
-      "source_commit_span": 2,
-      "changed_path_count": 2,
-      "source_sha256": "8/8",
-      "manifest_coverage": "7/7",
-      "default_branch_compare": "identical"
-    }
-  ]
+  "latest_external_increments": [],
+  "current_reconciliation": {
+    "type": "RepositoryInventoryReconciliation",
+    "status": "完成",
+    "coordinate_updates": 10,
+    "source_head": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
+    "source_sha256": "18/18"
+  }
 }
