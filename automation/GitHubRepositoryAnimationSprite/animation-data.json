@@ -1,9 +1,9 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 09:12 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 10:13 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
-  "captured_at": "2026-08-07T01:12:59Z",
+  "captured_at": "2026-08-07T02:13:32Z",
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
   "owner": "Kevin Yang",
   "metrics": {
@@ -19,7 +19,7 @@
     "jobs_read": 0,
     "external_notifications": 0,
     "permanent_deletes": 0,
-    "gate_repairs": 1,
+    "gate_repairs": 0,
     "source_hashes_verified": 7
   },
   "current": {
@@ -29,7 +29,7 @@
     "canonical_commit_url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/86a9e9a6352bf8aa7a065fad4e77008346a92be1",
     "sprite_repository": "ky46738-ops/LKMini.Public.tools",
     "sprite_path": "automation/GitHubRepositoryAnimationSprite",
-    "source_head": "0d4bff4f0ecaafcc1e5092fa6f2249d873d0b063",
+    "source_head": "92ef9032228796580fe91192d1161d6979f016d3",
     "writeback": "🥃老K系統／🧩LKMINI／🪞幻影膠囊",
     "web_projection": "https://lkmini-wiring-hub.ky46738.chatgpt.site",
     "external_email": false,
@@ -42,14 +42,15 @@
   },
   "changes": [
     {
-      "repository": "ky46738-ops/LKMini",
-      "commit": "4af1f59b7423ba82f93d074ae3084d6dd45940c4",
-      "message": "修復公開 Mirror 驗證器自我誤判並接入 Gatekeeper",
-      "path": "tools/verify_lkmini.py",
-      "blob": "c550de8f6355f3d044c2f22e00c1849820935fba",
-      "source_commit_span": 7,
-      "changed_path_count": 6,
-      "verification": "8/8 白名單；7/7 SHA256；Python gate exit 0"
+      "repository": "ky46738-ops/LKMini.Public.tools",
+      "commit": "92ef9032228796580fe91192d1161d6979f016d3",
+      "message": "同步 AI 採用與青少年安全情報增量",
+      "path": "🔁雙向同步回執｜BidirectionalSyncReceipt.md",
+      "blob": "0065d75dc6265854d55b3819747157612775267c",
+      "source_commit_span": 1,
+      "changed_path_count": 1,
+      "sprite_path_changed": false,
+      "verification": "main identical；1 Commit；1 Path；Blob 已讀回"
     }
   ],
   "errors": [
@@ -75,9 +76,9 @@
     "latest_commit_search": "23/23",
     "commit_run_probe": "23/23；0 Run",
     "combined_status_probe": "23/23；0 Status",
-    "changed_commit_diff": "1/1 倉庫；7 Commit",
-    "changed_path_blob_readback": "6/6 Path；修復 3/3",
-    "mirror_gate_execution": "完成；8/8 白名單；7/7 SHA256"
+    "changed_commit_diff": "1/1 倉庫；1 Commit",
+    "changed_path_blob_readback": "1/1 Path；1/1 Blob",
+    "mirror_gate_execution": "持續完成；8/8 白名單；7/7 SHA256"
   },
   "reverse_chain": [
     "Repository",
