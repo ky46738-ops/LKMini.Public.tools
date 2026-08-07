@@ -1,5 +1,5 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 10:13 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 14:15 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
@@ -38,10 +38,26 @@
     "mirror_gate_commit": "4af1f59b7423ba82f93d074ae3084d6dd45940c4",
     "mirror_gate_sha256": "7/7",
     "latest_external_increment": {
-      "commit": "92ef9032228796580fe91192d1161d6979f016d3",
-      "path": "🔁雙向同步回執｜BidirectionalSyncReceipt.md",
-      "blob": "0065d75dc6265854d55b3819747157612775267c"
-    }
+      "repository": "lkminiPhantomWorld/PhantomCapsule",
+      "commit": "4bbfb61a71c446195705e2b321c5055fa7eea11b",
+      "source_commit_span": 26,
+      "changed_path_count": 10,
+      "paths": [
+        "LOCATOR.json",
+        "MANIFEST.json",
+        "PACKAGE.md",
+        "README.md",
+        "ReverseChain.json",
+        "SHA256SUMS",
+        "SNAPSHOT.json",
+        "🌐公開顯影.html",
+        "📖說明書即解析器.md",
+        "🪞幻影膠囊"
+      ],
+      "source_sha256": "10/10",
+      "default_branch_compare": "identical"
+    },
+    "latest_source_head": "4bbfb61a71c446195705e2b321c5055fa7eea11b"
   },
   "unresolved": [
     "Tag 全量列舉",
