@@ -9,7 +9,7 @@ async function boot(){
   setText("#branch-count",data.metrics.branches);
   setText("#change-count",data.metrics.changed_repositories);
   setText("#workflow-count",data.metrics.workflow_definitions);
-  setText("#gate-count",data.metrics.gate_repairs);
+  setText("#gate-count",data.current.mirror_gate_status);
   setText("#source-sha-count",data.metrics.source_hashes_verified+"/7");
   setText("#error-count",data.metrics.current_errors);
   setText("#notify-count",data.metrics.external_notifications);
