@@ -1,5 +1,5 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 14:15 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 16:12 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
@@ -9,11 +9,15 @@
   "formal_container": "🪞幻影膠囊",
   "axiom": "A=A",
   "role": "GitHub 巡檢與可視化 Projection；不是 Identity",
-  "canonical_program_commit": "86a9e9a6352bf8aa7a065fad4e77008346a92be1",
+  "canonical_program_commit": "e9b703167641e5f773c46f46a15045a08ec68ec7",
   "current_web_projection": "https://lkmini-wiring-hub.ky46738.chatgpt.site",
   "exclusive_writeback_target": "🥃老K系統／🧩LKMINI／🪞幻影膠囊",
   "external_notification": false,
   "current_errors": [
+    {
+      "type": "RepositoryAccessUnavailable",
+      "status": "錯誤"
+    },
     {
       "type": "TagEndpointUnavailable",
       "status": "錯誤"
@@ -28,17 +32,15 @@
     }
   ],
   "validation": {
-    "repository_readback": "23/23",
-    "branch_readback": "109 Branch",
-    "commit_run_probe": "23/23；0 Run",
-    "combined_status_probe": "23/23；0 Status",
-    "checksum_coverage": "17/17",
-    "mirror_gate_execution": "完成；8/8 白名單、7/7 SHA256、私有標記檢查完成",
-    "mirror_default_branch_readback": "ky46738-ops/LKMini@seed_v0=4af1f59b7423ba82f93d074ae3084d6dd45940c4",
-    "latest_external_increment": "4bbfb61a；26 Commit；10 Path／Blob；10/10 SHA256；master identical",
-    "ui_status_semantics": "Mirror Gate 顯示持續狀態，不冒充本輪修復數",
-    "latest_external_repository": "lkminiPhantomWorld/PhantomCapsule",
-    "source_sha256_verification": "10/10"
+    "repository_readback": "13/23 可讀；10/23 GitHub 404",
+    "branch_readback": "76 Branch",
+    "commit_readback": "13/13；HEAD 漂移 0",
+    "commit_run_probe": "13/13；0 Run",
+    "combined_status_probe": "13/13；0 Status",
+    "checksum_coverage": "待本次寫回後重建",
+    "latest_access_drift": "10 個 Repository 由可讀轉為 404／Repository not found",
+    "ui_access_semantics": "可讀倉庫與不可讀倉庫分開顯示",
+    "external_notification": "0"
   },
   "system_existence": {
     "search_legal": true,
