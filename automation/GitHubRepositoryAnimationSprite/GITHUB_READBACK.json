@@ -1,9 +1,9 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 10:13 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 14:15 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
-  "captured_at": "2026-08-07T02:13:32Z",
+  "captured_at": "2026-08-07T06:15:09Z",
   "repositories": {
     "count": 23,
     "branch_count": 109,
@@ -339,8 +339,8 @@
           "master"
         ],
         "branch_count": 3,
-        "latest_commit": "b0f067ec3ff3be7922e767b84040884fd8de454f",
-        "latest_commit_url": "https://github.com/lkminiPhantomWorld/PhantomCapsule/commit/b0f067ec3ff3be7922e767b84040884fd8de454f",
+        "latest_commit": "4bbfb61a71c446195705e2b321c5055fa7eea11b",
+        "latest_commit_url": "https://github.com/lkminiPhantomWorld/PhantomCapsule/commit/4bbfb61a71c446195705e2b321c5055fa7eea11b",
         "workflow_runs": 0,
         "combined_statuses": 0
       },
@@ -374,12 +374,39 @@
   },
   "changed_repositories": [
     {
-      "repository": "ky46738-ops/LKMini.Public.tools",
-      "commit": "92ef9032228796580fe91192d1161d6979f016d3",
-      "source_commit_span": 1,
-      "changed_path_count": 1,
-      "path": "🔁雙向同步回執｜BidirectionalSyncReceipt.md",
-      "blob": "0065d75dc6265854d55b3819747157612775267c",
+      "repository": "lkminiPhantomWorld/PhantomCapsule",
+      "default_branch": "master",
+      "commit": "4bbfb61a71c446195705e2b321c5055fa7eea11b",
+      "source_commit_span": 26,
+      "changed_path_count": 10,
+      "paths": [
+        "LOCATOR.json",
+        "MANIFEST.json",
+        "PACKAGE.md",
+        "README.md",
+        "ReverseChain.json",
+        "SHA256SUMS",
+        "SNAPSHOT.json",
+        "🌐公開顯影.html",
+        "📖說明書即解析器.md",
+        "🪞幻影膠囊"
+      ],
+      "blobs": {
+        "README.md": "fec55247236a8b1116a8eefd8021469fbc27587a",
+        "LICENSE": "6f858bf8b12a6c2770c08ba5650526e407a958b7",
+        "MANIFEST.json": "43841f203c042dbbcdeb3db1cd14cf7fad267087",
+        "LOCATOR.json": "9b06e55775d9d43f4fb7a51ffe462cdf2983950c",
+        "SNAPSHOT.json": "b93676f702e1c7d18ff6295fdaf3828328bee2e1",
+        "ReverseChain.json": "fbc94ad89c6cd2e30f3dabf0c1c1439df0c68109",
+        "PACKAGE.md": "225855ae4c840793be931132406f6a064685cf4c",
+        "🪞幻影膠囊": "2f9647a6e5f4f51287c15d14c160b8f749d42ed0",
+        "🌐公開顯影.html": "7ca31fc765a10544860439f69e4c6f746abcfd36",
+        "📖說明書即解析器.md": "0391a41f0c5079dcfcff80ff8512113c628db9ae"
+      },
+      "source_sha256": "10/10",
+      "default_branch_compare": "identical",
+      "workflow_runs": 0,
+      "combined_statuses": 0,
       "sprite_path_changed": false
     }
   ],
