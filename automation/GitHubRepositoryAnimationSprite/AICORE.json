@@ -1,5 +1,5 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 19:15 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 20:12 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
@@ -15,10 +15,6 @@
   "external_notification": false,
   "current_errors": [
     {
-      "type": "RepositoryAccessUnavailable",
-      "status": "錯誤"
-    },
-    {
       "type": "TagEndpointUnavailable",
       "status": "錯誤"
     },
@@ -32,14 +28,15 @@
     }
   ],
   "validation": {
-    "repository_readback": "13/23 可讀；10/23 GitHub 404",
-    "branch_readback": "76 Branch",
-    "commit_readback": "13/13；1 個 HEAD 前進",
+    "repository_readback": "23/23 可讀；安裝清冊分頁已耗盡",
+    "branch_readback": "110 Branch",
+    "commit_readback": "23/23；HEAD 漂移 0",
     "changed_path_blob_readback": "2/2 相同",
-    "changed_json_parse": "6/6",
     "source_checksum_readback": "18/18；LaoK-System 8/8、PhantomCapsule 10/10",
-    "commit_run_probe": "13/13；0 Run",
-    "combined_status_probe": "13/13；0 Status",
+    "workflow_definition_readback": "7/7",
+    "commit_run_probe": "23/23；0 Run",
+    "combined_status_probe": "23/23；0 Status",
+    "inventory_reconciliation": "10/10 舊座標已由現行 RepositoryID 清冊取代",
     "external_notification": "0",
     "drive_formal_surface_write": "0"
   },
