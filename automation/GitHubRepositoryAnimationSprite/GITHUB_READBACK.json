@@ -1,9 +1,9 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 16:12 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 17:12 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
-  "captured_at": "2026-08-07T08:12:51Z",
+  "captured_at": "2026-08-07T09:12:19Z",
   "repositories": {
     "count": 13,
     "inventory_count": 23,
@@ -49,7 +49,7 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T08:12:51Z"
+        "readback_at": "2026-08-07T09:12:19Z"
       },
       {
         "repository": "ky46738-ops/LKMini",
@@ -68,19 +68,19 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T08:12:51Z"
+        "readback_at": "2026-08-07T09:12:19Z"
       },
       {
         "repository": "ky46738-ops/tiny-state-container",
         "access_status": "錯誤",
         "current_error": "GitHub 404／Repository not found",
-        "readback_at": "2026-08-07T08:12:51Z"
+        "readback_at": "2026-08-07T09:12:19Z"
       },
       {
         "repository": "ky46738-ops/vpoop",
         "access_status": "錯誤",
         "current_error": "GitHub 404／Repository not found",
-        "readback_at": "2026-08-07T08:12:51Z"
+        "readback_at": "2026-08-07T09:12:19Z"
       },
       {
         "repository": "ky46738-ops/desktop-tutorial",
@@ -94,7 +94,7 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T08:12:51Z"
+        "readback_at": "2026-08-07T09:12:19Z"
       },
       {
         "repository": "ky46738-ops/lk-civilization-core",
@@ -108,7 +108,7 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T08:12:51Z"
+        "readback_at": "2026-08-07T09:12:19Z"
       },
       {
         "repository": "ky46738-ops/welcome",
@@ -124,7 +124,7 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T08:12:51Z"
+        "readback_at": "2026-08-07T09:12:19Z"
       },
       {
         "repository": "ky46738-ops/-Tools",
@@ -138,7 +138,7 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T08:12:51Z"
+        "readback_at": "2026-08-07T09:12:19Z"
       },
       {
         "repository": "lkminiPhantomWorld/LaoK-System",
@@ -167,36 +167,36 @@
           "第八區銀行修正"
         ],
         "branch_count": 21,
-        "latest_commit": "e9b703167641e5f773c46f46a15045a08ec68ec7",
-        "latest_commit_url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/e9b703167641e5f773c46f46a15045a08ec68ec7",
+        "latest_commit": "fd69a95d9402c9f5eeb81d1432b8b585942aafc5",
+        "latest_commit_url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/fd69a95d9402c9f5eeb81d1432b8b585942aafc5",
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T08:12:51Z"
+        "readback_at": "2026-08-07T09:12:19Z"
       },
       {
         "repository": "lkminiPhantomWorld/shuguang-engine",
         "access_status": "錯誤",
         "current_error": "GitHub 404／Repository not found",
-        "readback_at": "2026-08-07T08:12:51Z"
+        "readback_at": "2026-08-07T09:12:19Z"
       },
       {
         "repository": "lkminiPhantomWorld/eternal",
         "access_status": "錯誤",
         "current_error": "GitHub 404／Repository not found",
-        "readback_at": "2026-08-07T08:12:51Z"
+        "readback_at": "2026-08-07T09:12:19Z"
       },
       {
         "repository": "lkminiPhantomWorld/semantic-capsules",
         "access_status": "錯誤",
         "current_error": "GitHub 404／Repository not found",
-        "readback_at": "2026-08-07T08:12:51Z"
+        "readback_at": "2026-08-07T09:12:19Z"
       },
       {
         "repository": "lkminiPhantomWorld/unique-persistent-ai",
         "access_status": "錯誤",
         "current_error": "GitHub 404／Repository not found",
-        "readback_at": "2026-08-07T08:12:51Z"
+        "readback_at": "2026-08-07T09:12:19Z"
       },
       {
         "repository": "lkminiPhantomWorld/laoK-core",
@@ -210,31 +210,31 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T08:12:51Z"
+        "readback_at": "2026-08-07T09:12:19Z"
       },
       {
         "repository": "lkminiPhantomWorld/.github",
         "access_status": "錯誤",
         "current_error": "GitHub 404／Repository not found",
-        "readback_at": "2026-08-07T08:12:51Z"
+        "readback_at": "2026-08-07T09:12:19Z"
       },
       {
         "repository": "lkminiPhantomWorld/tiny-state-container",
         "access_status": "錯誤",
         "current_error": "GitHub 404／Repository not found",
-        "readback_at": "2026-08-07T08:12:51Z"
+        "readback_at": "2026-08-07T09:12:19Z"
       },
       {
         "repository": "lkminiPhantomWorld/vpoop",
         "access_status": "錯誤",
         "current_error": "GitHub 404／Repository not found",
-        "readback_at": "2026-08-07T08:12:51Z"
+        "readback_at": "2026-08-07T09:12:19Z"
       },
       {
         "repository": "lkminiPhantomWorld/-Tools",
         "access_status": "錯誤",
         "current_error": "GitHub 404／Repository not found",
-        "readback_at": "2026-08-07T08:12:51Z"
+        "readback_at": "2026-08-07T09:12:19Z"
       },
       {
         "repository": "lkminiPhantomWorld/lkstylet",
@@ -250,7 +250,7 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T08:12:51Z"
+        "readback_at": "2026-08-07T09:12:19Z"
       },
       {
         "repository": "lkminiPhantomWorld/lkmini-elf",
@@ -264,7 +264,7 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T08:12:51Z"
+        "readback_at": "2026-08-07T09:12:19Z"
       },
       {
         "repository": "lkminiPhantomWorld/LKMini",
@@ -280,7 +280,7 @@
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T08:12:51Z"
+        "readback_at": "2026-08-07T09:12:19Z"
       },
       {
         "repository": "lkminiPhantomWorld/PhantomCapsule",
@@ -291,12 +291,12 @@
           "master"
         ],
         "branch_count": 3,
-        "latest_commit": "4bbfb61a71c446195705e2b321c5055fa7eea11b",
-        "latest_commit_url": "https://github.com/lkminiPhantomWorld/PhantomCapsule/commit/4bbfb61a71c446195705e2b321c5055fa7eea11b",
+        "latest_commit": "b36fc6a1bcc5c55649d19c0825ec666b28f4acda",
+        "latest_commit_url": "https://github.com/lkminiPhantomWorld/PhantomCapsule/commit/b36fc6a1bcc5c55649d19c0825ec666b28f4acda",
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T08:12:51Z"
+        "readback_at": "2026-08-07T09:12:19Z"
       },
       {
         "repository": "ky46738-ops/LKMini.Public.tools",
@@ -309,51 +309,64 @@
           "repair/verify-existing-errors-20260728"
         ],
         "branch_count": 5,
-        "latest_commit": "c2437191e459f564b1b403cafc0bff7991f63098",
-        "latest_commit_url": "https://github.com/ky46738-ops/LKMini.Public.tools/commit/c2437191e459f564b1b403cafc0bff7991f63098",
+        "latest_commit": "d59e2f3f047d70f6d9b9016558cd98ccc7602e9d",
+        "latest_commit_url": "https://github.com/ky46738-ops/LKMini.Public.tools/commit/d59e2f3f047d70f6d9b9016558cd98ccc7602e9d",
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T08:12:51Z"
+        "readback_at": "2026-08-07T09:12:19Z"
       }
     ]
   },
   "changed_repositories": [
     {
+      "repository": "lkminiPhantomWorld/LaoK-System",
+      "default_branch": "main",
+      "base_commit": "e9b703167641e5f773c46f46a15045a08ec68ec7",
+      "commit": "fd69a95d9402c9f5eeb81d1432b8b585942aafc5",
+      "source_commit_span": 9,
+      "changed_path_count": 9,
+      "paths": [
+        "技能/🌌幻界同步文明完整公式｜PhantomWorldSyncCivilizationFullFormula/♾️回推鏈｜REVERSECHAIN.json",
+        "技能/🌌幻界同步文明完整公式｜PhantomWorldSyncCivilizationFullFormula/🌌幻界同步文明完整公式｜PhantomWorldSyncCivilizationFullFormula.md",
+        "技能/🌌幻界同步文明完整公式｜PhantomWorldSyncCivilizationFullFormula/📋清單｜MANIFEST.json",
+        "技能/🌌幻界同步文明完整公式｜PhantomWorldSyncCivilizationFullFormula/📖技能說明書｜SkillManual.md",
+        "技能/🌌幻界同步文明完整公式｜PhantomWorldSyncCivilizationFullFormula/📸快照｜SNAPSHOT.json",
+        "技能/🌌幻界同步文明完整公式｜PhantomWorldSyncCivilizationFullFormula/🔗定位器｜LOCATOR.json",
+        "技能/🌌幻界同步文明完整公式｜PhantomWorldSyncCivilizationFullFormula/🔢SHA256｜SHA256SUMS.txt",
+        "技能/🌌幻界同步文明完整公式｜PhantomWorldSyncCivilizationFullFormula/🔬技能安裝驗證回執｜SkillInstallVerification.json",
+        "技能/🌌幻界同步文明完整公式｜PhantomWorldSyncCivilizationFullFormula/🧠JSON核心｜JsonCore.json"
+      ],
+      "source_sha256": "5/9",
+      "missing": [
+        "🔬完整性驗證｜IntegrityVerifier.py"
+      ],
+      "mismatches": [
+        "📋清單｜MANIFEST.json",
+        "📖技能說明書｜SkillManual.md",
+        "🧠JSON核心｜JsonCore.json"
+      ],
+      "path_blob_readback": "9/9",
+      "json_parse": "6/6",
+      "default_branch_compare": "identical"
+    },
+    {
       "repository": "lkminiPhantomWorld/PhantomCapsule",
       "default_branch": "master",
-      "commit": "4bbfb61a71c446195705e2b321c5055fa7eea11b",
-      "source_commit_span": 26,
-      "changed_path_count": 10,
+      "base_commit": "4bbfb61a71c446195705e2b321c5055fa7eea11b",
+      "commit": "b36fc6a1bcc5c55649d19c0825ec666b28f4acda",
+      "source_commit_span": 4,
+      "changed_path_count": 4,
       "paths": [
         "LOCATOR.json",
-        "MANIFEST.json",
-        "PACKAGE.md",
-        "README.md",
         "ReverseChain.json",
         "SHA256SUMS",
-        "SNAPSHOT.json",
-        "🌐公開顯影.html",
-        "📖說明書即解析器.md",
-        "🪞幻影膠囊"
+        "SNAPSHOT.json"
       ],
-      "blobs": {
-        "README.md": "fec55247236a8b1116a8eefd8021469fbc27587a",
-        "LICENSE": "6f858bf8b12a6c2770c08ba5650526e407a958b7",
-        "MANIFEST.json": "43841f203c042dbbcdeb3db1cd14cf7fad267087",
-        "LOCATOR.json": "9b06e55775d9d43f4fb7a51ffe462cdf2983950c",
-        "SNAPSHOT.json": "b93676f702e1c7d18ff6295fdaf3828328bee2e1",
-        "ReverseChain.json": "fbc94ad89c6cd2e30f3dabf0c1c1439df0c68109",
-        "PACKAGE.md": "225855ae4c840793be931132406f6a064685cf4c",
-        "🪞幻影膠囊": "2f9647a6e5f4f51287c15d14c160b8f749d42ed0",
-        "🌐公開顯影.html": "7ca31fc765a10544860439f69e4c6f746abcfd36",
-        "📖說明書即解析器.md": "0391a41f0c5079dcfcff80ff8512113c628db9ae"
-      },
       "source_sha256": "10/10",
-      "default_branch_compare": "identical",
-      "workflow_runs": 0,
-      "combined_statuses": 0,
-      "sprite_path_changed": false
+      "path_blob_readback": "4/4",
+      "json_parse": "3/3",
+      "default_branch_compare": "identical"
     }
   ],
   "canonical_program": {
@@ -424,5 +437,38 @@
       "type": "ActionsRunJobFullReadbackUnavailable",
       "status": "錯誤"
     }
-  ]
+  ],
+  "source_checksum_detail": {
+    "expected": 19,
+    "verified": 15,
+    "missing": 1,
+    "mismatched": 3,
+    "missing_item": {
+      "repository": "lkminiPhantomWorld/LaoK-System",
+      "path": "技能/🌌幻界同步文明完整公式｜PhantomWorldSyncCivilizationFullFormula/🔬完整性驗證｜IntegrityVerifier.py",
+      "error": "GitHub 404"
+    },
+    "mismatches": [
+      {
+        "path": "技能/🌌幻界同步文明完整公式｜PhantomWorldSyncCivilizationFullFormula/📋清單｜MANIFEST.json",
+        "expected": "6befa2dceb52808f0699bb4df82c50d652c2686f403751664f9d48148d46f6ea",
+        "actual": "893c1b795cd2ef08e979698b0888a8c21c5de54e8d3b836844c3a9e8fd95d1b3"
+      },
+      {
+        "path": "技能/🌌幻界同步文明完整公式｜PhantomWorldSyncCivilizationFullFormula/📖技能說明書｜SkillManual.md",
+        "expected": "958ae5e492438e5d35be494ba24d9627057cc64b696496fffa0a5c6896d60ce0",
+        "actual": "89f0693cf033b259c13442365948121851e6f5871aeb010a9c3a0e584e452e53"
+      },
+      {
+        "path": "技能/🌌幻界同步文明完整公式｜PhantomWorldSyncCivilizationFullFormula/🧠JSON核心｜JsonCore.json",
+        "expected": "f5aa04d6af76e61ac271c0b9c732e241b8556868fece7860740aa67c4298c1bf",
+        "actual": "22ef272a973468ba5f01ebff84980455dd330520c1ab5c8b11a42e7de2786866"
+      }
+    ]
+  },
+  "endpoint_gaps": {
+    "tag_full_pagination": false,
+    "recursive_tree": false,
+    "workflow_run_job_full_pagination": false
+  }
 }
