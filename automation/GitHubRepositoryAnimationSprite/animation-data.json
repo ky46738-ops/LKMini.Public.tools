@@ -1,9 +1,9 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 20:12 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 23:14 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
-  "captured_at": "2026-08-07T12:12:18Z",
+  "captured_at": "2026-08-07T15:14:32Z",
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
   "owner": "Kevin Yang",
   "metrics": {
@@ -14,16 +14,16 @@
     "formal_roots": 1,
     "formal_containers": 1,
     "current_errors": 3,
-    "changed_repositories": 0,
+    "changed_repositories": 1,
     "runs_read": 0,
     "jobs_read": 0,
     "external_notifications": 0,
     "permanent_deletes": 0,
     "gate_repairs": 0,
-    "source_hashes_verified": 18,
-    "source_commit_span": 0,
-    "changed_paths": 0,
-    "source_hashes_expected": 18,
+    "source_hashes_verified": 46,
+    "source_commit_span": 7,
+    "changed_paths": 7,
+    "source_hashes_expected": 46,
     "repository_inventory": 23,
     "inaccessible_repositories": 0,
     "access_drift_repositories": 0,
@@ -32,8 +32,8 @@
   "current": {
     "canonical_repository": "lkminiPhantomWorld/LaoK-System",
     "canonical_default_branch": "main",
-    "canonical_commit": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
-    "canonical_commit_url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
+    "canonical_commit": "86cef441a385eff14d108d29ee2a8b07d3d30436",
+    "canonical_commit_url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/86cef441a385eff14d108d29ee2a8b07d3d30436",
     "sprite_repository": "ky46738-ops/LKMini.Public.tools",
     "sprite_path": "automation/GitHubRepositoryAnimationSprite",
     "source_head": "b36fc6a1bcc5c55649d19c0825ec666b28f4acda",
@@ -51,25 +51,25 @@
   },
   "changes": [
     {
-      "type": "repository_inventory_reconciliation",
-      "label": "Repository 存取清冊已恢復",
+      "type": "source_commit_delta",
+      "label": "LaoK-System 來源前進 7 Commit",
+      "url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/86cef441a385eff14d108d29ee2a8b07d3d30436",
+      "message": "7 個控制平面 Path 已同步；root SHA256 28/28",
+      "path": "LOCATOR／MANIFEST／PACKAGE／README／REVERSECHAIN／SHA256SUMS／SNAPSHOT"
+    },
+    {
+      "type": "source_integrity",
+      "label": "來源雜湊與 Path／Blob 通過",
+      "url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/86cef441a385eff14d108d29ee2a8b07d3d30436",
+      "message": "Control-plane 28/28｜Skill 8/8｜PhantomCapsule 10/10",
+      "path": "Path／Blob 7/7"
+    },
+    {
+      "type": "repository_readback",
+      "label": "23 個 Repository 同目標讀回",
       "url": "https://github.com/lkminiPhantomWorld",
-      "message": "13/23 → 23/23 可讀；10 個現行座標完成對應",
-      "path": "RepositoryID 清冊分頁已耗盡"
-    },
-    {
-      "type": "workflow_definition_recount",
-      "label": "Workflow 定義重新讀回",
-      "url": "https://github.com/lkminiPhantomWorld/LaoK-System/tree/8f0366fc82d950cfabde85fc6d73bc0d570b0d9f/.github/workflows",
-      "message": "7/7 原始檔可讀",
+      "message": "23/23 default branch identical｜110 Branch",
       "path": "Run 0｜Combined Status 0"
-    },
-    {
-      "type": "source_integrity_stable",
-      "label": "來源位元與 HEAD 穩定",
-      "url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
-      "message": "23/23 default branch identical",
-      "path": "LaoK-System 8/8｜PhantomCapsule 10/10｜Path/Blob 2/2"
     }
   ],
   "errors": [
