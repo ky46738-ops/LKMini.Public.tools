@@ -1,5 +1,5 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 20:12 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 23:14 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
@@ -28,16 +28,16 @@
   ],
   "source_repository_count": 23,
   "source_branch_count": 110,
-  "changed_repository_count": 0,
+  "changed_repository_count": 1,
   "workflow_definition_count": 7,
   "current_error_count": 3,
   "checksum_contract": "SHA256SUMS.txt covers every regular file except itself",
   "current_evidence": {
-    "canonical_commit": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
+    "canonical_commit": "86cef441a385eff14d108d29ee2a8b07d3d30436",
     "accessible_repositories": "23/23",
     "inaccessible_repositories": [],
     "branch_readback": "110",
-    "head_drift": 0,
+    "head_drift": 1,
     "workflow_definitions": 7,
     "workflow_runs": 0,
     "combined_statuses": 0,
@@ -88,9 +88,10 @@
       ]
     },
     "source_integrity": {
-      "laoK_system": "8/8",
+      "control_plane": "28/28",
+      "laoK_system_skill": "8/8",
       "phantom_capsule": "10/10",
-      "path_blob": "2/2"
+      "path_blob": "7/7"
     }
   },
   "unresolved": [
@@ -138,11 +139,11 @@
     {
       "repository": "lkminiPhantomWorld/LaoK-System",
       "default_branch": "main",
-      "commit": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
-      "commit_span": 0,
-      "paths": 0,
-      "path_blob_readback": "2/2 identity readback",
-      "sha256": "8/8"
+      "commit": "86cef441a385eff14d108d29ee2a8b07d3d30436",
+      "commit_span": 7,
+      "paths": 7,
+      "path_blob_readback": "7/7 identity readback",
+      "sha256": "Control-plane 28/28；Skill 8/8"
     },
     {
       "repository": "lkminiPhantomWorld/PhantomCapsule",
@@ -163,7 +164,9 @@
     "inaccessible_repositories": 0,
     "branch_count": 110,
     "workflow_definitions": 7,
-    "current_errors": 3
+    "current_errors": 3,
+    "source_checksum_entries": 46,
+    "source_checksum_pass": 46
   },
   "exists": false,
   "access_reconciliation_count": 10
