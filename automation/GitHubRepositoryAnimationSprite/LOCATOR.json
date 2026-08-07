@@ -1,5 +1,5 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 18:11 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 19:15 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
@@ -7,15 +7,15 @@
   "repository": "ky46738-ops/LKMini.Public.tools",
   "branch": "main",
   "path_prefix": "automation/GitHubRepositoryAnimationSprite",
-  "source_head": "5d3255f55ff0d94cc107788d7142be37b7e240fd",
+  "source_head": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
   "result_head_policy": "final main head recorded by connector readback and Drive receipt",
   "current_program": {
     "repository": "lkminiPhantomWorld/LaoK-System",
     "default_branch": "main",
-    "commit": "5d3255f55ff0d94cc107788d7142be37b7e240fd",
-    "url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/5d3255f55ff0d94cc107788d7142be37b7e240fd"
+    "commit": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
+    "url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/8f0366fc82d950cfabde85fc6d73bc0d570b0d9f"
   },
-  "canonical_commit": "5d3255f55ff0d94cc107788d7142be37b7e240fd",
+  "canonical_commit": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
   "entry_gate": "🥳歡迎光臨",
   "current_web_projection": "https://lkmini-wiring-hub.ky46738.chatgpt.site",
   "root": "🧩LKMINI",
@@ -50,17 +50,17 @@
   "latest_increment": {
     "repository": "lkminiPhantomWorld/LaoK-System",
     "default_branch": "main",
-    "base_commit": "fd69a95d9402c9f5eeb81d1432b8b585942aafc5",
-    "commit": "5d3255f55ff0d94cc107788d7142be37b7e240fd",
-    "commit_url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/5d3255f55ff0d94cc107788d7142be37b7e240fd",
-    "source_commit_span": 1,
-    "changed_path_count": 1,
+    "base_commit": "5d3255f55ff0d94cc107788d7142be37b7e240fd",
+    "commit": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
+    "commit_url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
+    "source_commit_span": 2,
+    "changed_path_count": 2,
     "paths": [
-      "技能/🌌幻界同步文明完整公式｜PhantomWorldSyncCivilizationFullFormula/🌌幻界同步文明完整公式｜PhantomWorldSyncCivilizationFullFormula.md"
+      "技能/🌌幻界同步文明完整公式｜PhantomWorldSyncCivilizationFullFormula/📋清單｜MANIFEST.json",
+      "技能/🌌幻界同步文明完整公式｜PhantomWorldSyncCivilizationFullFormula/🔢SHA256｜SHA256SUMS.txt"
     ],
-    "source_sha256": "4/9",
-    "missing": 1,
-    "mismatched": 4,
+    "source_sha256": "8/8",
+    "manifest_coverage": "7/7",
     "default_branch_compare": "identical",
     "workflow_runs": 0,
     "combined_statuses": 0
@@ -89,10 +89,6 @@
       "status": "錯誤"
     },
     {
-      "type": "SourceChecksumMismatch",
-      "status": "錯誤"
-    },
-    {
       "type": "TagEndpointUnavailable",
       "status": "錯誤"
     },
@@ -107,7 +103,7 @@
   ],
   "current": {
     "canonical_repository": "lkminiPhantomWorld/LaoK-System",
-    "canonical_commit": "fd69a95d9402c9f5eeb81d1432b8b585942aafc5",
+    "canonical_commit": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
     "secondary_repository": "lkminiPhantomWorld/PhantomCapsule",
     "secondary_commit": "b36fc6a1bcc5c55649d19c0825ec666b28f4acda",
     "web_projection": "https://lkmini-wiring-hub.ky46738.chatgpt.site"
@@ -116,9 +112,9 @@
     "repositories": "13/23",
     "branches": 76,
     "changed_repositories": 1,
-    "source_commit_span": 1,
-    "changed_path_blobs": "1/1",
-    "source_sha256": "14/19",
+    "source_commit_span": 2,
+    "changed_path_blobs": "2/2",
+    "source_sha256": "18/18",
     "workflow_runs": 0,
     "combined_statuses": 0
   },
