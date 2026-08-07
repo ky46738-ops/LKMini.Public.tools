@@ -1,32 +1,33 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 19:15 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 20:12 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
-  "captured_at": "2026-08-07T11:15:08Z",
+  "captured_at": "2026-08-07T12:12:18Z",
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
   "owner": "Kevin Yang",
   "metrics": {
-    "repositories": 13,
-    "branches": 76,
-    "workflow_definitions": 3,
-    "visual_search_candidates": 29,
+    "repositories": 23,
+    "branches": 110,
+    "workflow_definitions": 7,
+    "visual_search_candidates": 0,
     "formal_roots": 1,
     "formal_containers": 1,
-    "current_errors": 4,
-    "changed_repositories": 1,
+    "current_errors": 3,
+    "changed_repositories": 0,
     "runs_read": 0,
     "jobs_read": 0,
     "external_notifications": 0,
     "permanent_deletes": 0,
     "gate_repairs": 0,
     "source_hashes_verified": 18,
-    "source_commit_span": 2,
-    "changed_paths": 2,
+    "source_commit_span": 0,
+    "changed_paths": 0,
     "source_hashes_expected": 18,
     "repository_inventory": 23,
-    "inaccessible_repositories": 10,
-    "access_drift_repositories": 10
+    "inaccessible_repositories": 0,
+    "access_drift_repositories": 0,
+    "access_reconciliations": 10
   },
   "current": {
     "canonical_repository": "lkminiPhantomWorld/LaoK-System",
@@ -50,33 +51,28 @@
   },
   "changes": [
     {
-      "type": "repository_increment",
-      "label": "LaoK-System｜技能索引與雜湊修復",
-      "url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
-      "message": "HEAD 前進 2 個 Commit；2 個 Path／Blob 一致",
-      "path": "📋清單｜MANIFEST.json、🔢SHA256｜SHA256SUMS.txt"
-    },
-    {
-      "type": "source_checksum_repair",
-      "label": "來源 SHA256 已恢復",
-      "url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
-      "message": "LaoK-System 8/8；PhantomCapsule 10/10",
-      "path": "合計 18/18；PreviousDriftEvidence 保留舊缺檔與錯配"
-    },
-    {
-      "type": "repository_access_gap",
-      "label": "10 個既有 Repository 目前不可讀",
+      "type": "repository_inventory_reconciliation",
+      "label": "Repository 存取清冊已恢復",
       "url": "https://github.com/lkminiPhantomWorld",
-      "message": "GitHub 回傳 404／Repository not found",
-      "path": "ky46738-ops/tiny-state-container、ky46738-ops/vpoop、lkminiPhantomWorld/shuguang-engine、lkminiPhantomWorld/eternal、lkminiPhantomWorld/semantic-capsules、lkminiPhantomWorld/unique-persistent-ai、lkminiPhantomWorld/.github、lkminiPhantomWorld/tiny-state-container、lkminiPhantomWorld/vpoop、lkminiPhantomWorld/-Tools"
+      "message": "13/23 → 23/23 可讀；10 個現行座標完成對應",
+      "path": "RepositoryID 清冊分頁已耗盡"
+    },
+    {
+      "type": "workflow_definition_recount",
+      "label": "Workflow 定義重新讀回",
+      "url": "https://github.com/lkminiPhantomWorld/LaoK-System/tree/8f0366fc82d950cfabde85fc6d73bc0d570b0d9f/.github/workflows",
+      "message": "7/7 原始檔可讀",
+      "path": "Run 0｜Combined Status 0"
+    },
+    {
+      "type": "source_integrity_stable",
+      "label": "來源位元與 HEAD 穩定",
+      "url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
+      "message": "23/23 default branch identical",
+      "path": "LaoK-System 8/8｜PhantomCapsule 10/10｜Path/Blob 2/2"
     }
   ],
   "errors": [
-    {
-      "type": "RepositoryAccessUnavailable",
-      "status": "錯誤",
-      "evidence": "23 個既有座標中 13 個可讀、10 個回傳 GitHub 404。"
-    },
     {
       "type": "TagEndpointUnavailable",
       "status": "錯誤",
@@ -94,21 +90,21 @@
     }
   ],
   "verified_this_round": {
-    "repository_metadata": "13/23 可讀；10/23 回傳 404",
-    "branch_listing": "13/13；76 Branch",
-    "latest_commit_search": "13/13；1 個 HEAD 前進",
+    "repository_metadata": "23/23 可讀",
+    "branch_listing": "23/23；110 Branch",
+    "latest_commit_search": "23/23；HEAD 漂移 0",
+    "default_branch_compare": "23/23 identical",
+    "workflow_definition_readback": "7/7",
+    "commit_run_probe": "23/23；0 Run",
+    "combined_status_probe": "23/23；0 Status",
+    "inventory_reconciliation": "10/10",
     "changed_path_blob_readback": "2/2",
-    "changed_json_parse": "6/6",
     "source_checksum": "18/18",
     "laoK_system_skill_checksum": "8/8",
     "phantom_capsule_checksum": "10/10",
-    "default_branch_compare": "1/1 identical",
-    "commit_run_probe": "13/13；0 Run",
-    "combined_status_probe": "13/13；0 Status",
-    "projection_source_readback": "18/18",
+    "projection_source_readback": "待本次提交後驗證",
     "external_notifications": "0",
-    "drive_formal_surface_write": "0",
-    "laoK_system_manifest": "7/7 bytes + SHA256"
+    "drive_formal_surface_write": "0"
   },
   "reverse_chain": [
     "Repository",
