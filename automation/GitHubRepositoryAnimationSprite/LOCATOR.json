@@ -1,5 +1,5 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 14:15 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 16:12 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
@@ -9,14 +9,18 @@
   "path_prefix": "automation/GitHubRepositoryAnimationSprite",
   "source_head": "4bbfb61a71c446195705e2b321c5055fa7eea11b",
   "result_head_policy": "final main head recorded by connector readback and Drive receipt",
-  "current_program": "lkminiPhantomWorld/LaoK-System@main",
-  "canonical_commit": "86a9e9a6352bf8aa7a065fad4e77008346a92be1",
+  "current_program": "lkminiPhantomWorld/LaoK-System@e9b703167641e5f773c46f46a15045a08ec68ec7",
+  "canonical_commit": "e9b703167641e5f773c46f46a15045a08ec68ec7",
   "entry_gate": "🥳歡迎光臨",
   "current_web_projection": "https://lkmini-wiring-hub.ky46738.chatgpt.site",
   "root": "🧩LKMINI",
   "formal_container": "🪞幻影膠囊",
   "writeback": "🥃老K系統／🧩LKMINI／🪞幻影膠囊",
   "unresolved": [
+    {
+      "type": "RepositoryAccessUnavailable",
+      "status": "錯誤"
+    },
     {
       "type": "TagEndpointUnavailable",
       "status": "錯誤"
@@ -71,5 +75,23 @@
     },
     "source_sha256": "10/10",
     "default_branch_compare": "identical"
+  },
+  "access_drift": {
+    "inventory_count": 23,
+    "accessible_count": 13,
+    "inaccessible_count": 10,
+    "repositories": [
+      "ky46738-ops/tiny-state-container",
+      "ky46738-ops/vpoop",
+      "lkminiPhantomWorld/shuguang-engine",
+      "lkminiPhantomWorld/eternal",
+      "lkminiPhantomWorld/semantic-capsules",
+      "lkminiPhantomWorld/unique-persistent-ai",
+      "lkminiPhantomWorld/.github",
+      "lkminiPhantomWorld/tiny-state-container",
+      "lkminiPhantomWorld/vpoop",
+      "lkminiPhantomWorld/-Tools"
+    ],
+    "evidence_locator": "GITHUB_READBACK.json"
   }
 }
