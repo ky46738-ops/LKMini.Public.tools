@@ -401,3 +401,21 @@ GitHub public ledger -> Google Drive SystemWiringAndServerMap -> GitHub public r
 - Gmail MessageID: `19fd862457ee718b`
 - Website: current version `39` read back; this increment has no new site content deployment.
 - ReverseChain: Source → AIRegistrar → ActionPlan → EngineBinding → ToolReceipt → Feedback → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A
+
+
+## 🧚AI 採用與青少年安全情報增量｜2026-08-07
+
+- TaskID：`LKMINI-AIINTEL-20260807-091927-TPE`
+- PlanID：`AIINTEL-DF73C9D0BE48010E`
+- InputSHA256：`df73c9d0be48010e79853323acb5c99d8ed5429e35baa48de9c40b0d27174d92`
+- 新證據：2；相同證據追加：0。
+- OpenAI × APA：https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai/
+- DocumentID：`openai:index:openai-and-apa-partner-to-advance-responsible-ai:2026-08-06`
+- ByteSize：390587；ContentSHA256：`8a2cea4037f7d8d182f3a22f671b4ea2b448e2eb549b6d5651576473cea7bfcb`
+- OpenAI Signals：https://openai.com/index/how-the-world-is-putting-chatgpt-to-work/
+- DocumentID：`openai:index:how-the-world-is-putting-chatgpt-to-work:2026-08-06`
+- ByteSize：2175307；ContentSHA256：`99ebcd1146acd75408b835d1aac3e893fb4c78280776588289e09d9e836f52da`
+- 事件：工作情境的完成任務／創作傾向超過非工作情境兩倍；多媒體占全球訊息 7.8%；OpenAI 與 APA 將發展科學、過度依賴辨識與真人支持納入青少年 AI 設計。
+- 能力：`CAP-ASK-TO-ACTION-ROUTING`、`CAP-TASK-COMPLETION-METRICS`、`CAP-DEVELOPMENTAL-APPROPRIATENESS-GUARD`、`CAP-HUMAN-CARE-ESCALATION`。
+- 風險：Signals 範圍是個人帳戶且年齡為自報；APA 合作公告不是臨床效能驗證，AI 不得取代專業照護。
+- ReverseChain：Source → AIRegistrar → ActionPlan → EngineBinding → ToolReceipt → Feedback → Manifest → Locator → Snapshot → ReverseChain → 🥃老K系統 → 🧩LKMINI → A=A
