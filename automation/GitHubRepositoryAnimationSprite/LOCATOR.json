@@ -1,5 +1,5 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 20:12 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 23:14 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
@@ -7,15 +7,15 @@
   "repository": "ky46738-ops/LKMini.Public.tools",
   "branch": "main",
   "path_prefix": "automation/GitHubRepositoryAnimationSprite",
-  "source_head": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
+  "source_head": "86cef441a385eff14d108d29ee2a8b07d3d30436",
   "result_head_policy": "final main head recorded by connector readback and Drive receipt",
   "current_program": {
     "repository": "lkminiPhantomWorld/LaoK-System",
     "default_branch": "main",
-    "commit": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
-    "url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/8f0366fc82d950cfabde85fc6d73bc0d570b0d9f"
+    "commit": "86cef441a385eff14d108d29ee2a8b07d3d30436",
+    "url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/86cef441a385eff14d108d29ee2a8b07d3d30436"
   },
-  "canonical_commit": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
+  "canonical_commit": "86cef441a385eff14d108d29ee2a8b07d3d30436",
   "entry_gate": "🥳歡迎光臨",
   "current_web_projection": "https://lkmini-wiring-hub.ky46738.chatgpt.site",
   "root": "🧩LKMINI",
@@ -44,11 +44,14 @@
     "verification": "完成"
   },
   "latest_increment": {
-    "type": "repository_inventory_reconciliation",
-    "previous_accessible_count": 13,
-    "current_accessible_count": 23,
-    "coordinate_updates": 10,
-    "branch_count": 110,
+    "type": "source_commit_delta",
+    "previous_commit": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
+    "current_commit": "86cef441a385eff14d108d29ee2a8b07d3d30436",
+    "commit_span": 7,
+    "changed_paths": 7,
+    "path_blob_readback": "7/7",
+    "source_checksum": "46/46",
+    "control_plane_checksum": "28/28",
     "default_branch_compare": "23/23 identical",
     "workflow_definitions": 7,
     "workflow_runs": 0,
@@ -119,7 +122,7 @@
   ],
   "current": {
     "canonical_repository": "lkminiPhantomWorld/LaoK-System",
-    "canonical_commit": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
+    "canonical_commit": "86cef441a385eff14d108d29ee2a8b07d3d30436",
     "secondary_repository": "lkminiPhantomWorld/PhantomCapsule",
     "secondary_commit": "b36fc6a1bcc5c55649d19c0825ec666b28f4acda",
     "web_projection": "https://lkmini-wiring-hub.ky46738.chatgpt.site"
@@ -127,10 +130,10 @@
   "source_readback": {
     "repositories": "23/23",
     "branches": 110,
-    "changed_repositories": 0,
-    "source_commit_span": 0,
-    "changed_path_blobs": "2/2",
-    "source_sha256": "18/18",
+    "changed_repositories": 1,
+    "source_commit_span": 7,
+    "changed_path_blobs": "7/7",
+    "source_sha256": "46/46",
     "workflow_definitions": 7,
     "workflow_runs": 0,
     "combined_statuses": 0
