@@ -7,7 +7,8 @@ async function boot(){
   setText("#state",data.status+"｜"+data.edition+"｜錯誤類型 "+data.metrics.current_errors);
   setText("#repo-count",data.metrics.repositories);
   setText("#branch-count",data.metrics.branches);
-  setText("#change-count",data.metrics.inaccessible_repositories);
+  setText("#change-count",data.metrics.changed_repositories);
+  setText("#unavailable-count",data.metrics.inaccessible_repositories);
   setText("#commit-span",data.metrics.source_commit_span);
   setText("#path-count",data.metrics.changed_paths);
   setText("#workflow-count",data.metrics.workflow_definitions);
