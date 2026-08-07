@@ -7,7 +7,7 @@ async function boot(){
   setText("#state",data.status+"｜"+data.edition+"｜錯誤類型 "+data.metrics.current_errors);
   setText("#repo-count",data.metrics.repositories);
   setText("#branch-count",data.metrics.branches);
-  setText("#change-count",data.metrics.changed_repositories);
+  setText("#change-count",data.metrics.access_reconciliations);
   setText("#unavailable-count",data.metrics.inaccessible_repositories);
   setText("#commit-span",data.metrics.source_commit_span);
   setText("#path-count",data.metrics.changed_paths);
@@ -17,7 +17,7 @@ async function boot(){
   setText("#error-count",data.metrics.current_errors);
   setText("#notify-count",data.metrics.external_notifications);
   setText("#writeback",data.current.writeback);
-  setText("#captured-at","巡檢快照："+data.captured_at+"｜清冊 23｜永久刪除 0");
+  setText("#captured-at","巡檢快照："+data.captured_at+"｜清冊 "+data.metrics.repository_inventory+"｜永久刪除 "+data.metrics.permanent_deletes);
   const projection=document.querySelector("#projection");projection.href=data.current.web_projection;
   const commit=document.querySelector("#canonical-commit");commit.href=data.current.canonical_commit_url;commit.querySelector("code").textContent=data.current.canonical_commit.slice(0,12)+"…";
   const changes=document.querySelector("#changes");
