@@ -1,7 +1,7 @@
-# 🧾回推鏈｜ReverseChain
+# ↩️ 可逆回推鏈｜ReverseChain
 
-> 🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 17:12 (Asia/Taipei)｜狀態=錯誤
+> 🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 18:11 (Asia/Taipei)｜狀態=錯誤
 
-`Repository(23) → 可讀 Repository(13) → default branch → Branch(76) → Commit(2 個 HEAD 前進) → Path／Blob(13/13) → JSON(9/9) → 來源 SHA256(15/19) → Workflow Run(0)／Status(0) → Manifest → Locator → Snapshot → 🥃老K系統／🧩LKMINI／🪞幻影膠囊 → A=A（端點與來源完整性尚未成立）`
+Repository → default branch → Branch → Commit `5d3255f55ff0d94cc107788d7142be37b7e240fd` → Path `技能/🌌幻界同步文明完整公式｜PhantomWorldSyncCivilizationFullFormula/🌌幻界同步文明完整公式｜PhantomWorldSyncCivilizationFullFormula.md` → Blob → Workflow → Run／Job → Projection → 🥃老K系統 → 🧩LKMINI → 🪞幻影膠囊 → A=A
 
-LaoK-System 5/9（缺檔 1、錯配 3）；PhantomCapsule 10/10。ExternalEmail=false；ExternalNotification=false；PermanentDeleteCount=0。
+目前 A=A 未成立：10 個 Repository 不可讀、來源 SHA256 14/19、Tag／完整 Tree／全量 Run 與 Job 端點缺口。
