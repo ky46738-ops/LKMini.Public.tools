@@ -1,5 +1,5 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 09:12 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 10:13 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
@@ -34,7 +34,9 @@
     "combined_status_probe": "23/23；0 Status",
     "checksum_coverage": "17/17",
     "mirror_gate_execution": "完成；8/8 白名單、7/7 SHA256、私有標記檢查完成",
-    "mirror_default_branch_readback": "ky46738-ops/LKMini@seed_v0=4af1f59b7423ba82f93d074ae3084d6dd45940c4"
+    "mirror_default_branch_readback": "ky46738-ops/LKMini@seed_v0=4af1f59b7423ba82f93d074ae3084d6dd45940c4",
+    "latest_external_increment": "92ef9032；1 Path；1 Blob；main identical",
+    "ui_status_semantics": "Mirror Gate 顯示持續狀態，不冒充本輪修復數"
   },
   "system_existence": {
     "search_legal": true,
