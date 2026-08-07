@@ -1,5 +1,5 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 17:12 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 18:11 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
@@ -28,12 +28,12 @@
   ],
   "source_repository_count": 13,
   "source_branch_count": 76,
-  "changed_repository_count": 0,
+  "changed_repository_count": 1,
   "workflow_definition_count": 3,
   "current_error_count": 4,
   "checksum_contract": "SHA256SUMS.txt covers every regular file except itself",
   "current_evidence": {
-    "canonical_commit": "e9b703167641e5f773c46f46a15045a08ec68ec7",
+    "canonical_commit": "5d3255f55ff0d94cc107788d7142be37b7e240fd",
     "accessible_repositories": "13/23",
     "inaccessible_repositories": [
       "ky46738-ops/tiny-state-container",
@@ -48,27 +48,18 @@
       "lkminiPhantomWorld/-Tools"
     ],
     "branch_readback": "76",
-    "head_drift": 0,
+    "head_drift": 1,
     "workflow_runs": 0,
     "combined_statuses": 0,
-    "previous_external_increment": {
-      "repository": "lkminiPhantomWorld/PhantomCapsule",
-      "commit": "4bbfb61a71c446195705e2b321c5055fa7eea11b",
-      "source_commit_span": 26,
-      "changed_path_count": 10,
+    "latest_external_increment": {
+      "repository": "lkminiPhantomWorld/LaoK-System",
+      "commit": "5d3255f55ff0d94cc107788d7142be37b7e240fd",
+      "source_commit_span": 1,
+      "changed_path_count": 1,
       "paths": [
-        "LOCATOR.json",
-        "MANIFEST.json",
-        "PACKAGE.md",
-        "README.md",
-        "ReverseChain.json",
-        "SHA256SUMS",
-        "SNAPSHOT.json",
-        "🌐公開顯影.html",
-        "📖說明書即解析器.md",
-        "🪞幻影膠囊"
+        "技能/🌌幻界同步文明完整公式｜PhantomWorldSyncCivilizationFullFormula/🌌幻界同步文明完整公式｜PhantomWorldSyncCivilizationFullFormula.md"
       ],
-      "source_sha256": "10/10",
+      "source_sha256": "4/9",
       "default_branch_compare": "identical"
     }
   },
@@ -118,19 +109,19 @@
     {
       "repository": "lkminiPhantomWorld/LaoK-System",
       "default_branch": "main",
-      "commit": "fd69a95d9402c9f5eeb81d1432b8b585942aafc5",
-      "commit_span": 9,
-      "paths": 9,
-      "path_blob_readback": "9/9",
-      "sha256": "5/9"
+      "commit": "5d3255f55ff0d94cc107788d7142be37b7e240fd",
+      "commit_span": 1,
+      "paths": 1,
+      "path_blob_readback": "1/1",
+      "sha256": "4/9"
     },
     {
       "repository": "lkminiPhantomWorld/PhantomCapsule",
       "default_branch": "master",
       "commit": "b36fc6a1bcc5c55649d19c0825ec666b28f4acda",
-      "commit_span": 4,
-      "paths": 4,
-      "path_blob_readback": "4/4",
+      "commit_span": 0,
+      "paths": 0,
+      "path_blob_readback": "10/10 source files",
       "sha256": "10/10"
     }
   ],
