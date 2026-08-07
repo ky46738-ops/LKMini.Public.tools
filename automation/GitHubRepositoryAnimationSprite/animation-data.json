@@ -1,9 +1,9 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 16:12 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 17:12 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
-  "captured_at": "2026-08-07T08:12:51Z",
+  "captured_at": "2026-08-07T09:12:19Z",
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
   "owner": "Kevin Yang",
   "metrics": {
@@ -13,17 +13,17 @@
     "visual_search_candidates": 29,
     "formal_roots": 1,
     "formal_containers": 1,
-    "current_errors": 4,
-    "changed_repositories": 0,
+    "current_errors": 5,
+    "changed_repositories": 2,
     "runs_read": 0,
     "jobs_read": 0,
     "external_notifications": 0,
     "permanent_deletes": 0,
     "gate_repairs": 0,
-    "source_hashes_verified": 0,
-    "source_commit_span": 0,
-    "changed_paths": 0,
-    "source_hashes_expected": 0,
+    "source_hashes_verified": 15,
+    "source_commit_span": 13,
+    "changed_paths": 13,
+    "source_hashes_expected": 19,
     "repository_inventory": 23,
     "inaccessible_repositories": 10,
     "access_drift_repositories": 10
@@ -31,11 +31,11 @@
   "current": {
     "canonical_repository": "lkminiPhantomWorld/LaoK-System",
     "canonical_default_branch": "main",
-    "canonical_commit": "e9b703167641e5f773c46f46a15045a08ec68ec7",
-    "canonical_commit_url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/e9b703167641e5f773c46f46a15045a08ec68ec7",
+    "canonical_commit": "fd69a95d9402c9f5eeb81d1432b8b585942aafc5",
+    "canonical_commit_url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/fd69a95d9402c9f5eeb81d1432b8b585942aafc5",
     "sprite_repository": "ky46738-ops/LKMini.Public.tools",
     "sprite_path": "automation/GitHubRepositoryAnimationSprite",
-    "source_head": "4bbfb61a71c446195705e2b321c5055fa7eea11b",
+    "source_head": "b36fc6a1bcc5c55649d19c0825ec666b28f4acda",
     "writeback": "🥃老K系統／🧩LKMINI／🪞幻影膠囊",
     "web_projection": "https://lkmini-wiring-hub.ky46738.chatgpt.site",
     "external_email": false,
@@ -44,49 +44,75 @@
     "mirror_default_branch": "seed_v0",
     "mirror_commit": "4af1f59b7423ba82f93d074ae3084d6dd45940c4",
     "mirror_commit_url": "https://github.com/ky46738-ops/LKMini/commit/4af1f59b7423ba82f93d074ae3084d6dd45940c4",
-    "mirror_gate_status": "完成"
+    "mirror_gate_status": "完成",
+    "secondary_repository": "lkminiPhantomWorld/PhantomCapsule",
+    "secondary_commit": "b36fc6a1bcc5c55649d19c0825ec666b28f4acda"
   },
   "changes": [
     {
-      "type": "repository_access_drift",
-      "label": "10 個倉庫目前不可讀",
+      "type": "repository_increment",
+      "label": "LaoK-System｜新增技能 SHA 清單",
+      "url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/fd69a95d9402c9f5eeb81d1432b8b585942aafc5",
+      "message": "HEAD 前進 9 個 Commit；9 個 Path／Blob 一致",
+      "path": "技能/🌌幻界同步文明完整公式｜PhantomWorldSyncCivilizationFullFormula｜SHA256 5/9；缺檔 1、錯配 3"
+    },
+    {
+      "type": "repository_increment",
+      "label": "PhantomCapsule｜更新 A=A 控制雜湊",
+      "url": "https://github.com/lkminiPhantomWorld/PhantomCapsule/commit/b36fc6a1bcc5c55649d19c0825ec666b28f4acda",
+      "message": "HEAD 前進 4 個 Commit；4 個 Path／Blob 一致",
+      "path": "LOCATOR.json、ReverseChain.json、SHA256SUMS、SNAPSHOT.json｜SHA256 10/10"
+    },
+    {
+      "type": "repository_access_gap",
+      "label": "10 個既有 Repository 目前不可讀",
       "url": "https://github.com/lkminiPhantomWorld",
       "message": "GitHub 回傳 404／Repository not found",
-      "path": "ky46738-ops/tiny-state-container、ky46738-ops/vpoop、lkminiPhantomWorld/shuguang-engine、lkminiPhantomWorld/eternal、lkminiPhantomWorld/semantic-capsules、lkminiPhantomWorld/unique-persistent-ai、lkminiPhantomWorld/.github、lkminiPhantomWorld/tiny-state-container、lkminiPhantomWorld/vpoop、lkminiPhantomWorld/-Tools",
-      "repository_count": 10
+      "path": "ky46738-ops/tiny-state-container、ky46738-ops/vpoop、lkminiPhantomWorld/shuguang-engine、lkminiPhantomWorld/eternal、lkminiPhantomWorld/semantic-capsules、lkminiPhantomWorld/unique-persistent-ai、lkminiPhantomWorld/.github、lkminiPhantomWorld/tiny-state-container、lkminiPhantomWorld/vpoop、lkminiPhantomWorld/-Tools"
     }
   ],
   "errors": [
     {
       "type": "RepositoryAccessUnavailable",
       "status": "錯誤",
-      "evidence": "23 個既有倉庫中 13 個可讀、10 個回傳 404；不可讀清單已保留於 GITHUB_READBACK.json。"
+      "evidence": "23 個既有座標中 13 個可讀、10 個回傳 GitHub 404。"
+    },
+    {
+      "type": "SourceChecksumMismatch",
+      "status": "錯誤",
+      "evidence": "LaoK-System 技能 SHA256 清單 5/9 成立；缺檔 1、內容錯配 3。"
     },
     {
       "type": "TagEndpointUnavailable",
       "status": "錯誤",
-      "evidence": "GitHub 連接器未提供 Tag 全量列舉端點。"
+      "evidence": "GitHub 連接器未提供 Tag 全量分頁列舉端點。"
     },
     {
       "type": "TreeReadEndpointUnavailable",
       "status": "錯誤",
-      "evidence": "GitHub 連接器未提供完整 Git Tree 讀取端點。"
+      "evidence": "GitHub 連接器未提供完整 Git Tree 遞迴讀取端點。"
     },
     {
       "type": "ActionsRunJobFullReadbackUnavailable",
       "status": "錯誤",
-      "evidence": "Commit Run 端點只涵蓋 PR-triggered 首頁，無法代表每倉庫全量 Run／Job。"
+      "evidence": "Commit Run 端點只涵蓋 PR-triggered 首頁，不能代表全量 Run／Job。"
     }
   ],
   "verified_this_round": {
     "repository_metadata": "13/23 可讀；10/23 回傳 404",
     "branch_listing": "13/13；76 Branch",
-    "latest_commit_search": "13/13；HEAD 漂移 0",
+    "latest_commit_search": "13/13；2 個 HEAD 前進",
+    "changed_path_blob_readback": "13/13",
+    "changed_json_parse": "9/9",
+    "source_checksum": "15/19",
+    "laoK_system_skill_checksum": "5/9；缺檔 1、錯配 3",
+    "phantom_capsule_checksum": "10/10",
+    "default_branch_compare": "2/2 identical",
     "commit_run_probe": "13/13；0 Run",
     "combined_status_probe": "13/13；0 Status",
-    "unavailable_repository_receipts": "10/10；NOT_FOUND",
     "projection_source_readback": "18/18",
-    "external_notifications": "0"
+    "external_notifications": "0",
+    "drive_formal_surface_write": "0"
   },
   "reverse_chain": [
     "Repository",
