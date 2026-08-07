@@ -1,9 +1,9 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 09:12 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 10:13 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
-  "captured_at": "2026-08-07T01:12:59Z",
+  "captured_at": "2026-08-07T02:13:32Z",
   "repositories": {
     "count": 23,
     "branch_count": 109,
@@ -99,8 +99,8 @@
           "repair/verify-existing-errors-20260728"
         ],
         "branch_count": 5,
-        "latest_commit": "0d4bff4f0ecaafcc1e5092fa6f2249d873d0b063",
-        "latest_commit_url": "https://github.com/ky46738-ops/LKMini.Public.tools/commit/0d4bff4f0ecaafcc1e5092fa6f2249d873d0b063",
+        "latest_commit": "92ef9032228796580fe91192d1161d6979f016d3",
+        "latest_commit_url": "https://github.com/ky46738-ops/LKMini.Public.tools/commit/92ef9032228796580fe91192d1161d6979f016d3",
         "workflow_runs": 0,
         "combined_statuses": 0
       },
@@ -374,11 +374,13 @@
   },
   "changed_repositories": [
     {
-      "repository": "ky46738-ops/LKMini",
-      "commit": "4af1f59b7423ba82f93d074ae3084d6dd45940c4",
-      "source_commit_span": 7,
-      "changed_path_count": 6,
-      "repair_commit": true
+      "repository": "ky46738-ops/LKMini.Public.tools",
+      "commit": "92ef9032228796580fe91192d1161d6979f016d3",
+      "source_commit_span": 1,
+      "changed_path_count": 1,
+      "path": "🔁雙向同步回執｜BidirectionalSyncReceipt.md",
+      "blob": "0065d75dc6265854d55b3819747157612775267c",
+      "sprite_path_changed": false
     }
   ],
   "canonical_program": {
@@ -411,6 +413,7 @@
     "required_files": "8/8",
     "sha256": "7/7",
     "private_marker_scan": "完成",
-    "python_gate_exit_code": 0
+    "python_gate_exit_code": 0,
+    "status": "持續完成"
   }
 }
