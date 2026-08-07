@@ -1,5 +1,5 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 16:12 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 17:12 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
@@ -93,5 +93,56 @@
   "permanent_delete_count": 0,
   "source_repository_inventory_count": 23,
   "inaccessible_repository_count": 10,
-  "access_drift_repository_count": 10
+  "access_drift_repository_count": 10,
+  "files": [
+    "AICORE.json",
+    "CORRECTION.json",
+    "EXECUTION_RECEIPT.json",
+    "GITHUB_READBACK.json",
+    "LOCATOR.json",
+    "MANIFEST.json",
+    "README.md",
+    "REVERSECHAIN.md",
+    "SHA256SUMS.txt",
+    "SNAPSHOT.json",
+    "STORYBOARD.md",
+    "SUBTITLES.vtt",
+    "VOICEOVER.md",
+    "animation-data.json",
+    "animation.js",
+    "animation.svg",
+    "index.html",
+    "🪞幻影膠囊"
+  ],
+  "sources": [
+    {
+      "repository": "lkminiPhantomWorld/LaoK-System",
+      "default_branch": "main",
+      "commit": "fd69a95d9402c9f5eeb81d1432b8b585942aafc5",
+      "commit_span": 9,
+      "paths": 9,
+      "path_blob_readback": "9/9",
+      "sha256": "5/9"
+    },
+    {
+      "repository": "lkminiPhantomWorld/PhantomCapsule",
+      "default_branch": "master",
+      "commit": "b36fc6a1bcc5c55649d19c0825ec666b28f4acda",
+      "commit_span": 4,
+      "paths": 4,
+      "path_blob_readback": "4/4",
+      "sha256": "10/10"
+    }
+  ],
+  "validation": {
+    "required_file_count": 18,
+    "checksum_entry_count": 17,
+    "json_files": 9,
+    "repository_inventory": 23,
+    "accessible_repositories": 13,
+    "inaccessible_repositories": 10,
+    "branch_count": 76,
+    "current_errors": 5
+  },
+  "exists": false
 }
