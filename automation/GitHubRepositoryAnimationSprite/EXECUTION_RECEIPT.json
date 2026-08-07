@@ -1,12 +1,12 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 10:13 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 14:15 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
   "mode": "github-repository-animation-sprite",
   "repository": "ky46738-ops/LKMini.Public.tools",
   "branch": "main",
-  "source_head": "92ef9032228796580fe91192d1161d6979f016d3",
+  "source_head": "4bbfb61a71c446195705e2b321c5055fa7eea11b",
   "actions": {
     "repositories_inspected": 23,
     "branches_read": 109,
@@ -22,7 +22,12 @@
     "mirror_gate_files_verified": 7,
     "mirror_gate_status": "完成",
     "external_increment_absorbed": true,
-    "ui_status_semantics_repaired": true
+    "ui_status_semantics_repaired": true,
+    "source_commit_span": 26,
+    "changed_paths_read": 10,
+    "source_hashes_verified": 10,
+    "ui_dynamic_denominator_repaired": true,
+    "mobile_change_cards_optimized": true
   },
   "verification": {
     "json_parse": "完成",
@@ -33,7 +38,10 @@
     "tree_full_readback": "錯誤",
     "workflow_run_job_full_readback": "錯誤",
     "mirror_gate_execution": "完成",
-    "mirror_default_branch_readback": "完成"
+    "mirror_default_branch_readback": "完成",
+    "changed_repository_readback": "完成；master identical",
+    "changed_path_blob_readback": "完成；10/10",
+    "source_sha256_readback": "完成；10/10"
   },
   "writeback": "🥃老K系統／🧩LKMINI／🪞幻影膠囊",
   "external_notification": false,
