@@ -1,9 +1,9 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 16:12 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 17:12 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
-  "captured_at": "2026-08-07T08:12:51Z",
+  "captured_at": "2026-08-07T09:12:19Z",
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
   "owner": "Kevin Yang",
   "state": {
@@ -89,5 +89,63 @@
     "bans_allowed": true,
     "state_transition_committed": true,
     "exists": false
-  }
+  },
+  "metrics": {
+    "repository_inventory": 23,
+    "accessible_repositories": 13,
+    "inaccessible_repositories": 10,
+    "branches": 76,
+    "changed_repositories": 2,
+    "source_commit_span": 13,
+    "changed_path_blobs": 13,
+    "changed_json": 9,
+    "source_hashes_verified": 15,
+    "source_hashes_expected": 19,
+    "workflow_definitions": 3,
+    "runs": 0,
+    "statuses": 0,
+    "current_errors": 5,
+    "external_notifications": 0,
+    "drive_formal_surface_writes": 0,
+    "permanent_deletes": 0
+  },
+  "commits": {
+    "canonical": "fd69a95d9402c9f5eeb81d1432b8b585942aafc5",
+    "phantom_capsule": "b36fc6a1bcc5c55649d19c0825ec666b28f4acda"
+  },
+  "validations": {
+    "path_blob": "13/13",
+    "json": "9/9",
+    "laoK_system_skill_sha256": "5/9",
+    "phantom_capsule_sha256": "10/10",
+    "default_branch_compare": "2/2 identical"
+  },
+  "errors": [
+    {
+      "type": "RepositoryAccessUnavailable",
+      "status": "錯誤",
+      "evidence": "23 個既有座標中 13 個可讀、10 個回傳 GitHub 404。"
+    },
+    {
+      "type": "SourceChecksumMismatch",
+      "status": "錯誤",
+      "evidence": "LaoK-System 技能 SHA256 清單 5/9 成立；缺檔 1、內容錯配 3。"
+    },
+    {
+      "type": "TagEndpointUnavailable",
+      "status": "錯誤",
+      "evidence": "GitHub 連接器未提供 Tag 全量分頁列舉端點。"
+    },
+    {
+      "type": "TreeReadEndpointUnavailable",
+      "status": "錯誤",
+      "evidence": "GitHub 連接器未提供完整 Git Tree 遞迴讀取端點。"
+    },
+    {
+      "type": "ActionsRunJobFullReadbackUnavailable",
+      "status": "錯誤",
+      "evidence": "Commit Run 端點只涵蓋 PR-triggered 首頁，不能代表全量 Run／Job。"
+    }
+  ],
+  "exists": false
 }
