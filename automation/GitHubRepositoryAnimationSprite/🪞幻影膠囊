@@ -1,5 +1,5 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 09:12 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 10:13 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
@@ -36,5 +36,10 @@
     "commit": "4af1f59b7423ba82f93d074ae3084d6dd45940c4",
     "status": "完成",
     "sha256": "7/7"
+  },
+  "latest_external_increment": {
+    "commit": "92ef9032228796580fe91192d1161d6979f016d3",
+    "path": "🔁雙向同步回執｜BidirectionalSyncReceipt.md",
+    "blob": "0065d75dc6265854d55b3819747157612775267c"
   }
 }
