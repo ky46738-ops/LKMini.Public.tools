@@ -1,5 +1,5 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 19:15 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 20:12 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
@@ -26,46 +26,74 @@
     "index.html",
     "🪞幻影膠囊"
   ],
-  "source_repository_count": 13,
-  "source_branch_count": 76,
-  "changed_repository_count": 1,
-  "workflow_definition_count": 3,
-  "current_error_count": 4,
+  "source_repository_count": 23,
+  "source_branch_count": 110,
+  "changed_repository_count": 0,
+  "workflow_definition_count": 7,
+  "current_error_count": 3,
   "checksum_contract": "SHA256SUMS.txt covers every regular file except itself",
   "current_evidence": {
     "canonical_commit": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
-    "accessible_repositories": "13/23",
-    "inaccessible_repositories": [
-      "ky46738-ops/tiny-state-container",
-      "ky46738-ops/vpoop",
-      "lkminiPhantomWorld/shuguang-engine",
-      "lkminiPhantomWorld/eternal",
-      "lkminiPhantomWorld/semantic-capsules",
-      "lkminiPhantomWorld/unique-persistent-ai",
-      "lkminiPhantomWorld/.github",
-      "lkminiPhantomWorld/tiny-state-container",
-      "lkminiPhantomWorld/vpoop",
-      "lkminiPhantomWorld/-Tools"
-    ],
-    "branch_readback": "76",
-    "head_drift": 1,
+    "accessible_repositories": "23/23",
+    "inaccessible_repositories": [],
+    "branch_readback": "110",
+    "head_drift": 0,
+    "workflow_definitions": 7,
     "workflow_runs": 0,
     "combined_statuses": 0,
-    "latest_external_increment": {
-      "repository": "lkminiPhantomWorld/LaoK-System",
-      "commit": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
-      "source_commit_span": 2,
-      "changed_path_count": 2,
-      "paths": [
-        "技能/🌌幻界同步文明完整公式｜PhantomWorldSyncCivilizationFullFormula/📋清單｜MANIFEST.json",
-        "技能/🌌幻界同步文明完整公式｜PhantomWorldSyncCivilizationFullFormula/🔢SHA256｜SHA256SUMS.txt"
-      ],
-      "source_sha256": "8/8",
-      "default_branch_compare": "identical"
+    "inventory_reconciliation": {
+      "coordinate_updates": 10,
+      "status": "完成",
+      "mappings": [
+        {
+          "before": "ky46738-ops/tiny-state-container",
+          "current": "ky46738-ops/tiny-state-core"
+        },
+        {
+          "before": "ky46738-ops/vpoop",
+          "current": "ky46738-ops/vpoop-guardian"
+        },
+        {
+          "before": "lkminiPhantomWorld/shuguang-engine",
+          "current": "lkminiPhantomWorld/oldk-shuguang-folder-link-registry"
+        },
+        {
+          "before": "lkminiPhantomWorld/eternal",
+          "current": "lkminiPhantomWorld/oldk-lkmini-eternal-core-cross-optimize"
+        },
+        {
+          "before": "lkminiPhantomWorld/semantic-capsules",
+          "current": "lkminiPhantomWorld/lk-semantic-civilization-runtime"
+        },
+        {
+          "before": "lkminiPhantomWorld/unique-persistent-ai",
+          "current": "lkminiPhantomWorld/lk-unique-gate"
+        },
+        {
+          "before": "lkminiPhantomWorld/.github",
+          "current": "lkminiPhantomWorld/welcome"
+        },
+        {
+          "before": "lkminiPhantomWorld/tiny-state-container",
+          "current": "lkminiPhantomWorld/tiny-state-core"
+        },
+        {
+          "before": "lkminiPhantomWorld/vpoop",
+          "current": "lkminiPhantomWorld/vpoop-guardian"
+        },
+        {
+          "before": "lkminiPhantomWorld/-Tools",
+          "current": "lkminiPhantomWorld/Tools"
+        }
+      ]
+    },
+    "source_integrity": {
+      "laoK_system": "8/8",
+      "phantom_capsule": "10/10",
+      "path_blob": "2/2"
     }
   },
   "unresolved": [
-    "10 個 Repository 存取 404",
     "Tag 全量列舉",
     "完整 Git Tree",
     "全量 Workflow Run／Job"
@@ -84,8 +112,8 @@
   "external_notification": false,
   "permanent_delete_count": 0,
   "source_repository_inventory_count": 23,
-  "inaccessible_repository_count": 10,
-  "access_drift_repository_count": 10,
+  "inaccessible_repository_count": 0,
+  "access_drift_repository_count": 0,
   "files": [
     "AICORE.json",
     "CORRECTION.json",
@@ -111,9 +139,9 @@
       "repository": "lkminiPhantomWorld/LaoK-System",
       "default_branch": "main",
       "commit": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
-      "commit_span": 2,
-      "paths": 2,
-      "path_blob_readback": "2/2",
+      "commit_span": 0,
+      "paths": 0,
+      "path_blob_readback": "2/2 identity readback",
       "sha256": "8/8"
     },
     {
@@ -131,10 +159,12 @@
     "checksum_entry_count": 17,
     "json_files": 9,
     "repository_inventory": 23,
-    "accessible_repositories": 13,
-    "inaccessible_repositories": 10,
-    "branch_count": 76,
-    "current_errors": 4
+    "accessible_repositories": 23,
+    "inaccessible_repositories": 0,
+    "branch_count": 110,
+    "workflow_definitions": 7,
+    "current_errors": 3
   },
-  "exists": false
+  "exists": false,
+  "access_reconciliation_count": 10
 }
