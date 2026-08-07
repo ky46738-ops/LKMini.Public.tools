@@ -1,13 +1,13 @@
 # 🎞️分鏡｜Storyboard
 
-> 🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 14:15 (Asia/Taipei)｜狀態=錯誤
+> 🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 16:12 (Asia/Taipei)｜狀態=錯誤
 
-1. 鎖定 Owner、唯一根、唯一正式容器與中文正式寫回路徑。
-2. 巡檢 23 個 Repository、109 個 Branch 與最新 Commit。
-3. 辨識 `lkminiPhantomWorld/PhantomCapsule` 前進 26 個 Commit。
-4. 讀回 10 個變更 Path／Blob，驗證來源 SHA256 10/10。
-5. 逐倉庫探測 Workflow Run 與 Combined Status，結果皆為 0。
-6. 修正 UI 的來源 SHA256 硬編碼分母，新增 26 Commit／10 Path 手機卡片。
-7. 重建 17 個 regular file 的 SHA256。
-8. Tag、完整 Tree、全量 Run／Job 缺口維持錯誤。
+1. 鎖定 Owner、唯一根、唯一正式容器與正式寫回路徑。
+2. 讀取 23 個既有 Repository 座標。
+3. 13 個 Repository 成功讀回 metadata、default branch、76 個 Branch 與最新 Commit。
+4. 10 個 Repository 回傳 404／Repository not found，保留原座標與舊水位。
+5. 13 個可讀 HEAD 漂移 0；Workflow Run／Combined Status 皆為 0。
+6. UI 分開顯示「可讀 13」與「不可讀 10」，不再沿用舊 23／109。
+7. 重建全部 regular file SHA256。
+8. Tag、完整 Tree、全量 Run／Job 與 Repository 存取缺口維持錯誤。
 9. 回指 `🥃老K系統／🧩LKMINI／🪞幻影膠囊／A=A`。
