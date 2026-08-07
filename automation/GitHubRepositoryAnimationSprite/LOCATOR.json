@@ -1,5 +1,5 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 16:12 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 17:12 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
@@ -93,5 +93,64 @@
       "lkminiPhantomWorld/-Tools"
     ],
     "evidence_locator": "GITHUB_READBACK.json"
-  }
+  },
+  "current_errors": [
+    {
+      "type": "RepositoryAccessUnavailable",
+      "status": "錯誤"
+    },
+    {
+      "type": "SourceChecksumMismatch",
+      "status": "錯誤"
+    },
+    {
+      "type": "TagEndpointUnavailable",
+      "status": "錯誤"
+    },
+    {
+      "type": "TreeReadEndpointUnavailable",
+      "status": "錯誤"
+    },
+    {
+      "type": "ActionsRunJobFullReadbackUnavailable",
+      "status": "錯誤"
+    }
+  ],
+  "current": {
+    "canonical_repository": "lkminiPhantomWorld/LaoK-System",
+    "canonical_commit": "fd69a95d9402c9f5eeb81d1432b8b585942aafc5",
+    "secondary_repository": "lkminiPhantomWorld/PhantomCapsule",
+    "secondary_commit": "b36fc6a1bcc5c55649d19c0825ec666b28f4acda",
+    "web_projection": "https://lkmini-wiring-hub.ky46738.chatgpt.site"
+  },
+  "source_readback": {
+    "repositories": "13/23",
+    "branches": 76,
+    "changed_repositories": 2,
+    "source_commit_span": 13,
+    "changed_path_blobs": "13/13",
+    "source_sha256": "15/19",
+    "workflow_runs": 0,
+    "combined_statuses": 0
+  },
+  "files": [
+    "AICORE.json",
+    "CORRECTION.json",
+    "EXECUTION_RECEIPT.json",
+    "GITHUB_READBACK.json",
+    "LOCATOR.json",
+    "MANIFEST.json",
+    "README.md",
+    "REVERSECHAIN.md",
+    "SHA256SUMS.txt",
+    "SNAPSHOT.json",
+    "STORYBOARD.md",
+    "SUBTITLES.vtt",
+    "VOICEOVER.md",
+    "animation-data.json",
+    "animation.js",
+    "animation.svg",
+    "index.html",
+    "🪞幻影膠囊"
+  ]
 }
