@@ -1,9 +1,9 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 18:11 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 19:15 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
-  "captured_at": "2026-08-07T10:11:41Z",
+  "captured_at": "2026-08-07T11:15:08Z",
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
   "owner": "Kevin Yang",
   "state": {
@@ -96,40 +96,37 @@
     "inaccessible_repositories": 10,
     "branches": 76,
     "changed_repositories": 1,
-    "source_commit_span": 1,
-    "changed_path_blobs": 1,
+    "source_commit_span": 2,
+    "changed_path_blobs": 2,
     "changed_json": 1,
-    "source_hashes_verified": 14,
-    "source_hashes_expected": 19,
+    "source_hashes_verified": 18,
+    "source_hashes_expected": 18,
     "workflow_definitions": 3,
     "runs": 0,
     "statuses": 0,
-    "current_errors": 5,
+    "current_errors": 4,
     "external_notifications": 0,
     "drive_formal_surface_writes": 0,
     "permanent_deletes": 0
   },
   "commits": {
-    "canonical": "5d3255f55ff0d94cc107788d7142be37b7e240fd",
+    "canonical": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
     "phantom_capsule": "b36fc6a1bcc5c55649d19c0825ec666b28f4acda"
   },
   "validations": {
-    "path_blob": "1/1",
+    "path_blob": "2/2",
     "json": "6/6",
-    "laoK_system_skill_sha256": "4/9；缺檔 1、錯配 4",
+    "laoK_system_skill_sha256": "8/8",
+    "laoK_system_manifest": "7/7 bytes + SHA256",
     "phantom_capsule_sha256": "10/10",
-    "default_branch_compare": "1/1 identical"
+    "default_branch_compare": "1/1 identical",
+    "previous_drift_evidence": "保留"
   },
   "errors": [
     {
       "type": "RepositoryAccessUnavailable",
       "status": "錯誤",
       "evidence": "23 個既有座標中 13 個可讀、10 個回傳 GitHub 404。"
-    },
-    {
-      "type": "SourceChecksumMismatch",
-      "status": "錯誤",
-      "evidence": "LaoK-System 技能 SHA256 清單 5/9 成立；缺檔 1、內容錯配 3。"
     },
     {
       "type": "TagEndpointUnavailable",
