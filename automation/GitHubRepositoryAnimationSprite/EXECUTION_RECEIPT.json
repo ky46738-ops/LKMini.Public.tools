@@ -1,12 +1,12 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 09:12 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 10:13 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
   "mode": "github-repository-animation-sprite",
   "repository": "ky46738-ops/LKMini.Public.tools",
   "branch": "main",
-  "source_head": "0d4bff4f0ecaafcc1e5092fa6f2249d873d0b063",
+  "source_head": "92ef9032228796580fe91192d1161d6979f016d3",
   "actions": {
     "repositories_inspected": 23,
     "branches_read": 109,
@@ -18,8 +18,11 @@
     "history_preserved": true,
     "force_push": false,
     "permanent_delete_count": 0,
-    "mirror_gate_repaired": true,
-    "mirror_gate_files_verified": 7
+    "mirror_gate_repaired": false,
+    "mirror_gate_files_verified": 7,
+    "mirror_gate_status": "完成",
+    "external_increment_absorbed": true,
+    "ui_status_semantics_repaired": true
   },
   "verification": {
     "json_parse": "完成",
