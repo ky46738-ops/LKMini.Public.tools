@@ -1,18 +1,20 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 19:15 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 20:12 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
-  "captured_at": "2026-08-07T11:15:08Z",
+  "captured_at": "2026-08-07T12:12:18Z",
   "repositories": {
-    "count": 13,
+    "count": 23,
     "inventory_count": 23,
-    "accessible_count": 13,
-    "inaccessible_count": 10,
-    "branch_count": 76,
+    "accessible_count": 23,
+    "inaccessible_count": 0,
+    "branch_count": 110,
     "items": [
       {
         "repository": "ky46738-ops/starter-workflows",
+        "repository_id": "1129095584",
+        "visibility": "public",
         "default_branch": "main",
         "branches": [
           "Add_new",
@@ -46,13 +48,16 @@
         "branch_count": 27,
         "latest_commit": "12baef41708ea4b4ad1e5f60a610264cea052500",
         "latest_commit_url": "https://github.com/ky46738-ops/starter-workflows/commit/12baef41708ea4b4ad1e5f60a610264cea052500",
+        "default_branch_compare": "identical",
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T11:15:08Z"
+        "readback_at": "2026-08-07T12:12:18Z"
       },
       {
         "repository": "ky46738-ops/LKMini",
+        "repository_id": "1241379512",
+        "visibility": "public",
         "default_branch": "seed_v0",
         "branches": [
           "add-banners",
@@ -65,25 +70,72 @@
         "branch_count": 6,
         "latest_commit": "4af1f59b7423ba82f93d074ae3084d6dd45940c4",
         "latest_commit_url": "https://github.com/ky46738-ops/LKMini/commit/4af1f59b7423ba82f93d074ae3084d6dd45940c4",
+        "default_branch_compare": "identical",
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T11:15:08Z"
+        "readback_at": "2026-08-07T12:12:18Z"
       },
       {
-        "repository": "ky46738-ops/tiny-state-container",
-        "access_status": "錯誤",
-        "current_error": "GitHub 404／Repository not found",
-        "readback_at": "2026-08-07T11:15:08Z"
+        "repository": "ky46738-ops/tiny-state-core",
+        "repository_id": "1245806508",
+        "visibility": "public",
+        "default_branch": "main",
+        "branches": [
+          "copilot/restore-tiny-state-core",
+          "main"
+        ],
+        "branch_count": 2,
+        "latest_commit": "01ab8936d91eba1369a4ba5ddb6c9a507d2c2c46",
+        "latest_commit_url": "https://github.com/ky46738-ops/tiny-state-core/commit/01ab8936d91eba1369a4ba5ddb6c9a507d2c2c46",
+        "default_branch_compare": "identical",
+        "workflow_runs": 0,
+        "combined_statuses": 0,
+        "access_status": "可讀",
+        "readback_at": "2026-08-07T12:12:18Z"
       },
       {
-        "repository": "ky46738-ops/vpoop",
-        "access_status": "錯誤",
-        "current_error": "GitHub 404／Repository not found",
-        "readback_at": "2026-08-07T11:15:08Z"
+        "repository": "ky46738-ops/vpoop-guardian",
+        "repository_id": "1259893870",
+        "visibility": "public",
+        "default_branch": "main",
+        "branches": [
+          "main"
+        ],
+        "branch_count": 1,
+        "latest_commit": "ccfab0924a7fec8fa044147de6c45d46cec817b4",
+        "latest_commit_url": "https://github.com/ky46738-ops/vpoop-guardian/commit/ccfab0924a7fec8fa044147de6c45d46cec817b4",
+        "default_branch_compare": "identical",
+        "workflow_runs": 0,
+        "combined_statuses": 0,
+        "access_status": "可讀",
+        "readback_at": "2026-08-07T12:12:18Z"
+      },
+      {
+        "repository": "ky46738-ops/LKMini.Public.tools",
+        "repository_id": "1260329511",
+        "visibility": "public",
+        "default_branch": "main",
+        "branches": [
+          "copilot/move-lkmini-public-to-private",
+          "lkmini-internal-external-split",
+          "main",
+          "repair/chatgpt-delivery-repair-20260801",
+          "repair/verify-existing-errors-20260728"
+        ],
+        "branch_count": 5,
+        "latest_commit": "945034e10e7f62160e41617003707269e04de759",
+        "latest_commit_url": "https://github.com/ky46738-ops/LKMini.Public.tools/commit/945034e10e7f62160e41617003707269e04de759",
+        "default_branch_compare": "identical",
+        "workflow_runs": 0,
+        "combined_statuses": 0,
+        "access_status": "可讀",
+        "readback_at": "2026-08-07T12:12:18Z"
       },
       {
         "repository": "ky46738-ops/desktop-tutorial",
+        "repository_id": "1263396550",
+        "visibility": "private",
         "default_branch": "main",
         "branches": [
           "main"
@@ -91,13 +143,16 @@
         "branch_count": 1,
         "latest_commit": "e364ac8f272b3770fb3a3b7bcfe124af5a818f2a",
         "latest_commit_url": "https://github.com/ky46738-ops/desktop-tutorial/commit/e364ac8f272b3770fb3a3b7bcfe124af5a818f2a",
+        "default_branch_compare": "identical",
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T11:15:08Z"
+        "readback_at": "2026-08-07T12:12:18Z"
       },
       {
         "repository": "ky46738-ops/lk-civilization-core",
+        "repository_id": "1273765389",
+        "visibility": "private",
         "default_branch": "main",
         "branches": [
           "main"
@@ -105,13 +160,16 @@
         "branch_count": 1,
         "latest_commit": "ddc72cf83bd5367d1da789e0ce641fce6e01d712",
         "latest_commit_url": "https://github.com/ky46738-ops/lk-civilization-core/commit/ddc72cf83bd5367d1da789e0ce641fce6e01d712",
+        "default_branch_compare": "identical",
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T11:15:08Z"
+        "readback_at": "2026-08-07T12:12:18Z"
       },
       {
         "repository": "ky46738-ops/welcome",
+        "repository_id": "1291382532",
+        "visibility": "public",
         "default_branch": "main",
         "branches": [
           "中文化首頁-待確認",
@@ -121,13 +179,16 @@
         "branch_count": 3,
         "latest_commit": "28b5cca07b406027744dc272aa209b904975fba0",
         "latest_commit_url": "https://github.com/ky46738-ops/welcome/commit/28b5cca07b406027744dc272aa209b904975fba0",
+        "default_branch_compare": "identical",
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T11:15:08Z"
+        "readback_at": "2026-08-07T12:12:18Z"
       },
       {
         "repository": "ky46738-ops/-Tools",
+        "repository_id": "1311028559",
+        "visibility": "public",
         "default_branch": "main",
         "branches": [
           "main"
@@ -135,13 +196,16 @@
         "branch_count": 1,
         "latest_commit": "9ac6695a6cd64f8ccb518b8a71e48954b89d7a38",
         "latest_commit_url": "https://github.com/ky46738-ops/-Tools/commit/9ac6695a6cd64f8ccb518b8a71e48954b89d7a38",
+        "default_branch_compare": "identical",
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T11:15:08Z"
+        "readback_at": "2026-08-07T12:12:18Z"
       },
       {
         "repository": "lkminiPhantomWorld/LaoK-System",
+        "repository_id": "1129007941",
+        "visibility": "private",
         "default_branch": "main",
         "branches": [
           "agent/github-canonical-full-sync-20260804",
@@ -169,37 +233,92 @@
         "branch_count": 21,
         "latest_commit": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
         "latest_commit_url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
+        "default_branch_compare": "identical",
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T11:15:08Z"
+        "readback_at": "2026-08-07T12:12:18Z"
       },
       {
-        "repository": "lkminiPhantomWorld/shuguang-engine",
-        "access_status": "錯誤",
-        "current_error": "GitHub 404／Repository not found",
-        "readback_at": "2026-08-07T11:15:08Z"
+        "repository": "lkminiPhantomWorld/oldk-shuguang-folder-link-registry",
+        "repository_id": "1246077775",
+        "visibility": "private",
+        "default_branch": "main",
+        "branches": [
+          "copilot/oldk-shuguang-folder-link-registry",
+          "main"
+        ],
+        "branch_count": 2,
+        "latest_commit": "a5421da3580cde117062bea9927d4e298b5b9b36",
+        "latest_commit_url": "https://github.com/lkminiPhantomWorld/oldk-shuguang-folder-link-registry/commit/a5421da3580cde117062bea9927d4e298b5b9b36",
+        "default_branch_compare": "identical",
+        "workflow_runs": 0,
+        "combined_statuses": 0,
+        "access_status": "可讀",
+        "readback_at": "2026-08-07T12:12:18Z"
       },
       {
-        "repository": "lkminiPhantomWorld/eternal",
-        "access_status": "錯誤",
-        "current_error": "GitHub 404／Repository not found",
-        "readback_at": "2026-08-07T11:15:08Z"
+        "repository": "lkminiPhantomWorld/oldk-lkmini-eternal-core-cross-optimize",
+        "repository_id": "1246105039",
+        "visibility": "private",
+        "default_branch": "master",
+        "branches": [
+          "copilot/remove-all-and-move",
+          "master"
+        ],
+        "branch_count": 2,
+        "latest_commit": "613454594d1bd0d91c75737ae5bb364b9244734a",
+        "latest_commit_url": "https://github.com/lkminiPhantomWorld/oldk-lkmini-eternal-core-cross-optimize/commit/613454594d1bd0d91c75737ae5bb364b9244734a",
+        "default_branch_compare": "identical",
+        "workflow_runs": 0,
+        "combined_statuses": 0,
+        "access_status": "可讀",
+        "readback_at": "2026-08-07T12:12:18Z"
       },
       {
-        "repository": "lkminiPhantomWorld/semantic-capsules",
-        "access_status": "錯誤",
-        "current_error": "GitHub 404／Repository not found",
-        "readback_at": "2026-08-07T11:15:08Z"
+        "repository": "lkminiPhantomWorld/lk-semantic-civilization-runtime",
+        "repository_id": "1249285014",
+        "visibility": "private",
+        "default_branch": "main",
+        "branches": [
+          "main"
+        ],
+        "branch_count": 1,
+        "latest_commit": "017710de451850b039ec1efdba7fe5b08c4ec6d0",
+        "latest_commit_url": "https://github.com/lkminiPhantomWorld/lk-semantic-civilization-runtime/commit/017710de451850b039ec1efdba7fe5b08c4ec6d0",
+        "default_branch_compare": "identical",
+        "workflow_runs": 0,
+        "combined_statuses": 0,
+        "access_status": "可讀",
+        "readback_at": "2026-08-07T12:12:18Z"
       },
       {
-        "repository": "lkminiPhantomWorld/unique-persistent-ai",
-        "access_status": "錯誤",
-        "current_error": "GitHub 404／Repository not found",
-        "readback_at": "2026-08-07T11:15:08Z"
+        "repository": "lkminiPhantomWorld/lk-unique-gate",
+        "repository_id": "1260546919",
+        "visibility": "private",
+        "default_branch": "main",
+        "branches": [
+          "agent/device-install-open-test-20260712",
+          "codex/company-alignment",
+          "codex/fix-pr7-review",
+          "copilot/complete-final-cleanup-integration",
+          "copilot/ky46738-ops-lk-semantic-civilization-runtime-to-lk",
+          "lkmini-integration-draft",
+          "main"
+        ],
+        "branch_count": 7,
+        "latest_commit": "1ec686f0a5f65d9136c8724c4c932d3a0b7a21eb",
+        "latest_commit_url": "https://github.com/lkminiPhantomWorld/lk-unique-gate/commit/1ec686f0a5f65d9136c8724c4c932d3a0b7a21eb",
+        "default_branch_compare": "identical",
+        "workflow_runs": 0,
+        "combined_statuses": 0,
+        "access_status": "可讀",
+        "readback_at": "2026-08-07T12:12:18Z"
       },
       {
         "repository": "lkminiPhantomWorld/laoK-core",
+        "repository_id": "1275586196",
+        "visibility": "private",
         "default_branch": "main",
         "branches": [
           "main"
@@ -207,37 +326,99 @@
         "branch_count": 1,
         "latest_commit": "685a638216162b1d46d17d333464444a0bc3f8a8",
         "latest_commit_url": "https://github.com/lkminiPhantomWorld/laoK-core/commit/685a638216162b1d46d17d333464444a0bc3f8a8",
+        "default_branch_compare": "identical",
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T11:15:08Z"
+        "readback_at": "2026-08-07T12:12:18Z"
       },
       {
-        "repository": "lkminiPhantomWorld/.github",
-        "access_status": "錯誤",
-        "current_error": "GitHub 404／Repository not found",
-        "readback_at": "2026-08-07T11:15:08Z"
+        "repository": "lkminiPhantomWorld/welcome",
+        "repository_id": "1291311821",
+        "visibility": "public",
+        "default_branch": "main",
+        "branches": [
+          "add-banners",
+          "agent/fix-a-equals-a",
+          "agent/lkmini-root-protocol-portal-sync",
+          "agent/open-source-upload-evidence-20260727",
+          "agent/phantom-capsule-candidate-20260807-193732",
+          "agent/public-verification-scope-sync",
+          "alert-autofix-2",
+          "automation/portal-integrity-20260722",
+          "codex/org-company-alignment",
+          "copilot/ky46738-ops-move-tiny-state-core",
+          "copilot/seed-v0-gate-locked",
+          "main",
+          "seed_v0",
+          "正式安裝"
+        ],
+        "branch_count": 14,
+        "latest_commit": "574d2fdabe13d622b4ea142e9d27cc9786e17614",
+        "latest_commit_url": "https://github.com/lkminiPhantomWorld/welcome/commit/574d2fdabe13d622b4ea142e9d27cc9786e17614",
+        "default_branch_compare": "identical",
+        "workflow_runs": 0,
+        "combined_statuses": 0,
+        "access_status": "可讀",
+        "readback_at": "2026-08-07T12:12:18Z"
       },
       {
-        "repository": "lkminiPhantomWorld/tiny-state-container",
-        "access_status": "錯誤",
-        "current_error": "GitHub 404／Repository not found",
-        "readback_at": "2026-08-07T11:15:08Z"
+        "repository": "lkminiPhantomWorld/tiny-state-core",
+        "repository_id": "1291509102",
+        "visibility": "public",
+        "default_branch": "main",
+        "branches": [
+          "main"
+        ],
+        "branch_count": 1,
+        "latest_commit": "78713bd5ed2c98de2b94086f4dd5f9d4f3a34e86",
+        "latest_commit_url": "https://github.com/lkminiPhantomWorld/tiny-state-core/commit/78713bd5ed2c98de2b94086f4dd5f9d4f3a34e86",
+        "default_branch_compare": "identical",
+        "workflow_runs": 0,
+        "combined_statuses": 0,
+        "access_status": "可讀",
+        "readback_at": "2026-08-07T12:12:18Z"
       },
       {
-        "repository": "lkminiPhantomWorld/vpoop",
-        "access_status": "錯誤",
-        "current_error": "GitHub 404／Repository not found",
-        "readback_at": "2026-08-07T11:15:08Z"
+        "repository": "lkminiPhantomWorld/vpoop-guardian",
+        "repository_id": "1291509191",
+        "visibility": "public",
+        "default_branch": "main",
+        "branches": [
+          "main"
+        ],
+        "branch_count": 1,
+        "latest_commit": "c47d34a2b5b9aecc338e9663d34732f81d894b40",
+        "latest_commit_url": "https://github.com/lkminiPhantomWorld/vpoop-guardian/commit/c47d34a2b5b9aecc338e9663d34732f81d894b40",
+        "default_branch_compare": "identical",
+        "workflow_runs": 0,
+        "combined_statuses": 0,
+        "access_status": "可讀",
+        "readback_at": "2026-08-07T12:12:18Z"
       },
       {
-        "repository": "lkminiPhantomWorld/-Tools",
-        "access_status": "錯誤",
-        "current_error": "GitHub 404／Repository not found",
-        "readback_at": "2026-08-07T11:15:08Z"
+        "repository": "lkminiPhantomWorld/Tools",
+        "repository_id": "1291509293",
+        "visibility": "public",
+        "default_branch": "main",
+        "branches": [
+          "death-mode/github-shortcut-wiring",
+          "lkmini-private-parser",
+          "main"
+        ],
+        "branch_count": 3,
+        "latest_commit": "9ac6695a6cd64f8ccb518b8a71e48954b89d7a38",
+        "latest_commit_url": "https://github.com/lkminiPhantomWorld/Tools/commit/9ac6695a6cd64f8ccb518b8a71e48954b89d7a38",
+        "default_branch_compare": "identical",
+        "workflow_runs": 0,
+        "combined_statuses": 0,
+        "access_status": "可讀",
+        "readback_at": "2026-08-07T12:12:18Z"
       },
       {
         "repository": "lkminiPhantomWorld/lkstylet",
+        "repository_id": "1291570141",
+        "visibility": "private",
         "default_branch": "main",
         "branches": [
           "lkmini-internal-external-split",
@@ -247,43 +428,16 @@
         "branch_count": 3,
         "latest_commit": "a3d394a6f4b29387e963dc9d1cfccf5fe743dc30",
         "latest_commit_url": "https://github.com/lkminiPhantomWorld/lkstylet/commit/a3d394a6f4b29387e963dc9d1cfccf5fe743dc30",
+        "default_branch_compare": "identical",
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T11:15:08Z"
-      },
-      {
-        "repository": "lkminiPhantomWorld/lkmini-elf",
-        "default_branch": "main",
-        "branches": [
-          "main"
-        ],
-        "branch_count": 1,
-        "latest_commit": "de181224df92d860102a5e06fe9d1edcd8a04ab0",
-        "latest_commit_url": "https://github.com/lkminiPhantomWorld/lkmini-elf/commit/de181224df92d860102a5e06fe9d1edcd8a04ab0",
-        "workflow_runs": 0,
-        "combined_statuses": 0,
-        "access_status": "可讀",
-        "readback_at": "2026-08-07T11:15:08Z"
-      },
-      {
-        "repository": "lkminiPhantomWorld/LKMini",
-        "default_branch": "seed_v0",
-        "branches": [
-          "lkmini-external-projection",
-          "main",
-          "seed_v0"
-        ],
-        "branch_count": 3,
-        "latest_commit": "d22e70dc1397f4a896aec3fa43b0cccafae22575",
-        "latest_commit_url": "https://github.com/lkminiPhantomWorld/LKMini/commit/d22e70dc1397f4a896aec3fa43b0cccafae22575",
-        "workflow_runs": 0,
-        "combined_statuses": 0,
-        "access_status": "可讀",
-        "readback_at": "2026-08-07T11:15:08Z"
+        "readback_at": "2026-08-07T12:12:18Z"
       },
       {
         "repository": "lkminiPhantomWorld/PhantomCapsule",
+        "repository_id": "1300230675",
+        "visibility": "public",
         "default_branch": "master",
         "branches": [
           "canonical-completion",
@@ -293,65 +447,62 @@
         "branch_count": 3,
         "latest_commit": "b36fc6a1bcc5c55649d19c0825ec666b28f4acda",
         "latest_commit_url": "https://github.com/lkminiPhantomWorld/PhantomCapsule/commit/b36fc6a1bcc5c55649d19c0825ec666b28f4acda",
+        "default_branch_compare": "identical",
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T11:15:08Z"
+        "readback_at": "2026-08-07T12:12:18Z"
       },
       {
-        "repository": "ky46738-ops/LKMini.Public.tools",
+        "repository": "lkminiPhantomWorld/lkmini-elf",
+        "repository_id": "1305277847",
+        "visibility": "private",
         "default_branch": "main",
         "branches": [
-          "copilot/move-lkmini-public-to-private",
-          "lkmini-internal-external-split",
-          "main",
-          "repair/chatgpt-delivery-repair-20260801",
-          "repair/verify-existing-errors-20260728"
+          "main"
         ],
-        "branch_count": 5,
-        "latest_commit": "38f234a606b7c38c30ab3086be66264105455005",
-        "latest_commit_url": "https://github.com/ky46738-ops/LKMini.Public.tools/commit/38f234a606b7c38c30ab3086be66264105455005",
+        "branch_count": 1,
+        "latest_commit": "de181224df92d860102a5e06fe9d1edcd8a04ab0",
+        "latest_commit_url": "https://github.com/lkminiPhantomWorld/lkmini-elf/commit/de181224df92d860102a5e06fe9d1edcd8a04ab0",
+        "default_branch_compare": "identical",
         "workflow_runs": 0,
         "combined_statuses": 0,
         "access_status": "可讀",
-        "readback_at": "2026-08-07T11:15:08Z"
+        "readback_at": "2026-08-07T12:12:18Z"
+      },
+      {
+        "repository": "lkminiPhantomWorld/LKMini",
+        "repository_id": "1311048458",
+        "visibility": "public",
+        "default_branch": "seed_v0",
+        "branches": [
+          "lkmini-external-projection",
+          "main",
+          "seed_v0"
+        ],
+        "branch_count": 3,
+        "latest_commit": "d22e70dc1397f4a896aec3fa43b0cccafae22575",
+        "latest_commit_url": "https://github.com/lkminiPhantomWorld/LKMini/commit/d22e70dc1397f4a896aec3fa43b0cccafae22575",
+        "default_branch_compare": "identical",
+        "workflow_runs": 0,
+        "combined_statuses": 0,
+        "access_status": "可讀",
+        "readback_at": "2026-08-07T12:12:18Z"
       }
     ]
   },
-  "changed_repositories": [
-    {
-      "repository": "lkminiPhantomWorld/LaoK-System",
-      "default_branch": "main",
-      "base_commit": "5d3255f55ff0d94cc107788d7142be37b7e240fd",
-      "commit": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
-      "source_commit_span": 2,
-      "changed_path_count": 2,
-      "paths": [
-        "技能/🌌幻界同步文明完整公式｜PhantomWorldSyncCivilizationFullFormula/📋清單｜MANIFEST.json",
-        "技能/🌌幻界同步文明完整公式｜PhantomWorldSyncCivilizationFullFormula/🔢SHA256｜SHA256SUMS.txt"
-      ],
-      "blobs": {
-        "📋清單｜MANIFEST.json": "47dc7a816ca464942d2dfe345441e6050e4398b1",
-        "🔢SHA256｜SHA256SUMS.txt": "bdad708e6414cc4fe2d9467e5f5e83ca1bbd1810"
-      },
-      "source_sha256": "8/8",
-      "manifest_coverage": "7/7",
-      "path_blob_readback": "2/2",
-      "json_parse": "6/6",
-      "default_branch_compare": "identical",
-      "workflow_runs": 0,
-      "combined_statuses": 0
-    }
-  ],
+  "changed_repositories": [],
   "canonical_program": {
     "coordinate": "lkminiPhantomWorld/LaoK-System@main",
     "commit": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
     "url": "https://github.com/lkminiPhantomWorld/LaoK-System/commit/8f0366fc82d950cfabde85fc6d73bc0d570b0d9f"
   },
   "workflows": {
-    "definition_count": 3,
+    "definition_count": 7,
+    "definition_readback": "7/7",
     "latest_commit_pr_triggered_runs": 0,
     "jobs_read": 0,
+    "repository_probe_count": 23,
     "boundary": "commit wrapper only exposes PR-triggered first page"
   },
   "tags": {
@@ -377,28 +528,55 @@
     "status": "持續完成"
   },
   "access_drift": {
-    "status": "錯誤",
-    "previous_accessible_count": 23,
-    "current_accessible_count": 13,
-    "inaccessible_count": 10,
-    "repositories": [
-      "ky46738-ops/tiny-state-container",
-      "ky46738-ops/vpoop",
-      "lkminiPhantomWorld/shuguang-engine",
-      "lkminiPhantomWorld/eternal",
-      "lkminiPhantomWorld/semantic-capsules",
-      "lkminiPhantomWorld/unique-persistent-ai",
-      "lkminiPhantomWorld/.github",
-      "lkminiPhantomWorld/tiny-state-container",
-      "lkminiPhantomWorld/vpoop",
-      "lkminiPhantomWorld/-Tools"
+    "status": "完成",
+    "previous_accessible_count": 13,
+    "current_accessible_count": 23,
+    "inaccessible_count": 0,
+    "repositories": [],
+    "reconciled_coordinates": [
+      {
+        "before": "ky46738-ops/tiny-state-container",
+        "current": "ky46738-ops/tiny-state-core"
+      },
+      {
+        "before": "ky46738-ops/vpoop",
+        "current": "ky46738-ops/vpoop-guardian"
+      },
+      {
+        "before": "lkminiPhantomWorld/shuguang-engine",
+        "current": "lkminiPhantomWorld/oldk-shuguang-folder-link-registry"
+      },
+      {
+        "before": "lkminiPhantomWorld/eternal",
+        "current": "lkminiPhantomWorld/oldk-lkmini-eternal-core-cross-optimize"
+      },
+      {
+        "before": "lkminiPhantomWorld/semantic-capsules",
+        "current": "lkminiPhantomWorld/lk-semantic-civilization-runtime"
+      },
+      {
+        "before": "lkminiPhantomWorld/unique-persistent-ai",
+        "current": "lkminiPhantomWorld/lk-unique-gate"
+      },
+      {
+        "before": "lkminiPhantomWorld/.github",
+        "current": "lkminiPhantomWorld/welcome"
+      },
+      {
+        "before": "lkminiPhantomWorld/tiny-state-container",
+        "current": "lkminiPhantomWorld/tiny-state-core"
+      },
+      {
+        "before": "lkminiPhantomWorld/vpoop",
+        "current": "lkminiPhantomWorld/vpoop-guardian"
+      },
+      {
+        "before": "lkminiPhantomWorld/-Tools",
+        "current": "lkminiPhantomWorld/Tools"
+      }
     ]
   },
   "current_errors": [
-    {
-      "type": "RepositoryAccessUnavailable",
-      "status": "錯誤"
-    },
     {
       "type": "TagEndpointUnavailable",
       "status": "錯誤"
@@ -431,11 +609,63 @@
         "🧠JSON核心｜JsonCore.json"
       ],
       "policy": "不存在檔案不重建；舊值由 Git 歷史保存"
-    }
+    },
+    "verified_at": "2026-08-07T12:12:18Z"
   },
   "endpoint_gaps": {
     "tag_full_pagination": false,
     "recursive_tree": false,
     "workflow_run_job_full_pagination": false
+  },
+  "inventory_reconciliation": {
+    "status": "完成",
+    "previous_accessible_count": 13,
+    "current_accessible_count": 23,
+    "previous_inaccessible_count": 10,
+    "current_inaccessible_count": 0,
+    "coordinate_updates": [
+      {
+        "before": "ky46738-ops/tiny-state-container",
+        "current": "ky46738-ops/tiny-state-core"
+      },
+      {
+        "before": "ky46738-ops/vpoop",
+        "current": "ky46738-ops/vpoop-guardian"
+      },
+      {
+        "before": "lkminiPhantomWorld/shuguang-engine",
+        "current": "lkminiPhantomWorld/oldk-shuguang-folder-link-registry"
+      },
+      {
+        "before": "lkminiPhantomWorld/eternal",
+        "current": "lkminiPhantomWorld/oldk-lkmini-eternal-core-cross-optimize"
+      },
+      {
+        "before": "lkminiPhantomWorld/semantic-capsules",
+        "current": "lkminiPhantomWorld/lk-semantic-civilization-runtime"
+      },
+      {
+        "before": "lkminiPhantomWorld/unique-persistent-ai",
+        "current": "lkminiPhantomWorld/lk-unique-gate"
+      },
+      {
+        "before": "lkminiPhantomWorld/.github",
+        "current": "lkminiPhantomWorld/welcome"
+      },
+      {
+        "before": "lkminiPhantomWorld/tiny-state-container",
+        "current": "lkminiPhantomWorld/tiny-state-core"
+      },
+      {
+        "before": "lkminiPhantomWorld/vpoop",
+        "current": "lkminiPhantomWorld/vpoop-guardian"
+      },
+      {
+        "before": "lkminiPhantomWorld/-Tools",
+        "current": "lkminiPhantomWorld/Tools"
+      }
+    ],
+    "repository_id_inventory": "23/23",
+    "default_branch_compare": "23/23 identical"
   }
 }
