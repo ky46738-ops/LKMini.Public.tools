@@ -1,23 +1,25 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 05:14 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 09:12 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
   "mode": "github-repository-animation-sprite",
   "repository": "ky46738-ops/LKMini.Public.tools",
   "branch": "main",
-  "source_head": "535f4b2b8360596c5c5529946af297cbbee28c9a",
+  "source_head": "0d4bff4f0ecaafcc1e5092fa6f2249d873d0b063",
   "actions": {
     "repositories_inspected": 23,
     "branches_read": 109,
-    "changed_repositories": 3,
+    "changed_repositories": 1,
     "workflow_definitions_read": 3,
     "ui_schema_repaired": true,
     "hardcoded_metrics_repaired": true,
     "checksums_rebuilt": true,
     "history_preserved": true,
     "force_push": false,
-    "permanent_delete_count": 0
+    "permanent_delete_count": 0,
+    "mirror_gate_repaired": true,
+    "mirror_gate_files_verified": 7
   },
   "verification": {
     "json_parse": "完成",
@@ -26,7 +28,9 @@
     "main_same_target_readback": "完成",
     "tag_full_readback": "錯誤",
     "tree_full_readback": "錯誤",
-    "workflow_run_job_full_readback": "錯誤"
+    "workflow_run_job_full_readback": "錯誤",
+    "mirror_gate_execution": "完成",
+    "mirror_default_branch_readback": "完成"
   },
   "writeback": "🥃老K系統／🧩LKMINI／🪞幻影膠囊",
   "external_notification": false,
