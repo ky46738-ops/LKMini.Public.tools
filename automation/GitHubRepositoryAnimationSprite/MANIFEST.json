@@ -1,5 +1,5 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 05:14 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 09:12 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
@@ -28,13 +28,15 @@
   ],
   "source_repository_count": 23,
   "source_branch_count": 109,
-  "changed_repository_count": 3,
+  "changed_repository_count": 1,
   "workflow_definition_count": 3,
   "current_error_count": 3,
   "checksum_contract": "SHA256SUMS.txt covers every regular file except itself",
   "current_evidence": {
     "canonical_commit": "86a9e9a6352bf8aa7a065fad4e77008346a92be1",
-    "source_sprite_head": "535f4b2b8360596c5c5529946af297cbbee28c9a"
+    "source_sprite_head": "0d4bff4f0ecaafcc1e5092fa6f2249d873d0b063",
+    "mirror_gate_commit": "4af1f59b7423ba82f93d074ae3084d6dd45940c4",
+    "mirror_gate_sha256": "7/7"
   },
   "unresolved": [
     "Tag 全量列舉",
