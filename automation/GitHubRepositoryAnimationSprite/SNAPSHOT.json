@@ -1,9 +1,9 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 17:12 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 18:11 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
-  "captured_at": "2026-08-07T09:12:19Z",
+  "captured_at": "2026-08-07T10:11:41Z",
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
   "owner": "Kevin Yang",
   "state": {
@@ -95,11 +95,11 @@
     "accessible_repositories": 13,
     "inaccessible_repositories": 10,
     "branches": 76,
-    "changed_repositories": 2,
-    "source_commit_span": 13,
-    "changed_path_blobs": 13,
-    "changed_json": 9,
-    "source_hashes_verified": 15,
+    "changed_repositories": 1,
+    "source_commit_span": 1,
+    "changed_path_blobs": 1,
+    "changed_json": 1,
+    "source_hashes_verified": 14,
     "source_hashes_expected": 19,
     "workflow_definitions": 3,
     "runs": 0,
@@ -110,15 +110,15 @@
     "permanent_deletes": 0
   },
   "commits": {
-    "canonical": "fd69a95d9402c9f5eeb81d1432b8b585942aafc5",
+    "canonical": "5d3255f55ff0d94cc107788d7142be37b7e240fd",
     "phantom_capsule": "b36fc6a1bcc5c55649d19c0825ec666b28f4acda"
   },
   "validations": {
-    "path_blob": "13/13",
-    "json": "9/9",
-    "laoK_system_skill_sha256": "5/9",
+    "path_blob": "1/1",
+    "json": "6/6",
+    "laoK_system_skill_sha256": "4/9；缺檔 1、錯配 4",
     "phantom_capsule_sha256": "10/10",
-    "default_branch_compare": "2/2 identical"
+    "default_branch_compare": "1/1 identical"
   },
   "errors": [
     {
