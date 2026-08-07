@@ -1,5 +1,5 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 05:14 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 09:12 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
@@ -7,7 +7,7 @@
   "repository": "ky46738-ops/LKMini.Public.tools",
   "branch": "main",
   "path_prefix": "automation/GitHubRepositoryAnimationSprite",
-  "source_head": "535f4b2b8360596c5c5529946af297cbbee28c9a",
+  "source_head": "0d4bff4f0ecaafcc1e5092fa6f2249d873d0b063",
   "result_head_policy": "final main head recorded by connector readback and Drive receipt",
   "current_program": "lkminiPhantomWorld/LaoK-System@main",
   "canonical_commit": "86a9e9a6352bf8aa7a065fad4e77008346a92be1",
@@ -30,5 +30,12 @@
       "status": "錯誤"
     }
   ],
-  "external_notification": false
+  "external_notification": false,
+  "mirror_gate": {
+    "repository": "ky46738-ops/LKMini",
+    "branch": "seed_v0",
+    "commit": "4af1f59b7423ba82f93d074ae3084d6dd45940c4",
+    "commit_url": "https://github.com/ky46738-ops/LKMini/commit/4af1f59b7423ba82f93d074ae3084d6dd45940c4",
+    "verification": "完成"
+  }
 }
