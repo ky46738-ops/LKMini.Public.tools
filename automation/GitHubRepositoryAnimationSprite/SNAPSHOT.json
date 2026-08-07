@@ -1,42 +1,46 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 19:15 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 20:12 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
-  "captured_at": "2026-08-07T11:15:08Z",
+  "captured_at": "2026-08-07T12:12:18Z",
   "identity": "LKMINI://automation/GitHubRepositoryAnimationSprite",
   "owner": "Kevin Yang",
   "state": {
     "formal_root_count": 1,
     "formal_container_count": 1,
-    "repository_count": 13,
-    "branch_count": 76,
+    "repository_count": 23,
+    "branch_count": 110,
     "changed_repository_count": 0,
-    "workflow_definition_count": 3,
-    "current_error_count": 4,
+    "workflow_definition_count": 7,
+    "current_error_count": 3,
     "external_notification": false,
     "permanent_delete_count": 0,
-    "canonical_commit": "e9b703167641e5f773c46f46a15045a08ec68ec7",
+    "canonical_commit": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
     "mirror_gate_commit": "4af1f59b7423ba82f93d074ae3084d6dd45940c4",
-    "latest_external_commit": "4bbfb61a71c446195705e2b321c5055fa7eea11b",
+    "latest_external_commit": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
     "repository_inventory_count": 23,
-    "inaccessible_repository_count": 10,
-    "access_drift_repository_count": 10
+    "inaccessible_repository_count": 0,
+    "access_drift_repository_count": 0,
+    "access_reconciliation_count": 10
   },
   "tool_evidence": {
-    "repository_readback": "13/23；10 個 404",
-    "branch_readback": "13/13；76 Branch",
-    "commit_readback": "13/13；HEAD 漂移 0",
-    "run_probe": "13/13；0",
-    "combined_status_probe": "13/13；0",
-    "unavailable_repository_receipts": "10/10 NOT_FOUND",
-    "projection_source_readback": "18/18"
+    "repository_readback": "23/23",
+    "branch_readback": "23/23；110 Branch",
+    "commit_readback": "23/23；HEAD 漂移 0",
+    "default_branch_compare": "23/23 identical",
+    "run_probe": "23/23；0",
+    "combined_status_probe": "23/23；0",
+    "workflow_definition_readback": "7/7",
+    "inventory_reconciliation": "10/10",
+    "projection_source_readback": "18/18",
+    "path_blob_readback": "2/2"
   },
   "tool_boundaries": {
     "tag_readback": "錯誤：無 Tag 列舉端點",
     "tree_readback": "錯誤：無完整 Tree 端點",
     "workflow_run_job_readback": "錯誤：只支援 PR-triggered Run 首頁",
-    "repository_access": "錯誤：10 個既有 Repository 回傳 404"
+    "repository_access": "完成：23/23 可讀"
   },
   "steps": [
     {
@@ -92,26 +96,28 @@
   },
   "metrics": {
     "repository_inventory": 23,
-    "accessible_repositories": 13,
-    "inaccessible_repositories": 10,
-    "branches": 76,
-    "changed_repositories": 1,
-    "source_commit_span": 2,
-    "changed_path_blobs": 2,
-    "changed_json": 1,
+    "accessible_repositories": 23,
+    "inaccessible_repositories": 0,
+    "branches": 110,
+    "changed_repositories": 0,
+    "source_commit_span": 0,
+    "changed_path_blobs": 0,
+    "changed_json": 0,
     "source_hashes_verified": 18,
     "source_hashes_expected": 18,
-    "workflow_definitions": 3,
+    "workflow_definitions": 7,
     "runs": 0,
     "statuses": 0,
-    "current_errors": 4,
+    "current_errors": 3,
+    "access_reconciliations": 10,
     "external_notifications": 0,
     "drive_formal_surface_writes": 0,
     "permanent_deletes": 0
   },
   "commits": {
     "canonical": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
-    "phantom_capsule": "b36fc6a1bcc5c55649d19c0825ec666b28f4acda"
+    "phantom_capsule": "b36fc6a1bcc5c55649d19c0825ec666b28f4acda",
+    "projection_before_write": "945034e10e7f62160e41617003707269e04de759"
   },
   "validations": {
     "path_blob": "2/2",
@@ -119,15 +125,12 @@
     "laoK_system_skill_sha256": "8/8",
     "laoK_system_manifest": "7/7 bytes + SHA256",
     "phantom_capsule_sha256": "10/10",
-    "default_branch_compare": "1/1 identical",
+    "default_branch_compare": "23/23 identical",
+    "workflow_files": "7/7",
+    "inventory_reconciliation": "10/10",
     "previous_drift_evidence": "保留"
   },
   "errors": [
-    {
-      "type": "RepositoryAccessUnavailable",
-      "status": "錯誤",
-      "evidence": "23 個既有座標中 13 個可讀、10 個回傳 GitHub 404。"
-    },
     {
       "type": "TagEndpointUnavailable",
       "status": "錯誤",
