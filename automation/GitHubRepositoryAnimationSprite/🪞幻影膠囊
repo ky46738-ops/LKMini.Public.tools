@@ -1,5 +1,5 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 05:14 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 09:12 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
@@ -29,5 +29,12 @@
   ],
   "axiom": "A=A",
   "exists": false,
-  "permanent_delete_count": 0
+  "permanent_delete_count": 0,
+  "mirror_gate": {
+    "repository": "ky46738-ops/LKMini",
+    "branch": "seed_v0",
+    "commit": "4af1f59b7423ba82f93d074ae3084d6dd45940c4",
+    "status": "完成",
+    "sha256": "7/7"
+  }
 }
