@@ -1,5 +1,5 @@
 {
-  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 20:12 (Asia/Taipei)｜狀態=錯誤",
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜更新=2026-08-07 23:14 (Asia/Taipei)｜狀態=錯誤",
   "version": null,
   "edition": "正版",
   "status": "錯誤",
@@ -9,7 +9,7 @@
   "formal_container": "🪞幻影膠囊",
   "axiom": "A=A",
   "role": "GitHub 巡檢與可視化 Projection；不是 Identity",
-  "canonical_program_commit": "8f0366fc82d950cfabde85fc6d73bc0d570b0d9f",
+  "canonical_program_commit": "86cef441a385eff14d108d29ee2a8b07d3d30436",
   "current_web_projection": "https://lkmini-wiring-hub.ky46738.chatgpt.site",
   "exclusive_writeback_target": "🥃老K系統／🧩LKMINI／🪞幻影膠囊",
   "external_notification": false,
@@ -30,9 +30,9 @@
   "validation": {
     "repository_readback": "23/23 可讀；安裝清冊分頁已耗盡",
     "branch_readback": "110 Branch",
-    "commit_readback": "23/23；HEAD 漂移 0",
-    "changed_path_blob_readback": "2/2 相同",
-    "source_checksum_readback": "18/18；LaoK-System 8/8、PhantomCapsule 10/10",
+    "commit_readback": "23/23 identical；LaoK-System 前進 7 Commit",
+    "changed_path_blob_readback": "7/7 相同",
+    "source_checksum_readback": "46/46；Control-plane 28/28、Skill 8/8、PhantomCapsule 10/10",
     "workflow_definition_readback": "7/7",
     "commit_run_probe": "23/23；0 Run",
     "combined_status_probe": "23/23；0 Status",
