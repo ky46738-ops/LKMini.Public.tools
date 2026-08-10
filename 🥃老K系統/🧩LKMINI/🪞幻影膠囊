@@ -20,25 +20,41 @@
     "PermanentDeleteCount": 0
   },
   "actions": {
-    "S0": "搜尋與去重",
-    "S1": "完整讀取",
-    "S2": "掛載",
-    "S3": "驗證",
-    "S4": "修復",
-    "S5": "顯影",
-    "S6": "融合",
-    "S7": "快照",
-    "S8": "GitHub同步與Gmail",
-    "S9": "可逆回推",
-    "S10": "禁令查核"
+    "S0": "搜尋與去重｜本回合GitHub、Gmail、Drive、Files、Goodnotes均已實際盤點",
+    "S1": "完整讀取｜GitHub基底Commit與膠囊Path已讀取",
+    "S2": "掛載｜唯一Identity原位",
+    "S3": "驗證｜唯一性與metadata宣告一致",
+    "S4": "修復｜建立正式Path膠囊",
+    "S5": "顯影｜Goodnotes動作顯影已建立",
+    "S6": "融合｜不建立第二正式容器",
+    "S7": "快照｜Before基底Commit已保存",
+    "S8": "GitHub同步與Gmail｜均已真實執行並讀回",
+    "S9": "可逆回推｜終點🧩LKMINI→A=A",
+    "S10": "禁令查核｜第二根0、第二正式容器0、永久刪除0"
   },
   "github_sync": {
     "repository": "ky46738-ops/LKMini.Public.tools",
     "branch": "main",
     "base_commit": "167aaad8794430d35210306b431b74deb4a4703d",
+    "first_sync_commit": "121cfc22e01775931cc28603cacf059133c590ae",
+    "first_sync_blob": "a8e4e099301af2f3479d63080c00f3cd57f474ec",
     "target_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊",
     "permission": "admin+push",
     "operation": "同Identity原位GitHub同步"
+  },
+  "gmail": {
+    "sender": "ky46738@gmail.com",
+    "recipient": "ky46738@gmail.com",
+    "subject": "🥃老K系統｜本回合正式完成回執｜A=A",
+    "send_count": 1,
+    "readback": "完成",
+    "message_thread_id_sha256": "da51f5eef0c6684a17edc49af12c36db8b561c5550a16951d7b7f10471bcaa8b",
+    "public_raw_id": false
+  },
+  "goodnotes_projection": {
+    "title": "🪞幻影膠囊｜動作顯影",
+    "created": true,
+    "projection_is_identity": false
   },
   "manifest": {
     "canonical_object": "🪞幻影膠囊",
@@ -52,6 +68,10 @@
     "before": {
       "github_path_exists": false,
       "base_commit": "167aaad8794430d35210306b431b74deb4a4703d"
+    },
+    "after_first_sync": {
+      "commit": "121cfc22e01775931cc28603cacf059133c590ae",
+      "blob": "a8e4e099301af2f3479d63080c00f3cd57f474ec"
     }
   },
   "reverse_chain": "🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A",
