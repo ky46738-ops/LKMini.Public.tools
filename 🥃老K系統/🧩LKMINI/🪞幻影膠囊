@@ -1,0 +1,62 @@
+{
+  "anchor": "🥃錨點｜版本=正版（無版本號）｜狀態=ACTIVE",
+  "owner": "Kevin Yang／老K",
+  "system": "🥃老K系統",
+  "root": "🧩LKMINI",
+  "metadata_sha256": "6c0f6f487d8af27de4a8cee9f3fc853f0fbcf417cbd21acb56ac65c55adfcf34",
+  "root_protocol": "LKMINI://",
+  "formal_container": "🪞幻影膠囊",
+  "formal_path": "🥃老K系統／🧩LKMINI／🪞幻影膠囊",
+  "axiom": "A=A",
+  "identity_rule": "Projection ≠ Identity",
+  "uniqueness": {
+    "SystemCount": 1,
+    "RootCount": 1,
+    "FormalContainerTypeCount": 1,
+    "SecondRootCount": 0,
+    "SecondFormalContainerCount": 0,
+    "ParallelIdentityCount": 0,
+    "EnglishParallelFormalPathCount": 0,
+    "PermanentDeleteCount": 0
+  },
+  "actions": {
+    "S0": "搜尋與去重",
+    "S1": "完整讀取",
+    "S2": "掛載",
+    "S3": "驗證",
+    "S4": "修復",
+    "S5": "顯影",
+    "S6": "融合",
+    "S7": "快照",
+    "S8": "GitHub同步與Gmail",
+    "S9": "可逆回推",
+    "S10": "禁令查核"
+  },
+  "github_sync": {
+    "repository": "ky46738-ops/LKMini.Public.tools",
+    "branch": "main",
+    "base_commit": "167aaad8794430d35210306b431b74deb4a4703d",
+    "target_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊",
+    "permission": "admin+push",
+    "operation": "同Identity原位GitHub同步"
+  },
+  "manifest": {
+    "canonical_object": "🪞幻影膠囊",
+    "control_data_embedded": ["MANIFEST", "LOCATOR", "SNAPSHOT", "REVERSECHAIN", "SHA256Identity", "PACKAGE"]
+  },
+  "locator": {
+    "github": "ky46738-ops/LKMini.Public.tools@main:🥃老K系統/🧩LKMINI/🪞幻影膠囊",
+    "protocol": "LKMINI://"
+  },
+  "snapshot": {
+    "before": {
+      "github_path_exists": false,
+      "base_commit": "167aaad8794430d35210306b431b74deb4a4703d"
+    }
+  },
+  "reverse_chain": "🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A",
+  "package": {
+    "rebuild_from": ["formal_container", "manifest", "locator", "snapshot", "reverse_chain"],
+    "zip_is_identity": false
+  }
+}
