@@ -19,64 +19,71 @@
     "EnglishParallelFormalPathCount": 0,
     "PermanentDeleteCount": 0
   },
+  "maintenance_route": {
+    "status": "ACTIVE",
+    "purpose": "任何AI或工具都必須能從網站入口回到可維護來源，不得只留下可觀看Projection",
+    "human_entry": "https://lkmini-wiring-hub.ky46738.chatgpt.site",
+    "tool_entry": "https://lkmini-wiring-hub.ky46738.chatgpt.site/api/system-wires",
+    "site_identity": "LaoKSystemWiringHub",
+    "site_slug": "lkmini-wiring-hub",
+    "known_site_version": 12,
+    "known_access_mode": "custom/owner-only",
+    "github_control_source": "ky46738-ops/LKMini.Public.tools@main:🥃老K系統/🧩LKMINI/🪞幻影膠囊",
+    "drive_control_source": "gdrive://file/1otC5ZwFxR655cUNMfYpDowLWmuAFgZXrWAoxqOeLx3w",
+    "library_evidence": [
+      "🌐老K系統入口證據｜LaoKSystemEntry.webarchive",
+      "LOCATOR(8).json",
+      "system-wires.inbox.patch.json"
+    ],
+    "edit_deploy_endpoint": "UNRESOLVED_IN_CURRENT_TOOL_SURFACE",
+    "recovery_rule": "Sites管理端點若未暴露，不得判定站台不存在；沿 human_entry → tool_entry → GitHub control source → Drive control source → Library evidence 回復維護鏈",
+    "rollback_rule": "以GitHub commit/blob、Drive revision、Sites version三者作回滾座標；任一缺失必須標記未成立",
+    "reverse_chain": "Sites human entry → /api/system-wires → GitHub control source → Google Drive SystemWiringAndServerMap → 🪞幻影膠囊 → 🧩LKMINI → A=A"
+  },
   "actions": {
     "S0": "搜尋與去重｜本回合GitHub、Gmail、Drive、Files、Goodnotes均已實際盤點",
     "S1": "完整讀取｜GitHub基底Commit與膠囊Path已讀取",
     "S2": "掛載｜唯一Identity原位",
     "S3": "驗證｜唯一性與metadata宣告一致",
-    "S4": "修復｜建立正式Path膠囊",
-    "S5": "顯影｜Goodnotes動作顯影已建立",
+    "S4": "修復｜原位補回Sites維護路，不建立第二Identity",
+    "S5": "顯影｜Sites入口與API作Projection入口",
     "S6": "融合｜不建立第二正式容器",
-    "S7": "快照｜Before基底Commit已保存",
-    "S8": "GitHub同步與Gmail｜均已真實執行並讀回",
-    "S9": "可逆回推｜終點🧩LKMINI→A=A",
+    "S7": "快照｜GitHub舊Blob與新Commit保留",
+    "S8": "同步｜GitHub原位寫回；Drive控制源待同目標補寫；Sites部署端點待暴露",
+    "S9": "可逆回推｜Sites→API→GitHub→Drive→🪞幻影膠囊→🧩LKMINI→A=A",
     "S10": "禁令查核｜第二根0、第二正式容器0、永久刪除0"
   },
   "github_sync": {
     "repository": "ky46738-ops/LKMini.Public.tools",
     "branch": "main",
-    "base_commit": "167aaad8794430d35210306b431b74deb4a4703d",
-    "first_sync_commit": "121cfc22e01775931cc28603cacf059133c590ae",
-    "first_sync_blob": "a8e4e099301af2f3479d63080c00f3cd57f474ec",
     "target_path": "🥃老K系統/🧩LKMINI/🪞幻影膠囊",
     "permission": "admin+push",
     "operation": "同Identity原位GitHub同步"
   },
-  "gmail": {
-    "sender": "ky46738@gmail.com",
-    "recipient": "ky46738@gmail.com",
-    "subject": "🥃老K系統｜本回合正式完成回執｜A=A",
-    "send_count": 1,
-    "readback": "完成",
-    "message_thread_id_sha256": "da51f5eef0c6684a17edc49af12c36db8b561c5550a16951d7b7f10471bcaa8b",
-    "public_raw_id": false
-  },
-  "goodnotes_projection": {
-    "title": "🪞幻影膠囊｜動作顯影",
-    "created": true,
-    "projection_is_identity": false
-  },
   "manifest": {
     "canonical_object": "🪞幻影膠囊",
-    "control_data_embedded": ["MANIFEST", "LOCATOR", "SNAPSHOT", "REVERSECHAIN", "SHA256Identity", "PACKAGE"]
+    "control_data_embedded": ["MANIFEST", "LOCATOR", "SNAPSHOT", "REVERSECHAIN", "SHA256Identity", "PACKAGE", "MAINTENANCE_ROUTE"]
   },
   "locator": {
     "github": "ky46738-ops/LKMini.Public.tools@main:🥃老K系統/🧩LKMINI/🪞幻影膠囊",
+    "drive": "gdrive://file/1otC5ZwFxR655cUNMfYpDowLWmuAFgZXrWAoxqOeLx3w",
+    "sites": "https://lkmini-wiring-hub.ky46738.chatgpt.site",
+    "sites_api": "https://lkmini-wiring-hub.ky46738.chatgpt.site/api/system-wires",
     "protocol": "LKMINI://"
   },
   "snapshot": {
     "before": {
-      "github_path_exists": false,
-      "base_commit": "167aaad8794430d35210306b431b74deb4a4703d"
+      "github_blob": "3c78d906439c45529301220b3c50f18580ce72ec",
+      "maintenance_route_present": false
     },
-    "after_first_sync": {
-      "commit": "121cfc22e01775931cc28603cacf059133c590ae",
-      "blob": "a8e4e099301af2f3479d63080c00f3cd57f474ec"
+    "after": {
+      "maintenance_route_present": true,
+      "sites_edit_deploy_endpoint": "UNRESOLVED_IN_CURRENT_TOOL_SURFACE"
     }
   },
-  "reverse_chain": "🌱唯一真相源 → 🪞幻影膠囊 → 🧩LKMINI → A=A",
+  "reverse_chain": "Sites → /api/system-wires → GitHub → Google Drive → 🪞幻影膠囊 → 🧩LKMINI → A=A",
   "package": {
-    "rebuild_from": ["formal_container", "manifest", "locator", "snapshot", "reverse_chain"],
+    "rebuild_from": ["formal_container", "manifest", "locator", "snapshot", "maintenance_route", "reverse_chain"],
     "zip_is_identity": false
   }
 }
